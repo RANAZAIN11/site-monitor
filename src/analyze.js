@@ -10,7 +10,6 @@ async function candidateModels(key) {
   if (process.env.GEMINI_MODEL) {
     list.push("models/" + process.env.GEMINI_MODEL.replace(/^models\//, ""));
   }
-  // Ask the API what this key can see, flash models first (free/cheap).
   try {
     const resp = await fetch(`${API_BASE}/models?key=${key}`);
     if (resp.ok) {
@@ -23,7 +22,6 @@ async function candidateModels(key) {
       for (const m of [...flash, ...rest]) list.push(m.name);
     }
   } catch {}
-  // Known stable aliases as a safety net.
   for (const n of [
     "models/gemini-flash-latest",
     "models/gemini-flash-lite-latest",
@@ -32,7 +30,7 @@ async function candidateModels(key) {
   ]) {
     list.push(n);
   }
-  return [...new Set(list)]; // dedupe, keep order
+  return [...new Set(list)];
 }
 
 async function probe(model, key) {
@@ -56,9 +54,7 @@ async function pickWorkingModel(key) {
   for (const model of candidates) {
     if (await probe(model, key)) return model;
   }
-  throw new Error(
-    "No usable Gemini model for this key. Tried: " + candidates.join(", ")
-  );
+  throw new Error("No usable Gemini model for this key. Tried: " + candidates.join(", "));
 }
 
 export async function analyze(siteName, results) {
@@ -70,13 +66,16 @@ export async function analyze(siteName, results) {
 
   parts.push({
     text:
-      `You are a QA assistant reviewing the front-end of the e-commerce site "${siteName}". ` +
-      `For each page you get a technical log (HTTP status, console errors, failed network requests, ` +
-      `broken image URLs) plus a full-page screenshot. Look at each screenshot like a real visitor ` +
-      `and combine it with the log. Report ONLY things a human should act on: broken or missing ` +
-      `products, blank / half-loaded sections, broken images, layout breakage, error messages visible ` +
-      `on the page, missing prices or add-to-cart buttons, 404s, etc. If a page looks healthy, say so ` +
-      `in one line.`,
+      `You are a senior QA + web-developer assistant reviewing the front-end of the e-commerce ` +
+      `site "${siteName}". For each page you get a technical log (HTTP status, console errors, ` +
+      `failed network requests, broken image URLs) plus a full-page screenshot. Look at each ` +
+      `screenshot like a real visitor and combine it with the log.\n\n` +
+      `Be STRICT: only report GENUINE defects a person must fix, such as: 404 / page not found, ` +
+      `broken or missing images, blank or half-loaded sections, error text visible on the page, ` +
+      `missing prices or add-to-cart buttons, broken/overlapping layout, or a product that clearly ` +
+      `failed to render. Do NOT flag normal design choices, cosmetic preferences, marketing copy, or ` +
+      `minor console warnings. If you are unsure whether something is a real defect, leave it out. ` +
+      `If a page looks healthy, say so in one line.`,
   });
 
   for (const r of results) {
@@ -101,33 +100,4 @@ export async function analyze(siteName, results) {
 
   parts.push({
     text:
-      `\nNow produce the daily report in EXACTLY this format:\n\n` +
-      `STATUS: <OK | ISSUES FOUND>\n\n` +
-      `Then a short list, grouped per page. Prefix each issue with a severity tag ` +
-      `[HIGH] / [MED] / [LOW]. End with one line "Action for team:" saying what to check or fix first. ` +
-      `Keep the whole thing under 250 words. Plain text, no markdown headers.`,
-  });
-
-  const resp = await fetch(`${API_BASE}/${model}:generateContent?key=${key}`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      contents: [{ parts }],
-      generationConfig: { maxOutputTokens: 1500, temperature: 0.3 },
-    }),
-  });
-
-  if (!resp.ok) {
-    const t = await resp.text();
-    throw new Error(`Gemini API ${resp.status}: ${t.slice(0, 300)}`);
-  }
-
-  const data = await resp.json();
-  const text = (data?.candidates?.[0]?.content?.parts || [])
-    .map((p) => p.text || "")
-    .join("")
-    .trim();
-
-  if (!text) throw new Error("Gemini returned no text. Raw: " + JSON.stringify(data).slice(0, 300));
-  return text;
-}
+      `\nNow produce the daily report in EXACTLY this format (plain text, no markdown headers):\n\n` +
