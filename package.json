@@ -1,0 +1,20 @@
+{
+  "name": "site-morning-monitor",
+  "version": "1.0.0",
+  "description": "Daily 10am front-end health check for client websites with a free Gemini summary sent via email / WhatsApp",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.15",
+    "playwright": "^1.48.0",
+    "sharp": "^0.33.5"
+  },
+  "optionalDependencies": {
+    "twilio": "^5.3.0"
+  }
+}
