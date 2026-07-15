@@ -1,10 +1,34 @@
-// Sends screenshots + logs to Google Gemini (FREE tier). Gemini "looks" at each
-// page screenshot and returns a short, human-readable report. Using Gemini means
-// the whole thing runs free in the cloud even when your PC is off.
+// Sends screenshots + logs to Google Gemini (FREE tier). Auto-detects an
+// available Flash model for your API key, so it keeps working even if Google
+// renames models. Optional: set a GEMINI_MODEL secret to force a specific model.
 
-const MODEL = "gemini-2.5-flash";
+const API_BASE = "https://generativelanguage.googleapis.com/v1beta";
+
+async function pickModel(key) {
+  if (process.env.GEMINI_MODEL) {
+    return "models/" + process.env.GEMINI_MODEL.replace(/^models\//, "");
+  }
+  const resp = await fetch(`${API_BASE}/models?key=${key}`);
+  if (!resp.ok) {
+    throw new Error(`Could not list Gemini models (${resp.status}): ${(await resp.text()).slice(0, 200)}`);
+  }
+  const data = await resp.json();
+  const usable = (data.models || []).filter((m) =>
+    (m.supportedGenerationMethods || []).includes("generateContent")
+  );
+  const flash =
+    usable.find((m) => /flash/i.test(m.name) && !/vision|thinking|exp|preview/i.test(m.name)) ||
+    usable.find((m) => /flash/i.test(m.name)) ||
+    usable[0];
+  if (!flash) throw new Error("No Gemini model with generateContent available for this key.");
+  return flash.name; // e.g. "models/gemini-1.5-flash-latest"
+}
 
 export async function analyze(siteName, results) {
+  const key = process.env.GEMINI_API_KEY;
+  const model = await pickModel(key);
+  console.log("Using Gemini model:", model);
+
   const parts = [];
 
   parts.push({
@@ -47,9 +71,7 @@ export async function analyze(siteName, results) {
       `Keep the whole thing under 250 words. Plain text, no markdown headers.`,
   });
 
-  const url =
-    `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=` +
-    process.env.GEMINI_API_KEY;
+  const url = `${API_BASE}/${model}:generateContent?key=${key}`;
 
   const resp = await fetch(url, {
     method: "POST",
