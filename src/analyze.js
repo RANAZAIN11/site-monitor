@@ -1,32 +1,69 @@
-// Sends screenshots + logs to Google Gemini (FREE tier). Auto-detects an
-// available Flash model for your API key, so it keeps working even if Google
-// renames models. Optional: set a GEMINI_MODEL secret to force a specific model.
+// Sends screenshots + logs to Google Gemini (FREE tier). It PROBES several
+// candidate models with your key and uses the first one that actually works,
+// so it keeps running even when Google renames/retires models.
+// Optional: set a GEMINI_MODEL secret to force a specific model name.
 
 const API_BASE = "https://generativelanguage.googleapis.com/v1beta";
 
-async function pickModel(key) {
+async function candidateModels(key) {
+  const list = [];
   if (process.env.GEMINI_MODEL) {
-    return "models/" + process.env.GEMINI_MODEL.replace(/^models\//, "");
+    list.push("models/" + process.env.GEMINI_MODEL.replace(/^models\//, ""));
   }
-  const resp = await fetch(`${API_BASE}/models?key=${key}`);
-  if (!resp.ok) {
-    throw new Error(`Could not list Gemini models (${resp.status}): ${(await resp.text()).slice(0, 200)}`);
+  // Ask the API what this key can see, flash models first (free/cheap).
+  try {
+    const resp = await fetch(`${API_BASE}/models?key=${key}`);
+    if (resp.ok) {
+      const data = await resp.json();
+      const usable = (data.models || []).filter((m) =>
+        (m.supportedGenerationMethods || []).includes("generateContent")
+      );
+      const flash = usable.filter((m) => /flash/i.test(m.name));
+      const rest = usable.filter((m) => !/flash/i.test(m.name));
+      for (const m of [...flash, ...rest]) list.push(m.name);
+    }
+  } catch {}
+  // Known stable aliases as a safety net.
+  for (const n of [
+    "models/gemini-flash-latest",
+    "models/gemini-flash-lite-latest",
+    "models/gemini-1.5-flash-latest",
+    "models/gemini-1.5-flash",
+  ]) {
+    list.push(n);
   }
-  const data = await resp.json();
-  const usable = (data.models || []).filter((m) =>
-    (m.supportedGenerationMethods || []).includes("generateContent")
+  return [...new Set(list)]; // dedupe, keep order
+}
+
+async function probe(model, key) {
+  try {
+    const resp = await fetch(`${API_BASE}/${model}:generateContent?key=${key}`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: "ping" }] }],
+        generationConfig: { maxOutputTokens: 5 },
+      }),
+    });
+    return resp.ok;
+  } catch {
+    return false;
+  }
+}
+
+async function pickWorkingModel(key) {
+  const candidates = await candidateModels(key);
+  for (const model of candidates) {
+    if (await probe(model, key)) return model;
+  }
+  throw new Error(
+    "No usable Gemini model for this key. Tried: " + candidates.join(", ")
   );
-  const flash =
-    usable.find((m) => /flash/i.test(m.name) && !/vision|thinking|exp|preview/i.test(m.name)) ||
-    usable.find((m) => /flash/i.test(m.name)) ||
-    usable[0];
-  if (!flash) throw new Error("No Gemini model with generateContent available for this key.");
-  return flash.name; // e.g. "models/gemini-1.5-flash-latest"
 }
 
 export async function analyze(siteName, results) {
   const key = process.env.GEMINI_API_KEY;
-  const model = await pickModel(key);
+  const model = await pickWorkingModel(key);
   console.log("Using Gemini model:", model);
 
   const parts = [];
@@ -71,9 +108,7 @@ export async function analyze(siteName, results) {
       `Keep the whole thing under 250 words. Plain text, no markdown headers.`,
   });
 
-  const url = `${API_BASE}/${model}:generateContent?key=${key}`;
-
-  const resp = await fetch(url, {
+  const resp = await fetch(`${API_BASE}/${model}:generateContent?key=${key}`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
