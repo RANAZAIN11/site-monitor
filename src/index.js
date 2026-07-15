@@ -2,7 +2,17 @@ import "dotenv/config";
 import { readFile } from "node:fs/promises";
 import { checkSite } from "./checkSite.js";
 import { analyze } from "./analyze.js";
+import { auditCatalogue } from "./catalogueAudit.js";
 import { sendEmail, sendWhatsApp } from "./notify.js";
+
+function storeRoot(config) {
+  if (config.storeUrl) return config.storeUrl;
+  try {
+    return new URL(config.pages[0].url).origin; // e.g. https://sahibas.com
+  } catch {
+    return "";
+  }
+}
 
 async function main() {
   const config = JSON.parse(
@@ -13,10 +23,25 @@ async function main() {
     `[${new Date().toISOString()}] Checking ${config.siteName} (${config.pages.length} pages)\u2026`
   );
 
+  // 1) Front-end page look (screenshots -> Gemini)
   const results = await checkSite(config);
-  console.log("Pages checked. Sending to Claude for analysis\u2026");
+  console.log("Pages checked. Sending to Gemini for front-end analysis\u2026");
+  const frontEnd = await analyze(config.siteName, results);
 
-  const summary = await analyze(config.siteName, results);
+  // 2) Deep product catalogue audit (Shopify products.json -> rule checks)
+  const root = storeRoot(config);
+  console.log("Auditing product catalogue at", root, "\u2026");
+  const catalogue = await auditCatalogue(root);
+  console.log(`Catalogue audit: ${catalogue.issueCount} product issue(s).`);
+
+  const overallIssues =
+    catalogue.issueCount > 0 || /ISSUES FOUND|SCRIPT ERROR/i.test(frontEnd);
+
+  const summary =
+    `OVERALL: ${overallIssues ? "ISSUES FOUND" : "ALL OK"}\n\n` +
+    `===== PRODUCT CATALOGUE AUDIT =====\n${catalogue.text}\n\n` +
+    `===== FRONT-END PAGE CHECK =====\n${frontEnd}`;
+
   console.log("\n----- SUMMARY -----\n" + summary + "\n-------------------\n");
 
   const subject = await sendEmail(config.siteName, summary, results);
@@ -33,12 +58,11 @@ async function main() {
 
 main().catch(async (err) => {
   console.error("FATAL:", err);
-  // best-effort: still tell the team the check itself broke
   try {
     const { sendEmail } = await import("./notify.js");
     await sendEmail(
       "Site Monitor",
-      `STATUS: SCRIPT ERROR\n\nThe morning check itself failed before it could analyse the site:\n${err.message}\n\nSomebody needs to check the automation.`,
+      `OVERALL: SCRIPT ERROR\n\nThe morning check itself failed before it could finish:\n${err.message}\n\nSomebody needs to check the automation.`,
       []
     );
   } catch {}
