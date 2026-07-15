@@ -3,7 +3,7 @@
   "pages": [
     { "label": "Homepage", "url": "https://sahibas.com/" },
     { "label": "Collection", "url": "https://sahibas.com/collections/all" },
-    { "label": "Sample Product", "url": "https://sahibas.com/products/REPLACE-WITH-A-REAL-PRODUCT-HANDLE" }
+    { "label": "Sample Product", "url": "https://sahibas.com/products/REPLACE-evening-rose" }
   ],
   "timeoutMs": 45000,
   "maxImageEdgePx": 1568
