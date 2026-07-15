@@ -1,9 +1,31 @@
-// Visits each page like a real visitor, collects front-end problems
-// (console errors, failed requests, broken images, load failures) and a
-// full-page screenshot that Claude will actually look at.
+// Visits each page like a real visitor, SCROLLS through it so lazy-loaded images
+// actually load, then collects front-end problems (console errors, failed
+// requests, broken images, load failures) and a full-page screenshot that
+// Gemini will actually look at.
 
 import { chromium } from "playwright";
 import sharp from "sharp";
+
+async function autoScroll(page) {
+  // Scroll to the bottom in small steps so lazy-loaded content triggers.
+  await page.evaluate(async () => {
+    await new Promise((resolve) => {
+      let total = 0;
+      const step = 400;
+      const timer = setInterval(() => {
+        window.scrollBy(0, step);
+        total += step;
+        if (total >= document.body.scrollHeight - window.innerHeight - 50) {
+          clearInterval(timer);
+          resolve();
+        }
+      }, 200);
+    });
+  });
+  await page.waitForTimeout(2000); // let lazy images finish downloading
+  await page.evaluate(() => window.scrollTo(0, 0));
+  await page.waitForTimeout(600);
+}
 
 export async function checkSite(config) {
   const browser = await chromium.launch({ args: ["--no-sandbox"] });
@@ -36,7 +58,8 @@ export async function checkSite(config) {
         timeout: config.timeoutMs || 45000,
       });
       httpStatus = resp ? resp.status() : null;
-      await page.waitForTimeout(2500); // let lazy sections + images settle
+      await page.waitForTimeout(1500);
+      await autoScroll(page); // <-- trigger lazy-loaded images
     } catch (err) {
       loadError = err.message;
     }
@@ -86,7 +109,7 @@ export async function checkSite(config) {
     });
 
     console.log(
-      `  ✓ ${pageDef.label}: HTTP ${httpStatus ?? "?"}, ` +
+      `  \u2713 ${pageDef.label}: HTTP ${httpStatus ?? "?"}, ` +
         `${consoleErrors.length} console errs, ${failedRequests.length} failed reqs, ` +
         `${brokenImages.length} broken imgs${loadError ? ", LOAD ERROR" : ""}`
     );
