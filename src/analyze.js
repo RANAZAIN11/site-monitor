@@ -101,3 +101,36 @@ export async function analyze(siteName, results) {
   parts.push({
     text:
       `\nNow produce the daily report in EXACTLY this format (plain text, no markdown headers):\n\n` +
+      `STATUS: <OK | ISSUES FOUND>\n\n` +
+      `Then, grouped per page, list each real issue as TWO lines:\n` +
+      `  [HIGH]/[MED]/[LOW] <what is wrong and exactly where on the page>\n` +
+      `  Fix: <one concrete, practical action to resolve it — specific enough for a web developer ` +
+      `to act on, e.g. which section/setting/URL to check>\n\n` +
+      `If a page is healthy, write one line: "<Page> — looks OK." ` +
+      `At the very end add a line: "Top priority: <the single most important thing to do first>". ` +
+      `Keep it under 300 words.`,
+  });
+
+  const resp = await fetch(`${API_BASE}/${model}:generateContent?key=${key}`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      contents: [{ parts }],
+      generationConfig: { maxOutputTokens: 1500, temperature: 0.3 },
+    }),
+  });
+
+  if (!resp.ok) {
+    const t = await resp.text();
+    throw new Error(`Gemini API ${resp.status}: ${t.slice(0, 300)}`);
+  }
+
+  const data = await resp.json();
+  const text = (data?.candidates?.[0]?.content?.parts || [])
+    .map((p) => p.text || "")
+    .join("")
+    .trim();
+
+  if (!text) throw new Error("Gemini returned no text. Raw: " + JSON.stringify(data).slice(0, 300));
+  return text;
+}
