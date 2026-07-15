@@ -2,7 +2,7 @@
 // page screenshot and returns a short, human-readable report. Using Gemini means
 // the whole thing runs free in the cloud even when your PC is off.
 
-const MODEL = "gemini-2.0-flash"; // free tier. If you ever get a model error, try "gemini-1.5-flash"
+const MODEL = "gemini-2.5-flash";
 
 export async function analyze(siteName, results) {
   const parts = [];
