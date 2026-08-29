@@ -3,6 +3,7 @@ import { readFile } from "node:fs/promises";
 import { checkSite } from "./checkSite.js";
 import { analyze } from "./analyze.js";
 import { auditCatalogue } from "./catalogueAudit.js";
+import { auditSeo } from "./seoAudit.js";
 import { sendEmail, sendWhatsApp } from "./notify.js";
 
 function storeRoot(config) {
@@ -28,18 +29,26 @@ async function main() {
   console.log("Pages checked. Sending to Gemini for front-end analysis\u2026");
   const frontEnd = await analyze(config.siteName, results);
 
-  // 2) Deep product catalogue audit (Shopify products.json -> rule checks)
+  // 2) On-page SEO check (title, meta description, H1, alt text) — rule-based, no AI
+  const seo = auditSeo(results);
+  console.log(`SEO check: ${seo.issueCount} issue(s).`);
+
+  // 3) Deep product catalogue audit (Shopify products.json -> rule checks:
+  //    duplicates, images, price, compare-at price, stock, description)
   const root = storeRoot(config);
   console.log("Auditing product catalogue at", root, "\u2026");
   const catalogue = await auditCatalogue(root);
   console.log(`Catalogue audit: ${catalogue.issueCount} product issue(s).`);
 
   const overallIssues =
-    catalogue.issueCount > 0 || /ISSUES FOUND|SCRIPT ERROR/i.test(frontEnd);
+    catalogue.issueCount > 0 ||
+    seo.issueCount > 0 ||
+    /ISSUES FOUND|SCRIPT ERROR/i.test(frontEnd);
 
   const summary =
     `OVERALL: ${overallIssues ? "ISSUES FOUND" : "ALL OK"}\n\n` +
-    `===== PRODUCT CATALOGUE AUDIT =====\n${catalogue.text}\n\n` +
+    `===== PRODUCT CATALOGUE AUDIT (price, compare-at price, stock, description, duplicates) =====\n${catalogue.text}\n\n` +
+    `===== SEO CHECK =====\n${seo.text}\n\n` +
     `===== FRONT-END PAGE CHECK =====\n${frontEnd}`;
 
   console.log("\n----- SUMMARY -----\n" + summary + "\n-------------------\n");

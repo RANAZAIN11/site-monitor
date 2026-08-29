@@ -1,7 +1,8 @@
 // Deep product-catalogue audit. Pulls the store's full product list from
 // Shopify's public products.json (no login needed) and flags real data problems
 // per product: duplicate/"copy" handles, URL not matching the name, missing
-// images, missing/zero price, and obvious test/junk products.
+// images, missing/zero price, compare-at-price errors, stock issues,
+// description problems, and obvious test/junk products.
 
 function slugify(s) {
   return (s || "")
@@ -11,6 +12,16 @@ function slugify(s) {
     .trim()
     .replace(/[\s_]+/g, "-")
     .replace(/-+/g, "-");
+}
+
+// Strip HTML tags/entities from a description so we can measure real word count.
+function stripHtml(html) {
+  return (html || "")
+    .replace(/<[^>]*>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 async function fetchAllProducts(storeUrl) {
@@ -44,6 +55,8 @@ export async function auditCatalogue(storeUrl) {
   const root = storeUrl.replace(/\/$/, "");
   const handleMap = new Map(); // handle -> title
   const titleGroups = new Map(); // normalized title -> [handles]
+  const descIndex = new Map(); // normalized description -> [{title, handle}]
+
   for (const p of products) {
     handleMap.set(p.handle, p.title);
     const key = slugify(p.title) || (p.title || "").toLowerCase();
@@ -113,6 +126,51 @@ export async function auditCatalogue(storeUrl) {
       });
     }
 
+    // 4b) NEW: some variants priced, some not (partial pricing — mixed sizes/colors unsellable)
+    if (!allZero && variants.length > 1) {
+      const zeroCount = variants.filter((v) => {
+        const price = parseFloat(v.price);
+        return !isFinite(price) || price === 0;
+      }).length;
+      if (zeroCount > 0) {
+        issues.push({
+          sev: "MED",
+          title,
+          handle,
+          problem: `${zeroCount} of ${variants.length} variant(s) have price 0/missing while the rest are priced.`,
+          fix: `Check every size/colour variant's price in admin > Products > "${title}" — some options are currently unsellable.`,
+        });
+      }
+    }
+
+    // 4c) NEW: compare-at price error (fake or negative discount)
+    for (const v of variants) {
+      const price = parseFloat(v.price);
+      const compareAt = parseFloat(v.compare_at_price);
+      if (isFinite(compareAt) && compareAt > 0 && isFinite(price) && compareAt <= price) {
+        issues.push({
+          sev: "MED",
+          title,
+          handle,
+          problem: `Variant "${v.title}" has a compare-at price (Rs ${v.compare_at_price}) that is <= the selling price (Rs ${v.price}) — shows a fake/zero/negative discount badge on the storefront.`,
+          fix: `In admin > Products > "${title}", either clear the compare-at price for this variant or set it higher than the selling price.`,
+        });
+        break; // one mention per product is enough, avoid noisy repeats
+      }
+    }
+
+    // 4d) NEW: stock check — every variant unavailable
+    const allUnavailable = variants.length > 0 && variants.every((v) => v.available === false);
+    if (allUnavailable) {
+      issues.push({
+        sev: "HIGH",
+        title,
+        handle,
+        problem: `All variants are out of stock / unavailable for purchase.`,
+        fix: `Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live.`,
+      });
+    }
+
     // 5) test / junk titles
     if (/\b(test|untitled|dummy|asdf|sample product)\b/i.test(title)) {
       issues.push({
@@ -135,6 +193,48 @@ export async function auditCatalogue(storeUrl) {
         problem: `URL "/products/${handle}" doesn't match the product name "${title}" (maybe renamed).`,
         fix: `If renamed, update the handle to "${slug}" and add a redirect from the old URL.`,
       });
+    }
+
+    // 7) NEW: description missing / too short / placeholder text
+    const descText = stripHtml(p.body_html);
+    const wordCount = descText ? descText.split(" ").filter(Boolean).length : 0;
+    if (wordCount < 15) {
+      issues.push({
+        sev: "MED",
+        title,
+        handle,
+        problem: `Description is missing or too short (${wordCount} word(s)).`,
+        fix: `Add a proper description in admin > Products > "${title}" (fabric, fit, care instructions, sizing notes, etc.).`,
+      });
+    } else if (/lorem ipsum|add description|description here|coming soon|placeholder text|xxx+/i.test(descText)) {
+      issues.push({
+        sev: "MED",
+        title,
+        handle,
+        problem: `Description contains placeholder/dummy text.`,
+        fix: `Replace the placeholder text with the real product description in admin > Products > "${title}".`,
+      });
+    } else if (descText.length > 40) {
+      // Only index descriptions substantial enough that a match is meaningful
+      const key = descText.toLowerCase();
+      if (!descIndex.has(key)) descIndex.set(key, []);
+      descIndex.get(key).push({ title, handle });
+    }
+  }
+
+  // 8) NEW: duplicate description copy-pasted across different products
+  for (const group of descIndex.values()) {
+    if (group.length > 1) {
+      const [original, ...dupes] = group;
+      for (const dupe of dupes) {
+        issues.push({
+          sev: "MED",
+          title: dupe.title,
+          handle: dupe.handle,
+          problem: `Description is identical/copy-pasted from "${original.title}" (/products/${original.handle}).`,
+          fix: `Write a unique description for "${dupe.title}" — duplicate content hurts SEO and looks lazy to buyers.`,
+        });
+      }
     }
   }
 

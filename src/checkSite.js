@@ -1,7 +1,7 @@
 // Visits each page like a real visitor, SCROLLS through it so lazy-loaded images
 // actually load, then collects front-end problems (console errors, failed
-// requests, broken images, load failures) and a full-page screenshot that
-// Gemini will actually look at.
+// requests, broken images, load failures), basic on-page SEO signals, and a
+// full-page screenshot that Gemini will actually look at.
 
 import { chromium } from "playwright";
 import sharp from "sharp";
@@ -79,6 +79,28 @@ export async function checkSite(config) {
       title = await page.title();
     } catch {}
 
+    // NEW: basic on-page SEO signals — meta description, H1 count, images missing alt text
+    let metaDescription = "";
+    let h1Count = 0;
+    let imagesMissingAlt = [];
+    try {
+      const seoData = await page.evaluate(() => {
+        const metaDesc = document.querySelector('meta[name="description"]');
+        const h1s = document.querySelectorAll("h1");
+        const imgs = Array.from(document.images).filter(
+          (img) => !img.alt || img.alt.trim() === ""
+        );
+        return {
+          metaDescription: metaDesc ? (metaDesc.getAttribute("content") || "").trim() : "",
+          h1Count: h1s.length,
+          imagesMissingAlt: imgs.slice(0, 10).map((img) => img.currentSrc || img.src),
+        };
+      });
+      metaDescription = seoData.metaDescription;
+      h1Count = seoData.h1Count;
+      imagesMissingAlt = seoData.imagesMissingAlt;
+    } catch {}
+
     let screenshotB64 = null;
     try {
       const raw = await page.screenshot({ fullPage: true });
@@ -105,6 +127,10 @@ export async function checkSite(config) {
       consoleErrors: consoleErrors.slice(0, 15),
       failedRequests: failedRequests.slice(0, 15),
       brokenImages,
+      metaDescription,
+      h1Count,
+      imagesMissingAlt,
+      imagesMissingAltCount: imagesMissingAlt.length,
       screenshotB64,
     });
 
