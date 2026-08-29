@@ -44,6 +44,13 @@ function esc(s) {
     .replace(/"/g, "&quot;");
 }
 
+// Defensive: never let a huge/garbage string (e.g. a stray base64 data URI)
+// blow up the report layout — clip it hard.
+function clip(s, max = 160) {
+  const str = String(s ?? "");
+  return str.length > max ? str.slice(0, max) + "\u2026" : str;
+}
+
 function sevBadge(sev) {
   const c = SEV_COLORS[sev] || SEV_COLORS.LOW;
   return `<span style="display:inline-block;padding:2px 9px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.03em;color:#fff;background:${c.badgeBg}">${esc(
@@ -169,7 +176,7 @@ function pageCard(r) {
             title
           )} (${items.length})</summary>
           <ul style="margin:6px 0 0 18px;padding:0;font-size:12px;color:#6b7280">
-            ${items.map((it) => `<li style="margin-bottom:3px;word-break:break-all">${esc(it)}</li>`).join("")}
+            ${items.map((it) => `<li style="margin-bottom:3px;word-break:break-all">${esc(clip(it))}</li>`).join("")}
           </ul>
         </details>`
       : "";

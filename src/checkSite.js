@@ -70,6 +70,9 @@ export async function checkSite(config) {
         Array.from(document.images)
           .filter((img) => img.complete && img.naturalWidth === 0)
           .map((img) => img.currentSrc || img.src)
+          // Drop base64 data: URIs (lazy-load blur placeholders) — they aren't
+          // real broken images and dump unreadable garbage into the report.
+          .filter((src) => src && !src.startsWith("data:"))
           .slice(0, 20)
       );
     } catch {}
@@ -93,7 +96,10 @@ export async function checkSite(config) {
         return {
           metaDescription: metaDesc ? (metaDesc.getAttribute("content") || "").trim() : "",
           h1Count: h1s.length,
-          imagesMissingAlt: imgs.slice(0, 10).map((img) => img.currentSrc || img.src),
+          imagesMissingAlt: imgs
+            .map((img) => img.currentSrc || img.src)
+            .filter((src) => src && !src.startsWith("data:"))
+            .slice(0, 10),
         };
       });
       metaDescription = seoData.metaDescription;
