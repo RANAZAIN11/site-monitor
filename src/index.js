@@ -4,6 +4,7 @@ import { checkSite } from "./checkSite.js";
 import { analyze } from "./analyze.js";
 import { auditCatalogue } from "./catalogueAudit.js";
 import { auditSeo } from "./seoAudit.js";
+import { buildHtmlReport } from "./report.js";
 import { sendEmail, sendWhatsApp } from "./notify.js";
 
 function storeRoot(config) {
@@ -45,19 +46,39 @@ async function main() {
     seo.issueCount > 0 ||
     /ISSUES FOUND|SCRIPT ERROR/i.test(frontEnd);
 
-  const summary =
+  // Plain-text summary — used for WhatsApp and console logs (not the email body anymore)
+  const plainTextSummary =
     `OVERALL: ${overallIssues ? "ISSUES FOUND" : "ALL OK"}\n\n` +
     `===== PRODUCT CATALOGUE AUDIT (price, compare-at price, stock, description, duplicates) =====\n${catalogue.text}\n\n` +
     `===== SEO CHECK =====\n${seo.text}\n\n` +
     `===== FRONT-END PAGE CHECK =====\n${frontEnd}`;
 
-  console.log("\n----- SUMMARY -----\n" + summary + "\n-------------------\n");
+  console.log("\n----- SUMMARY -----\n" + plainTextSummary + "\n-------------------\n");
 
-  const subject = await sendEmail(config.siteName, summary, results);
+  const dateStr = new Date().toLocaleString("en-GB", {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+
+  const htmlReport = buildHtmlReport({
+    siteName: config.siteName,
+    dateStr,
+    overallIssues,
+    results,
+    frontEndText: frontEnd,
+    seo,
+    catalogue,
+  });
+
+  const subject = await sendEmail(config.siteName, plainTextSummary, htmlReport, overallIssues);
   console.log("Email sent:", subject);
 
   try {
-    const sid = await sendWhatsApp(summary);
+    const sid = await sendWhatsApp(plainTextSummary);
     if (sid) console.log("WhatsApp sent:", sid);
     else console.log("WhatsApp skipped (no Twilio env set).");
   } catch (e) {
@@ -72,7 +93,8 @@ main().catch(async (err) => {
     await sendEmail(
       "Site Monitor",
       `OVERALL: SCRIPT ERROR\n\nThe morning check itself failed before it could finish:\n${err.message}\n\nSomebody needs to check the automation.`,
-      []
+      `<pre style="font-family:monospace;white-space:pre-wrap">OVERALL: SCRIPT ERROR\n\nThe morning check itself failed before it could finish:\n${err.message}\n\nSomebody needs to check the automation.</pre>`,
+      true
     );
   } catch {}
   process.exit(1);

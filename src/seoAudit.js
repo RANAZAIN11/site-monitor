@@ -1,6 +1,9 @@
 // Deterministic (non-AI) SEO checks on the pages checkSite.js already visited.
 // Kept rule-based — same style as catalogueAudit.js — so results are
 // consistent and don't depend on Gemini "noticing" SEO issues in a screenshot.
+//
+// Returns both a plain-text summary (for WhatsApp / logs) AND a structured
+// `issues` array (for the HTML report), grouped per page.
 
 export function auditSeo(results) {
   const issues = []; // { sev, label, url, problem, fix }
@@ -76,18 +79,19 @@ export function auditSeo(results) {
   }
 
   if (issues.length === 0) {
-    return { issueCount: 0, text: `Checked ${results.length} page(s) — no SEO issues found.` };
+    return {
+      issueCount: 0,
+      issues: [],
+      text: `Checked ${results.length} page(s) — no SEO issues found.`,
+    };
   }
 
   const order = { HIGH: 0, MED: 1, LOW: 2 };
-  issues.sort((a, b) => order[a.sev] - order[b.sev]);
+  const sorted = [...issues].sort((a, b) => order[a.sev] - order[b.sev]);
 
-  const lines = issues.map(
-    (i) =>
-      `- [${i.sev}] ${i.label} — ${i.url}\n` +
-      `  Problem: ${i.problem}\n` +
-      `  Fix: ${i.fix}`
+  const lines = sorted.map(
+    (i) => `- [${i.sev}] ${i.label} — ${i.url}\n  Problem: ${i.problem}\n  Fix: ${i.fix}`
   );
 
-  return { issueCount: issues.length, text: lines.join("\n\n") };
+  return { issueCount: issues.length, issues, text: lines.join("\n\n") };
 }
