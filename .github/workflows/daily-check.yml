@@ -2,8 +2,9 @@ name: Daily site morning check
 
 on:
   schedule:
-    # 11:00 AM Pakistan (PKT = UTC+5)  ->  06:00 UTC
-    - cron: "0 6 * * *"
+    # 10:00 AM Pakistan (PKT = UTC+5)  ->  05:00 UTC
+    # Note: GitHub's scheduler can run a few minutes late under load.
+    - cron: "0 5 * * *"
   workflow_dispatch: {}
 
 jobs:
@@ -12,17 +13,13 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-
       - name: Install dependencies
         run: npm install
-
       - name: Install Playwright (Chromium)
         run: npx playwright install --with-deps chromium
-
       - name: Run morning check
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -36,4 +33,9 @@ jobs:
           TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
           TWILIO_WHATSAPP_FROM: ${{ secrets.TWILIO_WHATSAPP_FROM }}
           WHATSAPP_TO: ${{ secrets.WHATSAPP_TO }}
+          SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE }}
+          SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
+          SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
+          SHOPIFY_API_VERSION: ${{ secrets.SHOPIFY_API_VERSION }}
+          STORE_PUBLIC_URL: https://www.sahibas.com
         run: npm run check

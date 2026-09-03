@@ -24,6 +24,21 @@ const CATEGORY_ORDER = [
   "test_title",
 ];
 
+// Categories produced by adminAudit.js (Shopify Admin API).
+const ADMIN_CATEGORY_META = {
+  tags: { label: "Tag & Season Errors", icon: "\u{1F3F7}\uFE0F", color: "#f97316" },
+  sku: { label: "SKU Problems", icon: "\u{1F522}", color: "#dc2626" },
+  metafields: { label: "Missing / Wrong Metafields", icon: "\u{1F9E9}", color: "#7c3aed" },
+  admin_price: { label: "Price & Wholesale", icon: "\u{1F4B5}", color: "#059669" },
+  media: { label: "Product Shoot / Images", icon: "\u{1F4F8}", color: "#0ea5e9" },
+  status: { label: "Status & Stock", icon: "\u{1F6A6}", color: "#ef4444" },
+};
+const ADMIN_CATEGORY_ORDER = ["tags", "sku", "metafields", "admin_price", "media", "status"];
+
+// Gmail clips messages over ~102KB, so never render more than this many issue
+// cards per category. The true count still shows in the group header.
+const MAX_ROWS_PER_CATEGORY = 40;
+
 const SEV_COLORS = {
   HIGH: { bg: "#fef2f2", border: "#dc2626", text: "#991b1b", badgeBg: "#dc2626" },
   MED: { bg: "#fffbeb", border: "#d97706", text: "#92400e", badgeBg: "#d97706" },
@@ -34,6 +49,7 @@ const SECTION_THEME = {
   website: { grad: "linear-gradient(135deg,#1d4ed8,#3b82f6)", tint: "#eff6ff", accent: "#1d4ed8" },
   seo: { grad: "linear-gradient(135deg,#7c3aed,#a855f7)", tint: "#faf5ff", accent: "#7c3aed" },
   catalogue: { grad: "linear-gradient(135deg,#047857,#10b981)", tint: "#ecfdf5", accent: "#047857" },
+  admin: { grad: "linear-gradient(135deg,#b45309,#f59e0b)", tint: "#fffbeb", accent: "#b45309" },
 };
 
 function esc(s) {
@@ -237,14 +253,14 @@ function sevCountsBadges(items) {
 // title, severity badges and an animated chevron on the right. Click the
 // whole header row to expand. Falls back gracefully (shows everything open)
 // in mail clients that don't support <details>.
-function detailsGroup(icon, color, title, items, renderItem) {
+function detailsGroup(icon, color, title, items, renderItem, footerHtml = "", trueCount = null) {
   return `
   <details class="grp" style="border:1px solid #e5e7eb;border-radius:14px;margin-bottom:14px;overflow:hidden;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.04)">
     <summary style="cursor:pointer;padding:16px 18px;display:flex;align-items:center;gap:14px;background:#fff">
       <span style="flex-shrink:0;width:40px;height:40px;border-radius:11px;background:${color}1A;display:flex;align-items:center;justify-content:center;font-size:19px">${icon}</span>
       <span style="flex:1;min-width:0">
         <div style="font-size:15px;font-weight:700;color:#111827">${esc(title)}</div>
-        <div style="font-size:12px;color:#9ca3af;margin-top:1px">${items.length} item${items.length === 1 ? "" : "s"} \u2014 click to view</div>
+        <div style="font-size:12px;color:#9ca3af;margin-top:1px">${trueCount ?? items.length} item${(trueCount ?? items.length) === 1 ? "" : "s"} \u2014 click to view</div>
       </span>
       <span style="display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end">${sevCountsBadges(items)}</span>
       <span class="chev" style="flex-shrink:0;font-size:13px;color:#9ca3af">\u25B6</span>
@@ -252,6 +268,7 @@ function detailsGroup(icon, color, title, items, renderItem) {
     <div style="padding:4px 18px 18px 18px;border-top:1px solid #f3f4f6;margin-top:2px">
       <div style="height:4px"></div>
       ${items.map(renderItem).join("")}
+      ${footerHtml}
     </div>
   </details>`;
 }
@@ -279,7 +296,48 @@ function sectionCard(id, theme, icon, title, subtitle, countLabel, count, innerH
   </div>`;
 }
 
-export function buildHtmlReport({ siteName, dateStr, overallIssues, results, frontEndText, seo, catalogue }) {
+// Group a flat issues array into collapsible cards using the given category map.
+function groupByCategory(issues, metaMap, order) {
+  const byCat = new Map();
+  for (const i of issues) {
+    if (!byCat.has(i.category)) byCat.set(i.category, []);
+    byCat.get(i.category).push(i);
+  }
+  const known = order.filter((cat) => byCat.has(cat));
+  const unknown = [...byCat.keys()].filter((cat) => !order.includes(cat));
+  return [...known, ...unknown]
+    .map((cat) => {
+      const meta = metaMap[cat] || { label: cat, icon: "\u26A0\uFE0F", color: "#6b7280" };
+      const all = byCat.get(cat);
+      // HIGH first, then MED, then LOW, so the capped list shows what matters.
+      const rank = { HIGH: 0, MED: 1, LOW: 2 };
+      const sorted = [...all].sort((x, y) => (rank[x.sev] ?? 3) - (rank[y.sev] ?? 3));
+      const shown = sorted.slice(0, MAX_ROWS_PER_CATEGORY);
+      const hidden = all.length - shown.length;
+      const footer =
+        hidden > 0
+          ? `<div style="text-align:center;color:#6b7280;font-size:12.5px;background:#f9fafb;border-radius:8px;padding:10px 12px;margin-top:4px">
+               + ${hidden} more not listed here \u2014 run <code>node src/testAdmin.js</code> locally for the full list.
+             </div>`
+          : "";
+      return detailsGroup(meta.icon, meta.color, meta.label, shown, issueCard, footer, all.length);
+    })
+    .join("");
+}
+
+export function buildHtmlReport({
+  siteName,
+  dateStr,
+  overallIssues,
+  results,
+  frontEndText,
+  seo,
+  catalogue,
+  admin,
+}) {
+  // adminAudit is allowed to fail without killing the report.
+  const adminData = admin || { issues: [], issueCount: 0, totalProducts: 0, error: null };
+
   // ----- Website / URL Checks section -----
   const pagesHtml = (results || []).map(pageCard).join("");
   const aiReviewHtml = renderFrontEndBlocks(frontEndText);
@@ -305,25 +363,30 @@ export function buildHtmlReport({ siteName, dateStr, overallIssues, results, fro
       .join("");
   }
 
-  // ----- Catalogue section (grouped by category, collapsible) -----
+  // ----- Storefront catalogue section (products.json) -----
   let catalogueInner;
   if (!catalogue.issues || catalogue.issues.length === 0) {
     catalogueInner = `<div style="color:#166534;font-size:14px;background:#dcfce7;border-radius:10px;padding:14px 18px">\u2705 ${esc(
       catalogue.totalProducts
     )} products scanned \u2014 all look OK.</div>`;
   } else {
-    const byCat = new Map();
-    for (const i of catalogue.issues) {
-      if (!byCat.has(i.category)) byCat.set(i.category, []);
-      byCat.get(i.category).push(i);
-    }
-    catalogueInner = CATEGORY_ORDER.filter((cat) => byCat.has(cat))
-      .map((cat) => {
-        const meta = CATEGORY_META[cat] || { label: cat, icon: "\u26A0\uFE0F", color: "#6b7280" };
-        const items = byCat.get(cat);
-        return detailsGroup(meta.icon, meta.color, meta.label, items, issueCard);
-      })
-      .join("");
+    catalogueInner = groupByCategory(catalogue.issues, CATEGORY_META, CATEGORY_ORDER);
+  }
+
+  // ----- Shopify Admin data section -----
+  let adminInner;
+  if (adminData.error) {
+    adminInner = `<div style="background:#fef2f2;border-left:4px solid #dc2626;border-radius:8px;padding:14px 16px;font-size:13.5px;color:#991b1b">
+      \u26A0\uFE0F Could not reach the Shopify Admin API this morning, so this section is empty.<br />
+      <span style="font-size:12.5px;color:#7f1d1d">${esc(clip(adminData.error, 400))}</span><br />
+      <span style="font-size:12.5px;color:#7f1d1d">Check that the SHOPIFY_STORE and SHOPIFY_ADMIN_TOKEN secrets are set and the custom app is still installed.</span>
+    </div>`;
+  } else if (!adminData.issues || adminData.issues.length === 0) {
+    adminInner = `<div style="color:#166534;font-size:14px;background:#dcfce7;border-radius:10px;padding:14px 18px">\u2705 ${esc(
+      adminData.totalProducts
+    )} products read from Shopify admin \u2014 tags, metafields, SKUs and stock all look correct.</div>`;
+  } else {
+    adminInner = groupByCategory(adminData.issues, ADMIN_CATEGORY_META, ADMIN_CATEGORY_ORDER);
   }
 
   const overallBg = overallIssues
@@ -362,13 +425,19 @@ export function buildHtmlReport({ siteName, dateStr, overallIssues, results, fro
       ${statPill("Pages Checked", (results || []).length, "neutral")}
       ${statPill("SEO Issues", seo.issueCount || 0, (seo.issueCount || 0) > 0 ? "bad" : "good")}
       ${statPill("Catalogue Issues", catalogue.issueCount || 0, (catalogue.issueCount || 0) > 0 ? "bad" : "good")}
-      ${statPill("Products Scanned", catalogue.totalProducts || 0, "neutral")}
+      ${statPill(
+        "Shopify Data Issues",
+        adminData.error ? "!" : adminData.issueCount || 0,
+        adminData.error || (adminData.issueCount || 0) > 0 ? "bad" : "good"
+      )}
+      ${statPill("Products Scanned", adminData.totalProducts || catalogue.totalProducts || 0, "neutral")}
     </div>
 
     <div style="display:flex;gap:8px;margin-bottom:28px;flex-wrap:wrap">
-      <a href="#website" style="text-decoration:none;flex:1;min-width:150px;text-align:center;background:${SECTION_THEME.website.accent};color:#fff;font-size:13px;font-weight:700;padding:11px 14px;border-radius:10px">\u{1F310} Website</a>
-      <a href="#seo" style="text-decoration:none;flex:1;min-width:150px;text-align:center;background:${SECTION_THEME.seo.accent};color:#fff;font-size:13px;font-weight:700;padding:11px 14px;border-radius:10px">\u{1F50D} SEO</a>
-      <a href="#catalogue" style="text-decoration:none;flex:1;min-width:150px;text-align:center;background:${SECTION_THEME.catalogue.accent};color:#fff;font-size:13px;font-weight:700;padding:11px 14px;border-radius:10px">\u{1F6CD}\uFE0F Catalogue</a>
+      <a href="#website" style="text-decoration:none;flex:1;min-width:130px;text-align:center;background:${SECTION_THEME.website.accent};color:#fff;font-size:13px;font-weight:700;padding:11px 14px;border-radius:10px">\u{1F310} Website</a>
+      <a href="#seo" style="text-decoration:none;flex:1;min-width:130px;text-align:center;background:${SECTION_THEME.seo.accent};color:#fff;font-size:13px;font-weight:700;padding:11px 14px;border-radius:10px">\u{1F50D} SEO</a>
+      <a href="#catalogue" style="text-decoration:none;flex:1;min-width:130px;text-align:center;background:${SECTION_THEME.catalogue.accent};color:#fff;font-size:13px;font-weight:700;padding:11px 14px;border-radius:10px">\u{1F6CD}\uFE0F Storefront</a>
+      <a href="#admin" style="text-decoration:none;flex:1;min-width:130px;text-align:center;background:${SECTION_THEME.admin.accent};color:#fff;font-size:13px;font-weight:700;padding:11px 14px;border-radius:10px">\u{1F5C3}\uFE0F Shopify Data</a>
     </div>
 
     ${sectionCard(
@@ -397,11 +466,22 @@ export function buildHtmlReport({ siteName, dateStr, overallIssues, results, fro
       "catalogue",
       SECTION_THEME.catalogue,
       "\u{1F6CD}\uFE0F",
-      "Product Catalogue Audit",
-      "Price, compare-at price, stock, description and duplicate checks across the store",
+      "Storefront Catalogue Audit",
+      "What a customer can see: price, compare-at price, stock, description and duplicates on the live store",
       "Issues",
       catalogue.issueCount || 0,
       catalogueInner
+    )}
+
+    ${sectionCard(
+      "admin",
+      SECTION_THEME.admin,
+      "\u{1F5C3}\uFE0F",
+      "Shopify Data Audit",
+      "Admin API: season/piece tags, metafields, SKUs, product shoot, draft products and real stock",
+      "Issues",
+      adminData.error ? "error" : adminData.issueCount || 0,
+      adminInner
     )}
 
     <div style="text-align:center;color:#9ca3af;font-size:11.5px;margin-top:8px">
