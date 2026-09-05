@@ -325,6 +325,67 @@ function groupByCategory(issues, metaMap, order) {
     .join("");
 }
 
+// ---- "Since the last run" panel (run-to-run diff) ----
+function diffItem(i, tone) {
+  const age =
+    tone === "pending" && (i.ageDays || 0) >= 1
+      ? ` <span style="color:#9ca3af;font-size:12px">\u00B7 ${i.ageDays}d</span>`
+      : "";
+  return `<li style="margin:0 0 7px 0;line-height:1.4">
+    <a href="${esc(i.url)}" target="_blank" style="text-decoration:none">
+      ${sevBadge(i.sev)} <span style="font-size:13px;color:#111827">${esc(
+    clip(i.title || i.label, 72)
+  )}</span>${age}
+    </a>
+  </li>`;
+}
+
+function renderDiffPanel(diff) {
+  if (!diff) return "";
+  if (diff.isFirstRun) {
+    return `<div style="background:#eff6ff;border:1px solid #bfdbfe;border-radius:14px;padding:15px 18px;margin-bottom:22px;color:#1e3a8a;font-size:13.5px">
+      \u{1F195} <strong>First run</strong> \u2014 baseline captured. From the next run, this panel will show what changed since the day before.
+    </div>`;
+  }
+
+  const CAP = 12;
+  const block = (title, items, tone, emptyMsg) => {
+    const color = tone === "new" ? "#b91c1c" : tone === "pending" ? "#b45309" : "#15803d";
+    const bg = tone === "new" ? "#fef2f2" : tone === "pending" ? "#fffbeb" : "#f0fdf4";
+    const shown = items.slice(0, CAP);
+    const more = items.length - shown.length;
+    const body = items.length
+      ? `<ul style="list-style:none;margin:8px 0 0 0;padding:0">${shown
+          .map((i) => diffItem(i, tone))
+          .join("")}${
+          more > 0
+            ? `<li style="color:#6b7280;font-size:12px;margin-top:2px">+${more} more</li>`
+            : ""
+        }</ul>`
+      : `<div style="color:#6b7280;font-size:13px;margin-top:6px">${emptyMsg}</div>`;
+    return `<div style="flex:1;min-width:210px;background:${bg};border-radius:12px;padding:14px 16px">
+      <div style="font-weight:800;color:${color};font-size:14px">${title} <span style="opacity:.7;font-weight:700">(${items.length})</span></div>
+      ${body}
+    </div>`;
+  };
+
+  return `
+  <div style="background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:18px;margin-bottom:22px;box-shadow:0 2px 8px rgba(0,0,0,.04)">
+    <div style="font-size:15px;font-weight:800;color:#111827;margin-bottom:3px">\u{1F504} Since the last run</div>
+    <div style="font-size:12.5px;color:#6b7280;margin-bottom:14px">Catalogue, SEO and Shopify Data findings vs. the previous morning. The AI visual review isn\u2019t diffed.</div>
+    <div style="display:flex;gap:12px;flex-wrap:wrap">
+      ${block(
+        "\u26A0\uFE0F Still not done",
+        diff.pendingIssues || [],
+        "pending",
+        "Nothing carried over \u2014 last run\u2019s issues were all cleared. \u{1F389}"
+      )}
+      ${block("\u{1F195} New today", diff.newIssues || [], "new", "No new issues today.")}
+      ${block("\u2705 Resolved", diff.resolvedIssues || [], "resolved", "Nothing newly resolved.")}
+    </div>
+  </div>`;
+}
+
 export function buildHtmlReport({
   siteName,
   dateStr,
@@ -334,6 +395,7 @@ export function buildHtmlReport({
   seo,
   catalogue,
   admin,
+  diff,
 }) {
   // adminAudit is allowed to fail without killing the report.
   const adminData = admin || { issues: [], issueCount: 0, totalProducts: 0, error: null };
@@ -420,6 +482,8 @@ export function buildHtmlReport({
         overallLabel
       )}</div>
     </div>
+
+    ${renderDiffPanel(diff)}
 
     <div style="display:flex;gap:10px;margin-bottom:14px;flex-wrap:wrap">
       ${statPill("Pages Checked", (results || []).length, "neutral")}

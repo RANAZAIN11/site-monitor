@@ -7,6 +7,10 @@ on:
     - cron: "0 5 * * *"
   workflow_dispatch: {}
 
+# Needed so the run can commit the diff-state snapshot back to the repo.
+permissions:
+  contents: write
+
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -38,4 +42,22 @@ jobs:
           SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
           SHOPIFY_API_VERSION: ${{ secrets.SHOPIFY_API_VERSION }}
           STORE_PUBLIC_URL: https://www.sahibas.com
+          ADMIN_EMAIL: ${{ secrets.ADMIN_EMAIL }}   # optional — code falls back to rz1753431@gmail.com
+          ESCALATE_SEV: "HIGH,MED"                    # which carried-over severities email the admin
         run: npm run check
+
+      # Save today's issue snapshot so tomorrow's run can diff against it.
+      # if: always() -> state is committed even if the email step above failed
+      # (the snapshot is written to disk before any email is sent).
+      - name: Persist diff state
+        if: always()
+        run: |
+          if [ -n "$(git status --porcelain state/)" ]; then
+            git config user.name "site-monitor-bot"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add state/
+            git commit -m "chore(state): daily diff snapshot [skip ci]"
+            git push
+          else
+            echo "No state change to commit."
+          fi

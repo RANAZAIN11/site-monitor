@@ -6,7 +6,9 @@ import { auditCatalogue } from "./catalogueAudit.js";
 import { auditAdmin } from "./adminAudit.js";
 import { auditSeo } from "./seoAudit.js";
 import { buildHtmlReport } from "./report.js";
-import { sendEmail, sendWhatsApp } from "./notify.js";
+import { sendEmail, sendWhatsApp, sendAdminAlert } from "./notify.js";
+import { collectIssues, loadState, saveState, computeDiff, escalatable } from "./diffState.js";
+import { fileURLToPath } from "node:url";
 
 function storeRoot(config) {
   if (config.storeUrl) return config.storeUrl;
@@ -63,6 +65,28 @@ async function main() {
     };
   }
 
+  // 5) Run-to-run diff: what's new, what got fixed, and what was flagged before
+  //    and is STILL not done. Front-end/Gemini text is free-form, so only the
+  //    structured audits (catalogue, SEO, admin) are diffed.
+  const today = new Date().toLocaleDateString("en-CA", { timeZone: "Asia/Karachi" }); // YYYY-MM-DD
+  const statePath = process.env.STATE_FILE
+    ? process.env.STATE_FILE
+    : fileURLToPath(new URL("../state/last-run.json", import.meta.url));
+  const prevState = await loadState(statePath);
+  const todayIssues = collectIssues({ catalogue, seo, admin });
+  const diff = computeDiff(prevState, todayIssues, today);
+  // Persist NOW, so the workflow can commit it even if a later email step fails.
+  try {
+    await saveState(statePath, diff.nextState);
+  } catch (e) {
+    console.error("Could not write diff state (non-fatal):", e.message);
+  }
+  console.log(
+    `Diff vs last run: ${diff.newIssues.length} new, ${diff.resolvedIssues.length} resolved, ` +
+      `${diff.pendingIssues.length} still pending` +
+      (diff.isFirstRun ? " (first run \u2014 baseline only)." : ".")
+  );
+
   const overallIssues =
     catalogue.issueCount > 0 ||
     seo.issueCount > 0 ||
@@ -71,8 +95,11 @@ async function main() {
     /ISSUES FOUND|SCRIPT ERROR/i.test(frontEnd);
 
   // Plain-text summary — used for WhatsApp and console logs (not the email body anymore)
+  const diffLine = diff.isFirstRun
+    ? "SINCE LAST RUN: first run \u2014 baseline captured."
+    : `SINCE LAST RUN: ${diff.newIssues.length} new, ${diff.resolvedIssues.length} resolved, ${diff.pendingIssues.length} still NOT done.`;
   const plainTextSummary =
-    `OVERALL: ${overallIssues ? "ISSUES FOUND" : "ALL OK"}\n\n` +
+    `OVERALL: ${overallIssues ? "ISSUES FOUND" : "ALL OK"}\n${diffLine}\n\n` +
     `===== SHOPIFY DATA AUDIT (tags, metafields, SKUs, product shoot, stock) =====\n${admin.text}\n\n` +
     `===== STOREFRONT CATALOGUE AUDIT (price, compare-at price, stock, description, duplicates) =====\n${catalogue.text}\n\n` +
     `===== SEO CHECK =====\n${seo.text}\n\n` +
@@ -99,10 +126,30 @@ async function main() {
     seo,
     catalogue,
     admin,
+    diff,
   });
 
   const subject = await sendEmail(config.siteName, plainTextSummary, htmlReport, overallIssues);
   console.log("Email sent:", subject);
+
+  // Admin escalation: previously-flagged tasks that are STILL not done. Goes to
+  // ADMIN_EMAIL only (separate from the team report), and only fires when there
+  // is carried-over work at or above ESCALATE_SEV (default HIGH,MED).
+  try {
+    const escSev = (process.env.ESCALATE_SEV || "HIGH,MED")
+      .split(",")
+      .map((s) => s.trim())
+      .filter(Boolean);
+    const pending = escalatable(diff.pendingIssues, escSev);
+    if (pending.length) {
+      const res = await sendAdminAlert(config.siteName, pending, { dateStr });
+      if (res) console.log(`Admin alert sent to ${res.to}: ${res.count} pending task(s).`);
+    } else {
+      console.log("No escalatable pending tasks \u2014 no admin alert sent.");
+    }
+  } catch (e) {
+    console.error("Admin alert failed (non-fatal):", e.message);
+  }
 
   try {
     const sid = await sendWhatsApp(plainTextSummary);
