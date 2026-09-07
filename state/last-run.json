@@ -1,66 +1,6 @@
 {
   "generatedAt": "2026-09-07",
   "open": {
-    "ca5a2c87da6fedaa": {
-      "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-07",
-      "source": "catalogue",
-      "category": "stock",
-      "sev": "HIGH",
-      "title": "Aania peach",
-      "label": "aania-peach",
-      "url": "https://sahibas.com/products/aania-peach",
-      "problem": "All variants are out of stock / unavailable for purchase.",
-      "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
-    },
-    "5b9a022da3cec212": {
-      "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-07",
-      "source": "catalogue",
-      "category": "stock",
-      "sev": "HIGH",
-      "title": "Miraaz",
-      "label": "miraaz",
-      "url": "https://sahibas.com/products/miraaz",
-      "problem": "All variants are out of stock / unavailable for purchase.",
-      "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
-    },
-    "2c84ef0b4e0d1d46": {
-      "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-07",
-      "source": "catalogue",
-      "category": "stock",
-      "sev": "HIGH",
-      "title": "Mandarin",
-      "label": "mandarin",
-      "url": "https://sahibas.com/products/mandarin",
-      "problem": "All variants are out of stock / unavailable for purchase.",
-      "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
-    },
-    "f38c65499a68bb82": {
-      "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-07",
-      "source": "catalogue",
-      "category": "stock",
-      "sev": "HIGH",
-      "title": "Arzima",
-      "label": "arzima",
-      "url": "https://sahibas.com/products/arzima",
-      "problem": "All variants are out of stock / unavailable for purchase.",
-      "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
-    },
-    "8c5ef4b7b1795839": {
-      "firstSeen": "2026-09-06",
-      "lastSeen": "2026-09-07",
-      "source": "catalogue",
-      "category": "stock",
-      "sev": "HIGH",
-      "title": "Seemab - Beige",
-      "label": "seemab-beige-1",
-      "url": "https://sahibas.com/products/seemab-beige-1",
-      "problem": "All variants are out of stock / unavailable for purchase.",
-      "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
-    },
     "47a6faf5e1ff4e6c": {
       "firstSeen": "2026-09-05",
       "lastSeen": "2026-09-07",
@@ -85,30 +25,6 @@
       "problem": "Description is missing or too short (0 word(s)).",
       "fix": "Add a proper description in admin > Products > \"Cherry Skin\" (fabric, fit, care instructions, sizing notes, etc.)."
     },
-    "27a744afdb21855d": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "catalogue",
-      "category": "stock",
-      "sev": "HIGH",
-      "title": "Basanti white",
-      "label": "basanti-white",
-      "url": "https://sahibas.com/products/basanti-white",
-      "problem": "All variants are out of stock / unavailable for purchase.",
-      "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
-    },
-    "a1e496245d16eaa7": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "catalogue",
-      "category": "stock",
-      "sev": "HIGH",
-      "title": "Aurora",
-      "label": "aurora",
-      "url": "https://sahibas.com/products/aurora",
-      "problem": "All variants are out of stock / unavailable for purchase.",
-      "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
-    },
     "5645cb077afcdcee": {
       "firstSeen": "2026-09-05",
       "lastSeen": "2026-09-07",
@@ -120,18 +36,6 @@
       "url": "https://sahibas.com/products/preety",
       "problem": "Description is missing or too short (0 word(s)).",
       "fix": "Add a proper description in admin > Products > \"Preety\" (fabric, fit, care instructions, sizing notes, etc.)."
-    },
-    "a0512ef965816433": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "catalogue",
-      "category": "stock",
-      "sev": "HIGH",
-      "title": "Kyoto",
-      "label": "kyoto",
-      "url": "https://sahibas.com/products/kyoto",
-      "problem": "All variants are out of stock / unavailable for purchase.",
-      "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
     },
     "1b8366cd24f68be8": {
       "firstSeen": "2026-09-05",
@@ -454,7 +358,7 @@
       "title": "Aania",
       "label": "aania",
       "url": "https://www.sahibas.com/products/aania",
-      "problem": "Status is DRAFT but 2 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "problem": "Status is DRAFT but 3 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
     "0036fdbdac600209": {
@@ -468,42 +372,6 @@
       "url": "https://www.sahibas.com/products/serah",
       "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
-    },
-    "28b84da3537d6a8d": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "tags",
-      "sev": "MED",
-      "title": "Seemab - Beige",
-      "label": "seemab-beige-1",
-      "url": "https://www.sahibas.com/products/seemab-beige-1",
-      "problem": "dupatta fabric is \"Voile\" (a summer fabric) but the product is tagged winter.",
-      "fix": "Either re-tag it as summer, or correct the fabric value."
-    },
-    "2ef1501bf7815659": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Seemab - Beige",
-      "label": "seemab-beige-1",
-      "url": "https://www.sahibas.com/products/seemab-beige-1",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-B-S-16, SAH-S-B-16, SAH-S-B-4.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "aca642ffecf40e05": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "status",
-      "sev": "HIGH",
-      "title": "Seemab - Beige",
-      "label": "seemab-beige-1",
-      "url": "https://www.sahibas.com/products/seemab-beige-1",
-      "problem": "Live on the store but completely out of stock across every size.",
-      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
     },
     "caa489da429e80fd": {
       "firstSeen": "2026-09-07",
@@ -1381,102 +1249,6 @@
       "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "3c8a4c74af16731a": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "tags",
-      "sev": "HIGH",
-      "title": "Kyoto",
-      "label": "kyoto",
-      "url": "https://www.sahibas.com/products/kyoto",
-      "problem": "Tagged for BOTH seasons at once: 2 Pc Summer + 2 Pc Winter. It will appear in the summer and the winter catalogue.",
-      "fix": "Keep only the correct season tag. If it genuinely sells year-round, set custom.season to All Season and pick one tag."
-    },
-    "6e86048d4796b8cf": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "LOW",
-      "title": "Kyoto",
-      "label": "kyoto",
-      "url": "https://www.sahibas.com/products/kyoto",
-      "problem": "trouser fabric is spelled \"Poly SIlk\" instead of \"Poly Silk\".",
-      "fix": "Correct it to \"Poly Silk\" so filters and catalogue text stay consistent."
-    },
-    "1547a0b8412f7117": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "MED",
-      "title": "Kyoto",
-      "label": "kyoto",
-      "url": "https://www.sahibas.com/products/kyoto",
-      "problem": "Currently selling at 2500, which is at or below the wholesale price of 2550. Fine for a short sale, a loss otherwise.",
-      "fix": "Check that this discount is intentional and time-limited."
-    },
-    "e35b32c87017a902": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Kyoto",
-      "label": "kyoto",
-      "url": "https://www.sahibas.com/products/kyoto",
-      "problem": "Variant \"S / Silk\": compare-at price (7500) is more than 2.2x the selling price (2500) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "3abdaa3e635104f8": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Kyoto",
-      "label": "kyoto",
-      "url": "https://www.sahibas.com/products/kyoto",
-      "problem": "Variant \"M / Silk\": compare-at price (7500) is more than 2.2x the selling price (2500) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "356c3e3c6f885885": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Kyoto",
-      "label": "kyoto",
-      "url": "https://www.sahibas.com/products/kyoto",
-      "problem": "Variant \"L / Silk\": compare-at price (7500) is more than 2.2x the selling price (2500) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "8f63dbe5048ddbf6": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Kyoto",
-      "label": "kyoto",
-      "url": "https://www.sahibas.com/products/kyoto",
-      "problem": "Variant \"XL / Silk\": compare-at price (7500) is more than 2.2x the selling price (2500) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "59a8c96c151308f8": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "status",
-      "sev": "HIGH",
-      "title": "Kyoto",
-      "label": "kyoto",
-      "url": "https://www.sahibas.com/products/kyoto",
-      "problem": "Live on the store but completely out of stock across every size.",
-      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
-    },
     "465b83c8d23d106e": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-07",
@@ -2317,78 +2089,6 @@
       "problem": "Metafield \"Number Of Pieces\" (custom.number_of_pieces) is empty.",
       "fix": "Fill in Number Of Pieces on the product page."
     },
-    "cd11db808bb2d235": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Arzima",
-      "label": "arzima",
-      "url": "https://www.sahibas.com/products/arzima",
-      "problem": "Metafield \"Number Of Pieces\" (custom.number_of_pieces) is empty.",
-      "fix": "Fill in Number Of Pieces on the product page."
-    },
-    "1a848ea58a35b7f0": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "MED",
-      "title": "Arzima",
-      "label": "arzima",
-      "url": "https://www.sahibas.com/products/arzima",
-      "problem": "Currently selling at 2449, which is at or below the wholesale price of 3500. Fine for a short sale, a loss otherwise.",
-      "fix": "Check that this discount is intentional and time-limited."
-    },
-    "bee28b5ae371756a": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Arzima",
-      "label": "arzima",
-      "url": "https://www.sahibas.com/products/arzima",
-      "problem": "Variant \"S / Dhanak\": compare-at price (9999) is more than 2.2x the selling price (2449) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "c8ef037403fb2827": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Arzima",
-      "label": "arzima",
-      "url": "https://www.sahibas.com/products/arzima",
-      "problem": "Variant \"M / Dhanak\": compare-at price (9999) is more than 2.2x the selling price (2449) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "fc5ada7391a8fca8": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Arzima",
-      "label": "arzima",
-      "url": "https://www.sahibas.com/products/arzima",
-      "problem": "Variant \"L / Dhanak\": compare-at price (9999) is more than 2.2x the selling price (2449) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "8a1d6dc75561e26a": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "status",
-      "sev": "HIGH",
-      "title": "Arzima",
-      "label": "arzima",
-      "url": "https://www.sahibas.com/products/arzima",
-      "problem": "Live on the store but completely out of stock across every size.",
-      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
-    },
     "db9c8a52cf999d02": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-07",
@@ -2424,102 +2124,6 @@
       "url": "https://www.sahibas.com/products/salwa",
       "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "e89f8b90e9c9895f": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Mandarin",
-      "label": "mandarin",
-      "url": "https://www.sahibas.com/products/mandarin",
-      "problem": "Metafield \"Trouser Fabric\" (custom.trouser_fabric) is empty.",
-      "fix": "Fill in Trouser Fabric on the product page."
-    },
-    "7d2954b8b958556c": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "LOW",
-      "title": "Mandarin",
-      "label": "mandarin",
-      "url": "https://www.sahibas.com/products/mandarin",
-      "problem": "Metafield \"Bottom Style\" (custom.bottom_style) is empty.",
-      "fix": "Fill in Bottom Style on the product page."
-    },
-    "9cb26fc1fff48eb2": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "MED",
-      "title": "Mandarin",
-      "label": "mandarin",
-      "url": "https://www.sahibas.com/products/mandarin",
-      "problem": "Currently selling at 2499, which is at or below the wholesale price of 3150. Fine for a short sale, a loss otherwise.",
-      "fix": "Check that this discount is intentional and time-limited."
-    },
-    "41da32cd5dc829a3": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Mandarin",
-      "label": "mandarin",
-      "url": "https://www.sahibas.com/products/mandarin",
-      "problem": "Variant \"S\": compare-at price (9999) is more than 2.2x the selling price (2499) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "f6193b5c1e284008": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Mandarin",
-      "label": "mandarin",
-      "url": "https://www.sahibas.com/products/mandarin",
-      "problem": "Variant \"M\": compare-at price (9999) is more than 2.2x the selling price (2499) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "ff85299f89e6ae62": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Mandarin",
-      "label": "mandarin",
-      "url": "https://www.sahibas.com/products/mandarin",
-      "problem": "Variant \"L\": compare-at price (9999) is more than 2.2x the selling price (2499) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "62d49a0ec3cdb77f": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Mandarin",
-      "label": "mandarin",
-      "url": "https://www.sahibas.com/products/mandarin",
-      "problem": "Variant \"XL\": compare-at price (9999) is more than 2.2x the selling price (2499) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "e101ff21acd0373b": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "status",
-      "sev": "HIGH",
-      "title": "Mandarin",
-      "label": "mandarin",
-      "url": "https://www.sahibas.com/products/mandarin",
-      "problem": "Live on the store but completely out of stock across every size.",
-      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
     },
     "55b95ce612d1c194": {
       "firstSeen": "2026-09-07",
@@ -3865,90 +3469,6 @@
       "problem": "Status is DRAFT but 7 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "0bde7df7b73252c9": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Aania peach",
-      "label": "aania-peach",
-      "url": "https://www.sahibas.com/products/aania-peach",
-      "problem": "Metafield \"Number Of Pieces\" (custom.number_of_pieces) is empty.",
-      "fix": "Fill in Number Of Pieces on the product page."
-    },
-    "a99a3d4219c78d80": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Aania peach",
-      "label": "aania-peach",
-      "url": "https://www.sahibas.com/products/aania-peach",
-      "problem": "Variant \"S / Lawn\": compare-at price (9376) is more than 2.2x the selling price (2499) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "7bba13f271a8e952": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Aania peach",
-      "label": "aania-peach",
-      "url": "https://www.sahibas.com/products/aania-peach",
-      "problem": "Variant \"M / Lawn\": compare-at price (9376) is more than 2.2x the selling price (2499) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "b1ced6c8431058ec": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Aania peach",
-      "label": "aania-peach",
-      "url": "https://www.sahibas.com/products/aania-peach",
-      "problem": "Variant \"L / Lawn\": compare-at price (9376) is more than 2.2x the selling price (2499) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "08dca640854cdca3": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Aania peach",
-      "label": "aania-peach",
-      "url": "https://www.sahibas.com/products/aania-peach",
-      "problem": "Variant \"XL / Lawn\": compare-at price (9376) is more than 2.2x the selling price (2499) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "bb82fc55f8ca0686": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Aania peach",
-      "label": "aania-peach",
-      "url": "https://www.sahibas.com/products/aania-peach",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-AP-6, SAH-AP-5.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "2f40a85d9c0a50da": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "status",
-      "sev": "HIGH",
-      "title": "Aania peach",
-      "label": "aania-peach",
-      "url": "https://www.sahibas.com/products/aania-peach",
-      "problem": "Live on the store but completely out of stock across every size.",
-      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
-    },
     "f1085cbede225ef8": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-07",
@@ -4272,18 +3792,6 @@
       "url": "https://www.sahibas.com/products/sahar",
       "problem": "Status is DRAFT but 17 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
-    },
-    "fbaa5ef0d8269490": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "status",
-      "sev": "HIGH",
-      "title": "Miraaz",
-      "label": "miraaz",
-      "url": "https://www.sahibas.com/products/miraaz",
-      "problem": "Live on the store but completely out of stock across every size.",
-      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
     },
     "640543de2e3af87c": {
       "firstSeen": "2026-09-07",
@@ -5293,18 +4801,6 @@
       "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
-    "31a194b2f613215a": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "status",
-      "sev": "HIGH",
-      "title": "Aurora",
-      "label": "aurora",
-      "url": "https://www.sahibas.com/products/aurora",
-      "problem": "Live on the store but completely out of stock across every size.",
-      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
-    },
     "bfe32073ac094563": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-07",
@@ -5653,18 +5149,6 @@
       "problem": "Only 3 images. The catalogue layout needs a hero shot plus 3 detail crops (neckline, embroidery, back).",
       "fix": "Add at least 1 more image(s)."
     },
-    "69f03ca16080b700": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07",
-      "source": "admin",
-      "category": "status",
-      "sev": "HIGH",
-      "title": "Basanti white",
-      "label": "basanti-white",
-      "url": "https://www.sahibas.com/products/basanti-white",
-      "problem": "Live on the store but completely out of stock across every size.",
-      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
-    },
     "64ee37c8dd0c32fd": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-07",
@@ -5854,6 +5338,18 @@
       "title": "Haifa Black",
       "label": "haifa-black",
       "url": "https://www.sahibas.com/products/haifa-black",
+      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+    },
+    "ead3bc1d1684a29b": {
+      "firstSeen": "2026-09-07",
+      "lastSeen": "2026-09-07",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Ishwa Pink",
+      "label": "ishwa-pink",
+      "url": "https://www.sahibas.com/products/ishwa-pink",
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
@@ -6682,7 +6178,7 @@
       "title": "Sombrero (Black)",
       "label": "sombrero-black",
       "url": "https://www.sahibas.com/products/sombrero-black",
-      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "problem": "Status is DRAFT but 2 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
     "9272c97fc81c5c12": {
@@ -8701,16 +8197,16 @@
       "problem": "Status is DRAFT but 30 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "8bcac3f621cbcd85": {
+    "e1bdf69b24bfda3d": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-07",
       "source": "admin",
       "category": "media",
       "sev": "LOW",
-      "title": "No image alt text (587 products)",
+      "title": "No image alt text (579 products)",
       "label": "No image alt text",
       "url": "https://www.sahibas.com/collections/all",
-      "problem": "587 live products have no alt text on any product image. Affected: Jasmine Blue, Nayal, ZAVERI - PISTA, Nayriza, Tarana Kaftan - Hot Pink, Aneza, Serah, Seemab - Beige, Daisey - Grey, Hasi, Guljawa, Dilruba - Off White, Aliza - White, Muscari, Bahisht, Faiqa - Black, Nuhra, Wink, Aquamarine, Belleza - Ivory, +567 more.",
+      "problem": "579 live products have no alt text on any product image. Affected: Jasmine Blue, Nayal, ZAVERI - PISTA, Nayriza, Tarana Kaftan - Hot Pink, Aneza, Serah, Daisey - Grey, Hasi, Guljawa, Dilruba - Off White, Aliza - White, Muscari, Bahisht, Faiqa - Black, Nuhra, Wink, Aquamarine, Belleza - Ivory, Calico - Lilac, +559 more.",
       "fix": "Bulk-edit alt text in Shopify admin — use the product name plus fabric and colour."
     },
     "f5a048813afa938f": {
@@ -8719,10 +8215,10 @@
       "source": "admin",
       "category": "metafields",
       "sev": "LOW",
-      "title": "No size chart (23 products)",
+      "title": "No size chart (22 products)",
       "label": "No size chart",
       "url": "https://www.sahibas.com/collections/all",
-      "problem": "23 live products have neither a size_chart nor a size_chart_table metafield. Affected: Martina, Haneen, Naira White, Avril (Zinc), Denali - Black, Morni white, Sombrero (blue), Dreamy Black, Nebula Black, Velora, Marwah, Rayfa, Alyame - Lilac, Sharmeen, Tamanah, Shama, Chandni, Salwa, Mandarin, Xevi, +3 more.",
+      "problem": "22 live products have neither a size_chart nor a size_chart_table metafield. Affected: Martina, Haneen, Naira White, Avril (Zinc), Denali - Black, Morni white, Sombrero (blue), Dreamy Black, Nebula Black, Velora, Marwah, Rayfa, Alyame - Lilac, Sharmeen, Tamanah, Shama, Chandni, Salwa, Xevi, Parda-Nasheen, +2 more.",
       "fix": "Attach the standard size chart via bulk edit."
     },
     "22e0061014232279": {
