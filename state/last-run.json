@@ -1,41 +1,41 @@
 {
   "generatedAt": "2026-09-09",
   "open": {
-    "d7a33f616b0646d4": {
+    "3b37c29bb2f10691": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
-      "source": "catalogue",
-      "category": "description",
-      "sev": "MED",
-      "title": "Anousha",
-      "label": "anousha",
-      "url": "https://sahibas.com/products/anousha",
-      "problem": "Description is missing or too short (12 word(s)).",
-      "fix": "Add a proper description in admin > Products > \"Anousha\" (fabric, fit, care instructions, sizing notes, etc.)."
-    },
-    "2e11c7c45bc3bbd3": {
-      "firstSeen": "2026-09-08",
       "lastSeen": "2026-09-09",
       "source": "catalogue",
       "category": "stock",
       "sev": "HIGH",
-      "title": "Naghma Navy",
-      "label": "naghma-navy",
-      "url": "https://sahibas.com/products/naghma-navy",
+      "title": "Aania",
+      "label": "aania",
+      "url": "https://sahibas.com/products/aania",
       "problem": "All variants are out of stock / unavailable for purchase.",
       "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
     },
-    "47a6faf5e1ff4e6c": {
-      "firstSeen": "2026-09-05",
+    "b0aae6bb6884ab77": {
+      "firstSeen": "2026-09-09",
       "lastSeen": "2026-09-09",
       "source": "catalogue",
-      "category": "duplicate",
+      "category": "stock",
       "sev": "HIGH",
-      "title": "Aari - 2",
-      "label": "aari-2",
-      "url": "https://sahibas.com/products/aari-2",
-      "problem": "Duplicate of \"/products/aari\" (Shopify auto-added \"-2\").",
-      "fix": "Confirm the duplicate in admin. Keep one, delete the other, and redirect /products/aari-2 to the correct one."
+      "title": "Parizah Black",
+      "label": "parizahblack",
+      "url": "https://sahibas.com/products/parizahblack",
+      "problem": "All variants are out of stock / unavailable for purchase.",
+      "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
+    },
+    "aa8ae0703c712453": {
+      "firstSeen": "2026-09-09",
+      "lastSeen": "2026-09-09",
+      "source": "catalogue",
+      "category": "stock",
+      "sev": "HIGH",
+      "title": "Lumiere",
+      "label": "lumiere",
+      "url": "https://sahibas.com/products/lumiere",
+      "problem": "All variants are out of stock / unavailable for purchase.",
+      "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
     },
     "5b2a70653fb91fbf": {
       "firstSeen": "2026-09-09",
@@ -48,6 +48,18 @@
       "url": "https://sahibas.com/products/daniela",
       "problem": "All variants are out of stock / unavailable for purchase.",
       "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
+    },
+    "0be382bf7fca61da": {
+      "firstSeen": "2026-09-09",
+      "lastSeen": "2026-09-09",
+      "source": "catalogue",
+      "category": "description",
+      "sev": "MED",
+      "title": "Aari - 2",
+      "label": "aari-2",
+      "url": "https://sahibas.com/products/aari-2",
+      "problem": "Description is identical/copy-pasted from \"Aari\" (/products/aari).",
+      "fix": "Write a unique description for \"Aari - 2\" — duplicate content hurts SEO and looks lazy to buyers."
     },
     "b279f5ed4274ff7f": {
       "firstSeen": "2026-09-05",
@@ -205,18 +217,6 @@
       "problem": "Variant \"XL\": compare-at price (7000) is more than 2.2x the selling price (3000) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
-    "fdbeb0739952d347": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Aneza",
-      "label": "aneza",
-      "url": "https://www.sahibas.com/products/aneza",
-      "problem": "trouser fabric value \"Jacquard\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "e026befa0bd3acf9": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -229,17 +229,17 @@
       "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "0d1878710758f01c": {
-      "firstSeen": "2026-09-08",
+    "7bbe8b3dea9f8d88": {
+      "firstSeen": "2026-09-09",
       "lastSeen": "2026-09-09",
       "source": "admin",
       "category": "status",
-      "sev": "MED",
+      "sev": "HIGH",
       "title": "Aania",
       "label": "aania",
       "url": "https://www.sahibas.com/products/aania",
-      "problem": "Only 1 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
+      "problem": "Live on the store but completely out of stock across every size.",
+      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
     },
     "0036fdbdac600209": {
       "firstSeen": "2026-09-07",
@@ -311,30 +311,6 @@
       "label": "hasi",
       "url": "https://www.sahibas.com/products/hasi",
       "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "9b711cff3b1de964": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Guljawa",
-      "label": "guljawa",
-      "url": "https://www.sahibas.com/products/guljawa",
-      "problem": "shirt fabric value \"Jacquard\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "e379194f868977b7": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Guljawa",
-      "label": "guljawa",
-      "url": "https://www.sahibas.com/products/guljawa",
-      "problem": "trouser fabric value \"Jacquard\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
     "f3761d3b0df8388c": {
@@ -409,18 +385,6 @@
       "problem": "Variant \"XL\": compare-at price (9998) is more than 2.2x the selling price (3999) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
-    "6c6a309d68b3f171": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Dilruba - Off White",
-      "label": "dilruba-off-white-1",
-      "url": "https://www.sahibas.com/products/dilruba-off-white-1",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-D-W-0, SAH-D-OW.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "40c4f2a14f3e1a3d": {
       "firstSeen": "2026-09-09",
       "lastSeen": "2026-09-09",
@@ -432,18 +396,6 @@
       "url": "https://www.sahibas.com/products/aliza-white",
       "problem": "Status is DRAFT but 2 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
-    },
-    "4ef4401e4017a4d9": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Faiqa - Black",
-      "label": "faiqa-black",
-      "url": "https://www.sahibas.com/products/faiqa-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-F-B-3, SAH-F-B-2.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "16851478d73cb49e": {
       "firstSeen": "2026-09-07",
@@ -553,18 +505,6 @@
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "cbb9e76e095fc9f8": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Azeerah Black",
-      "label": "azeerah-black",
-      "url": "https://www.sahibas.com/products/azeerah-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-AB-5, SAH-AB-170421604855238.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "10ecf8ef8a0af0f3": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -613,17 +553,17 @@
       "problem": "Tagged for BOTH seasons at once: 1 Pc Summer + 1 Pc Winter. It will appear in the summer and the winter catalogue.",
       "fix": "Keep only the correct season tag. If it genuinely sells year-round, set custom.season to All Season and pick one tag."
     },
-    "0a841cb229b63d5c": {
-      "firstSeen": "2026-09-08",
+    "3f536f7c049dd327": {
+      "firstSeen": "2026-09-09",
       "lastSeen": "2026-09-09",
       "source": "admin",
       "category": "status",
-      "sev": "MED",
+      "sev": "HIGH",
       "title": "Lumiere",
       "label": "lumiere",
       "url": "https://www.sahibas.com/products/lumiere",
-      "problem": "Only 2 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
+      "problem": "Live on the store but completely out of stock across every size.",
+      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
     },
     "6b64f9ee1f4c2ec5": {
       "firstSeen": "2026-09-07",
@@ -683,6 +623,18 @@
       "label": "mashal",
       "url": "https://www.sahibas.com/products/mashal",
       "problem": "Status is DRAFT but 17 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+    },
+    "a502db99fa69ea46": {
+      "firstSeen": "2026-09-09",
+      "lastSeen": "2026-09-09",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Kalonji",
+      "label": "kalonji",
+      "url": "https://www.sahibas.com/products/kalonji",
+      "problem": "Status is DRAFT but 2 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
     "29aa5232efb2fded": {
@@ -781,18 +733,6 @@
       "problem": "Status is DRAFT but 5 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "9ac4b5ab8ae4cc5b": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Naira Black",
-      "label": "naira-black",
-      "url": "https://www.sahibas.com/products/naira-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-NB, SAH-NB-1.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "efb3d711f16fe846": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -804,30 +744,6 @@
       "url": "https://www.sahibas.com/products/martina",
       "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "9c9f747977c411c6": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Martina",
-      "label": "martina",
-      "url": "https://www.sahibas.com/products/martina",
-      "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
-      "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
-    },
-    "9de19b6ac052ae4c": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Martina",
-      "label": "martina",
-      "url": "https://www.sahibas.com/products/martina",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-MARTI, SAH-MARTI-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "08e83c2590d07426": {
       "firstSeen": "2026-09-09",
@@ -888,18 +804,6 @@
       "url": "https://www.sahibas.com/products/anaya-black",
       "problem": "Variant \"XL / Linen\": compare-at price (9999) is more than 2.2x the selling price (3999) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "5cdb34be7f704829": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Anaya - Black",
-      "label": "anaya-black",
-      "url": "https://www.sahibas.com/products/anaya-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-A-B-3, SAH-A-B-1.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "0103e969187098f0": {
       "firstSeen": "2026-09-07",
@@ -1057,18 +961,6 @@
       "problem": "dupatta fabric is \"Voile\" (a summer fabric) but the product is tagged winter.",
       "fix": "Either re-tag it as summer, or correct the fabric value."
     },
-    "05744c9cb8a4e845": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Imroz",
-      "label": "imroz",
-      "url": "https://www.sahibas.com/products/imroz",
-      "problem": "Metafield \"Number Of Pieces\" (custom.number_of_pieces) is empty.",
-      "fix": "Fill in Number Of Pieces on the product page."
-    },
     "a4004d3bdf648e8e": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -1080,6 +972,18 @@
       "url": "https://www.sahibas.com/products/imroz",
       "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
+    },
+    "2d85aa672f979a4d": {
+      "firstSeen": "2026-09-09",
+      "lastSeen": "2026-09-09",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Kyoto",
+      "label": "kyoto",
+      "url": "https://www.sahibas.com/products/kyoto",
+      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
     "465b83c8d23d106e": {
       "firstSeen": "2026-09-07",
@@ -1105,30 +1009,6 @@
       "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "a3e1c3c53d374f85": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Noor Onyx",
-      "label": "noor-onyx",
-      "url": "https://www.sahibas.com/products/noor-onyx",
-      "problem": "shirt fabric value \"Jacquard\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "cd8d94de3a78fbe1": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Noor Onyx",
-      "label": "noor-onyx",
-      "url": "https://www.sahibas.com/products/noor-onyx",
-      "problem": "trouser fabric value \"Jacquard\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "e161f6b4c6912f87": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -1152,18 +1032,6 @@
       "url": "https://www.sahibas.com/products/naira-white",
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
-    },
-    "16f6445248cedaeb": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Elsa",
-      "label": "elsa",
-      "url": "https://www.sahibas.com/products/elsa",
-      "problem": "Metafield \"Number Of Pieces\" (custom.number_of_pieces) is empty.",
-      "fix": "Fill in Number Of Pieces on the product page."
     },
     "5268e0c7fc4b7c2f": {
       "firstSeen": "2026-09-07",
@@ -1309,54 +1177,6 @@
       "problem": "Variant \"XL\": compare-at price (11998) is more than 2.2x the selling price (4999) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
-    "a4a86cf2f990c436": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Laham",
-      "label": "laham",
-      "url": "https://www.sahibas.com/products/laham",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-CATHE-0, SAH-LAHAM.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "17e3833f0e34187d": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Gulejahan - Black",
-      "label": "gulejahan-black",
-      "url": "https://www.sahibas.com/products/gulejahan-black",
-      "problem": "Variant \"M\" has SKU \"SAH-G-B-L\", which does not contain the size code M.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "95da1349712f8d4e": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Gulejahan - Black",
-      "label": "gulejahan-black",
-      "url": "https://www.sahibas.com/products/gulejahan-black",
-      "problem": "Variant \"L\" has SKU \"SAH-G-B-M\", which does not contain the size code L.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "aefcd4846befd7b7": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Gulejahan - Black",
-      "label": "gulejahan-black",
-      "url": "https://www.sahibas.com/products/gulejahan-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-G-B, SAH-G-B-L, SAH-G-B-M.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "0bed4d6636953a04": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -1417,30 +1237,6 @@
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "acfa3a05de7cf4aa": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Casper - White",
-      "label": "casper-white",
-      "url": "https://www.sahibas.com/products/casper-white",
-      "problem": "Variant \"2XL / Lawn\" has SKU \"SAH-C-W-XXL-0\", which does not contain the size code 2XL.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "5fd32efc4d8d0f99": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Casper - White",
-      "label": "casper-white",
-      "url": "https://www.sahibas.com/products/casper-white",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-C-W, SAH-C-W-XXL-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "963120f7e47360de": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -1489,18 +1285,6 @@
       "problem": "Sizes are priced differently: 5500 / 6250.",
       "fix": "Unless this is deliberate, set one price across all sizes."
     },
-    "8a528dd5d5506d2a": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Dreamy Black",
-      "label": "dreamy-black",
-      "url": "https://www.sahibas.com/products/dreamy-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-DB-5, SAH-DB-3.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "1a0f511ee03e93b9": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -1512,18 +1296,6 @@
       "url": "https://www.sahibas.com/products/evylene-blue",
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
-    },
-    "58ccc3150db6d02e": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Wave - Ivory",
-      "label": "wave-ivory",
-      "url": "https://www.sahibas.com/products/wave-ivory",
-      "problem": "Metafield \"Number Of Pieces\" (custom.number_of_pieces) is empty.",
-      "fix": "Fill in Number Of Pieces on the product page."
     },
     "76b5e6cbd8abfc00": {
       "firstSeen": "2026-09-07",
@@ -1596,18 +1368,6 @@
       "url": "https://www.sahibas.com/products/vanzila",
       "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "426b6331c1db4803": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Yavina Green",
-      "label": "yavina-green",
-      "url": "https://www.sahibas.com/products/yavina-green",
-      "problem": "Metafield \"Number Of Pieces\" (custom.number_of_pieces) is empty.",
-      "fix": "Fill in Number Of Pieces on the product page."
     },
     "590404281614de95": {
       "firstSeen": "2026-09-07",
@@ -1705,18 +1465,6 @@
       "problem": "dupatta fabric value \"Viscouse\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
-    "7b76612984cb4e32": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Tamanah",
-      "label": "tamanah",
-      "url": "https://www.sahibas.com/products/tamanah",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-TAMAN, SAH-TAMAN-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "d792b578c2b23f86": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -1789,18 +1537,6 @@
       "problem": "Tagged for BOTH seasons at once: 1 Pc Summer + 1 Pc Winter. It will appear in the summer and the winter catalogue.",
       "fix": "Keep only the correct season tag. If it genuinely sells year-round, set custom.season to All Season and pick one tag."
     },
-    "360d78b9d1c4bc76": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Chandni",
-      "label": "chandni",
-      "url": "https://www.sahibas.com/products/chandni",
-      "problem": "Metafield \"Number Of Pieces\" (custom.number_of_pieces) is empty.",
-      "fix": "Fill in Number Of Pieces on the product page."
-    },
     "04f04e84a12df81b": {
       "firstSeen": "2026-09-08",
       "lastSeen": "2026-09-09",
@@ -1848,18 +1584,6 @@
       "url": "https://www.sahibas.com/products/salwa",
       "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "55b95ce612d1c194": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Inara",
-      "label": "inara",
-      "url": "https://www.sahibas.com/products/inara",
-      "problem": "Metafield \"Number Of Pieces\" (custom.number_of_pieces) is empty.",
-      "fix": "Fill in Number Of Pieces on the product page."
     },
     "c60e3edc7362a70b": {
       "firstSeen": "2026-09-07",
@@ -1945,18 +1669,6 @@
       "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
-    "6f71333aa43bd235": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Vanzila - Beige",
-      "label": "vanzila-beige",
-      "url": "https://www.sahibas.com/products/vanzila-beige",
-      "problem": "Metafield \"Number Of Pieces\" (custom.number_of_pieces) is empty.",
-      "fix": "Fill in Number Of Pieces on the product page."
-    },
     "1096c3e4cfc258a3": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -2017,30 +1729,6 @@
       "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
-    "334163db4a218b4b": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Zenobia - Grey",
-      "label": "zenobia-grey",
-      "url": "https://www.sahibas.com/products/zenobia-grey",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-Z-G, SAH-Z-G-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "a1780ae05cd14e31": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "media",
-      "sev": "MED",
-      "title": "Zenobia - Grey",
-      "label": "zenobia-grey",
-      "url": "https://www.sahibas.com/products/zenobia-grey",
-      "problem": "Only 3 images. The catalogue layout needs a hero shot plus 3 detail crops (neckline, embroidery, back).",
-      "fix": "Add at least 1 more image(s)."
-    },
     "0c8c0f7a4eadf31a": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -2077,30 +1765,6 @@
       "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
-    "62e1ebb632bf95dc": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Noor Pearl",
-      "label": "noor-pearl",
-      "url": "https://www.sahibas.com/products/noor-pearl",
-      "problem": "shirt fabric value \"Jacquard\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "ce76e6001a999577": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Noor Pearl",
-      "label": "noor-pearl",
-      "url": "https://www.sahibas.com/products/noor-pearl",
-      "problem": "trouser fabric value \"Jacquard\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "d4eda58e3c7ad9a3": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -2124,18 +1788,6 @@
       "url": "https://www.sahibas.com/products/nishat-black",
       "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
-    },
-    "464250888d54e287": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Yavina",
-      "label": "yavina",
-      "url": "https://www.sahibas.com/products/yavina",
-      "problem": "Metafield \"Number Of Pieces\" (custom.number_of_pieces) is empty.",
-      "fix": "Fill in Number Of Pieces on the product page."
     },
     "963ca52d73e887cd": {
       "firstSeen": "2026-09-07",
@@ -2365,18 +2017,6 @@
       "problem": "dupatta fabric is \"Cambric\" (a summer fabric) but the product is tagged winter.",
       "fix": "Either re-tag it as summer, or correct the fabric value."
     },
-    "7fa83e00da11c33a": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Roam Black",
-      "label": "roam-black",
-      "url": "https://www.sahibas.com/products/roam-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-RB-3, SAH-RB-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "584d850cd0c5b239": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -2437,18 +2077,6 @@
       "problem": "Variant \"XL\": compare-at price (10500) is more than 2.2x the selling price (4500) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
-    "24bf589baad200b4": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Cew - Mauve",
-      "label": "cew-mauve",
-      "url": "https://www.sahibas.com/products/cew-mauve",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-C-P-5, SAH-C-P-3.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "17c44e2aa1b58178": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -2460,18 +2088,6 @@
       "url": "https://www.sahibas.com/products/cew-mauve",
       "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
-    },
-    "f0b3fd396ba852c4": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Lavish (Ivory)",
-      "label": "lavish-ivory",
-      "url": "https://www.sahibas.com/products/lavish-ivory",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-L-5, SAH-L-4.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "49af4eefaa739451": {
       "firstSeen": "2026-09-07",
@@ -2545,30 +2161,6 @@
       "problem": "Only 3 images. The catalogue layout needs a hero shot plus 3 detail crops (neckline, embroidery, back).",
       "fix": "Add at least 1 more image(s)."
     },
-    "5aa1e977e0caca65": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Aneza Blue",
-      "label": "aneza-blue",
-      "url": "https://www.sahibas.com/products/aneza-blue",
-      "problem": "trouser fabric value \"Jacquard\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "3fd81cd9ec3d8023": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Aneza Blue",
-      "label": "aneza-blue",
-      "url": "https://www.sahibas.com/products/aneza-blue",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-AB-7, SAH-AB-170421604855240.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "fdb582433d14882b": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -2614,7 +2206,7 @@
       "title": "Zehlia",
       "label": "zehlia",
       "url": "https://www.sahibas.com/products/zehlia",
-      "problem": "Only 4 unit(s) left in total across all sizes.",
+      "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "27d69cb93220558d": {
@@ -2652,6 +2244,18 @@
       "url": "https://www.sahibas.com/products/khushi",
       "problem": "Only 4 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
+    },
+    "3b60a8409ce6b589": {
+      "firstSeen": "2026-09-09",
+      "lastSeen": "2026-09-09",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Calico - Pista",
+      "label": "calico-pista",
+      "url": "https://www.sahibas.com/products/calico-pista",
+      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
     "df69f6e639ddd3a8": {
       "firstSeen": "2026-09-07",
@@ -2965,18 +2569,6 @@
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "466ae93b99b7d1bf": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Shaila - Blue",
-      "label": "shaila-blue",
-      "url": "https://www.sahibas.com/products/shaila-blue",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-B-S-4, SAH-S-B-4, SAH-S-B-1.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "e3ed701ce6b39c6c": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -3001,18 +2593,6 @@
       "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
-    "1d60dccd0dbda580": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Velour - Black",
-      "label": "velour-black",
-      "url": "https://www.sahibas.com/products/velour-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-V-B-1, SAH-V-B-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "bd0d66987d53f83e": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -3024,30 +2604,6 @@
       "url": "https://www.sahibas.com/products/reena",
       "problem": "dupatta fabric value \"Viscouse\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "c2f3f74b08bd32d9": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Aneza Black",
-      "label": "aneza-black",
-      "url": "https://www.sahibas.com/products/aneza-black",
-      "problem": "trouser fabric value \"Jacquard\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "834a0dce3b1d7169": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Aneza Black",
-      "label": "aneza-black",
-      "url": "https://www.sahibas.com/products/aneza-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-AB-6, SAH-AB-170421604855239.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "b1c12a429290be24": {
       "firstSeen": "2026-09-07",
@@ -3108,18 +2664,6 @@
       "url": "https://www.sahibas.com/products/ferdoos",
       "problem": "trouser fabric is spelled \"Poly SIlk\" instead of \"Poly Silk\".",
       "fix": "Correct it to \"Poly Silk\" so filters and catalogue text stay consistent."
-    },
-    "70dc2164885118c3": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Marvi",
-      "label": "marvi",
-      "url": "https://www.sahibas.com/products/marvi",
-      "problem": "Metafield \"Number Of Pieces\" (custom.number_of_pieces) is empty.",
-      "fix": "Fill in Number Of Pieces on the product page."
     },
     "db61d100a6e66aa7": {
       "firstSeen": "2026-09-07",
@@ -3204,18 +2748,6 @@
       "url": "https://www.sahibas.com/products/taliya-navy",
       "problem": "Tagged for BOTH seasons at once: 1 Pc Summer + 1 Pc Winter. It will appear in the summer and the winter catalogue.",
       "fix": "Keep only the correct season tag. If it genuinely sells year-round, set custom.season to All Season and pick one tag."
-    },
-    "78f77fcd119ea8a0": {
-      "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Taliya Navy",
-      "label": "taliya-navy",
-      "url": "https://www.sahibas.com/products/taliya-navy",
-      "problem": "Metafield \"Number Of Pieces\" (custom.number_of_pieces) is empty.",
-      "fix": "Fill in Number Of Pieces on the product page."
     },
     "e14ff7a29c3a8952": {
       "firstSeen": "2026-09-08",
@@ -3361,18 +2893,6 @@
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "735ed019f319cc9a": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Mehrma Zinc",
-      "label": "mehrma-zinc",
-      "url": "https://www.sahibas.com/products/mehrma-zinc",
-      "problem": "Metafield \"Number Of Pieces\" (custom.number_of_pieces) is empty.",
-      "fix": "Fill in Number Of Pieces on the product page."
-    },
     "27014276c26459c4": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -3445,18 +2965,6 @@
       "problem": "dupatta fabric value \"Viscouse\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
-    "ca4de1476346887e": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Reena Black",
-      "label": "reena-black",
-      "url": "https://www.sahibas.com/products/reena-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-RB-7, SAH-RB-4.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "20f4328e391af963": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -3468,18 +2976,6 @@
       "url": "https://www.sahibas.com/products/marasim-skin",
       "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "44a1f9c9a5d71b52": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Marasim - Skin",
-      "label": "marasim-skin",
-      "url": "https://www.sahibas.com/products/marasim-skin",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-M-S-1, SAH-S-M-1, SAH-M-S-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "a863aee85bd7aa25": {
       "firstSeen": "2026-09-07",
@@ -3588,18 +3084,6 @@
       "url": "https://www.sahibas.com/products/sahar",
       "problem": "Tagged for BOTH seasons at once: 1 Pc Summer + 1 Pc Winter. It will appear in the summer and the winter catalogue.",
       "fix": "Keep only the correct season tag. If it genuinely sells year-round, set custom.season to All Season and pick one tag."
-    },
-    "40932b840aeeebc4": {
-      "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Sahar",
-      "label": "sahar",
-      "url": "https://www.sahibas.com/products/sahar",
-      "problem": "Metafield \"Number Of Pieces\" (custom.number_of_pieces) is empty.",
-      "fix": "Fill in Number Of Pieces on the product page."
     },
     "4f1f181edd1cbb74": {
       "firstSeen": "2026-09-08",
@@ -3744,18 +3228,6 @@
       "url": "https://www.sahibas.com/products/surkhab",
       "problem": "Tagged for BOTH seasons at once: 1 Pc Summer + 1 Pc Winter. It will appear in the summer and the winter catalogue.",
       "fix": "Keep only the correct season tag. If it genuinely sells year-round, set custom.season to All Season and pick one tag."
-    },
-    "927bda6486b9243e": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Surkhab",
-      "label": "surkhab",
-      "url": "https://www.sahibas.com/products/surkhab",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-SURKH-2, SAH-SURKH-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "33b4da84cc1c4f51": {
       "firstSeen": "2026-09-07",
@@ -3913,18 +3385,6 @@
       "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
-    "f8f3d210882b87cf": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Aaliyah lailac",
-      "label": "aaliyah-lailac",
-      "url": "https://www.sahibas.com/products/aaliyah-lailac",
-      "problem": "Metafield \"Number Of Pieces\" (custom.number_of_pieces) is empty.",
-      "fix": "Fill in Number Of Pieces on the product page."
-    },
     "83027a1e6414d531": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -3936,18 +3396,6 @@
       "url": "https://www.sahibas.com/products/ramsha-black",
       "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "1b72eefed0ee62f3": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Ramsha Black",
-      "label": "ramsha-black",
-      "url": "https://www.sahibas.com/products/ramsha-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-RB-6, SAH-RB-3.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "4bd1fc3474072723": {
       "firstSeen": "2026-09-07",
@@ -3985,6 +3433,18 @@
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
+    "62133ac333b4dca7": {
+      "firstSeen": "2026-09-09",
+      "lastSeen": "2026-09-09",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Mari",
+      "label": "mari",
+      "url": "https://www.sahibas.com/products/mari",
+      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+    },
     "0709b58e57ece6a1": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -3996,18 +3456,6 @@
       "url": "https://www.sahibas.com/products/namir",
       "problem": "Tagged for BOTH seasons at once: 1 Pc Summer + 1 Pc Winter. It will appear in the summer and the winter catalogue.",
       "fix": "Keep only the correct season tag. If it genuinely sells year-round, set custom.season to All Season and pick one tag."
-    },
-    "61ce8514ad8713df": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Sevra Blue",
-      "label": "sevra-blue",
-      "url": "https://www.sahibas.com/products/sevra-blue",
-      "problem": "Metafield \"Number Of Pieces\" (custom.number_of_pieces) is empty.",
-      "fix": "Fill in Number Of Pieces on the product page."
     },
     "03d570abc3d7d837": {
       "firstSeen": "2026-09-07",
@@ -4080,42 +3528,6 @@
       "url": "https://www.sahibas.com/products/sevra-blue",
       "problem": "Variant \"XL / Linen\": compare-at price (9999) is more than 2.2x the selling price (3999) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "f56f6fb65e3e7ff9": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Sevra Blue",
-      "label": "sevra-blue",
-      "url": "https://www.sahibas.com/products/sevra-blue",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-SB-6, SAH-SB-4.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "a8a9c3537006b4d9": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Zelve",
-      "label": "zelve",
-      "url": "https://www.sahibas.com/products/zelve",
-      "problem": "shirt fabric value \"Jacquard\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "00b94ed2f2a5b1fe": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Zelve",
-      "label": "zelve",
-      "url": "https://www.sahibas.com/products/zelve",
-      "problem": "Metafield \"Number Of Pieces\" (custom.number_of_pieces) is empty.",
-      "fix": "Fill in Number Of Pieces on the product page."
     },
     "3c302b3c2fbb0378": {
       "firstSeen": "2026-09-07",
@@ -4297,18 +3709,6 @@
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "5edc2c5c7272929b": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Izrume - Pink",
-      "label": "izrume-pink",
-      "url": "https://www.sahibas.com/products/izrume-pink",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-I-P-0, SAH-I-P.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "67dd22769e0152c3": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -4320,18 +3720,6 @@
       "url": "https://www.sahibas.com/products/madiha-orange",
       "problem": "Currently selling at 4200, which is at or below the wholesale price of 4200. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
-    },
-    "24bf0d5d5241ac0a": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Madiha - Orange",
-      "label": "madiha-orange",
-      "url": "https://www.sahibas.com/products/madiha-orange",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-M-O-0, SAH-O-M-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "58e7bbd8631ca219": {
       "firstSeen": "2026-09-08",
@@ -4369,18 +3757,6 @@
       "problem": "Currently selling at 4200, which is at or below the wholesale price of 4200. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
-    "c1927e23a63d5ce0": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Madiha- Maroon",
-      "label": "madiha-maroon",
-      "url": "https://www.sahibas.com/products/madiha-maroon",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-MM-3, SAH-MM-2.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "f671d7e173387562": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -4392,18 +3768,6 @@
       "url": "https://www.sahibas.com/products/lavreen-zinc",
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
-    },
-    "ad54b155fd141a4f": {
-      "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Zaynep Beige",
-      "label": "zaynep-beige",
-      "url": "https://www.sahibas.com/products/zaynep-beige",
-      "problem": "Metafield \"Number Of Pieces\" (custom.number_of_pieces) is empty.",
-      "fix": "Fill in Number Of Pieces on the product page."
     },
     "d2f139058c6558b0": {
       "firstSeen": "2026-09-08",
@@ -4428,18 +3792,6 @@
       "url": "https://www.sahibas.com/products/azmira-peach",
       "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "f02fe86872bf2a6f": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Azmira  Peach",
-      "label": "azmira-peach",
-      "url": "https://www.sahibas.com/products/azmira-peach",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-AP-4, SAH-AP-3.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "eec670a827ac5811": {
       "firstSeen": "2026-09-07",
@@ -4513,18 +3865,6 @@
       "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
-    "ce45414f02d13b5b": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Sanam - Pista",
-      "label": "sanam-pista",
-      "url": "https://www.sahibas.com/products/sanam-pista",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-P-S-1, SAH-S-P-1, SAH-S-P.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "a6f3cf3d12edd7d9": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -4560,18 +3900,6 @@
       "url": "https://www.sahibas.com/products/veronica-black",
       "problem": "Currently selling at 3750, which is at or below the wholesale price of 3900. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
-    },
-    "14a86f531e518c53": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Veronica Black",
-      "label": "veronica-black",
-      "url": "https://www.sahibas.com/products/veronica-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-VB-2, SAH-VB-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "4dfb145717100187": {
       "firstSeen": "2026-09-07",
@@ -4633,18 +3961,6 @@
       "problem": "Variant \"XL / Dhanak\": compare-at price (10500) is more than 2.2x the selling price (4500) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
-    "ce32d3c95ba007ff": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Aria White",
-      "label": "aria-white",
-      "url": "https://www.sahibas.com/products/aria-white",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-AW-2, SAH-AW-1.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "357ee29d6ba80fb4": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -4681,30 +3997,6 @@
       "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
-    "bfe32073ac094563": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Koh E Noor",
-      "label": "koh-e-noor",
-      "url": "https://www.sahibas.com/products/koh-e-noor",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-KEN-0, SAH-KEN-1.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "b4e0332a763bb4e6": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Koh E Noor - Grey",
-      "label": "koh-e-noor-grey",
-      "url": "https://www.sahibas.com/products/koh-e-noor-grey",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-KEN-G-0, SAH-KEN-G-1.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "5c44ed4b0af89414": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -4716,18 +4008,6 @@
       "url": "https://www.sahibas.com/products/namar-black",
       "problem": "Metafield \"Dupatta Fabric\" (custom.dupatta_fabric) is empty.",
       "fix": "Fill in Dupatta Fabric on the product page."
-    },
-    "504da90721bad432": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Namar - Black",
-      "label": "namar-black",
-      "url": "https://www.sahibas.com/products/namar-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-N-B-10, SAH-N-B-4.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "5bcca11b1cf5182b": {
       "firstSeen": "2026-09-07",
@@ -4753,18 +4033,6 @@
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "b165dfb7bd1ce459": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Jemina Blue",
-      "label": "jemina-blue",
-      "url": "https://www.sahibas.com/products/jemina-blue",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-JB-3, SAH-JB-2.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "7df76dc64c68ea4c": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -4776,30 +4044,6 @@
       "url": "https://www.sahibas.com/products/nysa-blue",
       "problem": "Status is DRAFT but 3 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
-    },
-    "7b5fbbdeaa24ff1f": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Jahan",
-      "label": "jahan",
-      "url": "https://www.sahibas.com/products/jahan",
-      "problem": "shirt fabric value \"Jacquard\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "c9599cf0368d2c18": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Jahan",
-      "label": "jahan",
-      "url": "https://www.sahibas.com/products/jahan",
-      "problem": "trouser fabric value \"Jacquard\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
     "d7c048590790545e": {
       "firstSeen": "2026-09-07",
@@ -4849,18 +4093,6 @@
       "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
-    "1cc77d04b7ff84aa": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Ramsha White",
-      "label": "ramsha-white",
-      "url": "https://www.sahibas.com/products/ramsha-white",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-RW-2, SAH-RW-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "a2bb8eebcadad21c": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -4909,30 +4141,6 @@
       "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
-    "45705928b23171bc": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Blossom Black",
-      "label": "blossom-black",
-      "url": "https://www.sahibas.com/products/blossom-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-BB-11, SAH-BB-1.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "73761886dae89368": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Parda-Nasheen",
-      "label": "parda-nasheen",
-      "url": "https://www.sahibas.com/products/parda-nasheen",
-      "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
-      "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
-    },
     "fdaf18bf07465695": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -4956,18 +4164,6 @@
       "url": "https://www.sahibas.com/products/avenoir",
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
-    },
-    "692c1729b2dcd7fe": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Ayla Pink",
-      "label": "ayla-pink",
-      "url": "https://www.sahibas.com/products/ayla-pink",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-AP-8, SAH-AP-7.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "9d1c7ed0e2204bbf": {
       "firstSeen": "2026-09-07",
@@ -5041,30 +4237,6 @@
       "problem": "Only 4 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "db71c3ce58b24494": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Celadon Black",
-      "label": "celadon-black",
-      "url": "https://www.sahibas.com/products/celadon-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-CB-5, SAH-CB-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "ba727f0970a8fae6": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Cew Grey",
-      "label": "cew-grey",
-      "url": "https://www.sahibas.com/products/cew-grey",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-CG-3, SAH-CG-2.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "4c9c0dc6d9ec02f2": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -5089,30 +4261,6 @@
       "problem": "Only 4 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "4bac2c2a0263ff19": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Crescent (Black) - Kaftan",
-      "label": "crescent-black-kaftan",
-      "url": "https://www.sahibas.com/products/crescent-black-kaftan",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-C-K-2, SAH-C-K-1.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "7feaa8ff51e8bd67": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Crescent - Kaftan",
-      "label": "crescent-kaftan",
-      "url": "https://www.sahibas.com/products/crescent-kaftan",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-C-K-1, SAH-C-K.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "a0bc2a3266a060e5": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -5124,42 +4272,6 @@
       "url": "https://www.sahibas.com/products/crowne-maroon",
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
-    },
-    "c61e8c322f331e0f": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Denali Blue",
-      "label": "denali-blue",
-      "url": "https://www.sahibas.com/products/denali-blue",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-DB-10, SAH-DB-7.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "1dfdb6d031b8f3d9": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Dur-e-Shahwar",
-      "label": "dur-e-shahwar",
-      "url": "https://www.sahibas.com/products/dur-e-shahwar",
-      "problem": "shirt fabric value \"Jacquard\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "634313c1a3d27499": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Dur-e-Shahwar",
-      "label": "dur-e-shahwar",
-      "url": "https://www.sahibas.com/products/dur-e-shahwar",
-      "problem": "trouser fabric value \"Jacquard\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
     "9c2e428c2bd3221b": {
       "firstSeen": "2026-09-07",
@@ -5197,18 +4309,6 @@
       "problem": "Only 4 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "5a298913d4cb1f1e": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Gul-e-Lala",
-      "label": "gul-e-lala",
-      "url": "https://www.sahibas.com/products/gul-e-lala",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-GUL-E-2, SAH-GUL-E-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "59fb769c66997027": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -5218,6 +4318,18 @@
       "title": "Haifa Black",
       "label": "haifa-black",
       "url": "https://www.sahibas.com/products/haifa-black",
+      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+    },
+    "c54f28cf04541286": {
+      "firstSeen": "2026-09-09",
+      "lastSeen": "2026-09-09",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Heeral",
+      "label": "heeral",
+      "url": "https://www.sahibas.com/products/heeral",
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
@@ -5266,20 +4378,8 @@
       "title": "Kulsoom",
       "label": "kulsoom",
       "url": "https://www.sahibas.com/products/kulsoom",
-      "problem": "Only 3 unit(s) left in total across all sizes.",
+      "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
-    },
-    "12cac0d95ccf0f1f": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Maham - Aqua",
-      "label": "maham-aqua",
-      "url": "https://www.sahibas.com/products/maham-aqua",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-M-A-0, SAH-A-M-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "e565fa578cc8e662": {
       "firstSeen": "2026-09-07",
@@ -5292,186 +4392,6 @@
       "url": "https://www.sahibas.com/products/majesty-off-white",
       "problem": "Currently selling at 4500, which is at or below the wholesale price of 4650. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
-    },
-    "edf28510bc0119dd": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Mehr Bano",
-      "label": "mehr-bano",
-      "url": "https://www.sahibas.com/products/mehr-bano",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-MB-8, SAH-MB-5.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "777ec5410ad5185b": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Miray Black",
-      "label": "miray-black",
-      "url": "https://www.sahibas.com/products/miray-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-MB-9, SAH-MB-6.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "2a52edcbb361b601": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Moonflower",
-      "label": "moonflower",
-      "url": "https://www.sahibas.com/products/moonflower",
-      "problem": "Variant \"2XL\" has SKU \"SAH-MOONF-XXL-0\", which does not contain the size code 2XL.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "f0058fda63da26c0": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Moonflower",
-      "label": "moonflower",
-      "url": "https://www.sahibas.com/products/moonflower",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-MOONF-0, SAH-MOONF-XXL-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "f401c6f2c4323958": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Moonflower Blue",
-      "label": "moonflower-blue",
-      "url": "https://www.sahibas.com/products/moonflower-blue",
-      "problem": "Variant \"2XL\" has SKU \"SAH-MB-XXL-0\", which does not contain the size code 2XL.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "a3220fa996ef47dc": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Moonflower Blue",
-      "label": "moonflower-blue",
-      "url": "https://www.sahibas.com/products/moonflower-blue",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-MB-11, SAH-MB-7, SAH-MB-XXL-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "f35787c697923ae4": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Moonflower Pink",
-      "label": "moonflower-pink",
-      "url": "https://www.sahibas.com/products/moonflower-pink",
-      "problem": "Variant \"2XL\" has SKU \"SAH-MP-XXL-0\", which does not contain the size code 2XL.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "e2b5d950ebb70de9": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Moonflower Pink",
-      "label": "moonflower-pink",
-      "url": "https://www.sahibas.com/products/moonflower-pink",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-MP-7, SAH-MP-170115827246721, SAH-MP-XXL-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "d80a0d5ada076a4e": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Mufeeda Peach",
-      "label": "mufeeda-peach",
-      "url": "https://www.sahibas.com/products/mufeeda-peach",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-MP-8, SAH-MP-170115827246722.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "9fa05a791253e880": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Naira Black - Kids",
-      "label": "naira-black-kids",
-      "url": "https://www.sahibas.com/products/naira-black-kids",
-      "problem": "Variant \"S\" has SKU \"SAH-NB-K-5-6Y-0\", which does not contain the size code S.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "b1f1dd0836d83038": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Naira Black - Kids",
-      "label": "naira-black-kids",
-      "url": "https://www.sahibas.com/products/naira-black-kids",
-      "problem": "Variant \"M\" has SKU \"SAH-NB-K-7-8Y-0\", which does not contain the size code M.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "74e2ca52cbe8168c": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Naira Black - Kids",
-      "label": "naira-black-kids",
-      "url": "https://www.sahibas.com/products/naira-black-kids",
-      "problem": "Variant \"L\" has SKU \"SAH-NB-K-9-10Y-0\", which does not contain the size code L.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "c87b96054911001a": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Naira Black - Kids",
-      "label": "naira-black-kids",
-      "url": "https://www.sahibas.com/products/naira-black-kids",
-      "problem": "Variant \"XL\" has SKU \"SAH-NB-K-11-12Y-0\", which does not contain the size code XL.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "fe9e38c306763cad": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Naira Black - Kids",
-      "label": "naira-black-kids",
-      "url": "https://www.sahibas.com/products/naira-black-kids",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-NB-K-5-6Y-0, SAH-NB-K-7-8Y-0, SAH-NB-K-9-10Y-0, SAH-NB-K-11-12Y-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "7fc05fb4ae709813": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Namar - Maroon",
-      "label": "namar-maroon",
-      "url": "https://www.sahibas.com/products/namar-maroon",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-N-M-2, SAH-N-M-1.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "c1a862cc6414af01": {
       "firstSeen": "2026-09-09",
@@ -5496,30 +4416,6 @@
       "url": "https://www.sahibas.com/products/narmeen-black",
       "problem": "trouser fabric is spelled \"Poly SIlk\" instead of \"Poly Silk\".",
       "fix": "Correct it to \"Poly Silk\" so filters and catalogue text stay consistent."
-    },
-    "aebe17b2e66b261f": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Narmeen - Black",
-      "label": "narmeen-black",
-      "url": "https://www.sahibas.com/products/narmeen-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-N-B-9, SAH-N-B-3.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "f926c470cdb15706": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Naulakha Black",
-      "label": "naulakha-black",
-      "url": "https://www.sahibas.com/products/naulakha-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-NB-6, SAH-NB-4.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "7bfbea8cdd3a5248": {
       "firstSeen": "2026-09-07",
@@ -5557,30 +4453,6 @@
       "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "29d84759c062ad74": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Zivaa",
-      "label": "zivaa",
-      "url": "https://www.sahibas.com/products/zivaa",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-ZIVAA-0, SAH-ZIVAA-1.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "0d2fc16ab46f66f2": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Zohra",
-      "label": "zohra",
-      "url": "https://www.sahibas.com/products/zohra",
-      "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
-      "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
-    },
     "ac171848504bac46": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -5616,30 +4488,6 @@
       "url": "https://www.sahibas.com/products/nayal-kids",
       "problem": "trouser fabric is spelled \"Poly SIlk\" instead of \"Poly Silk\".",
       "fix": "Correct it to \"Poly Silk\" so filters and catalogue text stay consistent."
-    },
-    "9b0b4c0d6c3c4577": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Nayal kids",
-      "label": "nayal-kids",
-      "url": "https://www.sahibas.com/products/nayal-kids",
-      "problem": "Variant \"5-6Y\" has SKU \"SAH-NK-5-6Y-0\", which does not contain the size code 5-6Y.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "c10da0310ac624c9": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Nayal kids",
-      "label": "nayal-kids",
-      "url": "https://www.sahibas.com/products/nayal-kids",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-NK-5-6Y-0, SAH-NK-7-8Y-0, SAH-NK-9-10Y-0, SAH-NK-11-12Y-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "48fe3f9a02d5d451": {
       "firstSeen": "2026-09-07",
@@ -5761,30 +4609,6 @@
       "problem": "Currently selling at 2999, which is at or below the wholesale price of 3800. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
-    "c5c1ea371c0adfc1": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Riwaayat",
-      "label": "riwaayat",
-      "url": "https://www.sahibas.com/products/riwaayat",
-      "problem": "shirt fabric value \"Jacquard\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "828e213649971f43": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Riwaayat",
-      "label": "riwaayat",
-      "url": "https://www.sahibas.com/products/riwaayat",
-      "problem": "trouser fabric value \"Jacquard\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "cdf848276ac17a94": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -5797,18 +4621,6 @@
       "problem": "Wholesale price (4500) is not below the list price (4500). Wholesale buyers would pay retail or more.",
       "fix": "Correct custom.wholesale_price."
     },
-    "d76f652ab88486d2": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Rohini - Black",
-      "label": "rohini-black",
-      "url": "https://www.sahibas.com/products/rohini-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-R-B-4, SAH-R-B-1.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "b84a1f47333ee69a": {
       "firstSeen": "2026-09-08",
       "lastSeen": "2026-09-09",
@@ -5820,18 +4632,6 @@
       "url": "https://www.sahibas.com/products/rohini-zinc",
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
-    },
-    "aad3e118b068a3ab": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Rosea",
-      "label": "rosea",
-      "url": "https://www.sahibas.com/products/rosea",
-      "problem": "shirt fabric value \"Jacquard\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
     "5bb3af4e0c566aeb": {
       "firstSeen": "2026-09-07",
@@ -5902,7 +4702,7 @@
       "title": "Saamiya",
       "label": "saamiya",
       "url": "https://www.sahibas.com/products/saamiya",
-      "problem": "Only 2 unit(s) left in total across all sizes.",
+      "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "d326ca7cc511a3cd": {
@@ -5928,18 +4728,6 @@
       "url": "https://www.sahibas.com/products/saffron-ivory",
       "problem": "Currently selling at 3500, which is at or below the wholesale price of 4000. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
-    },
-    "2a7b32b7489762fc": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Serenade - White",
-      "label": "serenade-white",
-      "url": "https://www.sahibas.com/products/serenade-white",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-W-S, SAH-S-W.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "791a11244baa0b81": {
       "firstSeen": "2026-09-07",
@@ -6058,7 +4846,7 @@
       "title": "Creme Blue",
       "label": "creme-blue",
       "url": "https://www.sahibas.com/products/creme-blue",
-      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "problem": "Status is DRAFT but 2 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
     "3fb411c4b3a8e557": {
@@ -6082,7 +4870,7 @@
       "title": "Zaviyar Black",
       "label": "zaviyar-black",
       "url": "https://www.sahibas.com/products/zaviyar-black",
-      "problem": "Only 4 unit(s) left in total across all sizes.",
+      "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "7f83fad9b16f30ea": {
@@ -6097,30 +4885,6 @@
       "problem": "Tagged for BOTH seasons at once: 1 Pc Summer + 1 Pc Winter. It will appear in the summer and the winter catalogue.",
       "fix": "Keep only the correct season tag. If it genuinely sells year-round, set custom.season to All Season and pick one tag."
     },
-    "777930e6a571fc83": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Luminous - Gray",
-      "label": "luminous-gray",
-      "url": "https://www.sahibas.com/products/luminous-gray",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-L-G, SAH-G-L.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "2eed17b0429c3ec6": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Grana Black",
-      "label": "grana-black",
-      "url": "https://www.sahibas.com/products/grana-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-GB-4, SAH-GB-1.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "7f22a78e7613d650": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -6132,30 +4896,6 @@
       "url": "https://www.sahibas.com/products/cornflower",
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
-    },
-    "7107e7414f597ab1": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Clockleshell Blue",
-      "label": "clockshell-blue",
-      "url": "https://www.sahibas.com/products/clockshell-blue",
-      "problem": "Metafield \"Number Of Pieces\" (custom.number_of_pieces) is empty.",
-      "fix": "Fill in Number Of Pieces on the product page."
-    },
-    "8f61d50ca162a784": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Clockleshell Blue",
-      "label": "clockshell-blue",
-      "url": "https://www.sahibas.com/products/clockshell-blue",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-CB-9, SAH-CB-2.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "66f720695a7a4f57": {
       "firstSeen": "2026-09-07",
@@ -6169,30 +4909,6 @@
       "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "a5ac844d020ec863": {
-      "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Cornflower Black",
-      "label": "cornflower-black",
-      "url": "https://www.sahibas.com/products/cornflower-black",
-      "problem": "Metafield \"Number Of Pieces\" (custom.number_of_pieces) is empty.",
-      "fix": "Fill in Number Of Pieces on the product page."
-    },
-    "55f2a118adbdb228": {
-      "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Cornflower Black",
-      "label": "cornflower-black",
-      "url": "https://www.sahibas.com/products/cornflower-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-CB-8, SAH-CB-1.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "6ed843b6b2e89023": {
       "firstSeen": "2026-09-08",
       "lastSeen": "2026-09-09",
@@ -6204,54 +4920,6 @@
       "url": "https://www.sahibas.com/products/cornflower-black",
       "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
-    },
-    "e426c59d26417d83": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Champa",
-      "label": "champa",
-      "url": "https://www.sahibas.com/products/champa",
-      "problem": "Variant \"Lawn / S\" has SKU \"SAH-CHAMP-S-0\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "05314058a003d00e": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Champa",
-      "label": "champa",
-      "url": "https://www.sahibas.com/products/champa",
-      "problem": "Variant \"Lawn / M\" has SKU \"SAH-CHAMP-M-0\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "8aaa4e03f8cc1ea7": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Champa",
-      "label": "champa",
-      "url": "https://www.sahibas.com/products/champa",
-      "problem": "Variant \"Lawn / L\" has SKU \"SAH-CHAMP-L-0\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "e942ae70860d5e0e": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Champa",
-      "label": "champa",
-      "url": "https://www.sahibas.com/products/champa",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-CHAMP-S-0, SAH-CHAMP-M-0, SAH-CHAMP-L-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "afe8c365f49539fa": {
       "firstSeen": "2026-09-07",
@@ -6265,18 +4933,6 @@
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "79e8449c81ea8c94": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Grandiflora Blue",
-      "label": "grandiflora-blue",
-      "url": "https://www.sahibas.com/products/grandiflora-blue",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-GB-3, SAH-GB-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "98bd8121ff7c734b": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -6288,90 +4944,6 @@
       "url": "https://www.sahibas.com/products/coreopsis",
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
-    },
-    "fea2cfa4e3fd3f4c": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Zarnigar",
-      "label": "zarnigar",
-      "url": "https://www.sahibas.com/products/zarnigar",
-      "problem": "Variant \"Lawn / S\" has SKU \"SAH-ZARNI-S-0\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "d1e319e9de60e997": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Zarnigar",
-      "label": "zarnigar",
-      "url": "https://www.sahibas.com/products/zarnigar",
-      "problem": "Variant \"Lawn / M\" has SKU \"SAH-ZARNI-M-0\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "718b96144712612c": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Zarnigar",
-      "label": "zarnigar",
-      "url": "https://www.sahibas.com/products/zarnigar",
-      "problem": "Variant \"Lawn / L\" has SKU \"SAH-ZARNI-L-0\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "cee3ae95fa50c22e": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Zarnigar",
-      "label": "zarnigar",
-      "url": "https://www.sahibas.com/products/zarnigar",
-      "problem": "Variant \"Lawn / XL\" has SKU \"SAH-ZARNI-XL-0\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "366e92a726e4cd0b": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Zarnigar",
-      "label": "zarnigar",
-      "url": "https://www.sahibas.com/products/zarnigar",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-ZARNI-S-0, SAH-ZARNI-M-0, SAH-ZARNI-L-0, SAH-ZARNI-XL-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "30f083c7fc029b76": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Plum Red",
-      "label": "plum-red",
-      "url": "https://www.sahibas.com/products/plum-red",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-PP-6, SAH-PP-1.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "0454e2d7c286f02c": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Plum Lailac",
-      "label": "plum-lailac",
-      "url": "https://www.sahibas.com/products/plum-lailac",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-PL-0, SAH-PL-170985119166144.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "7bd2621ce2f823b5": {
       "firstSeen": "2026-09-07",
@@ -6385,18 +4957,6 @@
       "problem": "Currently selling at 3850, which is at or below the wholesale price of 4250. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
-    "b1e441b6f0bbca34": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Denali Pista",
-      "label": "denali-pista",
-      "url": "https://www.sahibas.com/products/denali-pista",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-DP-2, SAH-DP-1.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "84cc4c5cfa0fbc65": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -6408,6 +4968,54 @@
       "url": "https://www.sahibas.com/products/qurbat-aqua",
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+    },
+    "74aafbb91cfc936f": {
+      "firstSeen": "2026-09-09",
+      "lastSeen": "2026-09-09",
+      "source": "admin",
+      "category": "tags",
+      "sev": "HIGH",
+      "title": "Clockleshell",
+      "label": "clockleshell",
+      "url": "https://www.sahibas.com/products/clockleshell",
+      "problem": "Tagged \"3 Pc Summer\" but the Season metafield says \"Winter Wear\". Tag and metafield disagree.",
+      "fix": "Set custom.season to \"Summer Wear\", or fix the tag."
+    },
+    "660a64860a80ca1c": {
+      "firstSeen": "2026-09-09",
+      "lastSeen": "2026-09-09",
+      "source": "admin",
+      "category": "tags",
+      "sev": "MED",
+      "title": "Clockleshell",
+      "label": "clockleshell",
+      "url": "https://www.sahibas.com/products/clockleshell",
+      "problem": "shirt fabric is \"Dhanak\" (a winter fabric) but the product is tagged summer.",
+      "fix": "Either re-tag it as winter, or correct the fabric value."
+    },
+    "b735a76eb3e08381": {
+      "firstSeen": "2026-09-09",
+      "lastSeen": "2026-09-09",
+      "source": "admin",
+      "category": "tags",
+      "sev": "MED",
+      "title": "Clockleshell",
+      "label": "clockleshell",
+      "url": "https://www.sahibas.com/products/clockleshell",
+      "problem": "trouser fabric is \"Dhanak\" (a winter fabric) but the product is tagged summer.",
+      "fix": "Either re-tag it as winter, or correct the fabric value."
+    },
+    "1f6a460b3a54b318": {
+      "firstSeen": "2026-09-09",
+      "lastSeen": "2026-09-09",
+      "source": "admin",
+      "category": "metafields",
+      "sev": "HIGH",
+      "title": "Clockleshell",
+      "label": "clockleshell",
+      "url": "https://www.sahibas.com/products/clockleshell",
+      "problem": "Metafield \"Number Of Pieces\" (custom.number_of_pieces) is empty.",
+      "fix": "Fill in Number Of Pieces on the product page."
     },
     "3d3f24a807e43f9f": {
       "firstSeen": "2026-09-07",
@@ -6445,54 +5053,6 @@
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "5a5573ef36a5cfae": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Khajista Maroon",
-      "label": "khajista-maroon",
-      "url": "https://www.sahibas.com/products/khajista-maroon",
-      "problem": "Variant \"Lawn / S\" has SKU \"SAH-KM-S-1\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "d78b66b33c65d25d": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Khajista Maroon",
-      "label": "khajista-maroon",
-      "url": "https://www.sahibas.com/products/khajista-maroon",
-      "problem": "Variant \"Lawn / M\" has SKU \"SAH-KM-M-1\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "7dc8c314f4cd2a14": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Khajista Maroon",
-      "label": "khajista-maroon",
-      "url": "https://www.sahibas.com/products/khajista-maroon",
-      "problem": "Variant \"Lawn / L\" has SKU \"SAH-KM-L-1\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "7d9b99569af115a5": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Khajista Maroon",
-      "label": "khajista-maroon",
-      "url": "https://www.sahibas.com/products/khajista-maroon",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-KM-S-1, SAH-KM-M-1, SAH-KM-L-1.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "9f004ac04c27eff7": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -6504,246 +5064,6 @@
       "url": "https://www.sahibas.com/products/veil-copy",
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
-    },
-    "e5a878b3e9023b57": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Feeha Black",
-      "label": "feeha-black",
-      "url": "https://www.sahibas.com/products/feeha-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-FB-2, SAH-FB-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "84495c5d2e543e27": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Ellie Black",
-      "label": "ellie-black",
-      "url": "https://www.sahibas.com/products/ellie-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-EB-3, SAH-EB-2.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "055a07d8925d216a": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Calyx",
-      "label": "calyx",
-      "url": "https://www.sahibas.com/products/calyx",
-      "problem": "Variant \"Lawn / S\" has SKU \"SAH-CALYX-S-0\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "d0ab321adfbadbaa": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Calyx",
-      "label": "calyx",
-      "url": "https://www.sahibas.com/products/calyx",
-      "problem": "Variant \"Lawn / M\" has SKU \"SAH-CALYX-M-0\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "1e8b4b9b17990232": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Calyx",
-      "label": "calyx",
-      "url": "https://www.sahibas.com/products/calyx",
-      "problem": "Variant \"Lawn / L\" has SKU \"SAH-CALYX-L-0\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "086412f85149a24a": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Calyx",
-      "label": "calyx",
-      "url": "https://www.sahibas.com/products/calyx",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-CALYX-S-0, SAH-CALYX-M-0, SAH-CALYX-L-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "27c5c9c91e1d9b86": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Calyx Maroon",
-      "label": "calyx-maroon",
-      "url": "https://www.sahibas.com/products/calyx-maroon",
-      "problem": "Variant \"Lawn / S\" has SKU \"SAH-CM-S-1\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "16b64ac88c483151": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Calyx Maroon",
-      "label": "calyx-maroon",
-      "url": "https://www.sahibas.com/products/calyx-maroon",
-      "problem": "Variant \"Lawn / M\" has SKU \"SAH-CM-M-1\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "fad56eadd5f842b7": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Calyx Maroon",
-      "label": "calyx-maroon",
-      "url": "https://www.sahibas.com/products/calyx-maroon",
-      "problem": "Variant \"Lawn / L\" has SKU \"SAH-CM-L-1\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "82347fa31ee5c8a9": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Calyx Maroon",
-      "label": "calyx-maroon",
-      "url": "https://www.sahibas.com/products/calyx-maroon",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-CM-S-1, SAH-CM-M-1, SAH-CM-L-1.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "7f87f815be5845f6": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Marisol",
-      "label": "marisol",
-      "url": "https://www.sahibas.com/products/marisol",
-      "problem": "Variant \"Lawn / S\" has SKU \"SAH-MARIS-S-0\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "55635d46146353b3": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Marisol",
-      "label": "marisol",
-      "url": "https://www.sahibas.com/products/marisol",
-      "problem": "Variant \"Lawn / M\" has SKU \"SAH-MARIS-M-0\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "10b1f86b19da51d9": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Marisol",
-      "label": "marisol",
-      "url": "https://www.sahibas.com/products/marisol",
-      "problem": "Variant \"Lawn / L\" has SKU \"SAH-MARIS-L-0\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "6cbf52d7e545edd4": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Marisol",
-      "label": "marisol",
-      "url": "https://www.sahibas.com/products/marisol",
-      "problem": "Variant \"Lawn / XL\" has SKU \"SAH-MARIS-XL-0\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "8758228b4c9b989f": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Marisol",
-      "label": "marisol",
-      "url": "https://www.sahibas.com/products/marisol",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-MARIS-S-0, SAH-MARIS-M-0, SAH-MARIS-L-0, SAH-MARIS-XL-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "815f90493943541a": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Marisol Pista",
-      "label": "marisol-pista",
-      "url": "https://www.sahibas.com/products/marisol-pista",
-      "problem": "Variant \"Lawn / S\" has SKU \"SAH-MP-S-9\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "140ad2e3c6f35fc5": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Marisol Pista",
-      "label": "marisol-pista",
-      "url": "https://www.sahibas.com/products/marisol-pista",
-      "problem": "Variant \"Lawn / M\" has SKU \"SAH-MP-M-9\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "3253dc8f0481734d": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Marisol Pista",
-      "label": "marisol-pista",
-      "url": "https://www.sahibas.com/products/marisol-pista",
-      "problem": "Variant \"Lawn / L\" has SKU \"SAH-MP-L-9\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "08f613d9c19737df": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Marisol Pista",
-      "label": "marisol-pista",
-      "url": "https://www.sahibas.com/products/marisol-pista",
-      "problem": "Variant \"Lawn / XL\" has SKU \"SAH-MP-XL-170115827246723\", which does not contain the size code LAWN.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "2a49cee658f7e118": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Marisol Pista",
-      "label": "marisol-pista",
-      "url": "https://www.sahibas.com/products/marisol-pista",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-MP-S-9, SAH-MP-M-9, SAH-MP-L-9, SAH-MP-XL-170115827246723.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "e1f178dedcd0ebf8": {
       "firstSeen": "2026-09-07",
@@ -6757,30 +5077,6 @@
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "7a319e9b5797d9af": {
-      "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Naghma Navy",
-      "label": "naghma-navy",
-      "url": "https://www.sahibas.com/products/naghma-navy",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-NN-2, SAH-NN-1.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "a93cf80fbbe4787e": {
-      "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "status",
-      "sev": "HIGH",
-      "title": "Naghma Navy",
-      "label": "naghma-navy",
-      "url": "https://www.sahibas.com/products/naghma-navy",
-      "problem": "Live on the store but completely out of stock across every size.",
-      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
-    },
     "aef80de6029ea593": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -6792,30 +5088,6 @@
       "url": "https://www.sahibas.com/products/neelofshan",
       "problem": "Tagged for BOTH seasons at once: 1 Pc Summer + 1 Pc Winter. It will appear in the summer and the winter catalogue.",
       "fix": "Keep only the correct season tag. If it genuinely sells year-round, set custom.season to All Season and pick one tag."
-    },
-    "0ac4de73559ef672": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Neelofshan",
-      "label": "neelofshan",
-      "url": "https://www.sahibas.com/products/neelofshan",
-      "problem": "Variant \"2XL\" has SKU \"SAH-NEELO-XXL-0\", which does not contain the size code 2XL.",
-      "fix": "Keep the size code inside the SKU so picking and packing stays readable."
-    },
-    "75dd80141ae2558a": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Neelofshan",
-      "label": "neelofshan",
-      "url": "https://www.sahibas.com/products/neelofshan",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-NEELO-1, SAH-NEELO-XXL-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "86df8b6c6dd31542": {
       "firstSeen": "2026-09-07",
@@ -6841,18 +5113,6 @@
       "problem": "Sizes are priced differently: 5850 / 5250.",
       "fix": "Unless this is deliberate, set one price across all sizes."
     },
-    "0af34de056949ecc": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Espresso Blue",
-      "label": "espresso-blue",
-      "url": "https://www.sahibas.com/products/espresso-blue",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-EB-4, SAH-EB-3.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "559a27e743e5e5df": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -6877,18 +5137,6 @@
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "d2fa94d599a24987": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Espresso Black",
-      "label": "espresso-black",
-      "url": "https://www.sahibas.com/products/espresso-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-EB-2, SAH-EB-1.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "f3e769136d24d586": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -6912,42 +5160,6 @@
       "url": "https://www.sahibas.com/products/heeriye",
       "problem": "shirt fabric is \"Dhanak\" (a winter fabric) but the product is tagged summer.",
       "fix": "Either re-tag it as winter, or correct the fabric value."
-    },
-    "7a59835771b1c339": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Zafina Black",
-      "label": "zafina-black",
-      "url": "https://www.sahibas.com/products/zafina-black",
-      "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
-      "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
-    },
-    "0d95792da87410c9": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Zafina Black",
-      "label": "zafina-black",
-      "url": "https://www.sahibas.com/products/zafina-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-ZB-7, SAH-ZB-5.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "cc597bac81d10d1b": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Zafina White",
-      "label": "zafina-white",
-      "url": "https://www.sahibas.com/products/zafina-white",
-      "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
-      "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
     },
     "2a7935349dd33c87": {
       "firstSeen": "2026-09-07",
@@ -7056,18 +5268,6 @@
       "url": "https://www.sahibas.com/products/parasol",
       "problem": "Metafield \"Dupatta Fabric\" (custom.dupatta_fabric) is empty.",
       "fix": "Fill in Dupatta Fabric on the product page."
-    },
-    "1c9043b5fbe7d708": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Freedom Pink",
-      "label": "freedom-pink",
-      "url": "https://www.sahibas.com/products/freedom-pink",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-FP-1, SAH-FP-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "dbeac7ef1959681f": {
       "firstSeen": "2026-09-07",
@@ -7225,29 +5425,17 @@
       "problem": "Variant \"XL\": compare-at price (6999) is more than 2.2x the selling price (1947) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
-    "20b965a6d063f02b": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Parizah Black",
-      "label": "parizahblack",
-      "url": "https://www.sahibas.com/products/parizahblack",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-PB-4, SAH-PB-2.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "d8b7fc1488dc4da4": {
-      "firstSeen": "2026-09-07",
+    "e0ea554daf5a6782": {
+      "firstSeen": "2026-09-09",
       "lastSeen": "2026-09-09",
       "source": "admin",
       "category": "status",
-      "sev": "MED",
+      "sev": "HIGH",
       "title": "Parizah Black",
       "label": "parizahblack",
       "url": "https://www.sahibas.com/products/parizahblack",
-      "problem": "Only 1 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
+      "problem": "Live on the store but completely out of stock across every size.",
+      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
     },
     "610f2c7cbdf3d015": {
       "firstSeen": "2026-09-07",
@@ -7261,18 +5449,6 @@
       "problem": "No piece-count tag at all. The catalogue builder groups products by these tags, so this product will be silently skipped from every wholesale catalogue.",
       "fix": "Add exactly one of: 1 Pc Summer, 2 Pc Summer, 3 Pc Summer, 1 Pc Winter, 2 Pc Winter, 3 Pc Winter."
     },
-    "412e8679de83d98c": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Siham Black",
-      "label": "siham-black",
-      "url": "https://www.sahibas.com/products/siham-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-SB-9, SAH-SB-6.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "46c0e3a129fd70e5": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -7284,18 +5460,6 @@
       "url": "https://www.sahibas.com/products/shabistan-red",
       "problem": "No piece-count tag at all. The catalogue builder groups products by these tags, so this product will be silently skipped from every wholesale catalogue.",
       "fix": "Add exactly one of: 1 Pc Summer, 2 Pc Summer, 3 Pc Summer, 1 Pc Winter, 2 Pc Winter, 3 Pc Winter."
-    },
-    "1151ed57101d8fd2": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Glamour Posh",
-      "label": "glamour-posh",
-      "url": "https://www.sahibas.com/products/glamour-posh",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-GP-2, SAH-GP-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "1f4a371f887da7fd": {
       "firstSeen": "2026-09-07",
@@ -7429,30 +5593,6 @@
       "problem": "Metafield \"Dupatta Fabric\" (custom.dupatta_fabric) is empty.",
       "fix": "Fill in Dupatta Fabric on the product page."
     },
-    "8c20f0d6c144219c": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "tags",
-      "sev": "HIGH",
-      "title": "Denali - 1Pc Shirt",
-      "label": "denali-1pc-shirt",
-      "url": "https://www.sahibas.com/products/denali-1pc-shirt",
-      "problem": "No piece-count tag at all. The catalogue builder groups products by these tags, so this product will be silently skipped from every wholesale catalogue.",
-      "fix": "Add exactly one of: 1 Pc Summer, 2 Pc Summer, 3 Pc Summer, 1 Pc Winter, 2 Pc Winter, 3 Pc Winter."
-    },
-    "5f1b411179347e2c": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "HIGH",
-      "title": "Denali - 1Pc Shirt",
-      "label": "denali-1pc-shirt",
-      "url": "https://www.sahibas.com/products/denali-1pc-shirt",
-      "problem": "Metafield \"Season\" (custom.season) is empty.",
-      "fix": "Fill in Season on the product page."
-    },
     "237178e163d715b0": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -7585,18 +5725,6 @@
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "b24b9f1fd7818492": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Ruhee Black",
-      "label": "ruhee-black",
-      "url": "https://www.sahibas.com/products/ruhee-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-RB-11, SAH-RB-6.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "0a166e71becdbb74": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -7620,18 +5748,6 @@
       "url": "https://www.sahibas.com/products/alara-pink",
       "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "26caa9b16b23726d": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Alara Pink",
-      "label": "alara-pink",
-      "url": "https://www.sahibas.com/products/alara-pink",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-AP-3, SAH-AP-2.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "962eb2c2310d6a83": {
       "firstSeen": "2026-09-07",
@@ -7765,18 +5881,6 @@
       "problem": "Tagged for BOTH seasons at once: 1 Pc Summer + 1 Pc Winter. It will appear in the summer and the winter catalogue.",
       "fix": "Keep only the correct season tag. If it genuinely sells year-round, set custom.season to All Season and pick one tag."
     },
-    "f3fbaa75a84c298a": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Gulreza PInk",
-      "label": "gulreza-pink",
-      "url": "https://www.sahibas.com/products/gulreza-pink",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-GP-3, SAH-GP-1.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "a401575d57543bc1": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-09",
@@ -7787,6 +5891,18 @@
       "label": "test-order",
       "url": "https://www.sahibas.com/products/test-order",
       "problem": "Status is DRAFT but 2 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+    },
+    "7dbdfbcfa86e2f81": {
+      "firstSeen": "2026-09-09",
+      "lastSeen": "2026-09-09",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Tazyin",
+      "label": "tazyin",
+      "url": "https://www.sahibas.com/products/tazyin",
+      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
     "a496d5e3c290f6e5": {
@@ -7812,18 +5928,6 @@
       "url": "https://www.sahibas.com/products/zardozi",
       "problem": "Tag says 1-piece but the Number Of Pieces metafield says \"2 - Piece\".",
       "fix": "Make the tag and the metafield agree — the catalogue subtitle reads from the metafield."
-    },
-    "5b3c8b90a86c2389": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Gardenia Black",
-      "label": "gardenia-black",
-      "url": "https://www.sahibas.com/products/gardenia-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-GB-6, SAH-GB-2.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "a5acd79eb4654212": {
       "firstSeen": "2026-09-07",
@@ -7860,42 +5964,6 @@
       "url": "https://www.sahibas.com/products/pareesa-blue",
       "problem": "trouser fabric is \"Linen\" (a winter fabric) but the product is tagged summer.",
       "fix": "Either re-tag it as winter, or correct the fabric value."
-    },
-    "bd52f5e6dee1799f": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Shabpareek Black",
-      "label": "shabpareek-black",
-      "url": "https://www.sahibas.com/products/shabpareek-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-SB-10, SAH-SB-7.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "48e7b6bae75d7057": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Sadabahar Black",
-      "label": "sadabahar-black",
-      "url": "https://www.sahibas.com/products/sadabahar-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-SB-11, SAH-SB-8.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "7147a7380f01a150": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Numairaa Black",
-      "label": "numairaa-black",
-      "url": "https://www.sahibas.com/products/numairaa-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-NB-10, SAH-NB-8.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "5dbf80ce5a720c6b": {
       "firstSeen": "2026-09-09",
@@ -7981,18 +6049,6 @@
       "problem": "Tag says 2-piece but the Number Of Pieces metafield says \"1 - Piece\".",
       "fix": "Make the tag and the metafield agree — the catalogue subtitle reads from the metafield."
     },
-    "d02090d70f53f5cc": {
-      "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Rima Black",
-      "label": "rima-black",
-      "url": "https://www.sahibas.com/products/rima-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-RB-12, SAH-RB-7.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
     "a0d93a1b2490f6da": {
       "firstSeen": "2026-09-08",
       "lastSeen": "2026-09-09",
@@ -8016,54 +6072,6 @@
       "url": "https://www.sahibas.com/products/ikatnoor-black",
       "problem": "Status is DRAFT but 30 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
-    },
-    "7815a5431e3629da": {
-      "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Paarizaad Black",
-      "label": "paarizaad-black",
-      "url": "https://www.sahibas.com/products/paarizaad-black",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-PB-9, SAH-PB-4.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "3d69d18e8bb78748": {
-      "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Paarizaad Navy",
-      "label": "paarizaad-navy",
-      "url": "https://www.sahibas.com/products/paarizaad-navy",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-PN-1, SAH-PN-0.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "cfec1039452959a7": {
-      "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Paarizaad Maroon",
-      "label": "paarizaad-maroon",
-      "url": "https://www.sahibas.com/products/paarizaad-maroon",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-PM-173139629293124, SAH-PM-173139629293812, SAH-PM-173139629294830, SAH-PM-173139629295799.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-    },
-    "35a045a600ccdb8e": {
-      "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "MED",
-      "title": "Anousha Blue",
-      "label": "anousha-blue",
-      "url": "https://www.sahibas.com/products/anousha-blue",
-      "problem": "Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: SAH-AB-14, SAH-AB-170421604855244.",
-      "fix": "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
     },
     "1c615d533cbe4bc1": {
       "firstSeen": "2026-09-08",
@@ -8245,16 +6253,16 @@
       "problem": "598 live products have no alt text on any product image. Affected: Jasmine Blue, Nayal, ZAVERI - PISTA, Nayriza, Tarana Kaftan - Hot Pink, Aneza, Aania, Serah, Daisey - Grey, Hasi, Guljawa, Dilruba - Off White, Muscari, Bahisht, Faiqa - Black, Nuhra, Wink, Aquamarine, Belleza - Ivory, Calico - Lilac, +578 more.",
       "fix": "Bulk-edit alt text in Shopify admin — use the product name plus fabric and colour."
     },
-    "f5a048813afa938f": {
-      "firstSeen": "2026-09-07",
+    "bfcd56212750fee9": {
+      "firstSeen": "2026-09-09",
       "lastSeen": "2026-09-09",
       "source": "admin",
       "category": "metafields",
       "sev": "LOW",
-      "title": "No size chart (22 products)",
+      "title": "No size chart (20 products)",
       "label": "No size chart",
       "url": "https://www.sahibas.com/collections/all",
-      "problem": "22 live products have neither a size_chart nor a size_chart_table metafield. Affected: Martina, Haneen, Naira White, Avril (Zinc), Denali - Black, Morni white, Sombrero (blue), Dreamy Black, Nebula Black, Velora, Marwah, Rayfa, Alyame - Lilac, Sharmeen, Tamanah, Shama, Chandni, Salwa, Xevi, Parda-Nasheen, +2 more.",
+      "problem": "20 live products have neither a size_chart nor a size_chart_table metafield. Affected: Haneen, Naira White, Avril (Zinc), Denali - Black, Morni white, Sombrero (blue), Dreamy Black, Nebula Black, Velora, Marwah, Rayfa, Alyame - Lilac, Sharmeen, Tamanah, Shama, Chandni, Salwa, Xevi, Zohra, Luminous - Gray.",
       "fix": "Attach the standard size chart via bulk edit."
     },
     "9596d9df4dd6c2c2": {
@@ -8280,1110 +6288,6 @@
       "url": "https://www.sahibas.com/collections/all",
       "problem": "7 live products are missing their Summer/Winter Collection tag, so they will not show on that collection page. Affected: Parda-Nasheen Black (needs \"Summer Collection\"), Charming (needs \"Summer Collection\"), Oraya (needs \"Summer Collection\"), Veil Navy (needs \"Winter Collection\"), Marjan Lilac (needs \"Summer Collection\"), Kashful (needs \"Summer Collection\"), Tajwaar (needs \"Summer Collection\").",
       "fix": "Bulk-add the matching collection tag."
-    },
-    "525f4edbc15fb91e": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-KB",
-      "label": "SAH-KB",
-      "url": "https://www.sahibas.com/products/kriti-black-stitched",
-      "problem": "3 different products use SKUs built on the same \"SAH-KB\" prefix: kriti-black-stitched, khoobsurat-black, kashida-black.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "66909d41acb78aa2": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-JB",
-      "label": "SAH-JB",
-      "url": "https://www.sahibas.com/products/jasmine-blue",
-      "problem": "3 different products use SKUs built on the same \"SAH-JB\" prefix: jasmine-blue, jasmine-black, jemina-blue.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "f7b567340f67c9d6": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-Z-P",
-      "label": "SAH-Z-P",
-      "url": "https://www.sahibas.com/products/zaveri-pista",
-      "problem": "2 different products use SKUs built on the same \"SAH-Z-P\" prefix: zaveri-pista, zayna-pista.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "9514a212bd40eaee": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-ZB",
-      "label": "SAH-ZB",
-      "url": "https://www.sahibas.com/products/zavira-black",
-      "problem": "7 different products use SKUs built on the same \"SAH-ZB\" prefix: zavira-black, zafreen-black, zarqaa-black, zaynep-beige, zaviyar-black, zafina-black, zaifa-black.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "e5a3b526f01390e9": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-MG",
-      "label": "SAH-MG",
-      "url": "https://www.sahibas.com/products/mandarin-green",
-      "problem": "2 different products use SKUs built on the same \"SAH-MG\" prefix: mandarin-green, mahroz-green.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "e5436419625284fa": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-B-S",
-      "label": "SAH-B-S",
-      "url": "https://www.sahibas.com/products/seemab-beige-1",
-      "problem": "4 different products use SKUs built on the same \"SAH-B-S\" prefix: seemab-beige-1, serenade-black, seeme-blue, shaila-blue.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "38470be906ae4a13": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-S-B",
-      "label": "SAH-S-B",
-      "url": "https://www.sahibas.com/products/seemab-beige-1",
-      "problem": "4 different products use SKUs built on the same \"SAH-S-B\" prefix: seemab-beige-1, serenade-black, seeme-blue, shaila-blue.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "e00a8555870275c7": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-Z-B",
-      "label": "SAH-Z-B",
-      "url": "https://www.sahibas.com/products/zurna-black",
-      "problem": "3 different products use SKUs built on the same \"SAH-Z-B\" prefix: zurna-black, zigana-black, zarmina-blue.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "792b8dd5abb7fc19": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-NN",
-      "label": "SAH-NN",
-      "url": "https://www.sahibas.com/products/nusrat-navy",
-      "problem": "3 different products use SKUs built on the same \"SAH-NN\" prefix: nusrat-navy, nayza-navy, naghma-navy.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "1a0a41aceab96717": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-A-W",
-      "label": "SAH-A-W",
-      "url": "https://www.sahibas.com/products/aliza-white",
-      "problem": "2 different products use SKUs built on the same \"SAH-A-W\" prefix: aliza-white, albite-white.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "ff1ccc424cc8cdde": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-F-B",
-      "label": "SAH-F-B",
-      "url": "https://www.sahibas.com/products/faiqa-black",
-      "problem": "2 different products use SKUs built on the same \"SAH-F-B\" prefix: faiqa-black, floris-black.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "2d02e70f5397f4bc": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-CP",
-      "label": "SAH-CP",
-      "url": "https://www.sahibas.com/products/chutki-pink",
-      "problem": "3 different products use SKUs built on the same \"SAH-CP\" prefix: chutki-pink, camira-pista, cluster-pista.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "da6494bbd2405fb1": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-DI",
-      "label": "SAH-DI",
-      "url": "https://www.sahibas.com/products/devana-ivory",
-      "problem": "2 different products use SKUs built on the same \"SAH-DI\" prefix: devana-ivory, daffodil-ivory.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "8bb42299fa04d066": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-BW",
-      "label": "SAH-BW",
-      "url": "https://www.sahibas.com/products/belleza-ivory-1",
-      "problem": "2 different products use SKUs built on the same \"SAH-BW\" prefix: belleza-ivory-1, basanti-white.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "2611149666f2f21c": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-AB",
-      "label": "SAH-AB",
-      "url": "https://www.sahibas.com/products/azeerah-black",
-      "problem": "11 different products use SKUs built on the same \"SAH-AB\" prefix: azeerah-black, amla-beige, aneza-blue, ayza-blue, aneza-black, anam-beige, aania-blue, aitana-black, aspiration-blue, adiba-blue, anousha-blue.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "081016b429d96678": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-A-B",
-      "label": "SAH-A-B",
-      "url": "https://www.sahibas.com/products/ammara-black",
-      "problem": "4 different products use SKUs built on the same \"SAH-A-B\" prefix: ammara-black, albella-black, anaya-black, ayeza-black.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "bd26ca77f9b8c7a1": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-A-P",
-      "label": "SAH-A-P",
-      "url": "https://www.sahibas.com/products/averia-mauve",
-      "problem": "2 different products use SKUs built on the same \"SAH-A-P\" prefix: averia-mauve, alisa-pink.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "3c78e2be8b5b4e58": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-N-B",
-      "label": "SAH-N-B",
-      "url": "https://www.sahibas.com/products/nuhra-blue",
-      "problem": "5 different products use SKUs built on the same \"SAH-N-B\" prefix: nuhra-blue, nishat-black, nile-black, namar-black, narmeen-black.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "fb66c422002ae57f": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-SK",
-      "label": "SAH-SK",
-      "url": "https://www.sahibas.com/products/tarana-kaftan",
-      "problem": "2 different products use SKUs built on the same \"SAH-SK\" prefix: tarana-kaftan, sevra-kaftan.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "ea3d0dfa601981e8": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-NB",
-      "label": "SAH-NB",
-      "url": "https://www.sahibas.com/products/naira-black",
-      "problem": "8 different products use SKUs built on the same \"SAH-NB\" prefix: naira-black, nebula-black, namir-black, nureh-black, nysa-blue, naulakha-black, numairaa-black, nashmia-black.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "57932688a33e5f6a": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-MD",
-      "label": "SAH-MD",
-      "url": "https://www.sahibas.com/products/minal-denim",
-      "problem": "2 different products use SKUs built on the same \"SAH-MD\" prefix: minal-denim, moon-drop.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "2778cc4ec8c6d42f": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-MN",
-      "label": "SAH-MN",
-      "url": "https://www.sahibas.com/products/mandarin-navy",
-      "problem": "3 different products use SKUs built on the same \"SAH-MN\" prefix: mandarin-navy, meerub-navy, mehzeen-navy.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "41dbb7b20372a6e3": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-MP",
-      "label": "SAH-MP",
-      "url": "https://www.sahibas.com/products/mareena-pink",
-      "problem": "5 different products use SKUs built on the same \"SAH-MP\" prefix: mareena-pink, moonflower-pink, mufeeda-peach, mufeeda-pink, maha-peach.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "2184dfbe720711ac": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-RW",
-      "label": "SAH-RW",
-      "url": "https://www.sahibas.com/products/radiant",
-      "problem": "3 different products use SKUs built on the same \"SAH-RW\" prefix: radiant, ramsha-white, riyasat-white.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "57cb4662f445c4d9": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-RZ",
-      "label": "SAH-RZ",
-      "url": "https://www.sahibas.com/products/roam-zinc",
-      "problem": "2 different products use SKUs built on the same \"SAH-RZ\" prefix: roam-zinc, rohini-zinc.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "1764f276f6c639a9": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-AP",
-      "label": "SAH-AP",
-      "url": "https://www.sahibas.com/products/amla-purple",
-      "problem": "8 different products use SKUs built on the same \"SAH-AP\" prefix: amla-purple, aania-pista, aania-peach, aria-pink, azmira-peach, ayla-pink, adiba-pink, alara-pink.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "c5d23cd3071ea24a": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-G-B",
-      "label": "SAH-G-B",
-      "url": "https://www.sahibas.com/products/gulejahan-black",
-      "problem": "3 different products use SKUs built on the same \"SAH-G-B\" prefix: gulejahan-black, gulejahan-beige, gulnaaz-blue.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "c1cb016dc5d83a6c": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-S",
-      "label": "SAH-S",
-      "url": "https://www.sahibas.com/products/sombrero-blue",
-      "problem": "2 different products use SKUs built on the same \"SAH-S\" prefix: sombrero-blue, sombrero-black.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "da128cb46dba29ae": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-AM",
-      "label": "SAH-AM",
-      "url": "https://www.sahibas.com/products/abeera-mustard",
-      "problem": "2 different products use SKUs built on the same \"SAH-AM\" prefix: abeera-mustard, aabroo-red.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "a5814ce1e10ddd78": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-ZP",
-      "label": "SAH-ZP",
-      "url": "https://www.sahibas.com/products/zehreen-pink",
-      "problem": "2 different products use SKUs built on the same \"SAH-ZP\" prefix: zehreen-pink, zumra-pista.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "25ead37417745d99": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-PN",
-      "label": "SAH-PN",
-      "url": "https://www.sahibas.com/products/purella-navy",
-      "problem": "2 different products use SKUs built on the same \"SAH-PN\" prefix: purella-navy, paarizaad-navy.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "940a40ba8513c640": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-SB",
-      "label": "SAH-SB",
-      "url": "https://www.sahibas.com/products/shams-black",
-      "problem": "9 different products use SKUs built on the same \"SAH-SB\" prefix: shams-black, saule-black, sabaat-black, shehrzad-black, sevra-blue, siham-black, shabpareek-black, sadabahar-black, siyahroz-black.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "aa6bf2a3ac705d60": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-DB",
-      "label": "SAH-DB",
-      "url": "https://www.sahibas.com/products/dreamy-black",
-      "problem": "6 different products use SKUs built on the same \"SAH-DB\" prefix: dreamy-black, dilkash-black, darum-black, daffodil-black, denali-blue, dilnawaz-black.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "fa76699ed5249511": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-WAVE",
-      "label": "SAH-WAVE",
-      "url": "https://www.sahibas.com/products/wave-ivory",
-      "problem": "2 different products use SKUs built on the same \"SAH-WAVE\" prefix: wave-ivory, wave.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "c48c4de5ee430e17": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-SG",
-      "label": "SAH-SG",
-      "url": "https://www.sahibas.com/products/serenity-grey",
-      "problem": "2 different products use SKUs built on the same \"SAH-SG\" prefix: serenity-grey, sea-green.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "8f47e9a70d764a1c": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-RP",
-      "label": "SAH-RP",
-      "url": "https://www.sahibas.com/products/rameen-pink",
-      "problem": "2 different products use SKUs built on the same \"SAH-RP\" prefix: rameen-pink, rima-pink.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "b179557e8b502f65": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-V-B",
-      "label": "SAH-V-B",
-      "url": "https://www.sahibas.com/products/virsa-black",
-      "problem": "3 different products use SKUs built on the same \"SAH-V-B\" prefix: virsa-black, vanzila-beige, velour-black.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "b34e351a37b10e84": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-K-B",
-      "label": "SAH-K-B",
-      "url": "https://www.sahibas.com/products/kiran-black",
-      "problem": "2 different products use SKUs built on the same \"SAH-K-B\" prefix: kiran-black, kanwal-blue.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "9803bd50a0921fe0": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-HB",
-      "label": "SAH-HB",
-      "url": "https://www.sahibas.com/products/huda-black",
-      "problem": "4 different products use SKUs built on the same \"SAH-HB\" prefix: huda-black, hazel-beige, haifa-black, heeriye-black.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "e7aa8e3b3cc02670": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-NP",
-      "label": "SAH-NP",
-      "url": "https://www.sahibas.com/products/noor-pearl",
-      "problem": "4 different products use SKUs built on the same \"SAH-NP\" prefix: noor-pearl, nouf-pink, naghma-pink, nasheen-pink.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "15a7de4a669382eb": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-RB",
-      "label": "SAH-RB",
-      "url": "https://www.sahibas.com/products/roam-black",
-      "problem": "9 different products use SKUs built on the same \"SAH-RB\" prefix: roam-black, reena-black, ramsha-black, ruby-black, raffa-black, rehaab-black, ruhee-black, rosira-black, rima-black.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "2998f0c0c762f033": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-C-P",
-      "label": "SAH-C-P",
-      "url": "https://www.sahibas.com/products/cew-mauve",
-      "problem": "3 different products use SKUs built on the same \"SAH-C-P\" prefix: cew-mauve, calico-pista, courage-pink.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "d3b6f243e4a1dd23": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-ZG",
-      "label": "SAH-ZG",
-      "url": "https://www.sahibas.com/products/zaifa-grey",
-      "problem": "2 different products use SKUs built on the same \"SAH-ZG\" prefix: zaifa-grey, zivaa-grey.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "5d1f66cfa5268621": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-LB",
-      "label": "SAH-LB",
-      "url": "https://www.sahibas.com/products/lavreen-black",
-      "problem": "3 different products use SKUs built on the same \"SAH-LB\" prefix: lavreen-black, light-brown, leafline-black.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "fb1b70845814c87f": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-AW",
-      "label": "SAH-AW",
-      "url": "https://www.sahibas.com/products/ayla-white",
-      "problem": "3 different products use SKUs built on the same \"SAH-AW\" prefix: ayla-white, abiha-white, aria-white.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "25550818a5742588": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-ZEENA",
-      "label": "SAH-ZEENA",
-      "url": "https://www.sahibas.com/products/zeenara",
-      "problem": "2 different products use SKUs built on the same \"SAH-ZEENA\" prefix: zeenara, zeenavar.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "b747c0ff4886287a": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-MEHSH",
-      "label": "SAH-MEHSH",
-      "url": "https://www.sahibas.com/products/mehshif",
-      "problem": "2 different products use SKUs built on the same \"SAH-MEHSH\" prefix: mehshif, mehshar.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "88d3bc0f86efa049": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-FP",
-      "label": "SAH-FP",
-      "url": "https://www.sahibas.com/products/ford-purple",
-      "problem": "2 different products use SKUs built on the same \"SAH-FP\" prefix: ford-purple, freedom-pink.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "742e161303f3cf4b": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-LM",
-      "label": "SAH-LM",
-      "url": "https://www.sahibas.com/products/light-mongia",
-      "problem": "2 different products use SKUs built on the same \"SAH-LM\" prefix: light-mongia, liza-magenta-1.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "7709df04a6a6595d": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-A-M",
-      "label": "SAH-A-M",
-      "url": "https://www.sahibas.com/products/adeen-maroon",
-      "problem": "2 different products use SKUs built on the same \"SAH-A-M\" prefix: adeen-maroon, maham-aqua.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "19d4c5fdaca6a9e3": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-AL",
-      "label": "SAH-AL",
-      "url": "https://www.sahibas.com/products/azmira-lemon",
-      "problem": "2 different products use SKUs built on the same \"SAH-AL\" prefix: azmira-lemon, aaliyah-lailac.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "5553a8676f4e1a85": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-TN",
-      "label": "SAH-TN",
-      "url": "https://www.sahibas.com/products/taliya-navy",
-      "problem": "2 different products use SKUs built on the same \"SAH-TN\" prefix: taliya-navy, twirl-navy.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "33d3a741d80b3cdd": {
-      "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-ML",
-      "label": "SAH-ML",
-      "url": "https://www.sahibas.com/products/mashal-lawn",
-      "problem": "3 different products use SKUs built on the same \"SAH-ML\" prefix: mashal-lawn, mehshar-lailac, marjan-lilac.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "52bcad401190180b": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-MINHA",
-      "label": "SAH-MINHA",
-      "url": "https://www.sahibas.com/products/minhal",
-      "problem": "2 different products use SKUs built on the same \"SAH-MINHA\" prefix: minhal, minha.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "c07b5186933d2ea5": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-SM",
-      "label": "SAH-SM",
-      "url": "https://www.sahibas.com/products/sabaat-maroon",
-      "problem": "3 different products use SKUs built on the same \"SAH-SM\" prefix: sabaat-maroon, sajal-maroon, shadmani-maroon.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "f82841172fc49e09": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-F-M",
-      "label": "SAH-F-M",
-      "url": "https://www.sahibas.com/products/madiha-falsa",
-      "problem": "2 different products use SKUs built on the same \"SAH-F-M\" prefix: madiha-falsa, ford-mint.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "71dc1645e7c872e6": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-WB",
-      "label": "SAH-WB",
-      "url": "https://www.sahibas.com/products/wardah-black",
-      "problem": "2 different products use SKUs built on the same \"SAH-WB\" prefix: wardah-black, wimzy-blue.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "3b1ed5469f7992fb": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-MF",
-      "label": "SAH-MF",
-      "url": "https://www.sahibas.com/products/mars-blue",
-      "problem": "2 different products use SKUs built on the same \"SAH-MF\" prefix: mars-blue, marisol-falsa.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "b2f04b5ccf02993d": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-EB",
-      "label": "SAH-EB",
-      "url": "https://www.sahibas.com/products/elegant-black",
-      "problem": "5 different products use SKUs built on the same \"SAH-EB\" prefix: elegant-black, evara-black, ellie-black, espresso-blue, espresso-black.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "bbd1cc1d46358fc7": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-GP",
-      "label": "SAH-GP",
-      "url": "https://www.sahibas.com/products/gianna-pink",
-      "problem": "4 different products use SKUs built on the same \"SAH-GP\" prefix: gianna-pink, geranium-red, glamour-posh, gulreza-pink.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "e12a96ff47e72fd1": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-F-P",
-      "label": "SAH-F-P",
-      "url": "https://www.sahibas.com/products/fountain-pista",
-      "problem": "2 different products use SKUs built on the same \"SAH-F-P\" prefix: fountain-pista, fountain-pink.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "51778f0af6c5fea9": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-O-M",
-      "label": "SAH-O-M",
-      "url": "https://www.sahibas.com/products/madiha-orange",
-      "problem": "2 different products use SKUs built on the same \"SAH-O-M\" prefix: madiha-orange, orwiya-maroon.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "61be60ea97332bd5": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-GS",
-      "label": "SAH-GS",
-      "url": "https://www.sahibas.com/products/gilla-skin",
-      "problem": "2 different products use SKUs built on the same \"SAH-GS\" prefix: gilla-skin, gul-e-aasman-skin.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "ca4c97615898aad6": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-VB",
-      "label": "SAH-VB",
-      "url": "https://www.sahibas.com/products/veronica-black",
-      "problem": "3 different products use SKUs built on the same \"SAH-VB\" prefix: veronica-black, veil-black, vivian-beige.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "722bd206253871f9": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-PM",
-      "label": "SAH-PM",
-      "url": "https://www.sahibas.com/products/paradise-maroon",
-      "problem": "2 different products use SKUs built on the same \"SAH-PM\" prefix: paradise-maroon, paarizaad-maroon.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "3d6ea0c930271ae2": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-CL",
-      "label": "SAH-CL",
-      "url": "https://www.sahibas.com/products/camira-lemon",
-      "problem": "3 different products use SKUs built on the same \"SAH-CL\" prefix: camira-lemon, camira-lailac, cluster-lemon.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "92f523a3062bb13d": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-BB",
-      "label": "SAH-BB",
-      "url": "https://www.sahibas.com/products/blossom-black",
-      "problem": "3 different products use SKUs built on the same \"SAH-BB\" prefix: blossom-black, baikal-blue, baraftab-black.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "d473fe162b55cc30": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-PB",
-      "label": "SAH-PB",
-      "url": "https://www.sahibas.com/products/parda-nasheen-black",
-      "problem": "5 different products use SKUs built on the same \"SAH-PB\" prefix: parda-nasheen-black, parizahblack, pehlaj-blue, pareesa-blue, paarizaad-black.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "c4abb9ac01cb3ccc": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-BASAN",
-      "label": "SAH-BASAN",
-      "url": "https://www.sahibas.com/products/basant",
-      "problem": "2 different products use SKUs built on the same \"SAH-BASAN\" prefix: basant, basanti-white-copy.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "897056ab0110b025": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-CB",
-      "label": "SAH-CB",
-      "url": "https://www.sahibas.com/products/carnation-black",
-      "problem": "5 different products use SKUs built on the same \"SAH-CB\" prefix: carnation-black, celadon-black, creme-blue, clockshell-blue, cornflower-black.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "75821dfc87184dfc": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-C-K",
-      "label": "SAH-C-K",
-      "url": "https://www.sahibas.com/products/crescent-black-kaftan",
-      "problem": "2 different products use SKUs built on the same \"SAH-C-K\" prefix: crescent-black-kaftan, crescent-kaftan.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "b5033f2b76c43ec0": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-CM",
-      "label": "SAH-CM",
-      "url": "https://www.sahibas.com/products/crescent-maroon",
-      "problem": "2 different products use SKUs built on the same \"SAH-CM\" prefix: crescent-maroon, crowne-maroon.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "f6fc8d3454c164c6": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-FC",
-      "label": "SAH-FC",
-      "url": "https://www.sahibas.com/products/freedom-cyan",
-      "problem": "2 different products use SKUs built on the same \"SAH-FC\" prefix: freedom-cyan, faqeeha.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "3769aa5c581f8ba7": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-GB",
-      "label": "SAH-GB",
-      "url": "https://www.sahibas.com/products/gazing-black",
-      "problem": "5 different products use SKUs built on the same \"SAH-GB\" prefix: gazing-black, grana-black, grandiflora-blue, gul-e-aasman-black, gardenia-black.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "20e1d61ef0a2f5ef": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-GUL-E",
-      "label": "SAH-GUL-E",
-      "url": "https://www.sahibas.com/products/gul-e-lala",
-      "problem": "2 different products use SKUs built on the same \"SAH-GUL-E\" prefix: gul-e-lala, gul-e-aasman.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "01cd8acd49c1296a": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-JM",
-      "label": "SAH-JM",
-      "url": "https://www.sahibas.com/products/jemina-maroon",
-      "problem": "2 different products use SKUs built on the same \"SAH-JM\" prefix: jemina-maroon, saamiya-pink-copy.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "1a9b7e6551217f4e": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-LR",
-      "label": "SAH-LR",
-      "url": "https://www.sahibas.com/products/laamy-red",
-      "problem": "2 different products use SKUs built on the same \"SAH-LR\" prefix: laamy-red, laleh-rose.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "76335f2f2b177aba": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-MB",
-      "label": "SAH-MB",
-      "url": "https://www.sahibas.com/products/marigold-black",
-      "problem": "5 different products use SKUs built on the same \"SAH-MB\" prefix: marigold-black, mehr-bano, miray-black, moonflower-blue, maha-blue.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "7fcb17e0ae7c68ec": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-SP",
-      "label": "SAH-SP",
-      "url": "https://www.sahibas.com/products/saamiya-pink",
-      "problem": "2 different products use SKUs built on the same \"SAH-SP\" prefix: saamiya-pink, swaye-pink.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "a2efe72a786d271d": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-YM",
-      "label": "SAH-YM",
-      "url": "https://www.sahibas.com/products/yasna-maroon",
-      "problem": "2 different products use SKUs built on the same \"SAH-YM\" prefix: yasna-maroon, yazra-maroon.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "8e6f24284d1a7207": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-VP",
-      "label": "SAH-VP",
-      "url": "https://www.sahibas.com/products/veil-peach",
-      "problem": "2 different products use SKUs built on the same \"SAH-VP\" prefix: veil-peach, virtuous-pink.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "6a4d02621001be44": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-PP",
-      "label": "SAH-PP",
-      "url": "https://www.sahibas.com/products/plum-red",
-      "problem": "2 different products use SKUs built on the same \"SAH-PP\" prefix: plum-red, pehlaj-peach.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "c25be41cdd48dc9f": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-NEELO",
-      "label": "SAH-NEELO",
-      "url": "https://www.sahibas.com/products/neelofor",
-      "problem": "2 different products use SKUs built on the same \"SAH-NEELO\" prefix: neelofor, neelofshan.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "fa5f0a0955ab4686": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-BELLA",
-      "label": "SAH-BELLA",
-      "url": "https://www.sahibas.com/products/bellanova",
-      "problem": "2 different products use SKUs built on the same \"SAH-BELLA\" prefix: bellanova, bella.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "9cef27fd543b40d2": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-HP",
-      "label": "SAH-HP",
-      "url": "https://www.sahibas.com/products/honey-peach",
-      "problem": "2 different products use SKUs built on the same \"SAH-HP\" prefix: honey-peach, humnawah-pista.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "119908fd672dc541": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-YB",
-      "label": "SAH-YB",
-      "url": "https://www.sahibas.com/products/yazra-blue",
-      "problem": "3 different products use SKUs built on the same \"SAH-YB\" prefix: yazra-blue, yazra-black, yasmeen-e-shahi-black.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "1c8a3d92a15d489a": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-ZARTA",
-      "label": "SAH-ZARTA",
-      "url": "https://www.sahibas.com/products/zartaj",
-      "problem": "2 different products use SKUs built on the same \"SAH-ZARTA\" prefix: zartaj, zartaar.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "a4c59945a04c1a04": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-SS",
-      "label": "SAH-SS",
-      "url": "https://www.sahibas.com/products/singhar-skin",
-      "problem": "2 different products use SKUs built on the same \"SAH-SS\" prefix: singhar-skin, sepideh-skin.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "d3703e09ef5ff566": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-ZARNI",
-      "label": "SAH-ZARNI",
-      "url": "https://www.sahibas.com/products/zarnisham",
-      "problem": "2 different products use SKUs built on the same \"SAH-ZARNI\" prefix: zarnisham, zarnisaar.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "03f979bdfb751f69": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-SW",
-      "label": "SAH-SW",
-      "url": "https://www.sahibas.com/products/sanam-white",
-      "problem": "2 different products use SKUs built on the same \"SAH-SW\" prefix: sanam-white, sepideh-white.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "fdede2918c969397": {
-      "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-GULBA",
-      "label": "SAH-GULBA",
-      "url": "https://www.sahibas.com/products/gulbaizar",
-      "problem": "2 different products use SKUs built on the same \"SAH-GULBA\" prefix: gulbaizar, gulban.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
-    },
-    "9a3c49aa06a15ba0": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
-      "source": "admin",
-      "category": "sku",
-      "sev": "LOW",
-      "title": "Shared SKU family: SAH-SIYAH",
-      "label": "SAH-SIYAH",
-      "url": "https://www.sahibas.com/products/siyahgul",
-      "problem": "2 different products use SKUs built on the same \"SAH-SIYAH\" prefix: siyahgul, siyahroz.",
-      "fix": "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products."
     }
   }
 }
