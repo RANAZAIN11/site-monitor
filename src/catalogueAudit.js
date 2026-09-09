@@ -8,6 +8,14 @@
 // `issues` array (for the HTML report), each issue tagged with a `category`
 // so the report can group them into sections (price, stock, description...).
 
+// Products that legitimately end in a number and are NOT accidental duplicates
+// — e.g. a follow-up collection "Aari 2" (handle aari-2) alongside "Aari"
+// (handle aari). Handles listed here are skipped by the numeric-suffix
+// duplicate check below. Add new ones (lowercase, exact handle) as they launch.
+const KNOWN_DISTINCT_HANDLES = new Set([
+  "aari-2",
+]);
+
 function slugify(s) {
   return (s || "")
     .toLowerCase()
@@ -101,8 +109,9 @@ export async function auditCatalogue(storeUrl) {
     }
 
     // 2) numeric-suffix duplicate whose base handle also exists (e.g. rohini + rohini-2)
+    //    Skips handles in KNOWN_DISTINCT_HANDLES (real follow-up products like aari-2).
     const numMatch = handle.match(/^(.*)-(\d+)$/);
-    if (numMatch && handleMap.has(numMatch[1])) {
+    if (numMatch && handleMap.has(numMatch[1]) && !KNOWN_DISTINCT_HANDLES.has(handle)) {
       pushIssue(
         "HIGH",
         "duplicate",

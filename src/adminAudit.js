@@ -66,7 +66,7 @@ const PIECES_METAFIELD_MAP = {
 // reverse. Anything in ALL_SEASON never raises a mismatch.
 const WINTER_FABRICS = ["dhanak", "khaddar", "velvet", "marina", "wool", "karandi", "pashmina", "linen"];
 const SUMMER_FABRICS = ["lawn", "cotton", "voile", "cambric", "cotton net", "swiss lawn"];
-const ALL_SEASON_FABRICS = ["poly silk", "chiffon", "organza", "net", "viscose", "silk", "grip"];
+const ALL_SEASON_FABRICS = ["poly silk", "chiffon", "organza", "net", "viscose", "silk", "grip", "jacquard", "mannar"];
 
 // Canonical spelling for every fabric we know. Used for typo / casing checks
 // (this is what catches "Poly SIlk").
@@ -74,6 +74,7 @@ const CANONICAL_FABRICS = [
   "Lawn", "Cotton", "Voile", "Cambric", "Cotton Net", "Swiss Lawn",
   "Dhanak", "Khaddar", "Velvet", "Marina", "Wool", "Karandi", "Pashmina", "Linen",
   "Poly Silk", "Chiffon", "Organza", "Net", "Viscose", "Silk", "Grip",
+  "Jacquard", "Mannar",
 ];
 
 // Metafields (custom namespace) every product must have.
@@ -284,22 +285,6 @@ function sizeToken(variantTitle) {
   return String(variantTitle || "").split("/")[0].trim().toUpperCase();
 }
 
-// Strip the size segment out of a SKU so variants of one product collapse to
-// a single base: SAH-C-P-S-5 (size S) -> SAH-C-P-5
-function skuBase(sku, size) {
-  const parts = String(sku || "").split("-");
-  const idx = parts.findIndex((p) => p.trim().toUpperCase() === size);
-  if (idx === -1) return parts.join("-").toUpperCase();
-  parts.splice(idx, 1);
-  return parts.join("-").toUpperCase();
-}
-
-// Also strip a trailing numeric suffix so SAH-C-P-5 and SAH-C-P-0 collapse to
-// SAH-C-P — used to spot two different products sharing a SKU family.
-function skuFamily(base) {
-  return base.replace(/-\d+$/, "");
-}
-
 function productUrl(handle) {
   return `${PUBLIC_URL}/products/${handle}`;
 }
@@ -327,7 +312,6 @@ export async function auditAdmin() {
 
   // Cross-product indexes, filled on the first pass.
   const skuOwners = new Map();    // exact SKU -> [{title, handle}]
-  const familyOwners = new Map(); // SKU family -> Set of handles
 
   // High-volume LOW findings get rolled up into one row each at the end.
   const bucket = { noAlt: [], noAllProducts: [], noCollectionTag: [], noSizeChart: [] };
@@ -557,8 +541,11 @@ export async function auditAdmin() {
     } // end full-check block (tags / metafields / price / media)
 
     // ---------- 4. SKUs ----------
+    // We only flag SKUs that are genuinely broken: missing, or duplicated
+    // (inside this product or across the store). SKU *formatting* (size code
+    // present, one shared pattern per product) is intentionally NOT audited —
+    // the store's SKUs are correct by convention, so those checks were noise.
     const seenInProduct = new Map();
-    const bases = new Set();
 
     for (const v of variants) {
       const sku = String(v.sku || "").trim();
@@ -583,32 +570,6 @@ export async function auditAdmin() {
 
       if (!skuOwners.has(sku)) skuOwners.set(sku, []);
       skuOwners.get(sku).push({ title: p.title, handle: p.handle, variant: v.title });
-
-      if (size && full && !sku.toUpperCase().split("-").includes(size)) {
-        push(
-          p,
-          "sku",
-          "MED",
-          `Variant "${v.title}" has SKU "${sku}", which does not contain the size code ${size}.`,
-          "Keep the size code inside the SKU so picking and packing stays readable."
-        );
-      }
-
-      const base = skuBase(sku, size);
-      bases.add(base);
-      const fam = skuFamily(base);
-      if (!familyOwners.has(fam)) familyOwners.set(fam, new Set());
-      familyOwners.get(fam).add(p.handle);
-    }
-
-    if (bases.size > 1 && full) {
-      push(
-        p,
-        "sku",
-        "MED",
-        `Sizes of this product do not share one SKU pattern — after removing the size code the SKUs are: ${[...bases].join(", ")}.`,
-        "Rebuild the SKUs on one consistent pattern, e.g. SAH-XXXX-<SIZE>-<n> with the same <n> across all sizes."
-      );
     }
 
     // ---------- 5. MEDIA / PRODUCT SHOOT ----------
@@ -733,19 +694,6 @@ export async function auditAdmin() {
           .map((o) => `${o.title} (${o.variant})`)
           .join(", ")}.`,
         fix: "Make every SKU unique across the whole store — duplicates corrupt stock counts and sales reports.",
-      });
-    }
-  }
-  for (const [fam, handles] of familyOwners) {
-    if (handles.size > 1 && fam.length >= 5) {
-      issues.push({
-        category: "sku",
-        sev: "LOW",
-        title: `Shared SKU family: ${fam}`,
-        label: fam,
-        url: productUrl([...handles][0]),
-        problem: `${handles.size} different products use SKUs built on the same "${fam}" prefix: ${[...handles].join(", ")}.`,
-        fix: "Give each article its own prefix so a mis-typed digit cannot silently move stock between two products.",
       });
     }
   }

@@ -143,7 +143,17 @@ site-monitor/
 constants at the top of `adminAudit.js` (`PIECE_TAGS`, `SEASON_METAFIELD_MAP`,
 `PIECES_METAFIELD_MAP`, fabric lists, `REQUIRED_METAFIELDS`, `MIN_IMAGES`,
 `LOW_STOCK_THRESHOLD`, `FULLY_AUDIT_DRAFTS`). Edit these when catalogue conventions
-change — they are the single source of truth for the audit.
+change — they are the single source of truth for the audit. Notes on recent tuning:
+- **Fabrics:** `CANONICAL_FABRICS` / `ALL_SEASON_FABRICS` include Jacquard and Mannar
+  (both are real fabrics the store sells). Add new fabrics to both lists.
+- **SKUs:** the admin audit flags only **missing** SKUs and **duplicate** SKUs
+  (inside a product and across the store). SKU *formatting* (size code inside the
+  SKU, one shared pattern per product, shared-family heuristic) is deliberately
+  NOT checked — the store's SKUs are correct by convention.
+- **Numbered products:** `KNOWN_DISTINCT_HANDLES` in `catalogueAudit.js` lists
+  handles like `aari-2` that are real follow-up products, so the numeric-suffix
+  duplicate check leaves them alone. A genuine accidental duplicate (base handle
+  exists, not allowlisted) is still flagged.
 
 **Wholesale pricing:** wholesale is read from the `custom.wholesale_price` money
 metafield; catalogue/pricing logic uses wholesale, never retail, unless stated.
