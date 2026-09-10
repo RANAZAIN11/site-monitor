@@ -1,9 +1,21 @@
 {
-  "generatedAt": "2026-09-09",
+  "generatedAt": "2026-09-10",
   "open": {
+    "c0624d6f0688860a": {
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-09-10",
+      "source": "catalogue",
+      "category": "stock",
+      "sev": "HIGH",
+      "title": "Saamiya",
+      "label": "saamiya",
+      "url": "https://sahibas.com/products/saamiya",
+      "problem": "All variants are out of stock / unavailable for purchase.",
+      "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
+    },
     "3b37c29bb2f10691": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "catalogue",
       "category": "stock",
       "sev": "HIGH",
@@ -15,7 +27,7 @@
     },
     "b0aae6bb6884ab77": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "catalogue",
       "category": "stock",
       "sev": "HIGH",
@@ -25,9 +37,21 @@
       "problem": "All variants are out of stock / unavailable for purchase.",
       "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
     },
+    "df9bce431633c55a": {
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-09-10",
+      "source": "catalogue",
+      "category": "stock",
+      "sev": "HIGH",
+      "title": "Pleasant",
+      "label": "pleasant",
+      "url": "https://sahibas.com/products/pleasant",
+      "problem": "All variants are out of stock / unavailable for purchase.",
+      "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
+    },
     "aa8ae0703c712453": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "catalogue",
       "category": "stock",
       "sev": "HIGH",
@@ -39,7 +63,7 @@
     },
     "5b2a70653fb91fbf": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "catalogue",
       "category": "stock",
       "sev": "HIGH",
@@ -51,7 +75,7 @@
     },
     "0be382bf7fca61da": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "catalogue",
       "category": "description",
       "sev": "MED",
@@ -63,7 +87,7 @@
     },
     "b279f5ed4274ff7f": {
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "seo",
       "category": "seo",
       "sev": "LOW",
@@ -75,7 +99,7 @@
     },
     "544787613e12dde2": {
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "seo",
       "category": "seo",
       "sev": "MED",
@@ -87,7 +111,7 @@
     },
     "ffd5963ceeb8f7a8": {
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "seo",
       "category": "seo",
       "sev": "LOW",
@@ -99,7 +123,7 @@
     },
     "3f6d9d98f310defe": {
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "seo",
       "category": "seo",
       "sev": "LOW",
@@ -111,7 +135,7 @@
     },
     "9a5d8134c4851096": {
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "seo",
       "category": "seo",
       "sev": "LOW",
@@ -123,7 +147,7 @@
     },
     "044c1be47096973b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "LOW",
@@ -135,7 +159,7 @@
     },
     "9e23a8daad8dcaaa": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -147,7 +171,7 @@
     },
     "eee6bd5abbe1d26f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -159,7 +183,7 @@
     },
     "379455a0db7b3c75": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -171,7 +195,7 @@
     },
     "f71364c6663e68ae": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -183,7 +207,7 @@
     },
     "120ff075c9da81a0": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -195,7 +219,7 @@
     },
     "99d1b16c54e509a1": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -207,7 +231,7 @@
     },
     "0f5c0831880e9444": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -219,19 +243,19 @@
     },
     "e026befa0bd3acf9": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Aneza",
       "label": "aneza",
       "url": "https://www.sahibas.com/products/aneza",
-      "problem": "Only 3 unit(s) left in total across all sizes.",
+      "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "7bbe8b3dea9f8d88": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "HIGH",
@@ -243,7 +267,7 @@
     },
     "0036fdbdac600209": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -255,7 +279,7 @@
     },
     "002973c837258dc6": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -267,7 +291,7 @@
     },
     "caa489da429e80fd": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -279,7 +303,7 @@
     },
     "e19fd639ad7fff2e": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -291,7 +315,7 @@
     },
     "78ecb23a70e11c14": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -303,7 +327,7 @@
     },
     "149674f516c7035b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -315,7 +339,7 @@
     },
     "f3761d3b0df8388c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -327,7 +351,7 @@
     },
     "78528bed1e21abbd": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -339,7 +363,7 @@
     },
     "b10d8aa9883f5798": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -351,7 +375,7 @@
     },
     "4ebfee931bb0347f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -363,7 +387,7 @@
     },
     "79b38d127e359c98": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -375,7 +399,7 @@
     },
     "9ced867f4390888b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -387,7 +411,7 @@
     },
     "40c4f2a14f3e1a3d": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -399,7 +423,7 @@
     },
     "16851478d73cb49e": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -411,7 +435,7 @@
     },
     "f69d4db04c71b212": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -423,7 +447,7 @@
     },
     "21b8648dfd5465b4": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -435,7 +459,7 @@
     },
     "d8da9e1d930d0430": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -447,7 +471,7 @@
     },
     "74c2d9bd57fe9e74": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -459,7 +483,7 @@
     },
     "9123e6b834101ded": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -471,7 +495,7 @@
     },
     "8d056a4578bccbac": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -483,7 +507,7 @@
     },
     "c6eec166c3a68b1c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -495,7 +519,7 @@
     },
     "0ff75e2d81bc04e4": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -507,7 +531,7 @@
     },
     "10ecf8ef8a0af0f3": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -519,7 +543,7 @@
     },
     "c26abc013bbca83f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -531,7 +555,7 @@
     },
     "eea83827d5be2810": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -543,7 +567,7 @@
     },
     "fc2adc75ebef8189": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -555,7 +579,7 @@
     },
     "3f536f7c049dd327": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "HIGH",
@@ -567,7 +591,7 @@
     },
     "6b64f9ee1f4c2ec5": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -579,7 +603,7 @@
     },
     "3fa7e93e62e5f83a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -591,7 +615,7 @@
     },
     "984139ff7ce5371f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -603,7 +627,7 @@
     },
     "f073e00c04b74c64": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -615,7 +639,7 @@
     },
     "0df642ecb09b15fc": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -627,7 +651,7 @@
     },
     "a502db99fa69ea46": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -639,7 +663,7 @@
     },
     "29aa5232efb2fded": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -651,7 +675,7 @@
     },
     "b62707f6a5ad1ebd": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -663,7 +687,7 @@
     },
     "c11110bbcc3ad9b2": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -675,7 +699,7 @@
     },
     "a30000122c85bb9b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -687,7 +711,7 @@
     },
     "7976258e7dd45b8b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -699,7 +723,7 @@
     },
     "4d8579e80dec0a98": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "LOW",
@@ -711,7 +735,7 @@
     },
     "a82113243dc899e7": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -723,19 +747,19 @@
     },
     "8fc4c53f2851e63e": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Phool",
       "label": "phool",
       "url": "https://www.sahibas.com/products/phool",
-      "problem": "Status is DRAFT but 5 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "problem": "Status is DRAFT but 3 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
     "efb3d711f16fe846": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -747,7 +771,7 @@
     },
     "08e83c2590d07426": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -759,7 +783,7 @@
     },
     "3954f3d19ea262e0": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -771,7 +795,7 @@
     },
     "23172cc11bd61bf7": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -783,7 +807,7 @@
     },
     "51aae0616e78d11c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -795,7 +819,7 @@
     },
     "0b4896e5a78e4609": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -805,9 +829,21 @@
       "problem": "Variant \"XL / Linen\": compare-at price (9999) is more than 2.2x the selling price (3999) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
+    "03ffd7ba9bb7f0e9": {
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-09-10",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Sevra Kaftan",
+      "label": "sevra-kaftan",
+      "url": "https://www.sahibas.com/products/sevra-kaftan",
+      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+    },
     "0103e969187098f0": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -819,7 +855,7 @@
     },
     "81e557eb0f03912c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -831,7 +867,7 @@
     },
     "4d71751f3445c11d": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "LOW",
@@ -843,7 +879,7 @@
     },
     "75deaa4ac7e50aba": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "LOW",
@@ -855,7 +891,7 @@
     },
     "809f616872a3852b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -867,7 +903,7 @@
     },
     "ddf78da3a81a39d7": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -879,7 +915,7 @@
     },
     "301aca6feabbf4e8": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -891,7 +927,7 @@
     },
     "f89074017a26c6ad": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "MED",
@@ -903,7 +939,7 @@
     },
     "9558df409f0d4d12": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "MED",
@@ -915,7 +951,7 @@
     },
     "1f4fe98a6a38354f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -927,7 +963,7 @@
     },
     "10e07424754d394c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -939,7 +975,7 @@
     },
     "7f8c9b4663ac7901": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -951,7 +987,7 @@
     },
     "fa34dc8d6f30d587": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "MED",
@@ -963,7 +999,7 @@
     },
     "a4004d3bdf648e8e": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -975,7 +1011,7 @@
     },
     "2d85aa672f979a4d": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -987,7 +1023,7 @@
     },
     "465b83c8d23d106e": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "MED",
@@ -999,7 +1035,7 @@
     },
     "7c70ec17cd41f80d": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1011,7 +1047,7 @@
     },
     "e161f6b4c6912f87": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "LOW",
@@ -1023,7 +1059,7 @@
     },
     "98b112a087ca998a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1035,7 +1071,7 @@
     },
     "5268e0c7fc4b7c2f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1047,7 +1083,7 @@
     },
     "a95ed82e7bb7cc38": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1059,7 +1095,7 @@
     },
     "550f65e7eb068a26": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "MED",
@@ -1071,7 +1107,7 @@
     },
     "34e78afe995ab6ad": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -1083,7 +1119,7 @@
     },
     "64ca5433247dcff0": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "LOW",
@@ -1095,7 +1131,7 @@
     },
     "412c9f0a2a5f2321": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1107,7 +1143,7 @@
     },
     "22e5f23471c1fd35": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1119,7 +1155,7 @@
     },
     "8b1f86f4041f5f10": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1131,7 +1167,7 @@
     },
     "14475808a69560f8": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1143,7 +1179,7 @@
     },
     "2f2620708e8b74fc": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1155,7 +1191,7 @@
     },
     "c3dcd14a3896cb46": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1167,7 +1203,7 @@
     },
     "096feb8f3c3e3ff9": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1179,7 +1215,7 @@
     },
     "0bed4d6636953a04": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1191,7 +1227,7 @@
     },
     "aa52bb3fd60a8b5b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1203,7 +1239,7 @@
     },
     "7859d000a0ab6252": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1215,7 +1251,7 @@
     },
     "9396b8070a242807": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1227,7 +1263,7 @@
     },
     "bb059bcc57bf0c4d": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1239,7 +1275,7 @@
     },
     "963120f7e47360de": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1251,19 +1287,19 @@
     },
     "15a4e1bdd727b649": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Velour",
       "label": "velour",
       "url": "https://www.sahibas.com/products/velour",
-      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "problem": "Status is DRAFT but 2 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
     "ca898e1f5c3b453d": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -1275,7 +1311,7 @@
     },
     "935f101ac76024ce": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1287,7 +1323,7 @@
     },
     "1a0f511ee03e93b9": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1299,7 +1335,7 @@
     },
     "76b5e6cbd8abfc00": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1311,7 +1347,7 @@
     },
     "69ff7aade058d202": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1323,7 +1359,7 @@
     },
     "254d089d09f1310f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1335,7 +1371,7 @@
     },
     "9d75eb049bae9a39": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "LOW",
@@ -1347,7 +1383,7 @@
     },
     "446618936b0f68d8": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -1359,7 +1395,7 @@
     },
     "3fac54e763e20ee4": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -1371,7 +1407,7 @@
     },
     "590404281614de95": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1383,19 +1419,19 @@
     },
     "69941aa4a0289cfb": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Yavina Green",
       "label": "yavina-green",
       "url": "https://www.sahibas.com/products/yavina-green",
-      "problem": "Only 4 unit(s) left in total across all sizes.",
+      "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "565b34954ec2f54a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "MED",
@@ -1407,7 +1443,7 @@
     },
     "c47e0115c347dc49": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1419,7 +1455,7 @@
     },
     "a9a269a79d1fd46e": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1431,7 +1467,7 @@
     },
     "c0bdcb87edea4722": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1443,7 +1479,7 @@
     },
     "bdf80995c546548b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -1455,7 +1491,7 @@
     },
     "151bc30595a7c217": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -1467,7 +1503,7 @@
     },
     "d792b578c2b23f86": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1479,7 +1515,7 @@
     },
     "8427fe45e1e3a6bf": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1491,7 +1527,7 @@
     },
     "f3f480c91a7de2ae": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -1503,7 +1539,7 @@
     },
     "68b9ae07a66ef5bc": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1515,7 +1551,7 @@
     },
     "d2b91ced1134273f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1527,7 +1563,7 @@
     },
     "93818239bc322279": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -1539,7 +1575,7 @@
     },
     "04f04e84a12df81b": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1551,7 +1587,7 @@
     },
     "db9c8a52cf999d02": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1563,7 +1599,7 @@
     },
     "ecc0e7d4beb4d26b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1575,7 +1611,7 @@
     },
     "b2010173d55ebfcf": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -1587,7 +1623,7 @@
     },
     "c60e3edc7362a70b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1599,7 +1635,7 @@
     },
     "c20f0e6ac52211f5": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1611,7 +1647,7 @@
     },
     "4bc72e33c857b810": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1623,7 +1659,7 @@
     },
     "a2e90ba8ddbde13a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1635,7 +1671,7 @@
     },
     "209384c598862e95": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1647,7 +1683,7 @@
     },
     "e3847cffddab73c7": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1659,7 +1695,7 @@
     },
     "a07d7a15b506eee8": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -1671,7 +1707,7 @@
     },
     "1096c3e4cfc258a3": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1683,7 +1719,7 @@
     },
     "b90ff5f003e1835e": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1695,7 +1731,7 @@
     },
     "7a88a92a062191fe": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1707,7 +1743,7 @@
     },
     "3294ab7812ece19a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1719,7 +1755,7 @@
     },
     "49244e6391c03a55": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -1731,7 +1767,7 @@
     },
     "0c8c0f7a4eadf31a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -1743,7 +1779,7 @@
     },
     "88ac0730b2e27040": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -1755,7 +1791,7 @@
     },
     "9338057875ca275a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -1767,7 +1803,7 @@
     },
     "d4eda58e3c7ad9a3": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1779,7 +1815,7 @@
     },
     "9100e5aaeea6ce4c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1791,7 +1827,7 @@
     },
     "963ca52d73e887cd": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1803,7 +1839,7 @@
     },
     "177cad322e11b49a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1815,7 +1851,7 @@
     },
     "f19ab1ceb975dd69": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1827,7 +1863,7 @@
     },
     "c6646e4d69c9eb19": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1839,7 +1875,7 @@
     },
     "ef081d8ec405da17": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -1851,7 +1887,7 @@
     },
     "91cbde3f87ff7db5": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1863,7 +1899,7 @@
     },
     "8321f7ddbcbcbea1": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -1875,7 +1911,7 @@
     },
     "f4bebee635327b64": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1887,7 +1923,7 @@
     },
     "08ffe31347bb0104": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1899,7 +1935,7 @@
     },
     "0cf83676e87c4d44": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1911,7 +1947,7 @@
     },
     "73e6556b538bf4ef": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1923,7 +1959,7 @@
     },
     "92746dbdb3ecb21d": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1935,7 +1971,7 @@
     },
     "72af897c94757d0b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1947,7 +1983,7 @@
     },
     "c0511075de26e0ad": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1959,7 +1995,7 @@
     },
     "4368e2c9fd6d1e18": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1971,7 +2007,7 @@
     },
     "71b08fe97e2c0464": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1983,7 +2019,7 @@
     },
     "1504082dc85f5c92": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1995,7 +2031,7 @@
     },
     "dc8406e99730894a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2007,7 +2043,7 @@
     },
     "b41162cf7541d83c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "MED",
@@ -2019,19 +2055,19 @@
     },
     "584d850cd0c5b239": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Roam Black",
       "label": "roam-black",
       "url": "https://www.sahibas.com/products/roam-black",
-      "problem": "Only 3 unit(s) left in total across all sizes.",
+      "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "5e673aa3df825712": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2043,7 +2079,7 @@
     },
     "05b30cff66ac9397": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2055,7 +2091,7 @@
     },
     "47d21b5813a33e16": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2067,7 +2103,7 @@
     },
     "70f09f858e2401b5": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2079,7 +2115,7 @@
     },
     "17c44e2aa1b58178": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2091,7 +2127,7 @@
     },
     "49af4eefaa739451": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -2103,7 +2139,7 @@
     },
     "0ea826a470e2934a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2115,7 +2151,7 @@
     },
     "3c42b61f83786da0": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2127,7 +2163,7 @@
     },
     "e9df62ab6c4bcff8": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2139,7 +2175,7 @@
     },
     "535a0482dd438f3e": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -2151,7 +2187,7 @@
     },
     "70284ef48851f5bc": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "media",
       "sev": "MED",
@@ -2163,7 +2199,7 @@
     },
     "fdb582433d14882b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -2175,7 +2211,7 @@
     },
     "44224039ddb5bb30": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2187,7 +2223,7 @@
     },
     "08b29b55a0d8174a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -2199,19 +2235,19 @@
     },
     "5722dfc0b82825dc": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Zehlia",
       "label": "zehlia",
       "url": "https://www.sahibas.com/products/zehlia",
-      "problem": "Only 2 unit(s) left in total across all sizes.",
+      "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "27d69cb93220558d": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -2223,7 +2259,7 @@
     },
     "1c413adaf2a9fb89": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -2235,7 +2271,7 @@
     },
     "494df1ac98ac0025": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2247,7 +2283,7 @@
     },
     "3b60a8409ce6b589": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2259,7 +2295,7 @@
     },
     "df69f6e639ddd3a8": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2271,7 +2307,7 @@
     },
     "ea86f9f633c52e96": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2283,7 +2319,7 @@
     },
     "09e3654fc9a549f0": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2295,7 +2331,7 @@
     },
     "4088a130d856f83f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2307,7 +2343,7 @@
     },
     "d093203ce1ee6f5f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2319,7 +2355,7 @@
     },
     "6ab3b86731e3bdaf": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2331,7 +2367,7 @@
     },
     "f3ea992f11e377a3": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -2343,7 +2379,7 @@
     },
     "2b5a2ec317d1a749": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -2355,7 +2391,7 @@
     },
     "4bc938674f9d4b80": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2367,7 +2403,7 @@
     },
     "951a0b20ac283a4e": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2379,7 +2415,7 @@
     },
     "15b637e585b060a6": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2391,7 +2427,7 @@
     },
     "9b1c9c293a2bd72e": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2403,7 +2439,7 @@
     },
     "5618d05a041b1331": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -2415,7 +2451,7 @@
     },
     "7a750ba85a8b2927": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "LOW",
@@ -2427,7 +2463,7 @@
     },
     "38861be0bc2a99e8": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "media",
       "sev": "MED",
@@ -2439,7 +2475,7 @@
     },
     "89b34e646fe7c360": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2451,7 +2487,7 @@
     },
     "bc77e116aeaabc50": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2463,7 +2499,7 @@
     },
     "fd6816ab4f480dd7": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -2475,7 +2511,7 @@
     },
     "045dd57105de3668": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2487,7 +2523,7 @@
     },
     "4d74eebdfb33ca3a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -2499,7 +2535,7 @@
     },
     "00fe1710d27dc36a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "LOW",
@@ -2511,7 +2547,7 @@
     },
     "c2171efcab597e98": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2523,7 +2559,7 @@
     },
     "1f307ce81117cb43": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2535,7 +2571,7 @@
     },
     "61ef057d63ae713f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2547,7 +2583,7 @@
     },
     "c02b4eb608176743": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2559,7 +2595,7 @@
     },
     "dca66eac0a34e9a2": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2571,7 +2607,7 @@
     },
     "e3ed701ce6b39c6c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -2583,7 +2619,7 @@
     },
     "7dcdad49a3d45c22": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -2595,7 +2631,7 @@
     },
     "bd0d66987d53f83e": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -2607,7 +2643,7 @@
     },
     "b1c12a429290be24": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -2619,7 +2655,7 @@
     },
     "a1d91aa3eb22a14a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "media",
       "sev": "MED",
@@ -2631,7 +2667,7 @@
     },
     "4106b9f6b25cccd4": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2643,7 +2679,7 @@
     },
     "2255256d62a0b3dc": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -2655,7 +2691,7 @@
     },
     "e28830d044dee2ad": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "LOW",
@@ -2667,7 +2703,7 @@
     },
     "db61d100a6e66aa7": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2679,7 +2715,7 @@
     },
     "4af26f2e8ec28693": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2691,7 +2727,7 @@
     },
     "d77b28be10ed70ea": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2703,7 +2739,7 @@
     },
     "aa91bc3e204e9a6c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2715,7 +2751,7 @@
     },
     "3073817edbcc5576": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2725,21 +2761,21 @@
       "problem": "Currently selling at 1947, which is at or below the wholesale price of 2650. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
-    "0d117b552a49fe62": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+    "33cea565d804f8bc": {
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
-      "sev": "MED",
+      "sev": "HIGH",
       "title": "Pleasant",
       "label": "pleasant",
       "url": "https://www.sahibas.com/products/pleasant",
-      "problem": "Only 1 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
+      "problem": "Live on the store but completely out of stock across every size.",
+      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
     },
     "124cbe0f2156dd5b": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -2751,7 +2787,7 @@
     },
     "e14ff7a29c3a8952": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2763,7 +2799,7 @@
     },
     "5423d1154591859d": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2775,7 +2811,7 @@
     },
     "176d770430d75ce5": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2787,7 +2823,7 @@
     },
     "a3a8f11d2f5f9769": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2797,9 +2833,21 @@
       "problem": "Variant \"XL / Silk\": compare-at price (12000) is more than 2.2x the selling price (2499) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
+    "88bccdb3e6db34ce": {
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-09-10",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Taliya Navy",
+      "label": "taliya-navy",
+      "url": "https://www.sahibas.com/products/taliya-navy",
+      "problem": "Only 4 unit(s) left in total across all sizes.",
+      "fix": "Restock soon or plan to retire the article."
+    },
     "f1085cbede225ef8": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2811,19 +2859,19 @@
     },
     "036f5dd171a95b0c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Sabaat Black",
       "label": "sabaat-black",
       "url": "https://www.sahibas.com/products/sabaat-black",
-      "problem": "Only 4 unit(s) left in total across all sizes.",
+      "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "799d6cfab882f599": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -2835,7 +2883,7 @@
     },
     "ddeabbfe331d8317": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "HIGH",
@@ -2847,7 +2895,7 @@
     },
     "b07f08c69d28048f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2859,7 +2907,7 @@
     },
     "d24ef1c9b6926a05": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2871,7 +2919,7 @@
     },
     "bcf846d7f8995a0b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2883,7 +2931,7 @@
     },
     "a05ae3e64ebc1cc2": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2895,7 +2943,7 @@
     },
     "27014276c26459c4": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2907,7 +2955,7 @@
     },
     "59af48ff3ac23e81": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2919,7 +2967,7 @@
     },
     "4c16463b3d177b1c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2931,7 +2979,7 @@
     },
     "af2f05014ccd855d": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -2943,7 +2991,7 @@
     },
     "3e79ade902b8adf5": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2955,7 +3003,7 @@
     },
     "f110de3f9293bd51": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -2967,7 +3015,7 @@
     },
     "20f4328e391af963": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -2979,7 +3027,7 @@
     },
     "a863aee85bd7aa25": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -2991,7 +3039,7 @@
     },
     "ce003e6d4c47e146": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -3003,7 +3051,7 @@
     },
     "b76642f380e0cc38": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3015,7 +3063,7 @@
     },
     "e2f1905853e5af2a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -3027,7 +3075,7 @@
     },
     "f11968bd41e43727": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -3039,7 +3087,7 @@
     },
     "71b06d96c9b00838": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3051,7 +3099,7 @@
     },
     "101a5a93b4e713d0": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -3063,7 +3111,7 @@
     },
     "7d98fd631a0ba2db": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3075,7 +3123,7 @@
     },
     "4a6551d980e284dc": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -3087,7 +3135,7 @@
     },
     "4f1f181edd1cbb74": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3099,7 +3147,7 @@
     },
     "2c79e2df2df51481": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3111,7 +3159,7 @@
     },
     "67ed2fb44563247c": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3123,7 +3171,7 @@
     },
     "6b9fc113081bf189": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3135,7 +3183,7 @@
     },
     "ea08b2357857d098": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3147,7 +3195,7 @@
     },
     "640543de2e3af87c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -3159,7 +3207,7 @@
     },
     "671a44b8dad6a28b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3171,7 +3219,7 @@
     },
     "e48a05216f28c52b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -3183,7 +3231,7 @@
     },
     "33734d98bb033c03": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3195,7 +3243,7 @@
     },
     "7b65356a69c42918": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -3207,7 +3255,7 @@
     },
     "ac1c932963e13443": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3219,7 +3267,7 @@
     },
     "e41c8f4f7f8034e8": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -3231,7 +3279,7 @@
     },
     "33b4da84cc1c4f51": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3243,7 +3291,7 @@
     },
     "5994a703acc946d7": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3255,7 +3303,7 @@
     },
     "3904fa23be884f5e": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3267,7 +3315,7 @@
     },
     "596fe1dc77854224": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3279,7 +3327,7 @@
     },
     "21ba467a8546672d": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3291,7 +3339,7 @@
     },
     "6eb120f8a2da7020": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -3303,7 +3351,7 @@
     },
     "07dbf9f5024b3c6c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3315,7 +3363,7 @@
     },
     "cbb200e8bde00ff5": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3327,7 +3375,7 @@
     },
     "107af9d8f8470687": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -3339,7 +3387,7 @@
     },
     "7456757ae4db8c2b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -3351,7 +3399,7 @@
     },
     "34294ae7637bd634": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3363,7 +3411,7 @@
     },
     "f9c02d26a7ac484a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -3375,7 +3423,7 @@
     },
     "701b5fed796c027d": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -3387,7 +3435,7 @@
     },
     "83027a1e6414d531": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -3399,7 +3447,7 @@
     },
     "4bd1fc3474072723": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3411,7 +3459,7 @@
     },
     "815f60d4688cd743": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "media",
       "sev": "MED",
@@ -3423,7 +3471,7 @@
     },
     "5ecf1e25caec4619": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3435,7 +3483,7 @@
     },
     "62133ac333b4dca7": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3447,7 +3495,7 @@
     },
     "0709b58e57ece6a1": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -3459,7 +3507,7 @@
     },
     "03d570abc3d7d837": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -3471,7 +3519,7 @@
     },
     "a2fb6e16d9d1baf2": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "LOW",
@@ -3483,7 +3531,7 @@
     },
     "47e46ae0e402161a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3495,7 +3543,7 @@
     },
     "cf7afc4e7928c231": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3507,7 +3555,7 @@
     },
     "e2cac70621e09d74": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3519,7 +3567,7 @@
     },
     "016db47e44442696": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3531,7 +3579,7 @@
     },
     "3c302b3c2fbb0378": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -3543,7 +3591,7 @@
     },
     "d6fd931c604cb632": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3555,7 +3603,7 @@
     },
     "f14a30b9198af15f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3567,7 +3615,7 @@
     },
     "385e97d4b7eb548e": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3579,7 +3627,7 @@
     },
     "85011e9a0594acc6": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3591,7 +3639,7 @@
     },
     "efe90e2ea66a4257": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3603,7 +3651,7 @@
     },
     "bb55e7a6bf2f923b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3615,7 +3663,7 @@
     },
     "8e8a66c2ef0f0646": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3627,7 +3675,7 @@
     },
     "506104d61d645073": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3639,7 +3687,7 @@
     },
     "ac63816197808b33": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3651,7 +3699,7 @@
     },
     "cf5f70560c4b7421": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3663,7 +3711,7 @@
     },
     "7d2f3165e4a539b9": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "HIGH",
@@ -3675,7 +3723,7 @@
     },
     "47d7a49050db26fc": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3687,7 +3735,7 @@
     },
     "0eb22296fadd0276": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -3699,7 +3747,7 @@
     },
     "b61c79dec71ebe43": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3711,7 +3759,7 @@
     },
     "67dd22769e0152c3": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3723,7 +3771,7 @@
     },
     "58e7bbd8631ca219": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3735,7 +3783,7 @@
     },
     "05fff7799a566a24": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -3747,7 +3795,7 @@
     },
     "8c9e54682f07b094": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3759,7 +3807,7 @@
     },
     "f671d7e173387562": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3771,7 +3819,7 @@
     },
     "d2f139058c6558b0": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3783,7 +3831,7 @@
     },
     "f6f335e999d04db4": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -3795,7 +3843,7 @@
     },
     "eec670a827ac5811": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -3807,7 +3855,7 @@
     },
     "4ae8c7edca3e7768": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3819,7 +3867,7 @@
     },
     "f67c50c644be1716": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -3831,7 +3879,7 @@
     },
     "c32b4df7d7f7e27c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3843,7 +3891,7 @@
     },
     "1443a26f283235ca": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3855,7 +3903,7 @@
     },
     "f47f3385046e1507": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -3867,7 +3915,7 @@
     },
     "a6f3cf3d12edd7d9": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3879,7 +3927,7 @@
     },
     "e5b77533256521a4": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3891,7 +3939,7 @@
     },
     "baa0676052ba5e8d": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3903,7 +3951,7 @@
     },
     "4dfb145717100187": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3915,7 +3963,7 @@
     },
     "152a3cdec770800b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3927,7 +3975,7 @@
     },
     "7f7379221c251ce3": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3939,7 +3987,7 @@
     },
     "8c03d2dd358fd4fe": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3951,7 +3999,7 @@
     },
     "398ff18c081ceabb": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3963,7 +4011,7 @@
     },
     "357ee29d6ba80fb4": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -3975,7 +4023,7 @@
     },
     "12396f1de05d983f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3987,7 +4035,7 @@
     },
     "962abf7b0fb2deb4": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -3999,7 +4047,7 @@
     },
     "5c44ed4b0af89414": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -4011,7 +4059,7 @@
     },
     "5bcca11b1cf5182b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4023,7 +4071,7 @@
     },
     "eb036fc12d360be4": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4035,19 +4083,19 @@
     },
     "7df76dc64c68ea4c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Nysa Blue",
       "label": "nysa-blue",
       "url": "https://www.sahibas.com/products/nysa-blue",
-      "problem": "Status is DRAFT but 3 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "problem": "Status is DRAFT but 2 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
     "d7c048590790545e": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "LOW",
@@ -4059,7 +4107,7 @@
     },
     "e6cedab34f82336f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4071,7 +4119,7 @@
     },
     "1b3dd26de9cae0a0": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4083,7 +4131,7 @@
     },
     "fb99233345960e4a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -4095,7 +4143,7 @@
     },
     "a2bb8eebcadad21c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4107,7 +4155,7 @@
     },
     "cca86197cfd4c4e1": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -4119,7 +4167,7 @@
     },
     "44745887344c58b7": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4131,7 +4179,7 @@
     },
     "2a4b751fda1712f7": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -4143,7 +4191,7 @@
     },
     "fdaf18bf07465695": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4155,7 +4203,7 @@
     },
     "fc9f1596c5a06c8b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4167,7 +4215,7 @@
     },
     "9d1c7ed0e2204bbf": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4179,7 +4227,7 @@
     },
     "ab4d7567dea3487b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -4191,7 +4239,7 @@
     },
     "2517c178bc3d3ce4": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "LOW",
@@ -4203,7 +4251,7 @@
     },
     "f13bc2df787c8c9a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "media",
       "sev": "MED",
@@ -4215,7 +4263,7 @@
     },
     "64ee37c8dd0c32fd": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4227,7 +4275,7 @@
     },
     "2be590d016441737": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4239,7 +4287,7 @@
     },
     "4c9c0dc6d9ec02f2": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4251,7 +4299,7 @@
     },
     "db57c972b6ec6fe2": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4261,9 +4309,21 @@
       "problem": "Only 4 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "d4d3cc67a99d72e8": {
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-09-10",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Crescent (Black) - Kaftan",
+      "label": "crescent-black-kaftan",
+      "url": "https://www.sahibas.com/products/crescent-black-kaftan",
+      "problem": "Only 4 unit(s) left in total across all sizes.",
+      "fix": "Restock soon or plan to retire the article."
+    },
     "a0bc2a3266a060e5": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4275,7 +4335,7 @@
     },
     "9c2e428c2bd3221b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4287,7 +4347,7 @@
     },
     "d6269697943ae62b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4299,7 +4359,7 @@
     },
     "51c3d4dba419207e": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4311,7 +4371,7 @@
     },
     "59fb769c66997027": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4323,7 +4383,7 @@
     },
     "c54f28cf04541286": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4335,7 +4395,7 @@
     },
     "ead3bc1d1684a29b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4347,7 +4407,7 @@
     },
     "90c946463032b219": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4359,7 +4419,7 @@
     },
     "5c8fc40eec6bd876": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4371,7 +4431,7 @@
     },
     "b811243f190f4254": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4383,7 +4443,7 @@
     },
     "e565fa578cc8e662": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4395,7 +4455,7 @@
     },
     "c1a862cc6414af01": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -4407,7 +4467,7 @@
     },
     "dfb4ee2d4406001f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "LOW",
@@ -4419,7 +4479,7 @@
     },
     "7bfbea8cdd3a5248": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4431,7 +4491,7 @@
     },
     "cab9b5ab1d77143e": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4443,7 +4503,7 @@
     },
     "c4b2b87188e7077d": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4455,7 +4515,7 @@
     },
     "ac171848504bac46": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4467,7 +4527,7 @@
     },
     "d74c04317dee9023": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -4479,7 +4539,7 @@
     },
     "790b7d461760e351": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "LOW",
@@ -4491,7 +4551,7 @@
     },
     "48fe3f9a02d5d451": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4503,7 +4563,7 @@
     },
     "d5cb8dfeb9f12eca": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4515,7 +4575,7 @@
     },
     "7c6767c26056a95e": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4527,7 +4587,7 @@
     },
     "139ab39625b2057c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4539,7 +4599,7 @@
     },
     "6668b13e21563c17": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4551,7 +4611,7 @@
     },
     "c5d81234a390c2f4": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4563,7 +4623,7 @@
     },
     "239abd0d6877d4a4": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4575,7 +4635,7 @@
     },
     "362782349e371dbc": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4587,7 +4647,7 @@
     },
     "5a8a331923a5fe5d": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4599,7 +4659,7 @@
     },
     "a97a578246a05a67": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4611,7 +4671,7 @@
     },
     "cdf848276ac17a94": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "HIGH",
@@ -4623,7 +4683,7 @@
     },
     "b84a1f47333ee69a": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4635,7 +4695,7 @@
     },
     "5bb3af4e0c566aeb": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4647,7 +4707,7 @@
     },
     "8a35b5d7b59dd6d0": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4659,7 +4719,7 @@
     },
     "e4870c33e5ecf2a6": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4671,7 +4731,7 @@
     },
     "699d9f9ca8a52439": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4683,7 +4743,7 @@
     },
     "7b5396687c254ed8": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4693,21 +4753,21 @@
       "problem": "Variant \"L\": compare-at price (7998) is more than 2.2x the selling price (3499) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
-    "a0907e2d8179f0fa": {
-      "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+    "7dc1ffc71d306f73": {
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
-      "sev": "MED",
+      "sev": "HIGH",
       "title": "Saamiya",
       "label": "saamiya",
       "url": "https://www.sahibas.com/products/saamiya",
-      "problem": "Only 1 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
+      "problem": "Live on the store but completely out of stock across every size.",
+      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
     },
     "d326ca7cc511a3cd": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -4719,7 +4779,7 @@
     },
     "4150c255500d6a5c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4731,7 +4791,7 @@
     },
     "791a11244baa0b81": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4743,7 +4803,7 @@
     },
     "aa576a7634a66b56": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4755,7 +4815,7 @@
     },
     "9272c97fc81c5c12": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -4767,7 +4827,7 @@
     },
     "1b2ace604adafcf7": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4779,7 +4839,7 @@
     },
     "8ddfe614dc4e1e1b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4791,7 +4851,7 @@
     },
     "a0a581955213b362": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4803,7 +4863,7 @@
     },
     "a1ce043769de2f8d": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4815,7 +4875,7 @@
     },
     "b307672b63d03d87": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4827,7 +4887,7 @@
     },
     "3870f4865782a028": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4839,7 +4899,7 @@
     },
     "47bc72b5c6602ad1": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4851,7 +4911,7 @@
     },
     "3fb411c4b3a8e557": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4863,7 +4923,7 @@
     },
     "98813177eb2e343c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4875,7 +4935,7 @@
     },
     "7f83fad9b16f30ea": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -4887,7 +4947,7 @@
     },
     "7f22a78e7613d650": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4899,7 +4959,7 @@
     },
     "66f720695a7a4f57": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4911,7 +4971,7 @@
     },
     "6ed843b6b2e89023": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4923,7 +4983,7 @@
     },
     "afe8c365f49539fa": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4935,7 +4995,7 @@
     },
     "98bd8121ff7c734b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4947,7 +5007,7 @@
     },
     "7bd2621ce2f823b5": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4959,7 +5019,7 @@
     },
     "84cc4c5cfa0fbc65": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4971,7 +5031,7 @@
     },
     "74aafbb91cfc936f": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -4983,7 +5043,7 @@
     },
     "660a64860a80ca1c": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "MED",
@@ -4995,7 +5055,7 @@
     },
     "b735a76eb3e08381": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "MED",
@@ -5007,7 +5067,7 @@
     },
     "1f6a460b3a54b318": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "HIGH",
@@ -5019,7 +5079,7 @@
     },
     "3d3f24a807e43f9f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5031,7 +5091,7 @@
     },
     "2ff555d1a2ffe460": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5043,7 +5103,7 @@
     },
     "23d3194dbadb8918": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5055,7 +5115,7 @@
     },
     "9f004ac04c27eff7": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5067,7 +5127,7 @@
     },
     "e1f178dedcd0ebf8": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5079,7 +5139,7 @@
     },
     "aef80de6029ea593": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5091,7 +5151,7 @@
     },
     "86df8b6c6dd31542": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "media",
       "sev": "MED",
@@ -5103,7 +5163,7 @@
     },
     "511b9784703595e4": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -5115,7 +5175,7 @@
     },
     "559a27e743e5e5df": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5127,7 +5187,7 @@
     },
     "9295fb90fad4fb0e": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5139,7 +5199,7 @@
     },
     "f3e769136d24d586": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5151,7 +5211,7 @@
     },
     "e495e057eaed1a7a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "MED",
@@ -5163,7 +5223,7 @@
     },
     "2a7935349dd33c87": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5175,7 +5235,7 @@
     },
     "792b5399346bf0d7": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -5187,7 +5247,7 @@
     },
     "e8335ff8ba66d9c8": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -5199,7 +5259,7 @@
     },
     "e830fbff0f515a07": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5211,7 +5271,7 @@
     },
     "83f0e6305d0838ce": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -5223,7 +5283,7 @@
     },
     "4482b8682061ddf7": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5235,7 +5295,7 @@
     },
     "71ac3e650f5bc9d3": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -5247,7 +5307,7 @@
     },
     "75d8c9dd43ed454c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5259,7 +5319,7 @@
     },
     "9c1c5899a2e47688": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -5271,7 +5331,7 @@
     },
     "dbeac7ef1959681f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5283,7 +5343,7 @@
     },
     "64232bce86f58c22": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5295,7 +5355,7 @@
     },
     "194d7c79a075734d": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5307,7 +5367,7 @@
     },
     "424a988cea3a2a2c": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5319,7 +5379,7 @@
     },
     "f5b4ca6734e1ba6a": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5331,7 +5391,7 @@
     },
     "c1f6d7440b3591de": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5343,7 +5403,7 @@
     },
     "11bc6985fc90e76f": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5355,7 +5415,7 @@
     },
     "35ca0d1b097ea48d": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5367,7 +5427,7 @@
     },
     "96b324a0fcac0f99": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -5379,7 +5439,7 @@
     },
     "2a65f4caad12a797": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5391,7 +5451,7 @@
     },
     "6f8ab44b794c51f3": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5403,7 +5463,7 @@
     },
     "a409661c8bcec677": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5415,7 +5475,7 @@
     },
     "12de7ef4331f2cb9": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5427,7 +5487,7 @@
     },
     "e0ea554daf5a6782": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "HIGH",
@@ -5439,7 +5499,7 @@
     },
     "610f2c7cbdf3d015": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5451,7 +5511,7 @@
     },
     "46c0e3a129fd70e5": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5463,7 +5523,7 @@
     },
     "1f4a371f887da7fd": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5475,7 +5535,7 @@
     },
     "1de6936d4d4a747e": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5487,7 +5547,7 @@
     },
     "2645f0c7c50dd715": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5499,7 +5559,7 @@
     },
     "a0a1c3cff589385d": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5511,7 +5571,7 @@
     },
     "44ea84b64ffa0510": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -5523,7 +5583,7 @@
     },
     "1e59bb41b3bde344": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5535,7 +5595,7 @@
     },
     "db5acaabeaf4577c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -5547,7 +5607,7 @@
     },
     "b0288aa2aafc0f90": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5559,7 +5619,7 @@
     },
     "f1543ec93950004a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -5571,7 +5631,7 @@
     },
     "cf8d16cb55385bc9": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5583,7 +5643,7 @@
     },
     "5429addf849b4dee": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -5595,7 +5655,7 @@
     },
     "237178e163d715b0": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "HIGH",
@@ -5607,7 +5667,7 @@
     },
     "3045d26a10d5bb84": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5619,7 +5679,7 @@
     },
     "42d629328daf233f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5631,7 +5691,7 @@
     },
     "c2440e7f2990b3ac": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5643,7 +5703,7 @@
     },
     "a69c3289d9fc63a5": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5655,7 +5715,7 @@
     },
     "c13f700d659ac238": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5667,7 +5727,7 @@
     },
     "94a6b016ef37c493": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5679,7 +5739,7 @@
     },
     "f3f94d0e31b86fe0": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5691,7 +5751,7 @@
     },
     "6f5292ae46620fc7": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5703,7 +5763,7 @@
     },
     "e1f473d561bda9c2": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5715,7 +5775,7 @@
     },
     "f520e56d030634fb": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5727,7 +5787,7 @@
     },
     "0a166e71becdbb74": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5739,7 +5799,7 @@
     },
     "fa7b4a892e2232b9": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -5751,7 +5811,7 @@
     },
     "962eb2c2310d6a83": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "MED",
@@ -5763,7 +5823,7 @@
     },
     "56abfd278667c2f7": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5775,7 +5835,7 @@
     },
     "2d82f4801cdd802b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5787,7 +5847,7 @@
     },
     "841ab9e36fd95a60": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5799,7 +5859,7 @@
     },
     "face3ee19a578659": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5811,7 +5871,7 @@
     },
     "1e0bc5737128829b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5823,7 +5883,7 @@
     },
     "e45846a160e24f48": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "HIGH",
@@ -5835,7 +5895,7 @@
     },
     "3f0c0d72aa39dba5": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5847,7 +5907,7 @@
     },
     "e3de4bea90ddf060": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5859,7 +5919,7 @@
     },
     "a8a40dad9c981ede": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5871,7 +5931,7 @@
     },
     "c1a6b9219591e9de": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5883,7 +5943,7 @@
     },
     "a401575d57543bc1": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5895,7 +5955,7 @@
     },
     "7dbdfbcfa86e2f81": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5907,7 +5967,7 @@
     },
     "a496d5e3c290f6e5": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5919,7 +5979,7 @@
     },
     "230e47dd38360785": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5931,7 +5991,7 @@
     },
     "a5acd79eb4654212": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5943,7 +6003,7 @@
     },
     "17fcf1466e74ed67": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "MED",
@@ -5955,7 +6015,7 @@
     },
     "b6fa4c23d12b2a16": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "MED",
@@ -5967,7 +6027,7 @@
     },
     "5dbf80ce5a720c6b": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5979,7 +6039,7 @@
     },
     "7e98ca193e4f0591": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -5991,7 +6051,7 @@
     },
     "a351d5c5de60cb91": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "MED",
@@ -6003,7 +6063,7 @@
     },
     "89a1a26219e0f1c1": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -6015,7 +6075,7 @@
     },
     "8b66f377f58777d7": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -6027,7 +6087,7 @@
     },
     "e7df3c0cb81eb224": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -6039,7 +6099,7 @@
     },
     "0ddf043c8cff500c": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -6051,7 +6111,7 @@
     },
     "a0d93a1b2490f6da": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -6063,7 +6123,7 @@
     },
     "977b61fed6758516": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -6075,7 +6135,7 @@
     },
     "1c615d533cbe4bc1": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -6087,7 +6147,7 @@
     },
     "dc6ec7f304be4fca": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "MED",
@@ -6099,7 +6159,7 @@
     },
     "0eda82d2c1e45501": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "MED",
@@ -6111,7 +6171,7 @@
     },
     "87bc2f2555e2039f": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -6123,7 +6183,7 @@
     },
     "60260e84ee80755e": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "MED",
@@ -6135,7 +6195,7 @@
     },
     "7791b9d6a9e1a42a": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "MED",
@@ -6147,7 +6207,7 @@
     },
     "b7ab4446f29a4433": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "HIGH",
@@ -6159,7 +6219,7 @@
     },
     "efc02a106c4ec845": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -6171,7 +6231,7 @@
     },
     "341c992ac62661c9": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -6183,7 +6243,7 @@
     },
     "4394a69e3e08f2d7": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -6195,7 +6255,7 @@
     },
     "ed6ef25f2569c945": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "MED",
@@ -6207,7 +6267,7 @@
     },
     "15a5dc4eeb0afcd6": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "MED",
@@ -6219,7 +6279,7 @@
     },
     "2a9ea7c36843b1ce": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "HIGH",
@@ -6231,7 +6291,7 @@
     },
     "e09b15c34a8ea160": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "admin_price",
       "sev": "HIGH",
@@ -6243,7 +6303,7 @@
     },
     "07a26ff239190a0b": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "media",
       "sev": "LOW",
@@ -6255,7 +6315,7 @@
     },
     "bfcd56212750fee9": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "metafields",
       "sev": "LOW",
@@ -6267,7 +6327,7 @@
     },
     "9596d9df4dd6c2c2": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "LOW",
@@ -6279,7 +6339,7 @@
     },
     "cff44311dc080c64": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-09",
+      "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "tags",
       "sev": "LOW",
