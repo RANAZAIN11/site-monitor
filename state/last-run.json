@@ -25,18 +25,6 @@
       "problem": "All variants are out of stock / unavailable for purchase.",
       "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
     },
-    "b0aae6bb6884ab77": {
-      "firstSeen": "2026-09-09",
-      "lastSeen": "2026-09-10",
-      "source": "catalogue",
-      "category": "stock",
-      "sev": "HIGH",
-      "title": "Parizah Black",
-      "label": "parizahblack",
-      "url": "https://sahibas.com/products/parizahblack",
-      "problem": "All variants are out of stock / unavailable for purchase.",
-      "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
-    },
     "df9bce431633c55a": {
       "firstSeen": "2026-09-10",
       "lastSeen": "2026-09-10",
@@ -46,6 +34,18 @@
       "title": "Pleasant",
       "label": "pleasant",
       "url": "https://sahibas.com/products/pleasant",
+      "problem": "All variants are out of stock / unavailable for purchase.",
+      "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
+    },
+    "9e83e9a7747ff86c": {
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-09-10",
+      "source": "catalogue",
+      "category": "stock",
+      "sev": "HIGH",
+      "title": "Zehlia",
+      "label": "zehlia",
+      "url": "https://sahibas.com/products/zehlia",
       "problem": "All variants are out of stock / unavailable for purchase.",
       "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
     },
@@ -301,18 +301,6 @@
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "e19fd639ad7fff2e": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Daisey - Grey",
-      "label": "daisey-grey",
-      "url": "https://www.sahibas.com/products/daisey-grey",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "78ecb23a70e11c14": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -324,30 +312,6 @@
       "url": "https://www.sahibas.com/products/daisey-grey",
       "problem": "Currently selling at 4000, which is at or below the wholesale price of 4200. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
-    },
-    "149674f516c7035b": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Hasi",
-      "label": "hasi",
-      "url": "https://www.sahibas.com/products/hasi",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "f3761d3b0df8388c": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Guljawa",
-      "label": "guljawa",
-      "url": "https://www.sahibas.com/products/guljawa",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
     "78528bed1e21abbd": {
       "firstSeen": "2026-09-07",
@@ -433,18 +397,6 @@
       "problem": "Status is DRAFT but 2 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "f69d4db04c71b212": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Wink",
-      "label": "wink",
-      "url": "https://www.sahibas.com/products/wink",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "21b8648dfd5465b4": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -505,17 +457,41 @@
       "problem": "Variant \"XL\": compare-at price (11500) is more than 2.2x the selling price (4999) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
-    "c6eec166c3a68b1c": {
-      "firstSeen": "2026-09-07",
+    "56db08cfc0511910": {
+      "firstSeen": "2026-09-10",
       "lastSeen": "2026-09-10",
       "source": "admin",
-      "category": "status",
+      "category": "tags",
+      "sev": "HIGH",
+      "title": "Belleza - Ivory",
+      "label": "belleza-ivory-1",
+      "url": "https://www.sahibas.com/products/belleza-ivory-1",
+      "problem": "Tagged \"3 Pc Summer\" but the Season metafield says \"Winter Wear\". Tag and metafield disagree.",
+      "fix": "Set custom.season to \"Summer Wear\", or fix the tag."
+    },
+    "8a6268a864334497": {
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-09-10",
+      "source": "admin",
+      "category": "tags",
       "sev": "MED",
       "title": "Belleza - Ivory",
       "label": "belleza-ivory-1",
       "url": "https://www.sahibas.com/products/belleza-ivory-1",
-      "problem": "Only 1 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
+      "problem": "shirt fabric is \"Khaddar\" (a winter fabric) but the product is tagged summer.",
+      "fix": "Either re-tag it as winter, or correct the fabric value."
+    },
+    "650b6915668b9509": {
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-09-10",
+      "source": "admin",
+      "category": "tags",
+      "sev": "MED",
+      "title": "Belleza - Ivory",
+      "label": "belleza-ivory-1",
+      "url": "https://www.sahibas.com/products/belleza-ivory-1",
+      "problem": "trouser fabric is \"Khaddar\" (a winter fabric) but the product is tagged summer.",
+      "fix": "Either re-tag it as winter, or correct the fabric value."
     },
     "0ff75e2d81bc04e4": {
       "firstSeen": "2026-09-07",
@@ -756,18 +732,6 @@
       "url": "https://www.sahibas.com/products/phool",
       "problem": "Status is DRAFT but 3 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
-    },
-    "efb3d711f16fe846": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Martina",
-      "label": "martina",
-      "url": "https://www.sahibas.com/products/martina",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
     "08e83c2590d07426": {
       "firstSeen": "2026-09-09",
@@ -1297,18 +1261,6 @@
       "problem": "Status is DRAFT but 2 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "ca898e1f5c3b453d": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Dreamy Black",
-      "label": "dreamy-black",
-      "url": "https://www.sahibas.com/products/dreamy-black",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "935f101ac76024ce": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -1381,30 +1333,6 @@
       "problem": "trouser fabric is spelled \"Poly SIlk\" instead of \"Poly Silk\".",
       "fix": "Correct it to \"Poly Silk\" so filters and catalogue text stay consistent."
     },
-    "446618936b0f68d8": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Marwah",
-      "label": "marwah",
-      "url": "https://www.sahibas.com/products/marwah",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "3fac54e763e20ee4": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Vanzila",
-      "label": "vanzila",
-      "url": "https://www.sahibas.com/products/vanzila",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "590404281614de95": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -1426,7 +1354,7 @@
       "title": "Yavina Green",
       "label": "yavina-green",
       "url": "https://www.sahibas.com/products/yavina-green",
-      "problem": "Only 3 unit(s) left in total across all sizes.",
+      "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "565b34954ec2f54a": {
@@ -1477,18 +1405,6 @@
       "problem": "Variant \"L\": compare-at price (15000) is more than 2.2x the selling price (6500) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
-    "bdf80995c546548b": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Sharmeen",
-      "label": "sharmeen",
-      "url": "https://www.sahibas.com/products/sharmeen",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "151bc30595a7c217": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -1524,18 +1440,6 @@
       "url": "https://www.sahibas.com/products/shama",
       "problem": "Currently selling at 3000, which is at or below the wholesale price of 3150. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
-    },
-    "f3f480c91a7de2ae": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Sahibaan",
-      "label": "sahibaan",
-      "url": "https://www.sahibas.com/products/sahibaan",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
     "68b9ae07a66ef5bc": {
       "firstSeen": "2026-09-07",
@@ -1609,18 +1513,6 @@
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "b2010173d55ebfcf": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Salwa",
-      "label": "salwa",
-      "url": "https://www.sahibas.com/products/salwa",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "c60e3edc7362a70b": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -1693,18 +1585,6 @@
       "problem": "Status is DRAFT but 2 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "a07d7a15b506eee8": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Vanzila - Beige",
-      "label": "vanzila-beige",
-      "url": "https://www.sahibas.com/products/vanzila-beige",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "1096c3e4cfc258a3": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -1753,18 +1633,6 @@
       "problem": "Variant \"XL\": compare-at price (10500) is more than 2.2x the selling price (4500) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
-    "49244e6391c03a55": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Zenobia - Grey",
-      "label": "zenobia-grey",
-      "url": "https://www.sahibas.com/products/zenobia-grey",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "0c8c0f7a4eadf31a": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -1775,30 +1643,6 @@
       "label": "kriti-white",
       "url": "https://www.sahibas.com/products/kriti-white",
       "problem": "dupatta fabric value \"Viscouse\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "88ac0730b2e27040": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Zigana",
-      "label": "zigana",
-      "url": "https://www.sahibas.com/products/zigana",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "9338057875ca275a": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Huda Black",
-      "label": "huda-black",
-      "url": "https://www.sahibas.com/products/huda-black",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
     "d4eda58e3c7ad9a3": {
@@ -1873,18 +1717,6 @@
       "problem": "Only 4 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "ef081d8ec405da17": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Mehrang",
-      "label": "mehrang",
-      "url": "https://www.sahibas.com/products/mehrang",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "91cbde3f87ff7db5": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -1896,18 +1728,6 @@
       "url": "https://www.sahibas.com/products/mehrang",
       "problem": "Currently selling at 3750, which is at or below the wholesale price of 4250. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
-    },
-    "8321f7ddbcbcbea1": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Suroor",
-      "label": "suroor",
-      "url": "https://www.sahibas.com/products/suroor",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
     "f4bebee635327b64": {
       "firstSeen": "2026-09-07",
@@ -2125,18 +1945,6 @@
       "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "49af4eefaa739451": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Khoobsurat Black",
-      "label": "khoobsurat-black",
-      "url": "https://www.sahibas.com/products/khoobsurat-black",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "0ea826a470e2934a": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -2197,18 +2005,6 @@
       "problem": "Only 3 images. The catalogue layout needs a hero shot plus 3 detail crops (neckline, embroidery, back).",
       "fix": "Add at least 1 more image(s)."
     },
-    "fdb582433d14882b": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Areeba",
-      "label": "areeba",
-      "url": "https://www.sahibas.com/products/areeba",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "44224039ddb5bb30": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -2233,17 +2029,17 @@
       "problem": "Tagged for BOTH seasons at once: 1 Pc Summer + 1 Pc Winter. It will appear in the summer and the winter catalogue.",
       "fix": "Keep only the correct season tag. If it genuinely sells year-round, set custom.season to All Season and pick one tag."
     },
-    "5722dfc0b82825dc": {
-      "firstSeen": "2026-09-09",
+    "d4101749690616d6": {
+      "firstSeen": "2026-09-10",
       "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
-      "sev": "MED",
+      "sev": "HIGH",
       "title": "Zehlia",
       "label": "zehlia",
       "url": "https://www.sahibas.com/products/zehlia",
-      "problem": "Only 1 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
+      "problem": "Live on the store but completely out of stock across every size.",
+      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
     },
     "27d69cb93220558d": {
       "firstSeen": "2026-09-07",
@@ -2255,18 +2051,6 @@
       "label": "ayza-blue",
       "url": "https://www.sahibas.com/products/ayza-blue",
       "problem": "dupatta fabric value \"Viscouse\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "1c413adaf2a9fb89": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Khushi",
-      "label": "khushi",
-      "url": "https://www.sahibas.com/products/khushi",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
     "494df1ac98ac0025": {
@@ -2377,18 +2161,6 @@
       "problem": "Tagged for BOTH seasons at once: 1 Pc Summer + 1 Pc Winter. It will appear in the summer and the winter catalogue.",
       "fix": "Keep only the correct season tag. If it genuinely sells year-round, set custom.season to All Season and pick one tag."
     },
-    "2b5a2ec317d1a749": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Ayla White",
-      "label": "ayla-white",
-      "url": "https://www.sahibas.com/products/ayla-white",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "4bc938674f9d4b80": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -2497,18 +2269,6 @@
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "fd6816ab4f480dd7": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Mithi",
-      "label": "mithi",
-      "url": "https://www.sahibas.com/products/mithi",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "045dd57105de3668": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -2604,30 +2364,6 @@
       "url": "https://www.sahibas.com/products/maleha",
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
-    },
-    "e3ed701ce6b39c6c": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Angan",
-      "label": "angan",
-      "url": "https://www.sahibas.com/products/angan",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "7dcdad49a3d45c22": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Velour - Black",
-      "label": "velour-black",
-      "url": "https://www.sahibas.com/products/velour-black",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
     "bd0d66987d53f83e": {
       "firstSeen": "2026-09-07",
@@ -2746,7 +2482,7 @@
       "title": "Marvi",
       "label": "marvi",
       "url": "https://www.sahibas.com/products/marvi",
-      "problem": "Only 2 unit(s) left in total across all sizes.",
+      "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "3073817edbcc5576": {
@@ -2854,7 +2590,7 @@
       "title": "Savaaz",
       "label": "savaaz",
       "url": "https://www.sahibas.com/products/savaaz",
-      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "problem": "Status is DRAFT but 2 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
     "036f5dd171a95b0c": {
@@ -2977,6 +2713,18 @@
       "problem": "Variant \"L / Dhanak\": compare-at price (9999) is more than 2.2x the selling price (4250) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
+    "f0284b578c65ec11": {
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-09-10",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Mehrma Zinc",
+      "label": "mehrma-zinc",
+      "url": "https://www.sahibas.com/products/mehrma-zinc",
+      "problem": "Only 4 unit(s) left in total across all sizes.",
+      "fix": "Restock soon or plan to retire the article."
+    },
     "af2f05014ccd855d": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -3013,30 +2761,6 @@
       "problem": "dupatta fabric value \"Viscouse\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
-    "20f4328e391af963": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Marasim - Skin",
-      "label": "marasim-skin",
-      "url": "https://www.sahibas.com/products/marasim-skin",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "a863aee85bd7aa25": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Phool - Purple",
-      "label": "phool-purple",
-      "url": "https://www.sahibas.com/products/phool-purple",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "ce003e6d4c47e146": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -3071,18 +2795,6 @@
       "label": "shining",
       "url": "https://www.sahibas.com/products/shining",
       "problem": "dupatta fabric value \"Viscouse\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "f11968bd41e43727": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Shehrzad Black",
-      "label": "shehrzad-black",
-      "url": "https://www.sahibas.com/products/shehrzad-black",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
       "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
     "71b06d96c9b00838": {
@@ -3193,18 +2905,6 @@
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "640543de2e3af87c": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Habaab",
-      "label": "habaab",
-      "url": "https://www.sahibas.com/products/habaab",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "671a44b8dad6a28b": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -3217,18 +2917,6 @@
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "e48a05216f28c52b": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Turbat",
-      "label": "turbat",
-      "url": "https://www.sahibas.com/products/turbat",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "33734d98bb033c03": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -3240,18 +2928,6 @@
       "url": "https://www.sahibas.com/products/turbat",
       "problem": "Currently selling at 3500, which is at or below the wholesale price of 4200. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
-    },
-    "7b65356a69c42918": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Farheen",
-      "label": "farheen",
-      "url": "https://www.sahibas.com/products/farheen",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
     "ac1c932963e13443": {
       "firstSeen": "2026-09-07",
@@ -3337,18 +3013,6 @@
       "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "6eb120f8a2da7020": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Soft",
-      "label": "soft",
-      "url": "https://www.sahibas.com/products/soft",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "07dbf9f5024b3c6c": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -3373,30 +3037,6 @@
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "107af9d8f8470687": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Hanzala",
-      "label": "hanzala",
-      "url": "https://www.sahibas.com/products/hanzala",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "7456757ae4db8c2b": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Nysa",
-      "label": "nysa",
-      "url": "https://www.sahibas.com/products/nysa",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "34294ae7637bd634": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -3408,42 +3048,6 @@
       "url": "https://www.sahibas.com/products/nysa",
       "problem": "Currently selling at 3900, which is at or below the wholesale price of 4000. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
-    },
-    "f9c02d26a7ac484a": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Light Brown",
-      "label": "light-brown",
-      "url": "https://www.sahibas.com/products/light-brown",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "701b5fed796c027d": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Beam",
-      "label": "beam",
-      "url": "https://www.sahibas.com/products/beam",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "83027a1e6414d531": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Ramsha Black",
-      "label": "ramsha-black",
-      "url": "https://www.sahibas.com/products/ramsha-black",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
     "4bd1fc3474072723": {
       "firstSeen": "2026-09-07",
@@ -3733,18 +3337,6 @@
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "0eb22296fadd0276": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Abiha White",
-      "label": "abiha-white",
-      "url": "https://www.sahibas.com/products/abiha-white",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "b61c79dec71ebe43": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -3829,30 +3421,6 @@
       "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "f6f335e999d04db4": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Azmira  Peach",
-      "label": "azmira-peach",
-      "url": "https://www.sahibas.com/products/azmira-peach",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "eec670a827ac5811": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Fountain - Pink",
-      "label": "fountain-pink",
-      "url": "https://www.sahibas.com/products/fountain-pink",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "4ae8c7edca3e7768": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -3864,18 +3432,6 @@
       "url": "https://www.sahibas.com/products/fountain-pink",
       "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
-    },
-    "f67c50c644be1716": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Dure Navy",
-      "label": "dure-navy",
-      "url": "https://www.sahibas.com/products/dure-navy",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
     "c32b4df7d7f7e27c": {
       "firstSeen": "2026-09-07",
@@ -3898,20 +3454,8 @@
       "title": "Evara Black",
       "label": "evara-black",
       "url": "https://www.sahibas.com/products/evara-black",
-      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "problem": "Status is DRAFT but 2 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
-    },
-    "f47f3385046e1507": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Sanam - Pista",
-      "label": "sanam-pista",
-      "url": "https://www.sahibas.com/products/sanam-pista",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
     "a6f3cf3d12edd7d9": {
       "firstSeen": "2026-09-07",
@@ -4033,18 +3577,6 @@
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "962abf7b0fb2deb4": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Camila",
-      "label": "camila",
-      "url": "https://www.sahibas.com/products/camila",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "5c44ed4b0af89414": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -4129,18 +3661,6 @@
       "problem": "Currently selling at 3000, which is at or below the wholesale price of 4100. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
-    "fb99233345960e4a": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Ramsha White",
-      "label": "ramsha-white",
-      "url": "https://www.sahibas.com/products/ramsha-white",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "a2bb8eebcadad21c": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -4153,18 +3673,6 @@
       "problem": "Currently selling at 3000, which is at or below the wholesale price of 3250. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
-    "cca86197cfd4c4e1": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Zehnaz",
-      "label": "zehnaz",
-      "url": "https://www.sahibas.com/products/zehnaz",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "44745887344c58b7": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -4176,18 +3684,6 @@
       "url": "https://www.sahibas.com/products/blessing",
       "problem": "Only 4 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
-    },
-    "2a4b751fda1712f7": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Zialy",
-      "label": "zialy",
-      "url": "https://www.sahibas.com/products/zialy",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
     },
     "fdaf18bf07465695": {
       "firstSeen": "2026-09-07",
@@ -4306,18 +3802,6 @@
       "title": "Creme",
       "label": "creme",
       "url": "https://www.sahibas.com/products/creme",
-      "problem": "Only 4 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
-    },
-    "d4d3cc67a99d72e8": {
-      "firstSeen": "2026-09-10",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "status",
-      "sev": "MED",
-      "title": "Crescent (Black) - Kaftan",
-      "label": "crescent-black-kaftan",
-      "url": "https://www.sahibas.com/products/crescent-black-kaftan",
       "problem": "Only 4 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
@@ -4548,6 +4032,18 @@
       "url": "https://www.sahibas.com/products/nayal-kids",
       "problem": "trouser fabric is spelled \"Poly SIlk\" instead of \"Poly Silk\".",
       "fix": "Correct it to \"Poly Silk\" so filters and catalogue text stay consistent."
+    },
+    "66bbe10666cedbb6": {
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-09-10",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Nova (Zinc)",
+      "label": "nova-zinc",
+      "url": "https://www.sahibas.com/products/nova-zinc",
+      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
     "48fe3f9a02d5d451": {
       "firstSeen": "2026-09-07",
@@ -5101,6 +4597,18 @@
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
+    "1fe7126bcad9f9b7": {
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-09-10",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Bellanova",
+      "label": "bellanova",
+      "url": "https://www.sahibas.com/products/bellanova",
+      "problem": "Only 4 unit(s) left in total across all sizes.",
+      "fix": "Restock soon or plan to retire the article."
+    },
     "23d3194dbadb8918": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -5134,6 +4642,18 @@
       "title": "Mehr",
       "label": "mehr",
       "url": "https://www.sahibas.com/products/mehr",
+      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+    },
+    "e9cc816b98e508dc": {
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-09-10",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Naghma Navy",
+      "label": "naghma-navy",
+      "url": "https://www.sahibas.com/products/naghma-navy",
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
@@ -5485,17 +5005,17 @@
       "problem": "Variant \"XL\": compare-at price (6999) is more than 2.2x the selling price (1947) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
-    "e0ea554daf5a6782": {
-      "firstSeen": "2026-09-09",
+    "d8b7fc1488dc4da4": {
+      "firstSeen": "2026-09-10",
       "lastSeen": "2026-09-10",
       "source": "admin",
       "category": "status",
-      "sev": "HIGH",
+      "sev": "MED",
       "title": "Parizah Black",
       "label": "parizahblack",
       "url": "https://www.sahibas.com/products/parizahblack",
-      "problem": "Live on the store but completely out of stock across every size.",
-      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
+      "problem": "Only 1 unit(s) left in total across all sizes.",
+      "fix": "Restock soon or plan to retire the article."
     },
     "610f2c7cbdf3d015": {
       "firstSeen": "2026-09-07",
@@ -5797,30 +5317,6 @@
       "problem": "Status is DRAFT but 2 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "fa7b4a892e2232b9": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Alara Pink",
-      "label": "alara-pink",
-      "url": "https://www.sahibas.com/products/alara-pink",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
-    "962eb2c2310d6a83": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-10",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Alara Navy",
-      "label": "alara-navy",
-      "url": "https://www.sahibas.com/products/alara-navy",
-      "problem": "dupatta fabric value \"Manaar\" is not a recognised fabric — likely a typo or a new fabric.",
-      "fix": "Fix the spelling, or add it to CANONICAL_FABRICS in adminAudit.js if it is genuinely new."
-    },
     "56abfd278667c2f7": {
       "firstSeen": "2026-09-07",
       "lastSeen": "2026-09-10",
@@ -5902,7 +5398,7 @@
       "title": "Rosira Black",
       "label": "rosira-black",
       "url": "https://www.sahibas.com/products/rosira-black",
-      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "problem": "Status is DRAFT but 2 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
     "e3de4bea90ddf060": {
@@ -5951,6 +5447,18 @@
       "label": "test-order",
       "url": "https://www.sahibas.com/products/test-order",
       "problem": "Status is DRAFT but 2 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+    },
+    "4cbdc386bcd25508": {
+      "firstSeen": "2026-09-10",
+      "lastSeen": "2026-09-10",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Zarnisaar",
+      "label": "zarnisaar",
+      "url": "https://www.sahibas.com/products/zarnisaar",
+      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
     "7dbdfbcfa86e2f81": {
@@ -6307,10 +5815,10 @@
       "source": "admin",
       "category": "media",
       "sev": "LOW",
-      "title": "No image alt text (598 products)",
+      "title": "No image alt text (599 products)",
       "label": "No image alt text",
       "url": "https://www.sahibas.com/collections/all",
-      "problem": "598 live products have no alt text on any product image. Affected: Jasmine Blue, Nayal, ZAVERI - PISTA, Nayriza, Tarana Kaftan - Hot Pink, Aneza, Aania, Serah, Daisey - Grey, Hasi, Guljawa, Dilruba - Off White, Muscari, Bahisht, Faiqa - Black, Nuhra, Wink, Aquamarine, Belleza - Ivory, Calico - Lilac, +578 more.",
+      "problem": "599 live products have no alt text on any product image. Affected: Jasmine Blue, Nayal, ZAVERI - PISTA, Nayriza, Tarana Kaftan - Hot Pink, Aneza, Aania, Serah, Daisey - Grey, Hasi, Guljawa, Dilruba - Off White, Muscari, Bahisht, Faiqa - Black, Nuhra, Wink, Aquamarine, Belleza - Ivory, Calico - Lilac, +579 more.",
       "fix": "Bulk-edit alt text in Shopify admin — use the product name plus fabric and colour."
     },
     "bfcd56212750fee9": {
