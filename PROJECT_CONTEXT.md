@@ -144,8 +144,12 @@ constants at the top of `adminAudit.js` (`PIECE_TAGS`, `SEASON_METAFIELD_MAP`,
 `PIECES_METAFIELD_MAP`, fabric lists, `REQUIRED_METAFIELDS`, `MIN_IMAGES`,
 `LOW_STOCK_THRESHOLD`, `FULLY_AUDIT_DRAFTS`). Edit these when catalogue conventions
 change — they are the single source of truth for the audit. Notes on recent tuning:
-- **Fabrics:** `CANONICAL_FABRICS` / `ALL_SEASON_FABRICS` include Jacquard and Mannar
-  (both are real fabrics the store sells). Add new fabrics to both lists.
+- **Fabrics:** `CANONICAL_FABRICS` / `ALL_SEASON_FABRICS` include Jacquard and Manaar
+  (real fabrics the store sells; "Mannar" kept as an alias). Add new fabrics to both
+  lists. Note: "Viscouse" is intentionally still flagged — it's a typo of "Viscose".
+- **Report shows everything:** `MAX_ROWS_PER_CATEGORY` is `Infinity` — the HTML report
+  never truncates a category (no "+N more not listed"). The top "Since the last run"
+  panel is still a capped summary; the full items always appear in their sections below.
 - **SKUs:** the admin audit flags only **missing** SKUs and **duplicate** SKUs
   (inside a product and across the store). SKU *formatting* (size code inside the
   SKU, one shared pattern per product, shared-family heuristic) is deliberately

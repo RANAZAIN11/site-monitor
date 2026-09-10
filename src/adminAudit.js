@@ -66,7 +66,7 @@ const PIECES_METAFIELD_MAP = {
 // reverse. Anything in ALL_SEASON never raises a mismatch.
 const WINTER_FABRICS = ["dhanak", "khaddar", "velvet", "marina", "wool", "karandi", "pashmina", "linen"];
 const SUMMER_FABRICS = ["lawn", "cotton", "voile", "cambric", "cotton net", "swiss lawn"];
-const ALL_SEASON_FABRICS = ["poly silk", "chiffon", "organza", "net", "viscose", "silk", "grip", "jacquard", "mannar"];
+const ALL_SEASON_FABRICS = ["poly silk", "chiffon", "organza", "net", "viscose", "silk", "grip", "jacquard", "manaar", "mannar"];
 
 // Canonical spelling for every fabric we know. Used for typo / casing checks
 // (this is what catches "Poly SIlk").
@@ -74,7 +74,7 @@ const CANONICAL_FABRICS = [
   "Lawn", "Cotton", "Voile", "Cambric", "Cotton Net", "Swiss Lawn",
   "Dhanak", "Khaddar", "Velvet", "Marina", "Wool", "Karandi", "Pashmina", "Linen",
   "Poly Silk", "Chiffon", "Organza", "Net", "Viscose", "Silk", "Grip",
-  "Jacquard", "Mannar",
+  "Jacquard", "Manaar", "Mannar",
 ];
 
 // Metafields (custom namespace) every product must have.

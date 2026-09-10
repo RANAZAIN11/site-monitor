@@ -37,7 +37,7 @@ const ADMIN_CATEGORY_ORDER = ["tags", "sku", "metafields", "admin_price", "media
 
 // Gmail clips messages over ~102KB, so never render more than this many issue
 // cards per category. The true count still shows in the group header.
-const MAX_ROWS_PER_CATEGORY = 40;
+const MAX_ROWS_PER_CATEGORY = Infinity; // show everything — the HTML report never cuts findings
 
 const SEV_COLORS = {
   HIGH: { bg: "#fef2f2", border: "#dc2626", text: "#991b1b", badgeBg: "#dc2626" },
