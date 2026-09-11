@@ -2209,17 +2209,17 @@
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "f3ea992f11e377a3": {
-      "firstSeen": "2026-09-07",
+    "1305a1f1fdcca9cc": {
+      "firstSeen": "2026-09-11",
       "lastSeen": "2026-09-11",
       "source": "admin",
-      "category": "tags",
-      "sev": "HIGH",
+      "category": "status",
+      "sev": "MED",
       "title": "Veil",
       "label": "veil",
       "url": "https://www.sahibas.com/products/veil",
-      "problem": "Tagged for BOTH seasons at once: 1 Pc Summer + 1 Pc Winter. It will appear in the summer and the winter catalogue.",
-      "fix": "Keep only the correct season tag. If it genuinely sells year-round, set custom.season to All Season and pick one tag."
+      "problem": "Status is DRAFT but 930 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
     "4bc938674f9d4b80": {
       "firstSeen": "2026-09-07",
@@ -3682,7 +3682,7 @@
       "title": "Nysa Blue",
       "label": "nysa-blue",
       "url": "https://www.sahibas.com/products/nysa-blue",
-      "problem": "Status is DRAFT but 2 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
     "d7c048590790545e": {
@@ -4369,17 +4369,29 @@
       "problem": "Status is DRAFT but 2 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "9272c97fc81c5c12": {
-      "firstSeen": "2026-09-07",
+    "0bd9cdb50202b52f": {
+      "firstSeen": "2026-09-11",
       "lastSeen": "2026-09-11",
       "source": "admin",
-      "category": "tags",
-      "sev": "HIGH",
+      "category": "status",
+      "sev": "MED",
       "title": "Veil Cyan",
       "label": "veil-cyan",
       "url": "https://www.sahibas.com/products/veil-cyan",
-      "problem": "Tagged for BOTH seasons at once: 1 Pc Summer + 1 Pc Winter. It will appear in the summer and the winter catalogue.",
-      "fix": "Keep only the correct season tag. If it genuinely sells year-round, set custom.season to All Season and pick one tag."
+      "problem": "Status is DRAFT but 1100 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+    },
+    "37ab7b23feb20a6a": {
+      "firstSeen": "2026-09-11",
+      "lastSeen": "2026-09-11",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Veil Navy",
+      "label": "veil-navy",
+      "url": "https://www.sahibas.com/products/veil-navy",
+      "problem": "Status is DRAFT but 769 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
     "1b2ace604adafcf7": {
       "firstSeen": "2026-09-07",
@@ -4489,17 +4501,17 @@
       "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "7f83fad9b16f30ea": {
-      "firstSeen": "2026-09-07",
+    "539a4e9246500190": {
+      "firstSeen": "2026-09-11",
       "lastSeen": "2026-09-11",
       "source": "admin",
-      "category": "tags",
-      "sev": "HIGH",
+      "category": "status",
+      "sev": "MED",
       "title": "Veil Peach",
       "label": "veil-peach",
       "url": "https://www.sahibas.com/products/veil-peach",
-      "problem": "Tagged for BOTH seasons at once: 1 Pc Summer + 1 Pc Winter. It will appear in the summer and the winter catalogue.",
-      "fix": "Keep only the correct season tag. If it genuinely sells year-round, set custom.season to All Season and pick one tag."
+      "problem": "Status is DRAFT but 955 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
     "7f22a78e7613d650": {
       "firstSeen": "2026-09-07",
@@ -5971,10 +5983,10 @@
       "source": "admin",
       "category": "media",
       "sev": "LOW",
-      "title": "No image alt text (600 products)",
+      "title": "No image alt text (596 products)",
       "label": "No image alt text",
       "url": "https://www.sahibas.com/collections/all",
-      "problem": "600 live products have no alt text on any product image. Affected: Jasmine Blue, Nayal, ZAVERI - PISTA, Nayriza, Tarana Kaftan - Hot Pink, Aneza, Aania, Serah, Daisey - Grey, Hasi, Guljawa, Dilruba - Off White, Muscari, Bahisht, Faiqa - Black, Nuhra, Wink, Aquamarine, Belleza - Ivory, Calico - Lilac, +580 more.",
+      "problem": "596 live products have no alt text on any product image. Affected: Jasmine Blue, Nayal, ZAVERI - PISTA, Nayriza, Tarana Kaftan - Hot Pink, Aneza, Aania, Serah, Daisey - Grey, Hasi, Guljawa, Dilruba - Off White, Muscari, Bahisht, Faiqa - Black, Nuhra, Wink, Aquamarine, Belleza - Ivory, Calico - Lilac, +576 more.",
       "fix": "Bulk-edit alt text in Shopify admin — use the product name plus fabric and colour."
     },
     "bfcd56212750fee9": {
@@ -5995,10 +6007,10 @@
       "source": "admin",
       "category": "tags",
       "sev": "LOW",
-      "title": "Missing \"All products\" tag (7 products)",
+      "title": "Missing \"All products\" tag (6 products)",
       "label": "Missing \"All products\" tag",
       "url": "https://www.sahibas.com/collections/all",
-      "problem": "7 live products are missing the \"All products\" tag and will not appear in the catch-all collection. Affected: Parda-Nasheen, Amour, Moonflower, Naira Black - Kids, Nouf, Oraya, Veil Navy.",
+      "problem": "6 live products are missing the \"All products\" tag and will not appear in the catch-all collection. Affected: Parda-Nasheen, Amour, Moonflower, Naira Black - Kids, Nouf, Oraya.",
       "fix": "Bulk-add the \"All products\" tag."
     },
     "cff44311dc080c64": {
@@ -6007,10 +6019,10 @@
       "source": "admin",
       "category": "tags",
       "sev": "LOW",
-      "title": "Missing season collection tag (7 products)",
+      "title": "Missing season collection tag (6 products)",
       "label": "Missing season collection tag",
       "url": "https://www.sahibas.com/collections/all",
-      "problem": "7 live products are missing their Summer/Winter Collection tag, so they will not show on that collection page. Affected: Parda-Nasheen Black (needs \"Summer Collection\"), Charming (needs \"Summer Collection\"), Oraya (needs \"Summer Collection\"), Veil Navy (needs \"Winter Collection\"), Marjan Lilac (needs \"Summer Collection\"), Kashful (needs \"Summer Collection\"), Tajwaar (needs \"Summer Collection\").",
+      "problem": "6 live products are missing their Summer/Winter Collection tag, so they will not show on that collection page. Affected: Parda-Nasheen Black (needs \"Summer Collection\"), Charming (needs \"Summer Collection\"), Oraya (needs \"Summer Collection\"), Marjan Lilac (needs \"Summer Collection\"), Kashful (needs \"Summer Collection\"), Tajwaar (needs \"Summer Collection\").",
       "fix": "Bulk-add the matching collection tag."
     }
   }
