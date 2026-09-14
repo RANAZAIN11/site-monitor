@@ -1,18 +1,6 @@
 {
   "generatedAt": "2026-09-14",
   "open": {
-    "efd7d6d85978082e": {
-      "firstSeen": "2026-09-14",
-      "lastSeen": "2026-09-14",
-      "source": "catalogue",
-      "category": "stock",
-      "sev": "HIGH",
-      "title": "Siham Yellow",
-      "label": "siham-yellow",
-      "url": "https://sahibas.com/products/siham-yellow",
-      "problem": "All variants are out of stock / unavailable for purchase.",
-      "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
-    },
     "d96e2a3aad3be7b6": {
       "firstSeen": "2026-09-14",
       "lastSeen": "2026-09-14",
@@ -22,18 +10,6 @@
       "title": "Siham Pista",
       "label": "siham-pista",
       "url": "https://sahibas.com/products/siham-pista",
-      "problem": "All variants are out of stock / unavailable for purchase.",
-      "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
-    },
-    "af9179d3a8c450fd": {
-      "firstSeen": "2026-09-14",
-      "lastSeen": "2026-09-14",
-      "source": "catalogue",
-      "category": "stock",
-      "sev": "HIGH",
-      "title": "Siham Lilac",
-      "label": "siham-lilac",
-      "url": "https://sahibas.com/products/siham-lilac",
       "problem": "All variants are out of stock / unavailable for purchase.",
       "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
     },
@@ -348,6 +324,18 @@
       "url": "https://www.sahibas.com/products/aneza",
       "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
+    },
+    "19f2257beb6b0819": {
+      "firstSeen": "2026-09-14",
+      "lastSeen": "2026-09-14",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Aania",
+      "label": "aania",
+      "url": "https://www.sahibas.com/products/aania",
+      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
     "0036fdbdac600209": {
       "firstSeen": "2026-09-07",
@@ -2530,7 +2518,7 @@
       "title": "Taliya Navy",
       "label": "taliya-navy",
       "url": "https://www.sahibas.com/products/taliya-navy",
-      "problem": "Only 3 unit(s) left in total across all sizes.",
+      "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "f1085cbede225ef8": {
@@ -4642,7 +4630,7 @@
       "title": "Qalamkar",
       "label": "qalamkar",
       "url": "https://www.sahibas.com/products/qalamkar",
-      "problem": "Status is DRAFT but 25 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "problem": "Status is DRAFT but 10 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
     "715c28b9f71a2da6": {
@@ -5124,42 +5112,6 @@
       "url": "https://www.sahibas.com/products/sage",
       "problem": "SKU \"SAH-SAGE-L-2\" is used twice inside this product (\"L\" and \"XL\").",
       "fix": "Give each size its own unique SKU."
-    },
-    "0142e04e05a78614": {
-      "firstSeen": "2026-09-14",
-      "lastSeen": "2026-09-14",
-      "source": "admin",
-      "category": "status",
-      "sev": "HIGH",
-      "title": "Siham Yellow",
-      "label": "siham-yellow",
-      "url": "https://www.sahibas.com/products/siham-yellow",
-      "problem": "Live on the store but completely out of stock across every size.",
-      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
-    },
-    "cafbef92d4aef43d": {
-      "firstSeen": "2026-09-14",
-      "lastSeen": "2026-09-14",
-      "source": "admin",
-      "category": "status",
-      "sev": "HIGH",
-      "title": "Siham Pista",
-      "label": "siham-pista",
-      "url": "https://www.sahibas.com/products/siham-pista",
-      "problem": "Live on the store but completely out of stock across every size.",
-      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
-    },
-    "a2e1b54c5904e50a": {
-      "firstSeen": "2026-09-14",
-      "lastSeen": "2026-09-14",
-      "source": "admin",
-      "category": "status",
-      "sev": "HIGH",
-      "title": "Siham Lilac",
-      "label": "siham-lilac",
-      "url": "https://www.sahibas.com/products/siham-lilac",
-      "problem": "Live on the store but completely out of stock across every size.",
-      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
     },
     "e1bdf69b24bfda3d": {
       "firstSeen": "2026-09-12",
