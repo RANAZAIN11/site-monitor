@@ -343,7 +343,14 @@ export async function auditAdmin() {
     } else if (pieceTags.length > 1) {
       const seasons = new Set(pieceTags.map((t) => (/summer/i.test(t) ? "summer" : "winter")));
       const counts = new Set(pieceTags.map((t) => parseInt(t, 10)));
-      if (seasons.size > 1) {
+      // A product whose main fabric is genuinely all-season (silk, poly silk, …)
+      // may legitimately carry both a Summer and a Winter tag, so don't flag it.
+      // Any OTHER fabric tagged for both seasons is still a real mistake.
+      const primaryFabric = ["shirt_fabric", "trouser_fabric", "dupatta_fabric"]
+        .map((k) => meta[k])
+        .find(Boolean);
+      const isAllSeasonFabric = primaryFabric && fabricSeason(primaryFabric) === "any";
+      if (seasons.size > 1 && !isAllSeasonFabric) {
         push(
           p,
           "tags",

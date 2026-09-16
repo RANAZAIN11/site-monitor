@@ -147,6 +147,10 @@ change — they are the single source of truth for the audit. Notes on recent tu
 - **Fabrics:** `CANONICAL_FABRICS` / `ALL_SEASON_FABRICS` include Jacquard and Manaar
   (real fabrics the store sells; "Mannar" kept as an alias). Add new fabrics to both
   lists. Note: "Viscouse" is intentionally still flagged — it's a typo of "Viscose".
+- **Both-seasons tag:** a product tagged for Summer AND Winter is flagged as an error,
+  EXCEPT when its primary fabric (shirt→trouser→dupatta) is all-season (silk, poly
+  silk, chiffon, …) — those are legitimately year-round. Any other fabric tagged for
+  both seasons stays flagged.
 - **Report shows everything:** `MAX_ROWS_PER_CATEGORY` is `Infinity` — the HTML report
   never truncates a category (no "+N more not listed"). The top "Since the last run"
   panel is still a capped summary; the full items always appear in their sections below.
