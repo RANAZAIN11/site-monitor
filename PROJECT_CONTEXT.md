@@ -60,7 +60,10 @@ and severity (HIGH / MED / LOW).
 - **Report format:** redesigned from plain text into one self-contained,
   professional HTML report with collapsible sections. (Plain text still exists as
   the WhatsApp/console summary + email plain-text fallback.)
-- **Send time:** 10:00 AM Pakistan time (`PKT = UTC+5` → cron `0 5 * * *`). It was
+- **Send time:** 6:17 AM Pakistan time (`PKT = UTC+5` → cron `17 1 * * *`), chosen
+  early + off the top of the hour because GitHub's free cron can run 1–3h late; this
+  gets the mail to the team well before noon even on a slow day. (Previously 10:00 AM
+  / `0 5 * * *`, which was landing as late as ~2:50 PM.) It was
   briefly moved to 11am and then back to 10am — 10am is the current, intended time.
 - **Recipients:** `MAIL_TO` is a **comma-separated list** (currently 2 addresses),
   not a single address.
@@ -121,7 +124,7 @@ site-monitor/
 ├─ state/
 │  └─ last-run.json            # daily issue snapshot, committed back for diffing
 └─ .github/workflows/
-   └─ daily-check.yml          # 10am PKT cron + manual dispatch + commit-back of state/
+   └─ daily-check.yml          # 6:17 AM PKT cron + manual dispatch + commit-back of state/
 ```
 
 **GitHub Secrets**
@@ -138,7 +141,7 @@ site-monitor/
   `rz1753431@gmail.com`), `ESCALATE_SEV` (inline in workflow, default `HIGH,MED`),
   `STATE_FILE` (optional; defaults to `state/last-run.json`).
 
-**Cron:** `0 5 * * *` UTC = 10:00 AM PKT. GitHub's scheduler can run 5–20 min late.
+**Cron:** `17 1 * * *` UTC = 6:17 AM PKT (early + odd minute to dodge GitHub cron congestion, which can be 1–3h).
 
 **Store rules live in code:** the season/piece/fabric/metafield conventions are
 constants at the top of `adminAudit.js` (`PIECE_TAGS`, `SEASON_METAFIELD_MAP`,

@@ -2,9 +2,11 @@ name: Daily site morning check
 
 on:
   schedule:
-    # 10:00 AM Pakistan (PKT = UTC+5)  ->  05:00 UTC
-    # Note: GitHub's scheduler can run a few minutes late under load.
-    - cron: "0 5 * * *"
+    # 6:17 AM Pakistan (PKT = UTC+5)  ->  01:17 UTC
+    # Early + an odd minute on purpose: GitHub's free scheduler is busiest at the
+    # top of the hour and can run 1-3h late, so we start early and off-peak so the
+    # team gets the mail well before noon even on a slow day.
+    - cron: "17 1 * * *"
   workflow_dispatch: {}
 
 # Needed so the run can commit the diff-state snapshot back to the repo.
