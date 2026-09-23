@@ -1,0 +1,77 @@
+// Orders summary for the ADMIN-ONLY email (Romeo + Junaid, not the whole team).
+//
+// Pulls total and cancelled order counts for three windows — yesterday, the
+// last 7 days, and this month-to-date — using the Shopify Admin REST
+// orders/count endpoint. Reuses the same OAuth token as the admin audit.
+//
+// REQUIRES the Shopify app to have the `read_orders` scope. Add it in the Dev
+// Dashboard app and re-grant. Without it the count calls return 401/403 and
+// this whole summary is skipped (non-fatal) — the rest of the report is
+// unaffected. `read_orders` covers the last 60 days of orders, which is all
+// three of these windows.
+
+import { getAccessToken } from "./adminAudit.js";
+
+const API_VERSION = process.env.SHOPIFY_API_VERSION || "2026-01";
+
+// Today's date in Pakistan time (UTC+5, no DST), offset days optional. Returns "YYYY-MM-DD".
+function pktDay(offsetDays = 0) {
+  const shifted = new Date(Date.now() + 5 * 3600 * 1000 + offsetDays * 86400000);
+  return shifted.toISOString().slice(0, 10);
+}
+const startOfPkt = (ymd) => `${ymd}T00:00:00+05:00`;
+const endOfPkt = (ymd) => `${ymd}T23:59:59+05:00`;
+
+async function countOrders({ status, created_at_min, created_at_max }) {
+  const store = process.env.SHOPIFY_STORE;
+  const token = await getAccessToken();
+  const qs = new URLSearchParams({ status, created_at_min, created_at_max });
+  const res = await fetch(
+    `https://${store}/admin/api/${API_VERSION}/orders/count.json?${qs.toString()}`,
+    { headers: { "X-Shopify-Access-Token": token, "Content-Type": "application/json" } }
+  );
+  if (!res.ok) {
+    const body = await res.text().catch(() => "");
+    const hint =
+      res.status === 401 || res.status === 403
+        ? " — the app is missing the read_orders scope (add it in the Dev Dashboard and re-grant)."
+        : "";
+    throw new Error(`orders/count HTTP ${res.status}${hint} ${body.slice(0, 160)}`);
+  }
+  const json = await res.json();
+  return Number(json.count || 0);
+}
+
+// One window = { total, cancelled }.
+async function windowCounts(minIso, maxIso) {
+  const [total, cancelled] = await Promise.all([
+    countOrders({ status: "any", created_at_min: minIso, created_at_max: maxIso }),
+    countOrders({ status: "cancelled", created_at_min: minIso, created_at_max: maxIso }),
+  ]);
+  return { total, cancelled };
+}
+
+// Returns { yesterday, last7, month } (each { total, cancelled }) or null if
+// orders can't be read (e.g. missing scope). Never throws to the caller.
+export async function getOrdersSummary() {
+  try {
+    if (!process.env.SHOPIFY_STORE) return null;
+
+    const today = pktDay(0);
+    const yesterday = pktDay(-1);
+    const sevenAgo = pktDay(-7);
+    const monthStart = `${today.slice(0, 7)}-01`;
+    const nowIso = new Date().toISOString();
+
+    const [yWin, w7, mWin] = await Promise.all([
+      windowCounts(startOfPkt(yesterday), endOfPkt(yesterday)),
+      windowCounts(startOfPkt(sevenAgo), nowIso),
+      windowCounts(startOfPkt(monthStart), nowIso),
+    ]);
+
+    return { yesterday: yWin, last7: w7, month: mWin, asOf: today };
+  } catch (e) {
+    console.error("Orders summary skipped (non-fatal):", e.message);
+    return null;
+  }
+}

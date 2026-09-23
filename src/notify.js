@@ -47,12 +47,15 @@ export async function sendEmail(siteName, plainTextSummary, htmlReport, overallI
 // { sev, title, url, problem, fix, ageDays }.
 export async function sendAdminAlert(siteName, pending, meta = {}) {
   const to = process.env.ADMIN_EMAIL || "rz1753431@gmail.com";
-  if (!to || !pending || pending.length === 0) return null;
+  const hasPending = Array.isArray(pending) && pending.length > 0;
+  const orders = meta.orders || null;
+  // Send if there's EITHER unfinished work OR an orders summary to deliver.
+  if (!to || (!hasPending && !orders)) return null;
 
   const dateStr = meta.dateStr || new Date().toLocaleDateString("en-GB");
   const MAX_ROWS = 60;
-  const shown = pending.slice(0, MAX_ROWS);
-  const more = pending.length - shown.length;
+  const shown = hasPending ? pending.slice(0, MAX_ROWS) : [];
+  const more = hasPending ? pending.length - shown.length : 0;
 
   const esc = (s) =>
     String(s ?? "")
@@ -60,12 +63,44 @@ export async function sendAdminAlert(siteName, pending, meta = {}) {
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;");
+  const nf = (n) => Number(n || 0).toLocaleString("en-US");
 
-  const subject = `\u{1F6A8} ${siteName}: ${pending.length} task(s) still NOT done \u2014 ${dateStr}`;
+  const subject = hasPending
+    ? `\u{1F6A8} ${siteName}: ${pending.length} task(s) still NOT done \u2014 ${dateStr}`
+    : `\u{1F4E6} ${siteName}: daily orders summary \u2014 ${dateStr}`;
 
   const ageText = (d) =>
     d >= 1 ? `open ${d} day${d === 1 ? "" : "s"}` : "carried over from the last run";
 
+  // ---- Orders summary (admin-only) ----
+  const ordersSection = orders
+    ? (() => {
+        const row = (label, w) => `
+          <tr>
+            <td style="padding:9px 12px;border-bottom:1px solid #eee;font-size:13px;color:#374151">${label}</td>
+            <td style="padding:9px 12px;border-bottom:1px solid #eee;font-size:13px;color:#111827;font-weight:700;text-align:right">${nf(
+              w.total
+            )}</td>
+            <td style="padding:9px 12px;border-bottom:1px solid #eee;font-size:13px;font-weight:700;text-align:right;color:${
+              w.cancelled > 0 ? "#dc2626" : "#6b7280"
+            }">${nf(w.cancelled)}</td>
+          </tr>`;
+        return `
+      <div style="font-size:13px;font-weight:800;color:#111827;margin:2px 0 8px">\u{1F4E6} Orders</div>
+      <table style="width:100%;border-collapse:collapse;background:#fff;border:1px solid #e5e7eb;border-radius:12px;overflow:hidden;margin-bottom:20px">
+        <tr style="background:#f9fafb">
+          <th style="padding:9px 12px;text-align:left;font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:#6b7280">Period</th>
+          <th style="padding:9px 12px;text-align:right;font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:#6b7280">Total orders</th>
+          <th style="padding:9px 12px;text-align:right;font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:#6b7280">Cancelled</th>
+        </tr>
+        ${row("Yesterday", orders.yesterday)}
+        ${row("Last 7 days", orders.last7)}
+        ${row("This month", orders.month)}
+      </table>`;
+      })()
+    : "";
+
+  // ---- Pending tasks ----
   const rows = shown
     .map(
       (i) => `
@@ -89,16 +124,10 @@ export async function sendAdminAlert(siteName, pending, meta = {}) {
     )
     .join("");
 
-  const html = `<!DOCTYPE html><html><body style="margin:0;background:#f3f4f6;font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif">
-    <div style="max-width:720px;margin:0 auto;padding:24px 16px">
-      <div style="background:linear-gradient(135deg,#b91c1c,#dc2626);border-radius:16px;padding:22px;color:#fff;margin-bottom:18px">
-        <div style="font-size:12px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;opacity:.85">Admin escalation</div>
-        <div style="font-size:22px;font-weight:800;margin-top:6px">${esc(siteName)} \u2014 pending tasks not done</div>
-        <div style="font-size:13.5px;margin-top:4px;opacity:.9">${esc(dateStr)}</div>
-      </div>
-      <p style="font-size:14px;color:#374151;line-height:1.6">
-        The daily monitor ran and the full report was sent to the team, but the
-        <strong>${pending.length}</strong> item(s) below were already flagged in a previous run and are
+  const pendingSection = hasPending
+    ? `<div style="font-size:13px;font-weight:800;color:#111827;margin:2px 0 8px">\u26A0\uFE0F Still not done</div>
+      <p style="font-size:13.5px;color:#374151;line-height:1.6;margin-top:0">
+        The following <strong>${pending.length}</strong> item(s) were flagged in a previous run and are
         <strong>still not fixed</strong>.
       </p>
       <table style="width:100%;border-collapse:collapse;background:#fff;border:1px solid #e5e7eb;border-radius:12px;overflow:hidden">
@@ -108,18 +137,48 @@ export async function sendAdminAlert(siteName, pending, meta = {}) {
         more > 0
           ? `<p style="font-size:13px;color:#6b7280;margin-top:12px">\u2026and ${more} more. See the full report email for everything.</p>`
           : ""
-      }
+      }`
+    : "";
+
+  const heroBg = hasPending
+    ? "linear-gradient(135deg,#b91c1c,#dc2626)"
+    : "linear-gradient(135deg,#4338ca,#6366f1)";
+  const heroKicker = hasPending ? "Admin escalation" : "Admin summary";
+  const heroTitle = hasPending
+    ? `${esc(siteName)} \u2014 pending tasks not done`
+    : `${esc(siteName)} \u2014 daily orders summary`;
+
+  const html = `<!DOCTYPE html><html><body style="margin:0;background:#f3f4f6;font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif">
+    <div style="max-width:720px;margin:0 auto;padding:24px 16px">
+      <div style="background:${heroBg};border-radius:16px;padding:22px;color:#fff;margin-bottom:18px">
+        <div style="font-size:12px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;opacity:.85">${heroKicker}</div>
+        <div style="font-size:22px;font-weight:800;margin-top:6px">${heroTitle}</div>
+        <div style="font-size:13.5px;margin-top:4px;opacity:.9">${esc(dateStr)} \u00B7 admin only</div>
+      </div>
+      ${ordersSection}
+      ${pendingSection}
     </div></body></html>`;
 
-  const textLines = [
-    `${siteName}: ${pending.length} previously-flagged task(s) still NOT done as of ${dateStr}.`,
-    "",
-    ...shown.map(
-      (i, n) =>
+  const textLines = [];
+  if (orders) {
+    const tl = (label, w) => `  ${label}: ${nf(w.total)} orders, ${nf(w.cancelled)} cancelled`;
+    textLines.push(
+      `${siteName} orders as of ${dateStr}:`,
+      tl("Yesterday", orders.yesterday),
+      tl("Last 7 days", orders.last7),
+      tl("This month", orders.month),
+      ""
+    );
+  }
+  if (hasPending) {
+    textLines.push(`${pending.length} previously-flagged task(s) still NOT done:`, "");
+    shown.forEach((i, n) =>
+      textLines.push(
         `${n + 1}. [${i.sev}] ${i.title || i.label} (${ageText(i.ageDays || 0)})\n   ${i.problem}\n   Fix: ${i.fix}\n   ${i.url}`
-    ),
-    more > 0 ? `\n...and ${more} more.` : "",
-  ];
+      )
+    );
+    if (more > 0) textLines.push(`\n...and ${more} more.`);
+  }
 
   const transporter = makeTransport();
   await transporter.sendMail({
@@ -129,7 +188,7 @@ export async function sendAdminAlert(siteName, pending, meta = {}) {
     text: textLines.join("\n"),
     html,
   });
-  return { to, count: pending.length };
+  return { to, count: hasPending ? pending.length : 0, orders: !!orders };
 }
 
 export async function sendWhatsApp(plainTextSummary) {

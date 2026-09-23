@@ -24,6 +24,9 @@
 //
 // Optional:
 //   SHOPIFY_API_VERSION  = 2026-01   (default)
+//
+// Scopes required on the app: read_products, read_inventory, read_locations.
+// For the admin-only orders summary (src/ordersSummary.js) also add: read_orders.
 //   STORE_PUBLIC_URL     = https://www.sahibas.com  (for links in the report)
 //
 // Returns the SAME shape as catalogueAudit.js so report.js can render it:
@@ -423,7 +426,10 @@ export async function auditAdmin() {
           `${key.replace(/_/g, " ")} is spelled "${val}" instead of "${canon}".`,
           `Correct it to "${canon}" so filters and catalogue text stay consistent.`
         );
-      } else if (!canon && fs === null) {
+      } else if (!canon && fs === null && key !== "dupatta_fabric") {
+        // Dupatta fabrics vary a lot (silk, organza, net, tissue, jacquard…) and
+        // legitimate ones kept getting called "not a proper fabric". So the
+        // not-recognised flag is skipped for dupatta — shirt/trouser still checked.
         push(
           p,
           "metafields",

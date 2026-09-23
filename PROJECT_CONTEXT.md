@@ -114,6 +114,7 @@ site-monitor/
 │  ├─ catalogueAudit.js        # public products.json storefront audit
 │  ├─ adminAudit.js            # Shopify Admin GraphQL audit (mid-flight layer)
 │  ├─ diffState.js             # run-to-run diff: new/resolved/still-pending + escalation set
+│  ├─ ordersSummary.js         # admin-only order counts (yesterday/7d/month) via read_orders
 │  ├─ testAdmin.js             # creds/scopes smoke test — no email
 │  ├─ report.js                # builds the self-contained HTML report
 │  └─ notify.js                # email (primary) + optional WhatsApp
@@ -147,6 +148,14 @@ change — they are the single source of truth for the audit. Notes on recent tu
 - **Fabrics:** `CANONICAL_FABRICS` / `ALL_SEASON_FABRICS` include Jacquard and Manaar
   (real fabrics the store sells; "Mannar" kept as an alias). Add new fabrics to both
   lists. Note: "Viscouse" is intentionally still flagged — it's a typo of "Viscose".
+- **Dupatta fabric:** the "not a recognised fabric" flag is skipped for
+  `dupatta_fabric` (dupatta fabrics vary too widely; correct ones were being called
+  wrong). Still applies to `shirt_fabric` / `trouser_fabric`.
+- **Admin orders summary (`ordersSummary.js`):** the admin email now also carries
+  total + cancelled order counts for yesterday / last 7 days / this month, and is sent
+  DAILY to `ADMIN_EMAIL` only (not the team `MAIL_TO`) even when there are no pending
+  tasks. Needs the Shopify app to have the `read_orders` scope; without it the summary
+  is skipped (non-fatal) and the email still sends any pending tasks.
 - **Both-seasons tag:** a product tagged for Summer AND Winter is flagged as an error,
   EXCEPT when its primary fabric (shirt→trouser→dupatta) is all-season (silk, poly
   silk, chiffon, …) — those are legitimately year-round. Any other fabric tagged for

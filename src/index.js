@@ -5,6 +5,7 @@ import { analyze } from "./analyze.js";
 import { auditCatalogue } from "./catalogueAudit.js";
 import { auditAdmin } from "./adminAudit.js";
 import { auditSeo } from "./seoAudit.js";
+import { getOrdersSummary } from "./ordersSummary.js";
 import { buildHtmlReport } from "./report.js";
 import { sendEmail, sendWhatsApp, sendAdminAlert } from "./notify.js";
 import { collectIssues, loadState, saveState, computeDiff, escalatable } from "./diffState.js";
@@ -136,19 +137,34 @@ async function main() {
   // ADMIN_EMAIL only (separate from the team report), and only fires when there
   // is carried-over work at or above ESCALATE_SEV (default HIGH,MED).
   try {
+    // Admin-only orders summary (yesterday / last 7 days / this month). Returns
+    // null if read_orders scope is missing — the admin email still sends any
+    // pending tasks in that case.
+    const orders = await getOrdersSummary();
+    if (orders) {
+      console.log(
+        `Orders — yesterday ${orders.yesterday.total}/${orders.yesterday.cancelled} cancelled, ` +
+          `7d ${orders.last7.total}/${orders.last7.cancelled}, month ${orders.month.total}/${orders.month.cancelled}.`
+      );
+    }
+
     const escSev = (process.env.ESCALATE_SEV || "HIGH,MED")
       .split(",")
       .map((s) => s.trim())
       .filter(Boolean);
     const pending = escalatable(diff.pendingIssues, escSev);
-    if (pending.length) {
-      const res = await sendAdminAlert(config.siteName, pending, { dateStr });
-      if (res) console.log(`Admin alert sent to ${res.to}: ${res.count} pending task(s).`);
+
+    const res = await sendAdminAlert(config.siteName, pending, { dateStr, orders });
+    if (res) {
+      console.log(
+        `Admin email sent to ${res.to}: ${res.count} pending task(s)` +
+          `${res.orders ? " + orders summary" : ""}.`
+      );
     } else {
-      console.log("No escalatable pending tasks \u2014 no admin alert sent.");
+      console.log("Nothing for the admin email (no pending tasks, no orders) \u2014 not sent.");
     }
   } catch (e) {
-    console.error("Admin alert failed (non-fatal):", e.message);
+    console.error("Admin email failed (non-fatal):", e.message);
   }
 
   try {
