@@ -72,6 +72,28 @@ export async function sendAdminAlert(siteName, pending, meta = {}) {
   const ageText = (d) =>
     d >= 1 ? `open ${d} day${d === 1 ? "" : "s"}` : "carried over from the last run";
 
+  // Cancelled order numbers this month (only cancelled). Shown under the table.
+  const cancelledOrdersBlock = (list) => {
+    if (!Array.isArray(list) || list.length === 0) return "";
+    const CAP = 60;
+    const shownC = list.slice(0, CAP);
+    const moreC = list.length - shownC.length;
+    const chips = shownC
+      .map((o) => {
+        const d = o.cancelled_at || o.created_at;
+        const day = d ? new Date(d).toLocaleDateString("en-GB", { day: "numeric", month: "short" }) : "";
+        return `<span style="display:inline-block;background:#fef2f2;color:#b91c1c;border:1px solid #fecaca;border-radius:999px;padding:3px 9px;font-size:12px;font-weight:700;margin:0 6px 6px 0">${esc(
+          o.name || "?"
+        )}${day ? ` <span style="color:#9ca3af;font-weight:400">\u00B7 ${day}</span>` : ""}</span>`;
+      })
+      .join("");
+    return `
+      <div style="font-size:12.5px;font-weight:800;color:#b91c1c;margin:0 0 8px">Cancelled orders this month (${list.length})</div>
+      <div style="margin-bottom:20px">${chips}${
+      moreC > 0 ? `<span style="color:#6b7280;font-size:12px">+${moreC} more</span>` : ""
+    }</div>`;
+  };
+
   // ---- Orders summary (admin-only) ----
   const ordersSection = orders
     ? (() => {
@@ -96,7 +118,7 @@ export async function sendAdminAlert(siteName, pending, meta = {}) {
         ${row("Yesterday", orders.yesterday)}
         ${row("Last 7 days", orders.last7)}
         ${row("This month", orders.month)}
-      </table>`;
+      </table>${cancelledOrdersBlock(orders.cancelledOrders)}`;
       })()
     : "";
 
@@ -169,6 +191,14 @@ export async function sendAdminAlert(siteName, pending, meta = {}) {
       tl("This month", orders.month),
       ""
     );
+    const cl = Array.isArray(orders.cancelledOrders) ? orders.cancelledOrders : [];
+    if (cl.length) {
+      textLines.push(
+        `Cancelled this month (${cl.length}): ` + cl.slice(0, 60).map((o) => o.name).join(", ") +
+          (cl.length > 60 ? ` +${cl.length - 60} more` : ""),
+        ""
+      );
+    }
   }
   if (hasPending) {
     textLines.push(`${pending.length} previously-flagged task(s) still NOT done:`, "");

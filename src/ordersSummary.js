@@ -42,6 +42,30 @@ async function countOrders({ status, created_at_min, created_at_max }) {
   return Number(json.count || 0);
 }
 
+// The actual cancelled orders in a window — their order numbers (e.g. "#1042").
+// Returns [{ name, created_at }] newest-cancelled first (capped at 250).
+async function listCancelledOrders(minIso, maxIso) {
+  const store = process.env.SHOPIFY_STORE;
+  const token = await getAccessToken();
+  const qs = new URLSearchParams({
+    status: "cancelled",
+    created_at_min: minIso,
+    created_at_max: maxIso,
+    fields: "name,created_at,cancelled_at",
+    limit: "250",
+  });
+  const res = await fetch(
+    `https://${store}/admin/api/${API_VERSION}/orders.json?${qs.toString()}`,
+    { headers: { "X-Shopify-Access-Token": token, "Content-Type": "application/json" } }
+  );
+  if (!res.ok) return []; // non-fatal — counts still show
+  const json = await res.json();
+  const orders = Array.isArray(json.orders) ? json.orders : [];
+  return orders
+    .map((o) => ({ name: o.name, created_at: o.created_at, cancelled_at: o.cancelled_at }))
+    .sort((a, b) => new Date(b.cancelled_at || b.created_at) - new Date(a.cancelled_at || a.created_at));
+}
+
 // One window = { total, cancelled }.
 async function windowCounts(minIso, maxIso) {
   const [total, cancelled] = await Promise.all([
@@ -63,13 +87,15 @@ export async function getOrdersSummary() {
     const monthStart = `${today.slice(0, 7)}-01`;
     const nowIso = new Date().toISOString();
 
-    const [yWin, w7, mWin] = await Promise.all([
+    const [yWin, w7, mWin, cancelledThisMonth] = await Promise.all([
       windowCounts(startOfPkt(yesterday), endOfPkt(yesterday)),
       windowCounts(startOfPkt(sevenAgo), nowIso),
       windowCounts(startOfPkt(monthStart), nowIso),
+      listCancelledOrders(startOfPkt(monthStart), nowIso),
     ]);
 
-    return { yesterday: yWin, last7: w7, month: mWin, asOf: today };
+    // Order numbers of this month's cancelled orders (only cancelled).
+    return { yesterday: yWin, last7: w7, month: mWin, cancelledOrders: cancelledThisMonth, asOf: today };
   } catch (e) {
     console.error("Orders summary skipped (non-fatal):", e.message);
     return null;

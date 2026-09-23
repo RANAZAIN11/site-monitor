@@ -148,14 +148,17 @@ change — they are the single source of truth for the audit. Notes on recent tu
 - **Fabrics:** `CANONICAL_FABRICS` / `ALL_SEASON_FABRICS` include Jacquard and Manaar
   (real fabrics the store sells; "Mannar" kept as an alias). Add new fabrics to both
   lists. Note: "Viscouse" is intentionally still flagged — it's a typo of "Viscose".
-- **Dupatta fabric:** the "not a recognised fabric" flag is skipped for
-  `dupatta_fabric` (dupatta fabrics vary too widely; correct ones were being called
-  wrong). Still applies to `shirt_fabric` / `trouser_fabric`.
-- **Admin orders summary (`ordersSummary.js`):** the admin email now also carries
-  total + cancelled order counts for yesterday / last 7 days / this month, and is sent
-  DAILY to `ADMIN_EMAIL` only (not the team `MAIL_TO`) even when there are no pending
-  tasks. Needs the Shopify app to have the `read_orders` scope; without it the summary
-  is skipped (non-fatal) and the email still sends any pending tasks.
+- **Dupatta fabric:** dupatta is exempt from BOTH fabric checks — "not a recognised
+  fabric" AND the fabric-vs-season mismatch (a winter suit can carry a Voile/Cambric
+  dupatta). Both checks still apply to `shirt_fabric` / `trouser_fabric`.
+- **Metafield checks:** `trouser_fabric` and `bottom_style` "empty" flags were removed
+  (not every product has a trouser/bottom). `REQUIRED_IF_2PC` is now empty;
+  `dupatta_fabric` is still required for 3pc (`REQUIRED_IF_3PC`).
+- **Admin orders summary (`ordersSummary.js`):** the admin email carries total +
+  cancelled order counts for yesterday / last 7 days / this month, PLUS the order
+  numbers of this month's cancelled orders (cancelled only). Sent DAILY to
+  `ADMIN_EMAIL` only (not the team `MAIL_TO`), even with no pending tasks. Needs the
+  Shopify `read_orders` scope; without it the summary is skipped (non-fatal).
 - **Both-seasons tag:** a product tagged for Summer AND Winter is flagged as an error,
   EXCEPT when its primary fabric (shirt→trouser→dupatta) is all-season (silk, poly
   silk, chiffon, …) — those are legitimately year-round. Any other fabric tagged for

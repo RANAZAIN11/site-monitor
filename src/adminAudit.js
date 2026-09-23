@@ -91,11 +91,10 @@ const REQUIRED_METAFIELDS = [
   { key: "work_technique", label: "Work Technique", sev: "LOW" },
   { key: "lining_attached", label: "Lining Attached", sev: "LOW" },
 ];
-// Extra metafields required once the product has a bottom / dupatta.
-const REQUIRED_IF_2PC = [
-  { key: "trouser_fabric", label: "Trouser Fabric", sev: "MED" },
-  { key: "bottom_style", label: "Bottom Style", sev: "LOW" },
-];
+// Extra metafields required by piece count.
+// trouser_fabric and bottom_style were removed on purpose: not every product
+// has a trouser or a separate bottom, so their "empty" flags were false alarms.
+const REQUIRED_IF_2PC = [];
 const REQUIRED_IF_3PC = [{ key: "dupatta_fabric", label: "Dupatta Fabric", sev: "MED" }];
 
 // Product shoot expectations.
@@ -407,7 +406,9 @@ export async function auditAdmin() {
       const val = meta[key];
       if (!val) continue;
       const fs = fabricSeason(val);
-      if (fs && fs !== "any" && tagSeason && fs !== tagSeason) {
+      // Dupatta fabric doesn't decide the product's season — a winter suit can
+      // carry a Voile/Cambric dupatta — so don't flag a dupatta season mismatch.
+      if (fs && fs !== "any" && tagSeason && fs !== tagSeason && key !== "dupatta_fabric") {
         push(
           p,
           "tags",
