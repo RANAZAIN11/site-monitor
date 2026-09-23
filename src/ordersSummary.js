@@ -94,8 +94,36 @@ export async function getOrdersSummary() {
       listCancelledOrders(startOfPkt(monthStart), nowIso),
     ]);
 
-    // Order numbers of this month's cancelled orders (only cancelled).
-    return { yesterday: yWin, last7: w7, month: mWin, cancelledOrders: cancelledThisMonth, asOf: today };
+    // Split the month's cancelled orders into non-overlapping recency groups so
+    // the email can show them grouped and readable (every order appears once).
+    // Grouped by created_at, to match how the counts above are windowed.
+    const tToday = Date.parse(startOfPkt(today));
+    const tYest = Date.parse(startOfPkt(yesterday));
+    const t7 = Date.parse(startOfPkt(sevenAgo));
+    const tMonth = Date.parse(startOfPkt(monthStart));
+    const groups = { today: [], yesterday: [], week: [], earlier: [] };
+    for (const o of cancelledThisMonth) {
+      const t = Date.parse(o.created_at);
+      if (t >= tToday) groups.today.push(o);
+      else if (t >= tYest) groups.yesterday.push(o);
+      else if (t >= t7) groups.week.push(o);
+      else if (t >= tMonth) groups.earlier.push(o);
+    }
+    const cancelledBuckets = [
+      { label: "Today", orders: groups.today },
+      { label: "Yesterday", orders: groups.yesterday },
+      { label: "2\u20137 days ago", orders: groups.week },
+      { label: "Earlier this month", orders: groups.earlier },
+    ].filter((b) => b.orders.length > 0);
+
+    return {
+      yesterday: yWin,
+      last7: w7,
+      month: mWin,
+      cancelledOrders: cancelledThisMonth, // flat list (text fallback)
+      cancelledBuckets, // grouped by recency for the HTML email
+      asOf: today,
+    };
   } catch (e) {
     console.error("Orders summary skipped (non-fatal):", e.message);
     return null;

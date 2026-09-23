@@ -75,7 +75,10 @@ and severity (HIGH / MED / LOW).
 - **Run-to-run diff:** report leads with what changed vs. yesterday; a **still-not-done**
   escalation emails `ADMIN_EMAIL` for carried-over HIGH/MED tasks. State is a JSON
   snapshot (`state/last-run.json`) the Actions workflow **commits back** to the repo
-  after each run (needs `permissions: contents: write`). Front-end/Gemini output is
+  after each run (needs `permissions: contents: write`). The commit-back step is
+  race-safe (fetch + `rebase -X theirs` + retry) and best-effort: if it still can't
+  push it exits 0 so the job never goes red just because the report already sent and
+  the bookkeeping push lost a race. Front-end/Gemini output is
   intentionally not diffed.
 
 ## 4. Current state / what's mid-flight
@@ -159,7 +162,9 @@ change — they are the single source of truth for the audit. Notes on recent tu
   `dupatta_fabric` is still required for 3pc (`REQUIRED_IF_3PC`).
 - **Admin orders summary (`ordersSummary.js`):** the admin email carries total +
   cancelled order counts for yesterday / last 7 days / this month, PLUS the order
-  numbers of this month's cancelled orders (cancelled only). Sent DAILY to
+  numbers of this month's cancelled orders (cancelled only), grouped into
+  non-overlapping recency buckets (Today / Yesterday / 2–7 days ago / Earlier this
+  month) so the email stays readable with no hidden "+N more". Sent DAILY to
   `ADMIN_EMAIL` only (not the team `MAIL_TO`), even with no pending tasks. Needs the
   Shopify `read_orders` scope; without it the summary is skipped (non-fatal).
 - **Both-seasons tag:** a product tagged for Summer AND Winter is flagged as an error,

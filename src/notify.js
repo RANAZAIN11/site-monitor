@@ -72,26 +72,37 @@ export async function sendAdminAlert(siteName, pending, meta = {}) {
   const ageText = (d) =>
     d >= 1 ? `open ${d} day${d === 1 ? "" : "s"}` : "carried over from the last run";
 
-  // Cancelled order numbers this month (only cancelled). Shown under the table.
-  const cancelledOrdersBlock = (list) => {
-    if (!Array.isArray(list) || list.length === 0) return "";
-    const CAP = 60;
-    const shownC = list.slice(0, CAP);
-    const moreC = list.length - shownC.length;
-    const chips = shownC
-      .map((o) => {
-        const d = o.cancelled_at || o.created_at;
-        const day = d ? new Date(d).toLocaleDateString("en-GB", { day: "numeric", month: "short" }) : "";
-        return `<span style="display:inline-block;background:#fef2f2;color:#b91c1c;border:1px solid #fecaca;border-radius:999px;padding:3px 9px;font-size:12px;font-weight:700;margin:0 6px 6px 0">${esc(
-          o.name || "?"
-        )}${day ? ` <span style="color:#9ca3af;font-weight:400">\u00B7 ${day}</span>` : ""}</span>`;
+  // Cancelled order numbers this month, grouped by recency period so the email is
+  // readable — every order shown once under its period (no "expand" needed, since
+  // email can't run scripts). `buckets` = [{ label, orders:[{name,created_at}] }].
+  const cancelledOrdersBlock = (buckets) => {
+    if (!Array.isArray(buckets) || buckets.length === 0) return "";
+    const CAP = 250; // safety only — normally shows everything
+    const chip = (o) =>
+      `<span style="display:inline-block;background:#fef2f2;color:#b91c1c;border:1px solid #fecaca;border-radius:999px;padding:3px 9px;font-size:12px;font-weight:700;margin:0 6px 6px 0">${esc(
+        o.name || "?"
+      )}</span>`;
+
+    const total = buckets.reduce((n, b) => n + b.orders.length, 0);
+    const sections = buckets
+      .map((b) => {
+        const shownC = b.orders.slice(0, CAP);
+        const moreC = b.orders.length - shownC.length;
+        return `
+        <div style="margin-bottom:12px">
+          <div style="font-size:12px;font-weight:700;color:#374151;margin:0 0 6px">${esc(
+            b.label
+          )} <span style="color:#9ca3af">(${b.orders.length})</span></div>
+          <div>${shownC.map(chip).join("")}${
+          moreC > 0 ? `<span style="color:#6b7280;font-size:12px">+${moreC} more</span>` : ""
+        }</div>
+        </div>`;
       })
       .join("");
+
     return `
-      <div style="font-size:12.5px;font-weight:800;color:#b91c1c;margin:0 0 8px">Cancelled orders this month (${list.length})</div>
-      <div style="margin-bottom:20px">${chips}${
-      moreC > 0 ? `<span style="color:#6b7280;font-size:12px">+${moreC} more</span>` : ""
-    }</div>`;
+      <div style="font-size:12.5px;font-weight:800;color:#b91c1c;margin:2px 0 10px">Cancelled orders this month (${total})</div>
+      <div style="background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:14px 16px;margin-bottom:20px">${sections}</div>`;
   };
 
   // ---- Orders summary (admin-only) ----
@@ -118,7 +129,7 @@ export async function sendAdminAlert(siteName, pending, meta = {}) {
         ${row("Yesterday", orders.yesterday)}
         ${row("Last 7 days", orders.last7)}
         ${row("This month", orders.month)}
-      </table>${cancelledOrdersBlock(orders.cancelledOrders)}`;
+      </table>${cancelledOrdersBlock(orders.cancelledBuckets)}`;
       })()
     : "";
 
@@ -191,13 +202,14 @@ export async function sendAdminAlert(siteName, pending, meta = {}) {
       tl("This month", orders.month),
       ""
     );
-    const cl = Array.isArray(orders.cancelledOrders) ? orders.cancelledOrders : [];
-    if (cl.length) {
-      textLines.push(
-        `Cancelled this month (${cl.length}): ` + cl.slice(0, 60).map((o) => o.name).join(", ") +
-          (cl.length > 60 ? ` +${cl.length - 60} more` : ""),
-        ""
-      );
+    const buckets = Array.isArray(orders.cancelledBuckets) ? orders.cancelledBuckets : [];
+    const totalC = buckets.reduce((n, b) => n + b.orders.length, 0);
+    if (totalC) {
+      textLines.push(`Cancelled this month (${totalC}):`);
+      for (const b of buckets) {
+        textLines.push(`  ${b.label} (${b.orders.length}): ` + b.orders.map((o) => o.name).join(", "));
+      }
+      textLines.push("");
     }
   }
   if (hasPending) {
