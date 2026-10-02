@@ -97,6 +97,13 @@ const REQUIRED_METAFIELDS = [
 const REQUIRED_IF_2PC = [];
 const REQUIRED_IF_3PC = [{ key: "dupatta_fabric", label: "Dupatta Fabric", sev: "MED" }];
 
+// "New arrival" rules. After this many days the new-arrival tag is considered
+// stale and should be removed. Override with env NEW_ARRIVAL_MAX_DAYS if needed.
+const NEW_ARRIVAL_MAX_DAYS = Number(process.env.NEW_ARRIVAL_MAX_DAYS) || 30;
+// Matches "new arrival", "New Arrivals", "new-arrival", "new_arrivals", etc.
+const isNewArrivalTag = (t) => String(t).toLowerCase().replace(/[\s_-]+/g, "").includes("newarrival");
+const hasNewArrivalTag = (tags) => (tags || []).some(isNewArrivalTag);
+
 // Product shoot expectations.
 const MIN_IMAGES = 4;          // hero + 3 detail crops for the catalogue
 const LOW_STOCK_THRESHOLD = 5; // total units across all sizes
@@ -123,6 +130,7 @@ query AuditProducts($cursor: String) {
       handle
       status
       tags
+      createdAt
       totalInventory
       mediaCount { count }
       media(first: 5) { nodes { alt mediaContentType } }
@@ -584,6 +592,38 @@ export async function auditAdmin() {
 
       if (!skuOwners.has(sku)) skuOwners.set(sku, []);
       skuOwners.get(sku).push({ title: p.title, handle: p.handle, variant: v.title });
+    }
+
+    // ---------- New arrival hygiene (active + "new arrival" tagged) ----------
+    if (p.status === "ACTIVE" && hasNewArrivalTag(p.tags)) {
+      // (a) Stale new arrival: still tagged "new arrival" after NEW_ARRIVAL_MAX_DAYS.
+      const created = Date.parse(p.createdAt);
+      if (Number.isFinite(created)) {
+        const ageDays = Math.floor((Date.now() - created) / 86400000);
+        if (ageDays > NEW_ARRIVAL_MAX_DAYS) {
+          push(
+            p,
+            "tags",
+            "MED",
+            `Still tagged "new arrival" but it was created ${ageDays} days ago (over ${NEW_ARRIVAL_MAX_DAYS}).`,
+            `Remove the "new arrival" tag and move it into its regular category.`
+          );
+        }
+      }
+      // (b) New arrivals shouldn't be on sale: no compare-at (fake gross) price.
+      const onSale = variants.some((v) => {
+        const cap = v.compareAtPrice === null ? null : Number(v.compareAtPrice);
+        return Number.isFinite(cap) && cap > 0;
+      });
+      if (onSale) {
+        push(
+          p,
+          "admin_price",
+          "MED",
+          `New arrival has a compare-at (sale) price set — new arrivals should show only the real price, not a crossed-out one.`,
+          `Clear the compare-at price on every size so it isn't displayed on sale.`
+        );
+      }
     }
 
     // ---------- 5. MEDIA / PRODUCT SHOOT ----------

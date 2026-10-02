@@ -167,6 +167,11 @@ change — they are the single source of truth for the audit. Notes on recent tu
   month) so the email stays readable with no hidden "+N more". Sent DAILY to
   `ADMIN_EMAIL` only (not the team `MAIL_TO`), even with no pending tasks. Needs the
   Shopify `read_orders` scope; without it the summary is skipped (non-fatal).
+- **New arrival hygiene (active + "new arrival" tagged):** (a) flagged if created
+  more than `NEW_ARRIVAL_MAX_DAYS` (default 30, env-overridable) days ago — remove the
+  tag and move to its real category; (b) flagged if any variant has a compare-at
+  (sale) price — new arrivals should show only the real price, no crossed-out price.
+  Tag match is flexible (New Arrival / new-arrival / New Arrivals). Drafts are ignored.
 - **Both-seasons tag:** a product tagged for Summer AND Winter is flagged as an error,
   EXCEPT when its primary fabric (shirt→trouser→dupatta) is all-season (silk, poly
   silk, chiffon, …) — those are legitimately year-round. Any other fabric tagged for
