@@ -67,7 +67,7 @@ const PIECES_METAFIELD_MAP = {
 
 // Fabric -> season. Used to catch "summer fabric tagged as winter" and the
 // reverse. Anything in ALL_SEASON never raises a mismatch.
-const WINTER_FABRICS = ["dhanak", "khaddar", "velvet", "marina", "wool", "karandi", "pashmina", "linen"];
+const WINTER_FABRICS = ["dhanak", "khaddar", "velvet", "marina", "wool", "karandi", "pashmina", "linen", "corduroy", "cordroy", "cordory"];
 const SUMMER_FABRICS = ["lawn", "cotton", "voile", "cambric", "cotton net", "swiss lawn"];
 const ALL_SEASON_FABRICS = ["poly silk", "chiffon", "organza", "net", "viscose", "silk", "grip", "jacquard", "manaar", "mannar"];
 
@@ -75,7 +75,7 @@ const ALL_SEASON_FABRICS = ["poly silk", "chiffon", "organza", "net", "viscose",
 // (this is what catches "Poly SIlk").
 const CANONICAL_FABRICS = [
   "Lawn", "Cotton", "Voile", "Cambric", "Cotton Net", "Swiss Lawn",
-  "Dhanak", "Khaddar", "Velvet", "Marina", "Wool", "Karandi", "Pashmina", "Linen",
+  "Dhanak", "Khaddar", "Velvet", "Marina", "Wool", "Karandi", "Pashmina", "Linen", "Corduroy",
   "Poly Silk", "Chiffon", "Organza", "Net", "Viscose", "Silk", "Grip",
   "Jacquard", "Manaar", "Mannar",
 ];
