@@ -3022,7 +3022,7 @@
       "title": "Taliya Maroon",
       "label": "taliya-maroon-1",
       "url": "https://www.sahibas.com/products/taliya-maroon-1",
-      "problem": "Only 4 unit(s) left in total across all sizes.",
+      "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "88a3ba9c7c59c56e": {
@@ -3706,7 +3706,7 @@
       "title": "Parinaz",
       "label": "parinaz",
       "url": "https://www.sahibas.com/products/parinaz",
-      "problem": "Still tagged \"new arrival\" but it was created 34 days ago (over 30).",
+      "problem": "Still tagged \"new arrival\" but it was created 35 days ago (over 30).",
       "fix": "Remove the \"new arrival\" tag and move it into its regular category."
     },
     "29d4ee6c93413a81": {
@@ -3754,7 +3754,7 @@
       "title": "Sophiara Black",
       "label": "sophiara-black",
       "url": "https://www.sahibas.com/products/sophiara-black",
-      "problem": "Still tagged \"new arrival\" but it was created 33 days ago (over 30).",
+      "problem": "Still tagged \"new arrival\" but it was created 34 days ago (over 30).",
       "fix": "Remove the \"new arrival\" tag and move it into its regular category."
     },
     "ac6490a6a80e8558": {
@@ -3778,7 +3778,7 @@
       "title": "Kehkashan",
       "label": "kehkashan",
       "url": "https://www.sahibas.com/products/kehkashan",
-      "problem": "Still tagged \"new arrival\" but it was created 32 days ago (over 30).",
+      "problem": "Still tagged \"new arrival\" but it was created 33 days ago (over 30).",
       "fix": "Remove the \"new arrival\" tag and move it into its regular category."
     },
     "075123dc30979e7f": {
@@ -3790,7 +3790,7 @@
       "title": "Sabzposh",
       "label": "sabzposh",
       "url": "https://www.sahibas.com/products/sabzposh",
-      "problem": "Still tagged \"new arrival\" but it was created 32 days ago (over 30).",
+      "problem": "Still tagged \"new arrival\" but it was created 33 days ago (over 30).",
       "fix": "Remove the \"new arrival\" tag and move it into its regular category."
     },
     "041d12032c1b1fa0": {
@@ -3874,7 +3874,7 @@
       "title": "Najat",
       "label": "najat",
       "url": "https://www.sahibas.com/products/najat",
-      "problem": "Only 1 unit(s) left in total across all sizes.",
+      "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "328e3ad17f6a8cb5": {
@@ -3997,17 +3997,29 @@
       "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "d2f0e1f24b1a1a49": {
+    "f6113e8fa340204b": {
       "firstSeen": "2026-11-04",
       "lastSeen": "2026-11-04",
       "source": "admin",
       "category": "status",
       "sev": "MED",
+      "title": "Cornish",
+      "label": "cornish",
+      "url": "https://www.sahibas.com/products/cornish",
+      "problem": "Status is DRAFT but 14 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+    },
+    "e19d4f7380d17ab2": {
+      "firstSeen": "2026-11-04",
+      "lastSeen": "2026-11-04",
+      "source": "admin",
+      "category": "metafields",
+      "sev": "HIGH",
       "title": "Suhayr",
       "label": "suhayr",
       "url": "https://www.sahibas.com/products/suhayr",
-      "problem": "Status is DRAFT but 25 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
+      "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
     },
     "c041a6d013ab7d9b": {
       "firstSeen": "2026-11-04",
@@ -4045,53 +4057,89 @@
       "problem": "Status is DRAFT but 25 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "091e79f209ef7740": {
+    "197f77cafd8d1e1f": {
       "firstSeen": "2026-11-04",
       "lastSeen": "2026-11-04",
       "source": "admin",
-      "category": "status",
-      "sev": "MED",
+      "category": "metafields",
+      "sev": "HIGH",
       "title": "Ishqiya",
       "label": "ishqiya",
       "url": "https://www.sahibas.com/products/ishqiya",
-      "problem": "Status is DRAFT but 15 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
+      "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
     },
-    "24f844cb6fc8e027": {
+    "a6e4f2d5ed1f1704": {
       "firstSeen": "2026-11-04",
       "lastSeen": "2026-11-04",
       "source": "admin",
-      "category": "status",
-      "sev": "MED",
+      "category": "metafields",
+      "sev": "HIGH",
       "title": "Ishqiya Black",
       "label": "ishqiya-black",
       "url": "https://www.sahibas.com/products/ishqiya-black",
-      "problem": "Status is DRAFT but 15 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
+      "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
     },
-    "2a2cc8e261a06ad2": {
+    "2460250afacffa16": {
       "firstSeen": "2026-11-04",
       "lastSeen": "2026-11-04",
       "source": "admin",
-      "category": "status",
+      "category": "tags",
+      "sev": "HIGH",
+      "title": "Maelys",
+      "label": "maelys",
+      "url": "https://www.sahibas.com/products/maelys",
+      "problem": "Tagged \"2 Pc Summer\" but the Season metafield says \"Winter Wear\". Tag and metafield disagree.",
+      "fix": "Set custom.season to \"Summer Wear\", or fix the tag."
+    },
+    "4e6366e3db4eaa92": {
+      "firstSeen": "2026-11-04",
+      "lastSeen": "2026-11-04",
+      "source": "admin",
+      "category": "tags",
       "sev": "MED",
       "title": "Maelys",
       "label": "maelys",
       "url": "https://www.sahibas.com/products/maelys",
-      "problem": "Status is DRAFT but 25 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "shirt fabric is \"Dhanak\" (a winter fabric) but the product is tagged summer.",
+      "fix": "Either re-tag it as winter, or correct the fabric value."
     },
-    "f518900b5f856681": {
+    "26610dd4ceba6650": {
       "firstSeen": "2026-11-04",
       "lastSeen": "2026-11-04",
       "source": "admin",
-      "category": "status",
+      "category": "tags",
       "sev": "MED",
+      "title": "Maelys",
+      "label": "maelys",
+      "url": "https://www.sahibas.com/products/maelys",
+      "problem": "trouser fabric is \"Linen\" (a winter fabric) but the product is tagged summer.",
+      "fix": "Either re-tag it as winter, or correct the fabric value."
+    },
+    "6a00f2013ddd3757": {
+      "firstSeen": "2026-11-04",
+      "lastSeen": "2026-11-04",
+      "source": "admin",
+      "category": "metafields",
+      "sev": "HIGH",
+      "title": "Maelys",
+      "label": "maelys",
+      "url": "https://www.sahibas.com/products/maelys",
+      "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
+      "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
+    },
+    "fb7b48ae3ec9a869": {
+      "firstSeen": "2026-11-04",
+      "lastSeen": "2026-11-04",
+      "source": "admin",
+      "category": "metafields",
+      "sev": "HIGH",
       "title": "Maelys Red",
       "label": "maelys-red",
       "url": "https://www.sahibas.com/products/maelys-red",
-      "problem": "Status is DRAFT but 25 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
+      "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
     },
     "ed70555e6cc930dd": {
       "firstSeen": "2026-11-02",
@@ -4105,29 +4153,29 @@
       "problem": "Status is DRAFT but 8 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "ab0cb18a535b5d9a": {
+    "dba5e70888f5927f": {
       "firstSeen": "2026-11-04",
       "lastSeen": "2026-11-04",
       "source": "admin",
-      "category": "status",
-      "sev": "MED",
+      "category": "metafields",
+      "sev": "HIGH",
       "title": "Triana",
       "label": "triana",
       "url": "https://www.sahibas.com/products/triana",
-      "problem": "Status is DRAFT but 30 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
+      "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
     },
-    "8aad84b9f98e051e": {
+    "b0557c79328f40d9": {
       "firstSeen": "2026-11-04",
       "lastSeen": "2026-11-04",
       "source": "admin",
-      "category": "status",
-      "sev": "MED",
+      "category": "metafields",
+      "sev": "HIGH",
       "title": "Triana Denim",
       "label": "triana-denim",
       "url": "https://www.sahibas.com/products/triana-denim",
-      "problem": "Status is DRAFT but 15 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
+      "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
     },
     "af9e109499106be4": {
       "firstSeen": "2026-11-04",
@@ -4141,17 +4189,17 @@
       "problem": "Status is DRAFT but 17 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "85729831c86e6d38": {
+    "79ce02b93d13aa1e": {
       "firstSeen": "2026-11-04",
       "lastSeen": "2026-11-04",
       "source": "admin",
-      "category": "status",
-      "sev": "MED",
+      "category": "metafields",
+      "sev": "HIGH",
       "title": "Rosafshan",
       "label": "rosafshan",
       "url": "https://www.sahibas.com/products/rosafshan",
-      "problem": "Status is DRAFT but 15 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
+      "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
     },
     "1d972fb16e050ccd": {
       "firstSeen": "2026-11-04",
@@ -4165,53 +4213,53 @@
       "problem": "Status is DRAFT but 14 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "eb8a1a2e83bce643": {
+    "7a5db0d261165c24": {
       "firstSeen": "2026-11-04",
       "lastSeen": "2026-11-04",
       "source": "admin",
-      "category": "status",
-      "sev": "MED",
+      "category": "metafields",
+      "sev": "HIGH",
       "title": "Nirmal",
       "label": "nirmal",
       "url": "https://www.sahibas.com/products/nirmal",
-      "problem": "Status is DRAFT but 15 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
+      "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
     },
-    "b77fac8c7dbfaca2": {
+    "6a61148233478dca": {
       "firstSeen": "2026-11-04",
       "lastSeen": "2026-11-04",
       "source": "admin",
-      "category": "status",
-      "sev": "MED",
+      "category": "metafields",
+      "sev": "HIGH",
       "title": "Zeenat-e-Noor",
       "label": "zeenat-e-noor",
       "url": "https://www.sahibas.com/products/zeenat-e-noor",
-      "problem": "Status is DRAFT but 11 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
+      "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
     },
-    "fff05f67f199ce1f": {
+    "1eeca47c73b04e98": {
       "firstSeen": "2026-11-04",
       "lastSeen": "2026-11-04",
       "source": "admin",
-      "category": "status",
-      "sev": "MED",
+      "category": "metafields",
+      "sev": "HIGH",
       "title": "Iltija",
       "label": "iltija",
       "url": "https://www.sahibas.com/products/iltija",
-      "problem": "Status is DRAFT but 15 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
+      "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
     },
-    "afa804319150edce": {
+    "a1aad68caa96ebb1": {
       "firstSeen": "2026-11-04",
       "lastSeen": "2026-11-04",
       "source": "admin",
-      "category": "status",
-      "sev": "MED",
+      "category": "metafields",
+      "sev": "HIGH",
       "title": "Iltija Falsa",
       "label": "iltija-falsa",
       "url": "https://www.sahibas.com/products/iltija-falsa",
-      "problem": "Status is DRAFT but 14 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
+      "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
     },
     "6eac8be3f8f1b8f5": {
       "firstSeen": "2026-11-02",
@@ -4225,28 +4273,40 @@
       "problem": "Status is DRAFT but 25 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
+    "4f98108e16acf678": {
+      "firstSeen": "2026-11-04",
+      "lastSeen": "2026-11-04",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Iresine",
+      "label": "iresine",
+      "url": "https://www.sahibas.com/products/iresine",
+      "problem": "Status is DRAFT but 11 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+    },
     "28bf176f9fbbb322": {
       "firstSeen": "2026-11-04",
       "lastSeen": "2026-11-04",
       "source": "admin",
       "category": "media",
       "sev": "LOW",
-      "title": "No image alt text (657 products)",
+      "title": "No image alt text (639 products)",
       "label": "No image alt text",
       "url": "https://www.sahibas.com/collections/all",
-      "problem": "657 live products have no alt text on any product image. Affected: Jasmine Blue, Nayal, ZAVERI - PISTA, Nayriza, Tarana Kaftan - Hot Pink, Seemab - Beige, Zurna - Black, Daisey - Grey, Hasi, Guljawa, Dilruba - Off White, Muscari, Bahisht, Faiqa - Black, Nuhra, Rainfall (Black), Wink, Belleza - Ivory, Raaina, Lumiere, +637 more.",
+      "problem": "639 live products have no alt text on any product image. Affected: Jasmine Blue, Nayal, ZAVERI - PISTA, Nayriza, Tarana Kaftan - Hot Pink, Seemab - Beige, Zurna - Black, Daisey - Grey, Hasi, Guljawa, Dilruba - Off White, Muscari, Faiqa - Black, Nuhra, Rainfall (Black), Wink, Raaina, Lumiere, Naeza, Mashal, +619 more.",
       "fix": "Bulk-edit alt text in Shopify admin — use the product name plus fabric and colour."
     },
-    "d01f37a3551a8c5c": {
-      "firstSeen": "2026-11-03",
+    "563e72f5a93623e8": {
+      "firstSeen": "2026-11-04",
       "lastSeen": "2026-11-04",
       "source": "admin",
       "category": "metafields",
       "sev": "LOW",
-      "title": "No size chart (1 products)",
+      "title": "No size chart (13 products)",
       "label": "No size chart",
       "url": "https://www.sahibas.com/collections/all",
-      "problem": "1 live products have neither a size_chart nor a size_chart_table metafield. Affected: Elzaria.",
+      "problem": "13 live products have neither a size_chart nor a size_chart_table metafield. Affected: Elzaria, Suhayr, Ishqiya, Ishqiya Black, Maelys, Maelys Red, Triana, Triana Denim, Rosafshan, Nirmal, Zeenat-e-Noor, Iltija, Iltija Falsa.",
       "fix": "Attach the standard size chart via bulk edit."
     }
   }
