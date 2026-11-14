@@ -2977,18 +2977,6 @@
       "problem": "Currently selling at 3500, which is at or below the wholesale price of 3700. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
-    "d326ca7cc511a3cd": {
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Safae",
-      "label": "safae",
-      "url": "https://www.sahibas.com/products/safae",
-      "problem": "Metafield \"Dupatta Fabric\" (custom.dupatta_fabric) is empty.",
-      "fix": "Fill in Dupatta Fabric on the product page."
-    },
     "1b51f3a172c1f90a": {
       "firstSeen": "2026-11-11",
       "lastSeen": "2026-11-14",
@@ -4477,18 +4465,6 @@
       "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "49e7dac33ac74969": {
-      "firstSeen": "2026-09-22",
-      "lastSeen": "2026-11-14",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Tasveeray",
-      "label": "tasveeray",
-      "url": "https://www.sahibas.com/products/tasveeray",
-      "problem": "Metafield \"Dupatta Fabric\" (custom.dupatta_fabric) is empty.",
-      "fix": "Fill in Dupatta Fabric on the product page."
-    },
     "9ef358631fa02b4d": {
       "firstSeen": "2026-11-06",
       "lastSeen": "2026-11-14",
@@ -4609,18 +4585,6 @@
       "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "d1691483eef08825": {
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Sevgi",
-      "label": "sevgi",
-      "url": "https://www.sahibas.com/products/sevgi",
-      "problem": "Metafield \"Dupatta Fabric\" (custom.dupatta_fabric) is empty.",
-      "fix": "Fill in Dupatta Fabric on the product page."
-    },
     "f19e56672ef9696c": {
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-14",
@@ -4692,30 +4656,6 @@
       "url": "https://www.sahibas.com/products/talica",
       "problem": "Still tagged \"new arrival\" but it was created 31 days ago (over 30).",
       "fix": "Remove the \"new arrival\" tag and move it into its regular category."
-    },
-    "105accd1c114bf10": {
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Snippy",
-      "label": "snippy",
-      "url": "https://www.sahibas.com/products/snippy",
-      "problem": "Metafield \"Dupatta Fabric\" (custom.dupatta_fabric) is empty.",
-      "fix": "Fill in Dupatta Fabric on the product page."
-    },
-    "268d7b805d6545e9": {
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
-      "source": "admin",
-      "category": "metafields",
-      "sev": "MED",
-      "title": "Snippy Peach",
-      "label": "snippy-peach",
-      "url": "https://www.sahibas.com/products/snippy-peach",
-      "problem": "Metafield \"Dupatta Fabric\" (custom.dupatta_fabric) is empty.",
-      "fix": "Fill in Dupatta Fabric on the product page."
     },
     "6478ee9fa6d48e76": {
       "firstSeen": "2026-11-08",

@@ -12,6 +12,8 @@
 // — e.g. a follow-up collection "Aari 2" (handle aari-2) alongside "Aari"
 // (handle aari). Handles listed here are skipped by the numeric-suffix
 // duplicate check below. Add new ones (lowercase, exact handle) as they launch.
+import { EXEMPT_STOCK, isExempt } from "./exemptions.js";
+
 const KNOWN_DISTINCT_HANDLES = new Set([
   "aari-2",
 ]);
@@ -190,7 +192,7 @@ export async function auditCatalogue(storeUrl) {
 
     // 4d) stock check — every variant unavailable
     const allUnavailable = variants.length > 0 && variants.every((v) => v.available === false);
-    if (allUnavailable) {
+    if (allUnavailable && !isExempt(EXEMPT_STOCK, { handle, title })) {
       pushIssue(
         "HIGH",
         "stock",

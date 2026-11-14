@@ -31,9 +31,10 @@ const ADMIN_CATEGORY_META = {
   metafields: { label: "Missing / Wrong Metafields", icon: "\u{1F9E9}", color: "#7c3aed" },
   admin_price: { label: "Price & Wholesale", icon: "\u{1F4B5}", color: "#059669" },
   media: { label: "Product Shoot / Images", icon: "\u{1F4F8}", color: "#0ea5e9" },
+  seo_meta: { label: "Meta Title / Description Length", icon: "\u{1F50E}", color: "#0d9488" },
   status: { label: "Status & Stock", icon: "\u{1F6A6}", color: "#ef4444" },
 };
-const ADMIN_CATEGORY_ORDER = ["tags", "sku", "metafields", "admin_price", "media", "status"];
+const ADMIN_CATEGORY_ORDER = ["tags", "sku", "metafields", "admin_price", "media", "seo_meta", "status"];
 
 // Gmail clips messages over ~102KB, so never render more than this many issue
 // cards per category. The true count still shows in the group header.

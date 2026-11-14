@@ -32,6 +32,8 @@
 // Returns the SAME shape as catalogueAudit.js so report.js can render it:
 //   { text, issueCount, totalProducts, issues: [{ category, sev, title, url, label, problem, fix }] }
 
+import { EXEMPT_3PC_DUPATTA, EXEMPT_STOCK, isExempt } from "./exemptions.js";
+
 const API_VERSION = process.env.SHOPIFY_API_VERSION || "2026-01";
 const PUBLIC_URL = (process.env.STORE_PUBLIC_URL || "https://www.sahibas.com").replace(/\/$/, "");
 
@@ -108,6 +110,11 @@ const hasNewArrivalTag = (tags) => (tags || []).some(isNewArrivalTag);
 const MIN_IMAGES = 4;          // hero + 3 detail crops for the catalogue
 const LOW_STOCK_THRESHOLD = 5; // total units across all sizes
 
+// Search-listing (SEO) limits, in CHARACTERS. Google cuts off anything longer
+// in the search result, so these are hard caps for the team.
+const MAX_META_TITLE = 70;
+const MAX_META_DESCRIPTION = 160;
+
 // Draft products are work-in-progress, so they only get a couple of checks
 // (holding stock, duplicate SKUs). Set to true to audit them fully.
 const FULLY_AUDIT_DRAFTS = false;
@@ -132,6 +139,7 @@ query AuditProducts($cursor: String) {
       tags
       createdAt
       totalInventory
+      seo { title description }
       mediaCount { count }
       media(first: 5) { nodes { alt mediaContentType } }
       metafields(namespace: "custom", first: 25) { nodes { key value } }
@@ -465,6 +473,10 @@ export async function auditAdmin() {
     let required = [...REQUIRED_METAFIELDS];
     if (pieces >= 2) required = required.concat(REQUIRED_IF_2PC);
     if (pieces >= 3) required = required.concat(REQUIRED_IF_3PC);
+    // Reviewed products where an empty Dupatta Fabric is correct (see exemptions.js).
+    if (isExempt(EXEMPT_3PC_DUPATTA, p)) {
+      required = required.filter((r) => r.key !== "dupatta_fabric");
+    }
 
     for (const r of required) {
       const v = meta[r.key];
@@ -647,7 +659,36 @@ export async function auditAdmin() {
 
     } // end media block
 
+    // ---------- 5b. SEARCH LISTING (meta title / meta description) ----------
+    // Meta title = the SEO title if one was typed in, otherwise the product
+    // title (that is what Shopify outputs). Meta description is only checked
+    // when one was typed in — the auto-generated fallback is not the team's text.
+    if (full) {
+      const metaTitle = String(p.seo?.title || p.title || "").trim();
+      if (metaTitle.length > MAX_META_TITLE) {
+        push(
+          p,
+          "seo_meta",
+          "MED",
+          `Meta title is ${metaTitle.length} characters — the limit is ${MAX_META_TITLE}: "${metaTitle}".`,
+          `Shorten it to ${MAX_META_TITLE} characters or fewer in the product's "Search engine listing" section.`
+        );
+      }
+      const metaDesc = String(p.seo?.description || "").trim();
+      if (metaDesc.length > MAX_META_DESCRIPTION) {
+        push(
+          p,
+          "seo_meta",
+          "MED",
+          `Meta description is ${metaDesc.length} characters — the limit is ${MAX_META_DESCRIPTION}.`,
+          `Trim it to ${MAX_META_DESCRIPTION} characters or fewer in the product's "Search engine listing" section.`
+        );
+      }
+    }
+
     // ---------- 6. STATUS & STOCK ----------
+    // Reviewed products whose stock findings are switched off (see exemptions.js).
+    if (isExempt(EXEMPT_STOCK, p)) continue;
     const totalStock = p.totalInventory ?? 0;
     if (p.status === "DRAFT" && totalStock > 0) {
       push(
@@ -761,7 +802,7 @@ export async function auditAdmin() {
     `${issues.length} issue(s): ${bySev.HIGH} HIGH, ${bySev.MED} MED, ${bySev.LOW} LOW.`,
     "",
   ];
-  const order = ["tags", "sku", "metafields", "admin_price", "media", "status"];
+  const order = ["tags", "sku", "metafields", "admin_price", "media", "seo_meta", "status"];
   for (const cat of order) {
     const items = issues.filter((i) => i.category === cat);
     if (!items.length) continue;

@@ -183,6 +183,16 @@ change — they are the single source of truth for the audit. Notes on recent tu
   (inside a product and across the store). SKU *formatting* (size code inside the
   SKU, one shared pattern per product, shared-family heuristic) is deliberately
   NOT checked — the store's SKUs are correct by convention.
+- **Reviewed exemptions (`src/exemptions.js`):** products the team confirmed are
+  correct, so ONE check is switched off for them (all other checks still run).
+  `EXEMPT_3PC_DUPATTA` (Safae, Tasveeray, Sevgi, Snippy, Snippy Peach) skips the
+  empty Dupatta Fabric flag; `EXEMPT_STOCK` (Iresine, Gloriana) skips every stock
+  finding in both the admin and storefront audits. Add handles there, not in the audits.
+- **Meta title / description limits:** hard caps of **70 characters** (meta title) and
+  **160 characters** (meta description), MED severity. Checked on every live product
+  via the Admin API `seo` field (category `seo_meta`; title falls back to the product
+  title, description only when one was typed in) and on the `config.json` pages in
+  `seoAudit.js`. "Too short" stays a separate LOW note on the page check only.
 - **Numbered products:** `KNOWN_DISTINCT_HANDLES` in `catalogueAudit.js` lists
   handles like `aari-2` that are real follow-up products, so the numeric-suffix
   duplicate check leaves them alone. A genuine accidental duplicate (base handle

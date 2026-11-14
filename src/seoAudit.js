@@ -20,13 +20,21 @@ export function auditSeo(results) {
         problem: `Missing page <title>.`,
         fix: `Set a title in Shopify admin (Online Store > Preferences, or the product/page's own SEO section).`,
       });
-    } else if (titleLen < 10 || titleLen > 70) {
+    } else if (titleLen > 70) {
+      issues.push({
+        sev: "MED",
+        label: r.label,
+        url: r.url,
+        problem: `Meta title is ${titleLen} characters — the limit is 70: "${r.title}".`,
+        fix: `Shorten the title to 70 characters or fewer (Online Store > Preferences, or the page/product's "Search engine listing" section).`,
+      });
+    } else if (titleLen < 10) {
       issues.push({
         sev: "LOW",
         label: r.label,
         url: r.url,
-        problem: `Title is ${titleLen} characters — outside the ideal ~10-70 range for search snippets: "${r.title}".`,
-        fix: `Rewrite the page/product title to be descriptive but within Google's recommended length.`,
+        problem: `Title is ${titleLen} characters — too short for a search snippet: "${r.title}".`,
+        fix: `Rewrite the page/product title to be more descriptive (10-70 characters).`,
       });
     }
 
@@ -39,13 +47,21 @@ export function auditSeo(results) {
         problem: `Missing meta description.`,
         fix: `Add a meta description in Shopify admin > "Search engine listing" section for this page/product.`,
       });
-    } else if (descLen < 50 || descLen > 160) {
+    } else if (descLen > 160) {
+      issues.push({
+        sev: "MED",
+        label: r.label,
+        url: r.url,
+        problem: `Meta description is ${descLen} characters — the limit is 160.`,
+        fix: `Trim the meta description to 160 characters or fewer in the "Search engine listing" section.`,
+      });
+    } else if (descLen < 50) {
       issues.push({
         sev: "LOW",
         label: r.label,
         url: r.url,
-        problem: `Meta description is ${descLen} characters — outside the ideal ~50-160 range.`,
-        fix: `Trim or expand the meta description so it displays fully in search results.`,
+        problem: `Meta description is ${descLen} characters — too short (aim for 50-160).`,
+        fix: `Expand the meta description so the search result has a useful summary.`,
       });
     }
 
