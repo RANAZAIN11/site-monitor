@@ -1,45 +1,93 @@
 {
-  "generatedAt": "2026-11-14",
+  "generatedAt": "2026-11-15",
   "open": {
-    "6eb7d1ef20ae3b97": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+    "cdc68c0f1ad096a3": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "catalogue",
       "category": "stock",
       "sev": "HIGH",
-      "title": "Farsoob",
-      "label": "farsoob",
-      "url": "https://sahibas.com/products/farsoob",
+      "title": "Najat",
+      "label": "najat",
+      "url": "https://sahibas.com/products/najat",
       "problem": "All variants are out of stock / unavailable for purchase.",
       "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
     },
-    "e59366b4c4c81249": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+    "4287b8560c2978ed": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "catalogue",
       "category": "stock",
       "sev": "HIGH",
-      "title": "Zameera",
-      "label": "zameera",
-      "url": "https://sahibas.com/products/zameera",
+      "title": "Greta",
+      "label": "greta",
+      "url": "https://sahibas.com/products/greta",
       "problem": "All variants are out of stock / unavailable for purchase.",
       "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
     },
-    "3a66a060721d9f62": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+    "efd7d6d85978082e": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "catalogue",
       "category": "stock",
       "sev": "HIGH",
-      "title": "Laajwardi",
-      "label": "laajwardi",
-      "url": "https://sahibas.com/products/laajwardi",
+      "title": "Siham Yellow",
+      "label": "siham-yellow",
+      "url": "https://sahibas.com/products/siham-yellow",
+      "problem": "All variants are out of stock / unavailable for purchase.",
+      "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
+    },
+    "8fa83636f6c58425": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "catalogue",
+      "category": "stock",
+      "sev": "HIGH",
+      "title": "Kriti Black",
+      "label": "kriti-black-stitched",
+      "url": "https://sahibas.com/products/kriti-black-stitched",
+      "problem": "All variants are out of stock / unavailable for purchase.",
+      "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
+    },
+    "e4dec6f5f2525224": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "catalogue",
+      "category": "stock",
+      "sev": "HIGH",
+      "title": "Rohini Zinc",
+      "label": "rohini-zinc",
+      "url": "https://sahibas.com/products/rohini-zinc",
+      "problem": "All variants are out of stock / unavailable for purchase.",
+      "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
+    },
+    "c80ddff0a585351b": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "catalogue",
+      "category": "stock",
+      "sev": "HIGH",
+      "title": "Angrakha",
+      "label": "angrakha",
+      "url": "https://sahibas.com/products/angrakha",
+      "problem": "All variants are out of stock / unavailable for purchase.",
+      "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
+    },
+    "028fcb9e61f8d2b9": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "catalogue",
+      "category": "stock",
+      "sev": "HIGH",
+      "title": "Bilonara",
+      "label": "bilonara",
+      "url": "https://sahibas.com/products/bilonara",
       "problem": "All variants are out of stock / unavailable for purchase.",
       "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
     },
     "b279f5ed4274ff7f": {
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "seo",
       "category": "seo",
       "sev": "LOW",
@@ -51,7 +99,7 @@
     },
     "544787613e12dde2": {
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "seo",
       "category": "seo",
       "sev": "MED",
@@ -63,7 +111,7 @@
     },
     "ffd5963ceeb8f7a8": {
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "seo",
       "category": "seo",
       "sev": "LOW",
@@ -75,7 +123,7 @@
     },
     "9a5d8134c4851096": {
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "seo",
       "category": "seo",
       "sev": "LOW",
@@ -85,21 +133,21 @@
       "problem": "4 image(s) missing alt text.",
       "fix": "Add descriptive alt text to these images in admin (accessibility + image SEO)."
     },
-    "2f80bc04f750f9b0": {
-      "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-14",
+    "217865e28f7bd20b": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
-      "sev": "MED",
+      "sev": "HIGH",
       "title": "Kriti Black",
       "label": "kriti-black-stitched",
       "url": "https://www.sahibas.com/products/kriti-black-stitched",
-      "problem": "Only 1 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
+      "problem": "Live on the store but completely out of stock across every size.",
+      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
     },
     "49bd32cbf3e30c5c": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -111,7 +159,7 @@
     },
     "9e23a8daad8dcaaa": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -123,7 +171,7 @@
     },
     "eee6bd5abbe1d26f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -135,7 +183,7 @@
     },
     "379455a0db7b3c75": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -147,7 +195,7 @@
     },
     "f71364c6663e68ae": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -159,7 +207,7 @@
     },
     "120ff075c9da81a0": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -171,7 +219,7 @@
     },
     "99d1b16c54e509a1": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -183,7 +231,7 @@
     },
     "0f5c0831880e9444": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -195,7 +243,7 @@
     },
     "e026befa0bd3acf9": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -207,7 +255,7 @@
     },
     "aa344295bd14d450": {
       "firstSeen": "2026-11-12",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -219,7 +267,7 @@
     },
     "b3dd94338612db63": {
       "firstSeen": "2026-09-19",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -231,7 +279,7 @@
     },
     "78ecb23a70e11c14": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -243,7 +291,7 @@
     },
     "644941a8e726fd47": {
       "firstSeen": "2026-11-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "media",
       "sev": "MED",
@@ -255,7 +303,7 @@
     },
     "78528bed1e21abbd": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -267,7 +315,7 @@
     },
     "b10d8aa9883f5798": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -279,7 +327,7 @@
     },
     "4ebfee931bb0347f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -291,7 +339,7 @@
     },
     "79b38d127e359c98": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -303,7 +351,7 @@
     },
     "9ced867f4390888b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -313,9 +361,21 @@
       "problem": "Variant \"XL\": compare-at price (9998) is more than 2.2x the selling price (3999) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
+    "042c5bf614fad99c": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Dilruba - Off White",
+      "label": "dilruba-off-white-1",
+      "url": "https://www.sahibas.com/products/dilruba-off-white-1",
+      "problem": "Meta title is 75 characters — the limit is 70: \"Dilruba - Off White – Embroidered 2Pc Summer Lawn Outfit | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "d378f6cbd5b3513c": {
       "firstSeen": "2026-11-04",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "media",
       "sev": "MED",
@@ -327,7 +387,7 @@
     },
     "daee41ca3b8f87d2": {
       "firstSeen": "2026-09-17",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -337,9 +397,21 @@
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "627b4fe88c334006": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Nuhra",
+      "label": "nuhra",
+      "url": "https://www.sahibas.com/products/nuhra",
+      "problem": "Meta title is 76 characters — the limit is 70: \"Nuhra – Embroidered 2Pc Winter Dhanak Outfit with Flapper | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "9a85f7f3d2d90602": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -349,9 +421,21 @@
       "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
+    "51f1d6bc4d2c5c21": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Calico - Lilac",
+      "label": "calico-lilac",
+      "url": "https://www.sahibas.com/products/calico-lilac",
+      "problem": "Meta title is 73 characters — the limit is 70: \"Calico - Lilac – Embroidered 2-Piece Winter Linen Suit | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "0ff75e2d81bc04e4": {
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -363,7 +447,7 @@
     },
     "df4046ea7a6bb8b0": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -375,7 +459,7 @@
     },
     "0d4766c96d55fde6": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -387,7 +471,7 @@
     },
     "ae767c0c9f9f8b87": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -397,9 +481,21 @@
       "problem": "Currently selling at 4999, which is at or below the wholesale price of 5300. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
+    "42f6c6898ccce3e8": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Albite - White",
+      "label": "albite-white",
+      "url": "https://www.sahibas.com/products/albite-white",
+      "problem": "Only 4 unit(s) left in total across all sizes.",
+      "fix": "Restock soon or plan to retire the article."
+    },
     "29aa5232efb2fded": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -411,7 +507,7 @@
     },
     "b62707f6a5ad1ebd": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -423,7 +519,7 @@
     },
     "c11110bbcc3ad9b2": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -435,7 +531,7 @@
     },
     "a30000122c85bb9b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -447,7 +543,7 @@
     },
     "1ee2354f8423c33a": {
       "firstSeen": "2026-09-15",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -459,7 +555,7 @@
     },
     "1a7802148a0230d3": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -471,7 +567,7 @@
     },
     "13832a616126b496": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -483,7 +579,7 @@
     },
     "0f6aceff86dd7159": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -495,7 +591,7 @@
     },
     "697fefe3b55b882c": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -507,7 +603,7 @@
     },
     "7c70ec17cd41f80d": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -519,7 +615,7 @@
     },
     "ab7377016be1965c": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -531,7 +627,7 @@
     },
     "0490f931ea2664fd": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -543,7 +639,7 @@
     },
     "2988abcee1b6142a": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -555,7 +651,7 @@
     },
     "d78cdadc62debd16": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -567,7 +663,7 @@
     },
     "412c9f0a2a5f2321": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -579,7 +675,7 @@
     },
     "22e5f23471c1fd35": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -591,7 +687,7 @@
     },
     "8b1f86f4041f5f10": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -601,21 +697,33 @@
       "problem": "Variant \"L\": compare-at price (9999) is more than 2.2x the selling price (4500) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
-    "38506aefd65e026b": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+    "685fc74cb03bef94": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "admin",
-      "category": "status",
+      "category": "seo_meta",
       "sev": "MED",
-      "title": "Laham",
-      "label": "laham",
-      "url": "https://www.sahibas.com/products/laham",
-      "problem": "Status is DRAFT but 45 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "title": "Luminous",
+      "label": "luminous",
+      "url": "https://www.sahibas.com/products/luminous",
+      "problem": "Meta title is 72 characters — the limit is 70: \"Luminous – Printed 3Pc Summer Lawn with Voile Dupatta | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "bd9eb8c8ea58331e": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Gulejahan - Black",
+      "label": "gulejahan-black",
+      "url": "https://www.sahibas.com/products/gulejahan-black",
+      "problem": "Meta title is 73 characters — the limit is 70: \"Gulejahan - Black – Embroidered 2Pc Summer Lawn Outfit | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
     },
     "d7db34d1249e8cf8": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -625,9 +733,21 @@
       "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "1480ce807af55daf": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Casper - White",
+      "label": "casper-white",
+      "url": "https://www.sahibas.com/products/casper-white",
+      "problem": "Meta description is 162 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "131e1cc2b56aca91": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -637,9 +757,21 @@
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "9b3c7c4dec56f0ba": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Dreamy Black",
+      "label": "dreamy-black",
+      "url": "https://www.sahibas.com/products/dreamy-black",
+      "problem": "Meta title is 93 characters — the limit is 70: \"Dreamy Black – Printed 3Pc Summer Textured Lawn Outfit with Manaar Dupatta | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "f969221e5fc06890": {
       "firstSeen": "2026-11-12",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -651,7 +783,7 @@
     },
     "0fca65c3c36f3951": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -661,9 +793,21 @@
       "problem": "Currently selling at 3000, which is at or below the wholesale price of 3350. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
+    "f14caf5fb5213a44": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Aram",
+      "label": "aram",
+      "url": "https://www.sahibas.com/products/aram",
+      "problem": "Meta description is 171 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "d778e4ce889191d1": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -675,7 +819,7 @@
     },
     "2d2c3c2d283156ab": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -687,7 +831,7 @@
     },
     "a0b05748f8363e61": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -699,7 +843,7 @@
     },
     "bd0d9ca8ba42454f": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -711,7 +855,7 @@
     },
     "922f18fbf65c7e2a": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -723,7 +867,7 @@
     },
     "216af8f475770f2b": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -735,7 +879,7 @@
     },
     "8427fe45e1e3a6bf": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -747,7 +891,7 @@
     },
     "c60e3edc7362a70b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -759,7 +903,7 @@
     },
     "c20f0e6ac52211f5": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -771,7 +915,7 @@
     },
     "4bc72e33c857b810": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -783,7 +927,7 @@
     },
     "a2e90ba8ddbde13a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -795,7 +939,7 @@
     },
     "209384c598862e95": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -807,19 +951,19 @@
     },
     "254e2f55245105e8": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Inara",
       "label": "inara",
       "url": "https://www.sahibas.com/products/inara",
-      "problem": "Only 2 unit(s) left in total across all sizes.",
+      "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "23f0f963622c5857": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -831,7 +975,7 @@
     },
     "254acbbe48f91f4a": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -843,7 +987,7 @@
     },
     "ce2d506473c10e52": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -853,9 +997,21 @@
       "problem": "Variant \"L\": compare-at price (21000) is more than 2.2x the selling price (5250) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
+    "6056dff9f966838a": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Vanzila - Beige",
+      "label": "vanzila-beige",
+      "url": "https://www.sahibas.com/products/vanzila-beige",
+      "problem": "Meta title is 71 characters — the limit is 70: \"Vanzila - Beige – Embroidered 3Pc Summer Lawn Outfit | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "349ce2a556ae21df": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -867,7 +1023,7 @@
     },
     "49b9e4dfbd7de8e4": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -879,7 +1035,7 @@
     },
     "7df09e6ad06993ba": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -891,7 +1047,7 @@
     },
     "029ed0dfd6f1c369": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -903,7 +1059,7 @@
     },
     "5a83fef6b37ac35c": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -915,7 +1071,7 @@
     },
     "fee112920af9d85d": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -925,9 +1081,21 @@
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "204ad44552b54f64": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Zenobia - Grey",
+      "label": "zenobia-grey",
+      "url": "https://www.sahibas.com/products/zenobia-grey",
+      "problem": "Meta title is 72 characters — the limit is 70: \"Zenobia - Grey – Embroidered 3Pc Summer Textured Lawn | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "b5f82baced3173dc": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -939,7 +1107,7 @@
     },
     "5fe406fce7b52fc5": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -951,7 +1119,7 @@
     },
     "f02cca2b799ee61d": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -963,7 +1131,7 @@
     },
     "7ae602358bab039e": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -975,7 +1143,7 @@
     },
     "9100e5aaeea6ce4c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -987,7 +1155,7 @@
     },
     "91cbde3f87ff7db5": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -999,7 +1167,7 @@
     },
     "de72da67be93bd72": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1011,7 +1179,7 @@
     },
     "77406e461951ad13": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1023,7 +1191,7 @@
     },
     "717830ee5f5bbf15": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1035,7 +1203,7 @@
     },
     "0fdda3b502eca2e5": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1047,19 +1215,19 @@
     },
     "4535bf0a2e9194a8": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Hadiqa",
       "label": "hadiqa",
       "url": "https://www.sahibas.com/products/hadiqa",
-      "problem": "Only 2 unit(s) left in total across all sizes.",
+      "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "0cf83676e87c4d44": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1071,7 +1239,7 @@
     },
     "73e6556b538bf4ef": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1083,7 +1251,7 @@
     },
     "92746dbdb3ecb21d": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1095,7 +1263,7 @@
     },
     "72af897c94757d0b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1107,7 +1275,7 @@
     },
     "c0511075de26e0ad": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1119,7 +1287,7 @@
     },
     "fb63266e362805e8": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1131,7 +1299,7 @@
     },
     "1c6e61ca9ed9f67c": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1143,7 +1311,7 @@
     },
     "67b0a83dc805e131": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1155,7 +1323,7 @@
     },
     "7802763dd509a821": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1167,7 +1335,7 @@
     },
     "58319cdc93e5c550": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1179,7 +1347,7 @@
     },
     "f7722ba782ce698f": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1191,7 +1359,7 @@
     },
     "584d850cd0c5b239": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1203,7 +1371,7 @@
     },
     "0ea826a470e2934a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1215,7 +1383,7 @@
     },
     "3c42b61f83786da0": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1227,7 +1395,7 @@
     },
     "e9df62ab6c4bcff8": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1237,9 +1405,33 @@
       "problem": "Variant \"L / Khaddar\": compare-at price (13000) is more than 2.2x the selling price (5500) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
+    "3a87479ebb0b7291": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Khoobsurat Black",
+      "label": "khoobsurat-black",
+      "url": "https://www.sahibas.com/products/khoobsurat-black",
+      "problem": "Meta title is 75 characters — the limit is 70: \"Khoobsurat Black – Embroidered 3Pc Winter Khaddar Outfit | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "0bd6316e7d2ad975": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Areeba",
+      "label": "areeba",
+      "url": "https://www.sahibas.com/products/areeba",
+      "problem": "Meta description is 198 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "562fb0caf76a4b2f": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1251,7 +1443,7 @@
     },
     "beba94326d01507a": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1263,7 +1455,7 @@
     },
     "20d34a020c25f109": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1275,7 +1467,7 @@
     },
     "8076884cc863b599": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1287,7 +1479,7 @@
     },
     "ba99cf93afd2e066": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1299,7 +1491,7 @@
     },
     "b58d65de0b8b5bb2": {
       "firstSeen": "2026-11-12",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1311,7 +1503,7 @@
     },
     "494df1ac98ac0025": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1323,7 +1515,7 @@
     },
     "0d9b09dee0454850": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1335,7 +1527,7 @@
     },
     "df69f6e639ddd3a8": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1347,7 +1539,7 @@
     },
     "ea86f9f633c52e96": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1359,7 +1551,7 @@
     },
     "09e3654fc9a549f0": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1371,7 +1563,7 @@
     },
     "4088a130d856f83f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1383,7 +1575,7 @@
     },
     "b58b220e6e3b928f": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1393,9 +1585,21 @@
       "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "abf6cfa8c70ba57d": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Guledawod",
+      "label": "guledawod",
+      "url": "https://www.sahibas.com/products/guledawod",
+      "problem": "Meta title is 76 characters — the limit is 70: \"Guledawod – Embroidered Flared Pishwas Summer Lawn Outfit | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "e4e4bd46016f82d4": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1407,7 +1611,7 @@
     },
     "b1cbc2ecb7085bf8": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1419,7 +1623,7 @@
     },
     "b5db0ff7dbe87925": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1431,7 +1635,7 @@
     },
     "4eceff5a076bae0f": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1443,7 +1647,7 @@
     },
     "f856e22bf4f6aa73": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1455,7 +1659,7 @@
     },
     "045dd57105de3668": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1467,7 +1671,7 @@
     },
     "b5f9dfdeeb69d3a2": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1479,7 +1683,7 @@
     },
     "c02b4eb608176743": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1491,7 +1695,7 @@
     },
     "414f00e3a67f4c85": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1501,9 +1705,21 @@
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "bee5967a0f3036e0": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Reena",
+      "label": "reena",
+      "url": "https://www.sahibas.com/products/reena",
+      "problem": "Meta title is 102 characters — the limit is 70: \"Reena – Embroidered 3Pc Summer Cotton Outfit with Straight Shirt & Straight Trouser | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "1938b95ea24a58f9": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1515,7 +1731,7 @@
     },
     "09e43243f99cb21c": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1527,7 +1743,7 @@
     },
     "416d10bc6a4201c7": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1539,7 +1755,7 @@
     },
     "8ebb7319691a300a": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1551,7 +1767,7 @@
     },
     "e17e62c4684e0a75": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1561,9 +1777,21 @@
       "problem": "Variant \"XL\": compare-at price (17200) is more than 2.2x the selling price (4300) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
+    "fb6cb829a18f2654": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Ferdoos",
+      "label": "ferdoos",
+      "url": "https://www.sahibas.com/products/ferdoos",
+      "problem": "Meta title is 76 characters — the limit is 70: \"Ferdoos – Embroidered 2Pc Silk Outfit with Straight Shirt | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "c715a6876cb97d76": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1575,7 +1803,7 @@
     },
     "c7ef2ceb6cc4f237": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1587,7 +1815,7 @@
     },
     "3f573e3f5be29fd6": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1599,7 +1827,7 @@
     },
     "3e79ade902b8adf5": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1609,21 +1837,33 @@
       "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "74cec0793009fd7f": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Lively",
+      "label": "lively",
+      "url": "https://www.sahibas.com/products/lively",
+      "problem": "Meta title is 76 characters — the limit is 70: \"Lively – Embroidered 3Pc Summer Lawn with Viscose Dupatta | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "457c980949c215ea": {
       "firstSeen": "2026-11-12",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Sabaat Maroon",
       "label": "sabaat-maroon",
       "url": "https://www.sahibas.com/products/sabaat-maroon",
-      "problem": "Only 4 unit(s) left in total across all sizes.",
+      "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "71b06d96c9b00838": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1635,7 +1875,7 @@
     },
     "7d98fd631a0ba2db": {
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1647,7 +1887,7 @@
     },
     "7e26a82ef3b7e84d": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1659,7 +1899,7 @@
     },
     "33734d98bb033c03": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1671,7 +1911,7 @@
     },
     "ac1c932963e13443": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1681,9 +1921,33 @@
       "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "92b881a6ea37df6f": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Soft",
+      "label": "soft",
+      "url": "https://www.sahibas.com/products/soft",
+      "problem": "Meta title is 73 characters — the limit is 70: \"Soft – Embellished 3Pc Summer Lawn Outfit with Flapper | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "7130e45e48c8b480": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Kashan",
+      "label": "kashan",
+      "url": "https://www.sahibas.com/products/kashan",
+      "problem": "Meta title is 72 characters — the limit is 70: \"Kashan – Printed 2Pc Winter Linen Outfit with Flapper | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "34294ae7637bd634": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1695,7 +1959,7 @@
     },
     "b6939324bcb05129": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1705,9 +1969,21 @@
       "problem": "Currently selling at 4400, which is at or below the wholesale price of 4450. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
+    "222564b7ead36af3": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Light Brown",
+      "label": "light-brown",
+      "url": "https://www.sahibas.com/products/light-brown",
+      "problem": "Meta title is 87 characters — the limit is 70: \"Light Brown – Embroidered 3Pc Summer Lawn Outfit with Manaar Dupatta | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "92947a505f30956d": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1719,7 +1995,7 @@
     },
     "6557e29e561ec1aa": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1731,7 +2007,7 @@
     },
     "4bd1fc3474072723": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1743,7 +2019,7 @@
     },
     "66deddb46f20a104": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1755,7 +2031,7 @@
     },
     "293d16907296e237": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1767,7 +2043,7 @@
     },
     "332b3eaccff61e83": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1779,7 +2055,7 @@
     },
     "3c6ef7904639bc33": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1791,7 +2067,7 @@
     },
     "40c2b0ff9bf11588": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1803,19 +2079,31 @@
     },
     "c81cfbe0725e5e42": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Mars blue",
       "label": "mars-blue",
       "url": "https://www.sahibas.com/products/mars-blue",
-      "problem": "Only 1 unit(s) left in total across all sizes.",
+      "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
+    },
+    "780d90a3e19396ef": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Evara",
+      "label": "evara",
+      "url": "https://www.sahibas.com/products/evara",
+      "problem": "Meta title is 78 characters — the limit is 70: \"Evara – Printed Dhanak Winter Dress 2Pc Outfit with Flapper | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
     },
     "47e46ae0e402161a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1827,7 +2115,7 @@
     },
     "cf7afc4e7928c231": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1839,7 +2127,7 @@
     },
     "e2cac70621e09d74": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1851,7 +2139,7 @@
     },
     "016db47e44442696": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1861,9 +2149,21 @@
       "problem": "Variant \"XL / Linen\": compare-at price (9999) is more than 2.2x the selling price (3500) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
+    "a4493ef41b778275": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Sevra Blue",
+      "label": "sevra-blue",
+      "url": "https://www.sahibas.com/products/sevra-blue",
+      "problem": "Meta title is 74 characters — the limit is 70: \"Sevra Blue – Embroidered 1Pc Winter Linen Flared Kaftan | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "d6fd931c604cb632": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1875,7 +2175,7 @@
     },
     "365c71c18c8b1a27": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1887,7 +2187,7 @@
     },
     "bb55e7a6bf2f923b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1899,7 +2199,7 @@
     },
     "67dd22769e0152c3": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1911,7 +2211,7 @@
     },
     "58e7bbd8631ca219": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1923,7 +2223,7 @@
     },
     "8c9e54682f07b094": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1935,7 +2235,7 @@
     },
     "d2f139058c6558b0": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1947,7 +2247,7 @@
     },
     "3f1372145e0dbb95": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1957,9 +2257,21 @@
       "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "986e39eda24715f8": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Fountain - Pink",
+      "label": "fountain-pink",
+      "url": "https://www.sahibas.com/products/fountain-pink",
+      "problem": "Meta title is 71 characters — the limit is 70: \"Fountain - Pink – Embroidered 2Pc Summer Lawn Outfit | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "4ae8c7edca3e7768": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1969,9 +2281,21 @@
       "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "08d68a9a211321b1": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Dure Navy",
+      "label": "dure-navy",
+      "url": "https://www.sahibas.com/products/dure-navy",
+      "problem": "Meta title is 78 characters — the limit is 70: \"Dure Navy – Embroidered 2Pc Summer Lawn Outfit with Flapper | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "cbdb711a3ce2a48e": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1983,7 +2307,7 @@
     },
     "e5b77533256521a4": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1995,7 +2319,7 @@
     },
     "9c7ee894e19a7f39": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2007,7 +2331,7 @@
     },
     "baa0676052ba5e8d": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2019,7 +2343,7 @@
     },
     "4dfb145717100187": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2031,7 +2355,7 @@
     },
     "152a3cdec770800b": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2043,7 +2367,7 @@
     },
     "7f7379221c251ce3": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2055,7 +2379,7 @@
     },
     "8c03d2dd358fd4fe": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2067,7 +2391,7 @@
     },
     "398ff18c081ceabb": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2077,9 +2401,21 @@
       "problem": "Variant \"XL / Dhanak\": compare-at price (18000) is more than 2.2x the selling price (4500) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
+    "bb1ef6a20c9f0b57": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Kinza",
+      "label": "kinza",
+      "url": "https://www.sahibas.com/products/kinza",
+      "problem": "Meta title is 72 characters — the limit is 70: \"Kinza – Printed 2Pc Winter Dhanak Outfit with Flapper | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "b53bfc9ce9899f07": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2091,7 +2427,7 @@
     },
     "79319282657489cc": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2103,7 +2439,7 @@
     },
     "5bcca11b1cf5182b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2115,7 +2451,7 @@
     },
     "fc15a27b2f6a8195": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2127,7 +2463,7 @@
     },
     "a62d589623376f4b": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2139,7 +2475,7 @@
     },
     "5bd113b246996941": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2151,7 +2487,7 @@
     },
     "2b104b5ae2a8e789": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2161,9 +2497,33 @@
       "problem": "Variant \"XL\": compare-at price (10543) is more than 2.2x the selling price (4500) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
+    "db14b532382da11f": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Jahan",
+      "label": "jahan",
+      "url": "https://www.sahibas.com/products/jahan",
+      "problem": "Meta title is 81 characters — the limit is 70: \"JahanJahan – Jacquard 2Pc Summer Lawn Outfit with V-Neck Shirt | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "b91a1e1b07a16fa2": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Desire",
+      "label": "desire",
+      "url": "https://www.sahibas.com/products/desire",
+      "problem": "Meta title is 71 characters — the limit is 70: \"Desire – Printed 2Pc Summer Lawn Outfit with Flapper | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "a2bb8eebcadad21c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2175,7 +2535,7 @@
     },
     "ef08a3eaf4783de7": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2187,7 +2547,7 @@
     },
     "44745887344c58b7": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2197,9 +2557,21 @@
       "problem": "Only 4 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "c9f2a95de15c8c74": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Dil-e-Afroz",
+      "label": "dil-e-afroz",
+      "url": "https://www.sahibas.com/products/dil-e-afroz",
+      "problem": "Meta title is 80 characters — the limit is 70: \"Dil-e-Afroz – Embroidered 3Pc Summer Lawn Outfit with Flapper | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "7ba5c03fc0d4f92e": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2211,7 +2583,7 @@
     },
     "cc7ab9f85deaa18d": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2223,7 +2595,7 @@
     },
     "b2dff3a815fb0935": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2235,7 +2607,7 @@
     },
     "241b6271d6d12b59": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2247,7 +2619,7 @@
     },
     "a1812dc6ae8546be": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2259,7 +2631,7 @@
     },
     "4067b934d91d514e": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2271,7 +2643,7 @@
     },
     "d39b654e1f450c07": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2283,7 +2655,7 @@
     },
     "8f6c6a506ffd4b8d": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2295,7 +2667,7 @@
     },
     "33fbe66358773ac3": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2307,7 +2679,7 @@
     },
     "94ded91843001f99": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2317,9 +2689,21 @@
       "problem": "Variant \"XL / Lawn\": compare-at price (8333) is more than 2.2x the selling price (3500) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
+    "5dc97c3a2e0293af": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Blossom Black",
+      "label": "blossom-black",
+      "url": "https://www.sahibas.com/products/blossom-black",
+      "problem": "Meta description is 161 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "64ff5eaa193e64c6": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2331,7 +2715,7 @@
     },
     "daa35b49b4716713": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2341,9 +2725,21 @@
       "problem": "Only 4 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "dd7a5097eb2861a5": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Areej",
+      "label": "areej",
+      "url": "https://www.sahibas.com/products/areej",
+      "problem": "Meta description is 196 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "ab4f6ddef3b5d830": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2353,9 +2749,21 @@
       "problem": "Only 4 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "a7ddf0fd6e5b347b": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Ashley Cyan",
+      "label": "ashley-cyan",
+      "url": "https://www.sahibas.com/products/ashley-cyan",
+      "problem": "Meta description is 183 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "cafca9163aadea85": {
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2367,7 +2775,7 @@
     },
     "9d1c7ed0e2204bbf": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2377,21 +2785,33 @@
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "29a00feb49414496": {
-      "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-14",
+    "a3b74fca85e065a6": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
-      "sev": "MED",
+      "sev": "HIGH",
       "title": "Bilonara",
       "label": "bilonara",
       "url": "https://www.sahibas.com/products/bilonara",
-      "problem": "Only 1 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
+      "problem": "Live on the store but completely out of stock across every size.",
+      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
+    },
+    "bb7ff6401887ef21": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Bilonara - Black",
+      "label": "bilonara-black",
+      "url": "https://www.sahibas.com/products/bilonara-black",
+      "problem": "Meta title is 75 characters — the limit is 70: \"Bilonara - Black – Embroidered 3Pc Khaddar Winter Outfit | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
     },
     "2be590d016441737": {
       "firstSeen": "2026-09-14",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2401,9 +2821,21 @@
       "problem": "Only 4 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "fc6e3e1e32c63b18": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Celadon Black",
+      "label": "celadon-black",
+      "url": "https://www.sahibas.com/products/celadon-black",
+      "problem": "Meta description is 161 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "059d5eafcedf8a60": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2415,7 +2847,7 @@
     },
     "55af62bca34517fa": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2427,7 +2859,7 @@
     },
     "db57c972b6ec6fe2": {
       "firstSeen": "2026-09-09",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2437,9 +2869,21 @@
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "a3a50419e525195d": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Crescent (Black) - Kaftan",
+      "label": "crescent-black-kaftan",
+      "url": "https://www.sahibas.com/products/crescent-black-kaftan",
+      "problem": "Meta title is 71 characters — the limit is 70: \"Crescent Black – Embroidered Flared Kaftan for Women | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "329a8bb19cea0886": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2449,9 +2893,45 @@
       "problem": "Only 4 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "cb25f0b5e5d00c71": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Daffodil Black",
+      "label": "daffodil-black",
+      "url": "https://www.sahibas.com/products/daffodil-black",
+      "problem": "Meta description is 167 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "e0a7b6a45f9ba30b": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Desire Lemon",
+      "label": "desire-lemon",
+      "url": "https://www.sahibas.com/products/desire-lemon",
+      "problem": "Meta title is 77 characters — the limit is 70: \"Desire Lemon – Printed 2Pc Summer Lawn Outfit with Flapper | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "839c300a31b520bd": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Dur-e-Shahwar",
+      "label": "dur-e-shahwar",
+      "url": "https://www.sahibas.com/products/dur-e-shahwar",
+      "problem": "Meta title is 73 characters — the limit is 70: \"Dur-e-Shahwar – Embroidered 3Pc Summer Jacquard Outfit | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "27e4b60c2ef9e94c": {
       "firstSeen": "2026-11-10",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2463,7 +2943,7 @@
     },
     "bd97e579ebaf9464": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2473,9 +2953,33 @@
       "problem": "Currently selling at 3999, which is at or below the wholesale price of 4200. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
+    "46f7fd7b71ecc0f8": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Gul e Mina",
+      "label": "gul-e-mina",
+      "url": "https://www.sahibas.com/products/gul-e-mina",
+      "problem": "Meta title is 75 characters — the limit is 70: \"Gul e Mina – Printed 2Pc Summer Lawn Outfit with Flapper | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "1e5addb1e9109987": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Hessonie - Sky Blue",
+      "label": "hessonie-sky-blue",
+      "url": "https://www.sahibas.com/products/hessonie-sky-blue",
+      "problem": "Meta title is 73 characters — the limit is 70: \"Hessonie - Sky Blue – Printed 2Pc Summer Cotton Outfit | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "b811243f190f4254": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2487,7 +2991,7 @@
     },
     "0e4911735b5ba02f": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2497,9 +3001,21 @@
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "92c9c49e0407c7c2": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Leora",
+      "label": "leora",
+      "url": "https://www.sahibas.com/products/leora",
+      "problem": "Meta title is 74 characters — the limit is 70: \"Leora – Embroidered 3Pc Summer Lawn Outfit with Flapper | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "67d068a580f2179d": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2509,9 +3025,21 @@
       "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "55b1804f3a0177fb": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Mabel",
+      "label": "mabel",
+      "url": "https://www.sahibas.com/products/mabel",
+      "problem": "Meta title is 74 characters — the limit is 70: \"Mabel – Embroidered 2Pc Summer Lawn Outfit with Flapper | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "f0bdcea2f4fd849f": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2523,7 +3051,7 @@
     },
     "e565fa578cc8e662": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2533,9 +3061,45 @@
       "problem": "Currently selling at 3650, which is at or below the wholesale price of 4650. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
+    "49698bfb4c66d365": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Mirelle",
+      "label": "mirelle",
+      "url": "https://www.sahibas.com/products/mirelle",
+      "problem": "Meta title is 76 characters — the limit is 70: \"Mirelle – Embroidered 2Pc Summer Lawn Outfit with Flapper | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "a6b88dcabf63fd3b": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Moonflower Blue",
+      "label": "moonflower-blue",
+      "url": "https://www.sahibas.com/products/moonflower-blue",
+      "problem": "Meta title is 73 characters — the limit is 70: \"Moonflower Blue – Embroidered 3Pc Summer Textured Lawn | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "77655a7905e2eb53": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Moonflower Pink",
+      "label": "moonflower-pink",
+      "url": "https://www.sahibas.com/products/moonflower-pink",
+      "problem": "Meta title is 73 characters — the limit is 70: \"Moonflower Pink – Embroidered 3Pc Summer Textured Lawn | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "e6a62f1545cd39be": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2547,7 +3111,7 @@
     },
     "65485a3abbb04f25": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2559,7 +3123,7 @@
     },
     "3228575ce7654daf": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2571,7 +3135,7 @@
     },
     "7e660c18f20ad042": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2583,7 +3147,7 @@
     },
     "c4dfc12769576bb2": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2595,7 +3159,7 @@
     },
     "885380a90ba8f773": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2607,7 +3171,7 @@
     },
     "45d432317cff8cf4": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2619,7 +3183,7 @@
     },
     "8ee34a6f61ebf2ca": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2631,7 +3195,7 @@
     },
     "e7aab39369b97d72": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2641,81 +3205,21 @@
       "problem": "Variant \"XL\": compare-at price (5999) is more than 2.2x the selling price (2700) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
-    "8fea8eca876b9b25": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+    "29c69acfc9b386bf": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "admin",
-      "category": "admin_price",
+      "category": "seo_meta",
       "sev": "MED",
-      "title": "Zameera",
-      "label": "zameera",
-      "url": "https://www.sahibas.com/products/zameera",
-      "problem": "Currently selling at 3499, which is at or below the wholesale price of 6450. Fine for a short sale, a loss otherwise.",
-      "fix": "Check that this discount is intentional and time-limited."
-    },
-    "49a58cface8e06ee": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Zameera",
-      "label": "zameera",
-      "url": "https://www.sahibas.com/products/zameera",
-      "problem": "Variant \"S\": compare-at price (12643) is more than 2.2x the selling price (3499) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "3e0c40904c3c351c": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Zameera",
-      "label": "zameera",
-      "url": "https://www.sahibas.com/products/zameera",
-      "problem": "Variant \"M\": compare-at price (12643) is more than 2.2x the selling price (3499) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "0bb975f2622e1a1e": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Zameera",
-      "label": "zameera",
-      "url": "https://www.sahibas.com/products/zameera",
-      "problem": "Variant \"L\": compare-at price (12643) is more than 2.2x the selling price (3499) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "3c84278156a3a513": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Zameera",
-      "label": "zameera",
-      "url": "https://www.sahibas.com/products/zameera",
-      "problem": "Variant \"XL\": compare-at price (12643) is more than 2.2x the selling price (3499) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "7198c54601bc32c8": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
-      "source": "admin",
-      "category": "status",
-      "sev": "HIGH",
-      "title": "Zameera",
-      "label": "zameera",
-      "url": "https://www.sahibas.com/products/zameera",
-      "problem": "Live on the store but completely out of stock across every size.",
-      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
+      "title": "Narmeen - Black",
+      "label": "narmeen-black",
+      "url": "https://www.sahibas.com/products/narmeen-black",
+      "problem": "Meta title is 73 characters — the limit is 70: \"Narmeen - Black – Embroidered 2Pc All Season Poly Silk | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
     },
     "c4b2b87188e7077d": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2727,7 +3231,7 @@
     },
     "2e4892b65d9835ce": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2737,9 +3241,21 @@
       "problem": "Currently selling at 4499, which is at or below the wholesale price of 4650. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
+    "ccc2b6df3e3ec156": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Zivaa Grey",
+      "label": "zivaa-grey",
+      "url": "https://www.sahibas.com/products/zivaa-grey",
+      "problem": "Meta title is 73 characters — the limit is 70: \"Zivaa Grey – Embroidered 2Pc Summer Self Cotton Outfit | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "c9d2471d2d9d8e50": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2749,9 +3265,21 @@
       "problem": "Currently selling at 5000, which is at or below the wholesale price of 5150. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
+    "18c949f2b0350776": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Nayal kids",
+      "label": "nayal-kids",
+      "url": "https://www.sahibas.com/products/nayal-kids",
+      "problem": "Meta title is 81 characters — the limit is 70: \"Nayal kids – Embroidered 2Pc All Season Poly Silk Short Kaftan | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "e24345634eaaf139": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2763,7 +3291,7 @@
     },
     "db6c77ea3989a0e5": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2775,7 +3303,7 @@
     },
     "024ab92a29ff8996": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2787,7 +3315,7 @@
     },
     "2f39a5cfcef52182": {
       "firstSeen": "2026-09-23",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2799,7 +3327,7 @@
     },
     "56c1deb9b1ddef1e": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2811,7 +3339,7 @@
     },
     "990899a287b5f573": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2823,7 +3351,7 @@
     },
     "77f59832f8e0f019": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2835,7 +3363,7 @@
     },
     "0941e94f8f371ec9": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2847,7 +3375,7 @@
     },
     "c5e8b408651771a6": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2859,7 +3387,7 @@
     },
     "559910cb18be8df4": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2871,7 +3399,7 @@
     },
     "d5cb8dfeb9f12eca": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2883,7 +3411,7 @@
     },
     "7c6767c26056a95e": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2895,7 +3423,7 @@
     },
     "139ab39625b2057c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2907,7 +3435,7 @@
     },
     "6668b13e21563c17": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2919,7 +3447,7 @@
     },
     "ad6660e7c449f844": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2931,7 +3459,7 @@
     },
     "a97a578246a05a67": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2943,7 +3471,7 @@
     },
     "c61c3feeff354163": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2953,21 +3481,21 @@
       "problem": "Currently selling at 4500, which is at or below the wholesale price of 4500. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
-    "e4aceb03b4770cd5": {
-      "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+    "71b8ebc1d17906a7": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
-      "sev": "MED",
+      "sev": "HIGH",
       "title": "Rohini Zinc",
       "label": "rohini-zinc",
       "url": "https://www.sahibas.com/products/rohini-zinc",
-      "problem": "Only 1 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
+      "problem": "Live on the store but completely out of stock across every size.",
+      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
     },
     "d63096bd12c55948": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2979,7 +3507,7 @@
     },
     "1b51f3a172c1f90a": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2991,7 +3519,7 @@
     },
     "9e4f4f34b664dc95": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3003,7 +3531,7 @@
     },
     "159e52d340418f6e": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3015,7 +3543,7 @@
     },
     "9d190a471d4d2847": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3027,7 +3555,7 @@
     },
     "66423c87dded5b56": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3039,7 +3567,7 @@
     },
     "e6f44fa7662a0938": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3051,7 +3579,7 @@
     },
     "4df515480aab3380": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3063,7 +3591,7 @@
     },
     "a9a47a07cd7e9752": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3075,7 +3603,7 @@
     },
     "3717dfbe3acb59cb": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3087,7 +3615,7 @@
     },
     "66d36e12b3a6a724": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3099,7 +3627,7 @@
     },
     "f652a0fd977af8f2": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3111,7 +3639,7 @@
     },
     "0a76fc9d2ab11732": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3123,7 +3651,7 @@
     },
     "ac928591aa5ebd1f": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3135,7 +3663,7 @@
     },
     "9ae2f62172e8586c": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3147,7 +3675,7 @@
     },
     "65d28f2227cc7714": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3159,7 +3687,7 @@
     },
     "3870f4865782a028": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3171,7 +3699,7 @@
     },
     "fd882e980e1b24ed": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3181,9 +3709,21 @@
       "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "6672ddca96b1ece9": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Nevara",
+      "label": "nevara",
+      "url": "https://www.sahibas.com/products/nevara",
+      "problem": "Meta title is 71 characters — the limit is 70: \"Nevara – Printed 3Pc Summer Lawn Outfit with Flapper | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "98813177eb2e343c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3195,7 +3735,7 @@
     },
     "66f720695a7a4f57": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3207,7 +3747,7 @@
     },
     "d786ba3e97a04175": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3217,9 +3757,21 @@
       "problem": "Currently selling at 4200, which is at or below the wholesale price of 4650. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
+    "99be7ffff9016cff": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Cornflower Black",
+      "label": "cornflower-black",
+      "url": "https://www.sahibas.com/products/cornflower-black",
+      "problem": "Meta description is 166 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "9aa0ed7398f90015": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3231,7 +3783,7 @@
     },
     "c2bf62abf2275165": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3243,7 +3795,7 @@
     },
     "a23cfc6dfb380038": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3255,7 +3807,7 @@
     },
     "868728835bb823ed": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3267,7 +3819,7 @@
     },
     "176ca2ceedad5dfb": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3279,7 +3831,7 @@
     },
     "523490c5b45070ff": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3289,9 +3841,33 @@
       "problem": "Variant \"L\": compare-at price (10500) is more than 2.2x the selling price (4750) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
+    "0d0275742ea5def0": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Jennifer Sky Blue",
+      "label": "jennifer-sky-blue",
+      "url": "https://www.sahibas.com/products/jennifer-sky-blue",
+      "problem": "Meta title is 73 characters — the limit is 70: \"Jennifer Sky Blue – Embroidered 2Pc Summer Lawn Outfit | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "2c1094c9b2807113": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Grandiflora Blue",
+      "label": "grandiflora-blue",
+      "url": "https://www.sahibas.com/products/grandiflora-blue",
+      "problem": "Meta title is 72 characters — the limit is 70: \"Grandiflora Blue – Embroidered 2Pc Summer Lawn Outfit | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "262a919eef346c70": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3303,7 +3879,7 @@
     },
     "c403b9ed2b4a753a": {
       "firstSeen": "2026-09-23",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3315,7 +3891,7 @@
     },
     "9b76611295517999": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3325,9 +3901,45 @@
       "problem": "Only 4 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "dbe55eb840c342d8": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Khajista Maroon",
+      "label": "khajista-maroon",
+      "url": "https://www.sahibas.com/products/khajista-maroon",
+      "problem": "Meta title is 71 characters — the limit is 70: \"Khajista Maroon – Embroidered 3Pc Summer Lawn Outfit | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "708257938f50ba58": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Ellie",
+      "label": "ellie",
+      "url": "https://www.sahibas.com/products/ellie",
+      "problem": "Meta title is 74 characters — the limit is 70: \"Ellie – Embroidered 2Pc Summer Lawn Outfit with Flapper | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "9fc16ca6452b2ae0": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Ellie Black",
+      "label": "ellie-black",
+      "url": "https://www.sahibas.com/products/ellie-black",
+      "problem": "Meta title is 80 characters — the limit is 70: \"Ellie Black – Embroidered 2Pc Summer Lawn Outfit with Flapper | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "4c48c38c1df4f3fa": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3339,7 +3951,7 @@
     },
     "e530cf5abbe6e66b": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3351,7 +3963,7 @@
     },
     "4bfb0b7c56b46182": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3363,7 +3975,7 @@
     },
     "2444053181478472": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3375,7 +3987,7 @@
     },
     "644fd3aaaad48b6a": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3387,7 +3999,7 @@
     },
     "e80f1b35c61eafb2": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3399,7 +4011,7 @@
     },
     "d7d034694a3f803b": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3411,7 +4023,7 @@
     },
     "dd0b9a76f0f63628": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3423,7 +4035,7 @@
     },
     "ca4368f1c1608c9d": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3435,7 +4047,7 @@
     },
     "2cc7c994411832f2": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3447,7 +4059,7 @@
     },
     "2d71c04d7ccf5d8c": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3459,7 +4071,7 @@
     },
     "5fb1956955a8da9b": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3471,7 +4083,7 @@
     },
     "97dc9784f138e446": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3483,7 +4095,7 @@
     },
     "e099f45f990f9777": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3495,7 +4107,7 @@
     },
     "092fca85e52034b2": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3507,7 +4119,7 @@
     },
     "81b57a08eaf77075": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3519,7 +4131,7 @@
     },
     "d5e0a6d916c050d2": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3531,7 +4143,7 @@
     },
     "3de6b24fda6ead07": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3543,7 +4155,7 @@
     },
     "fbf67bfd37b0ba81": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3555,7 +4167,7 @@
     },
     "b0aee92dc88483ca": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3567,7 +4179,7 @@
     },
     "61e8ad089126e06b": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3579,7 +4191,7 @@
     },
     "c0abc8e48a31f465": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3591,7 +4203,7 @@
     },
     "2aa6af92c0bca866": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3603,7 +4215,7 @@
     },
     "1f70e86b1a5d459a": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3615,7 +4227,7 @@
     },
     "39aa92f306c45d56": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3625,9 +4237,21 @@
       "problem": "Variant \"XL\": compare-at price (7500) is more than 2.2x the selling price (3250) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
+    "e6b3d7d654b97cdb": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Marisol Pista",
+      "label": "marisol-pista",
+      "url": "https://www.sahibas.com/products/marisol-pista",
+      "problem": "Meta title is 71 characters — the limit is 70: \"Marisol Pista – Embroidered 3Pc Summer Textured Lawn | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "d9ffa8c7d925d697": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3639,7 +4263,7 @@
     },
     "1de0517df9fe9ceb": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3651,7 +4275,7 @@
     },
     "e5eadd834cfd3aad": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3663,7 +4287,7 @@
     },
     "4fd2c6d3bfc0cd2f": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3675,7 +4299,7 @@
     },
     "852a2937bc0fe0bb": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3687,7 +4311,7 @@
     },
     "a6da6e3b0a53ff56": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3699,7 +4323,7 @@
     },
     "fa5b482b7d1f65e1": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3711,7 +4335,7 @@
     },
     "82fa4ba3fbc90433": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3721,9 +4345,21 @@
       "problem": "Variant \"XL / Dhanak\": compare-at price (8500) is more than 2.2x the selling price (3533) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
+    "84201acf6d799990": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Marisol Falsa",
+      "label": "marisol-falsa",
+      "url": "https://www.sahibas.com/products/marisol-falsa",
+      "problem": "Meta title is 71 characters — the limit is 70: \"Marisol Falsa – Embroidered 3Pc Summer Textured Lawn | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "8d881de3741dfbcc": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3735,7 +4371,7 @@
     },
     "738cc769ad0880a0": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3745,9 +4381,33 @@
       "problem": "Currently selling at 3750, which is at or below the wholesale price of 4150. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
+    "9677dbeb9cfab2b2": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Gul-e-Aasman Black",
+      "label": "gul-e-aasman-black",
+      "url": "https://www.sahibas.com/products/gul-e-aasman-black",
+      "problem": "Meta title is 74 characters — the limit is 70: \"Gul-e-Aasman Black – Embroidered 2Pc Summer Lawn Outfit | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "9ab700206f08a7be": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Neelofshan",
+      "label": "neelofshan",
+      "url": "https://www.sahibas.com/products/neelofshan",
+      "problem": "Meta title is 73 characters — the limit is 70: \"Neelofshan – Embroidered 1Pc Flared Pishwas All Season | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "24fa63c7565aa6da": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3759,7 +4419,7 @@
     },
     "511b9784703595e4": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3771,7 +4431,7 @@
     },
     "5ff3105b011cd02e": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3783,7 +4443,7 @@
     },
     "5b10b8c18bb51f20": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3793,9 +4453,21 @@
       "problem": "Currently selling at 3999, which is at or below the wholesale price of 4200. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
+    "d9c77974283277fd": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Espresso Lailac",
+      "label": "espresso-lailac",
+      "url": "https://www.sahibas.com/products/espresso-lailac",
+      "problem": "Meta title is 71 characters — the limit is 70: \"Espresso Lailac – Embroidered 3Pc Summer Lawn Outfit | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "f148a25785dde1f8": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3807,7 +4479,7 @@
     },
     "37114970b0326c34": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3817,9 +4489,33 @@
       "problem": "Currently selling at 3999, which is at or below the wholesale price of 4200. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
+    "221fe3c7f3fc2ef6": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Zafina Black",
+      "label": "zafina-black",
+      "url": "https://www.sahibas.com/products/zafina-black",
+      "problem": "Meta title is 71 characters — the limit is 70: \"Zafina Black – Embroidered 1Pc Flared Pishwas Winter | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "38f80e3a81798ebc": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Zafina White",
+      "label": "zafina-white",
+      "url": "https://www.sahibas.com/products/zafina-white",
+      "problem": "Meta title is 71 characters — the limit is 70: \"Zafina White – Embroidered 1Pc Flared Pishwas Summer | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "224f54b44a807f70": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3829,9 +4525,33 @@
       "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "f56d177b82826c38": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Durriyah",
+      "label": "durriyah",
+      "url": "https://www.sahibas.com/products/durriyah",
+      "problem": "Meta title is 77 characters — the limit is 70: \"Durriyah – Embroidered 2Pc Summer Lawn Outfit with Flapper | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "dd538a1e472df0c0": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Taliya Maroon",
+      "label": "taliya-maroon-1",
+      "url": "https://www.sahibas.com/products/taliya-maroon-1",
+      "problem": "Meta title is 71 characters — the limit is 70: \"Taliya Maroon – Embellished 1Pc Poly Silk All Season | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "3a2e779c20b72e56": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3843,7 +4563,7 @@
     },
     "88a3ba9c7c59c56e": {
       "firstSeen": "2026-09-23",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3855,7 +4575,7 @@
     },
     "7be49fcbf6ca29c7": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3867,7 +4587,7 @@
     },
     "1f4a371f887da7fd": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3877,9 +4597,21 @@
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "0da471d277cd447d": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Euphoria",
+      "label": "euphoria",
+      "url": "https://www.sahibas.com/products/euphoria",
+      "problem": "Meta title is 77 characters — the limit is 70: \"Euphoria – Embroidered 2Pc Summer Lawn Outfit with Flapper | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "91bfacc8ff4f2f45": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3891,7 +4623,7 @@
     },
     "715c28b9f71a2da6": {
       "firstSeen": "2026-11-10",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3903,7 +4635,7 @@
     },
     "91b7a503914fded9": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3915,7 +4647,7 @@
     },
     "c13f700d659ac238": {
       "firstSeen": "2026-09-23",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3925,21 +4657,33 @@
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "1b0f9d00323ca2c1": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Bahar-e-Safed",
+      "label": "bahar-e-safed-1",
+      "url": "https://www.sahibas.com/products/bahar-e-safed-1",
+      "problem": "Meta title is 71 characters — the limit is 70: \"Bahar-e-Safed – Embellished A-Line Pishwas for Women | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "ba70c39fb9b9680b": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Ruhee",
       "label": "ruhee",
       "url": "https://www.sahibas.com/products/ruhee",
-      "problem": "Only 3 unit(s) left in total across all sizes.",
+      "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "c0ef242e837133cd": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3949,9 +4693,21 @@
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "38550d577187ca55": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Ruhee Royal Blue",
+      "label": "ruhee-royal-blue",
+      "url": "https://www.sahibas.com/products/ruhee-royal-blue",
+      "problem": "Meta title is 74 characters — the limit is 70: \"Ruhee Royal Blue – Embroidered A-Line Pishwas for Women | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "2feea59f5f22cfe0": {
       "firstSeen": "2026-11-09",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3963,7 +4719,7 @@
     },
     "f2cbf0264079b26c": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3973,69 +4729,9 @@
       "problem": "Sizes are priced differently: 5267 / 6250.",
       "fix": "Unless this is deliberate, set one price across all sizes."
     },
-    "2d82f4801cdd802b": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Farsoob",
-      "label": "farsoob",
-      "url": "https://www.sahibas.com/products/farsoob",
-      "problem": "Variant \"S\": compare-at price (4500) is more than 2.2x the selling price (1947) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "841ab9e36fd95a60": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Farsoob",
-      "label": "farsoob",
-      "url": "https://www.sahibas.com/products/farsoob",
-      "problem": "Variant \"M\": compare-at price (4500) is more than 2.2x the selling price (1947) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "face3ee19a578659": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Farsoob",
-      "label": "farsoob",
-      "url": "https://www.sahibas.com/products/farsoob",
-      "problem": "Variant \"L\": compare-at price (4500) is more than 2.2x the selling price (1947) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "1e0bc5737128829b": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Farsoob",
-      "label": "farsoob",
-      "url": "https://www.sahibas.com/products/farsoob",
-      "problem": "Variant \"XL\": compare-at price (4500) is more than 2.2x the selling price (1947) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "c1dc4a4f213be212": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
-      "source": "admin",
-      "category": "status",
-      "sev": "HIGH",
-      "title": "Farsoob",
-      "label": "farsoob",
-      "url": "https://www.sahibas.com/products/farsoob",
-      "problem": "Live on the store but completely out of stock across every size.",
-      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
-    },
     "dad324b407fc995f": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4045,9 +4741,45 @@
       "problem": "Currently selling at 5500, which is at or below the wholesale price of 6250. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
+    "3a63c0ade726f919": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Mehshar Lailac",
+      "label": "mehshar-lailac",
+      "url": "https://www.sahibas.com/products/mehshar-lailac",
+      "problem": "Meta title is 72 characters — the limit is 70: \"Mehshar Lailac – Embroidered A-Line Pishwas for Women | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "7b0bbddd4494e7af": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Gulbaizar",
+      "label": "gulbaizar",
+      "url": "https://www.sahibas.com/products/gulbaizar",
+      "problem": "Meta title is 78 characters — the limit is 70: \"Gulbaizar– Embroidered Anarkali Summer Lawn Shirt for Women | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "a541777e7d13f29d": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Shabpareek Black",
+      "label": "shabpareek-black",
+      "url": "https://www.sahibas.com/products/shabpareek-black",
+      "problem": "Meta title is 74 characters — the limit is 70: \"Shabpareek Black – Embroidered A-Line Pishwas for Women | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "c3812aeb58333bbf": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4059,7 +4791,7 @@
     },
     "075f4be7012cb155": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4069,21 +4801,69 @@
       "problem": "Currently selling at 4400, which is at or below the wholesale price of 4400. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
-    "26380392abcf1759": {
-      "firstSeen": "2026-11-12",
-      "lastSeen": "2026-11-14",
+    "bbefac7ece7b2a25": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Dilnawaz",
+      "label": "dilnawaz",
+      "url": "https://www.sahibas.com/products/dilnawaz",
+      "problem": "Meta title is 77 characters — the limit is 70: \"Dilnawaz – Embroidered 3Pc Summer Lawn Outfit with Flapper | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "27252f664600f105": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Dilnawaz Black",
+      "label": "dilnawaz-black",
+      "url": "https://www.sahibas.com/products/dilnawaz-black",
+      "problem": "Meta title is 83 characters — the limit is 70: \"Dilnawaz Black – Embroidered 3Pc Summer Lawn Outfit with Flapper | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "5bc17a816587f2bc": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Elendra",
+      "label": "elendra",
+      "url": "https://www.sahibas.com/products/elendra",
+      "problem": "Meta title is 72 characters — the limit is 70: \"Elendra – Printed 2Pc Summer Lawn Outfit with Flapper | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "14722618bf4f0f1d": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
-      "sev": "MED",
+      "sev": "HIGH",
       "title": "Angrakha",
       "label": "angrakha",
       "url": "https://www.sahibas.com/products/angrakha",
-      "problem": "Only 1 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
+      "problem": "Live on the store but completely out of stock across every size.",
+      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
+    },
+    "15d3580ff04bc371": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Mehrdaar",
+      "label": "mehrdaar",
+      "url": "https://www.sahibas.com/products/mehrdaar",
+      "problem": "Meta title is 78 characters — the limit is 70: \"Mehrdaar – Printed Straight-Cut Suit with Flapper for Women | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
     },
     "7ffac29d9e637a7a": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4093,9 +4873,45 @@
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "dc4ac68a4a200cbd": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Numairaa Black",
+      "label": "numairaa-black",
+      "url": "https://www.sahibas.com/products/numairaa-black",
+      "problem": "Meta title is 72 characters — the limit is 70: \"Numairaa Black – Embroidered 3Pc Summer Textured Lawn | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "2965ddf9391bec9c": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Nasheen Ivory",
+      "label": "nasheen-ivory",
+      "url": "https://www.sahibas.com/products/nasheen-ivory",
+      "problem": "Meta title is 71 characters — the limit is 70: \"Nasheen Ivory – Embellished Straight Shirt for Women | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "70ff41a708e20863": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Rukhsaar",
+      "label": "rukhsaar",
+      "url": "https://www.sahibas.com/products/rukhsaar",
+      "problem": "Meta title is 80 characters — the limit is 70: \"Rukhsaar – Embroidered 1Pc Winter Linen A-Line Pishwas Outfit | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "8a9d797d110d420a": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4105,9 +4921,21 @@
       "problem": "Only 4 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "a6e114ac36a0c2df": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Heeriye Black",
+      "label": "heeriye-black",
+      "url": "https://www.sahibas.com/products/heeriye-black",
+      "problem": "Meta title is 75 characters — the limit is 70: \"Heeriye Black – Embroidered Long Dhanak Kaftan for Women | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "142e57d79fc58145": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4119,7 +4947,7 @@
     },
     "e7df3c0cb81eb224": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4129,21 +4957,45 @@
       "problem": "International wholesale (5200) is lower than local wholesale (5500).",
       "fix": "Check custom.wholesale_international — international is normally the higher of the two."
     },
-    "329c8cf1c68d2c61": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+    "d999ce08b6269c69": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "admin",
-      "category": "status",
-      "sev": "HIGH",
-      "title": "Laajwardi",
-      "label": "laajwardi",
-      "url": "https://www.sahibas.com/products/laajwardi",
-      "problem": "Live on the store but completely out of stock across every size.",
-      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Zulfashan",
+      "label": "zulfashan",
+      "url": "https://www.sahibas.com/products/zulfashan",
+      "problem": "Meta title is 76 characters — the limit is 70: \"Zulfashan – Embroidered 3Pc All Season Tussar Silk Outfit | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "ccf64c0c5f74e188": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Paarizaad Black",
+      "label": "paarizaad-black",
+      "url": "https://www.sahibas.com/products/paarizaad-black",
+      "problem": "Meta title is 77 characters — the limit is 70: \"Paarizaad Black – Embroidered Long Dhanak Kaftan for Women | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "b6bba13874f02f6b": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Paarizaad Navy",
+      "label": "paarizaad-navy",
+      "url": "https://www.sahibas.com/products/paarizaad-navy",
+      "problem": "Meta title is 76 characters — the limit is 70: \"Paarizaad Navy – Embroidered Long Dhanak Kaftan for Women | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
     },
     "200b55ca538bf81f": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4155,7 +5007,7 @@
     },
     "1315600b68ce0b4a": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4167,7 +5019,7 @@
     },
     "1acf980ceddbf3b6": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4179,7 +5031,7 @@
     },
     "df07a7c4cf69b842": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4191,7 +5043,7 @@
     },
     "89d9d88d6e2fc523": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4203,7 +5055,7 @@
     },
     "498dcc8f98e8043e": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4215,7 +5067,7 @@
     },
     "fcee4cadd0426ce5": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4227,7 +5079,7 @@
     },
     "9cfc1a3fca36d9bf": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4239,7 +5091,7 @@
     },
     "66c582d535a26f4c": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4251,7 +5103,7 @@
     },
     "199d23603b212c32": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4261,21 +5113,57 @@
       "problem": "Variant \"XL\": compare-at price (11000) is more than 2.2x the selling price (4999) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
+    "b70b0caadce56f5f": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Erilys",
+      "label": "erilys",
+      "url": "https://www.sahibas.com/products/erilys",
+      "problem": "Meta title is 77 characters — the limit is 70: \"Erilys – Embroidered 2Pc Winter Khaddar Outfit with Plazzo | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "4e145e5ac7f7407c": {
       "firstSeen": "2026-11-09",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Erilys",
       "label": "erilys",
       "url": "https://www.sahibas.com/products/erilys",
-      "problem": "Only 2 unit(s) left in total across all sizes.",
+      "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
+    },
+    "b0661c2c23c7ee62": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Casper - Pink",
+      "label": "casper-pink",
+      "url": "https://www.sahibas.com/products/casper-pink",
+      "problem": "Meta description is 161 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "c249772ef2db9f59": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Erilys Ivory",
+      "label": "erilys-ivory",
+      "url": "https://www.sahibas.com/products/erilys-ivory",
+      "problem": "Meta title is 83 characters — the limit is 70: \"Erilys Ivory – Embroidered 2Pc Winter Khaddar Outfit with Plazzo | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
     },
     "9d0d8157629c9a95": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4287,7 +5175,7 @@
     },
     "958f52bccdb4117d": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4299,7 +5187,7 @@
     },
     "e71230b064cd67bd": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4311,7 +5199,7 @@
     },
     "ac80c71c96b35734": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4323,7 +5211,7 @@
     },
     "f0fc8c55bc019067": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4335,7 +5223,7 @@
     },
     "5defd0897793cf99": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4347,7 +5235,7 @@
     },
     "b08c4c408a96fc48": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4359,7 +5247,7 @@
     },
     "695f5841cec772a9": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4371,7 +5259,7 @@
     },
     "bdf33b0c12e1082d": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4383,7 +5271,7 @@
     },
     "631b13f33676ec78": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4393,21 +5281,21 @@
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "caeb37e5e56eaea6": {
-      "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+    "0142e04e05a78614": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
-      "sev": "MED",
+      "sev": "HIGH",
       "title": "Siham Yellow",
       "label": "siham-yellow",
       "url": "https://www.sahibas.com/products/siham-yellow",
-      "problem": "Only 1 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
+      "problem": "Live on the store but completely out of stock across every size.",
+      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
     },
     "16210aab8cf664fe": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4419,19 +5307,31 @@
     },
     "e0f341a3417a0da5": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Siham Lilac",
       "label": "siham-lilac",
       "url": "https://www.sahibas.com/products/siham-lilac",
-      "problem": "Only 2 unit(s) left in total across all sizes.",
+      "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
+    },
+    "1b6e5870bb28f054": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Denali Mongia",
+      "label": "denali-mongia",
+      "url": "https://www.sahibas.com/products/denali-mongia",
+      "problem": "Meta title is 71 characters — the limit is 70: \"Denali Mongia – Embroidered 2Pc Winter Dhanak Outfit | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
     },
     "501f5543bb9e19bf": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4443,19 +5343,43 @@
     },
     "fb7d55b94a36d99c": {
       "firstSeen": "2026-11-03",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Paizan",
       "label": "paizan",
       "url": "https://www.sahibas.com/products/paizan",
-      "problem": "Only 3 unit(s) left in total across all sizes.",
+      "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
+    },
+    "d1ba26b3d1d8791b": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Areesha Black",
+      "label": "areesha-black",
+      "url": "https://www.sahibas.com/products/areesha-black",
+      "problem": "Meta title is 75 characters — the limit is 70: \"Areesha Black – Printed 3Pc Winter Silk Outfit For Women | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "f01ba3e1f4a62de3": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Areesha Black",
+      "label": "areesha-black",
+      "url": "https://www.sahibas.com/products/areesha-black",
+      "problem": "Meta description is 204 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
     },
     "fc7ad4d2fcb96668": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4467,7 +5391,7 @@
     },
     "9ef358631fa02b4d": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4479,7 +5403,7 @@
     },
     "377a8d5d54f4528f": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4491,7 +5415,7 @@
     },
     "eea0135eb464141a": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4503,7 +5427,7 @@
     },
     "25cbc159fd268900": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4515,7 +5439,7 @@
     },
     "b9f1ff7106c47c29": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4527,7 +5451,7 @@
     },
     "f1a8213439f69d65": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4537,9 +5461,21 @@
       "problem": "Only 4 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "232a5aca66d7d078": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Neelab",
+      "label": "neelab",
+      "url": "https://www.sahibas.com/products/neelab",
+      "problem": "Meta title is 72 characters — the limit is 70: \"Neelab – Lightweight Cotton Sharara 2Pc Summer Outfit | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "850241773f012b39": {
       "firstSeen": "2026-11-07",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4551,7 +5487,7 @@
     },
     "9dec9ba1828e9b08": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4561,9 +5497,21 @@
       "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "c1ebb9c0c841de79": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Sophiara Black",
+      "label": "sophiara-black",
+      "url": "https://www.sahibas.com/products/sophiara-black",
+      "problem": "Meta title is 72 characters — the limit is 70: \"Sophiara Black – Embroidered 2Pc Winter Dhanak Outfit | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "ac6490a6a80e8558": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4575,7 +5523,7 @@
     },
     "5d800fa61c609070": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4585,9 +5533,21 @@
       "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "33d3ed797f3ee8e8": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Sohniyaan Rust",
+      "label": "sohniyaan-rust",
+      "url": "https://www.sahibas.com/products/sohniyaan-rust",
+      "problem": "Meta title is 72 characters — the limit is 70: \"Sohniyaan Rust – Embroidered 2Pc Winter Dhanak Outfit | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "f19e56672ef9696c": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4597,33 +5557,45 @@
       "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "b8cddea6dc5bd6de": {
-      "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-14",
+    "6f902b979cb4e5ce": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
-      "sev": "MED",
+      "sev": "HIGH",
       "title": "Najat",
       "label": "najat",
       "url": "https://www.sahibas.com/products/najat",
-      "problem": "Only 1 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
+      "problem": "Live on the store but completely out of stock across every size.",
+      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
+    },
+    "205de8592e3f9ff4": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Peace Green",
+      "label": "peace-green",
+      "url": "https://www.sahibas.com/products/peace-green",
+      "problem": "Meta title is 86 characters — the limit is 70: \"Peace Green – Embroidered 2Pc Winter Dhanak Outfit with Long Kaftan | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
     },
     "f486ab1499f53620": {
       "firstSeen": "2026-11-10",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Peace Green",
       "label": "peace-green",
       "url": "https://www.sahibas.com/products/peace-green",
-      "problem": "Only 3 unit(s) left in total across all sizes.",
+      "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "328e3ad17f6a8cb5": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4633,33 +5605,69 @@
       "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "3b7bda855ef26bbb": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+    "2848d687192668c6": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "tags",
       "sev": "MED",
-      "title": "Naghmara",
-      "label": "naghmara",
-      "url": "https://www.sahibas.com/products/naghmara",
+      "title": "Tafiza",
+      "label": "tafiza",
+      "url": "https://www.sahibas.com/products/tafiza",
       "problem": "Still tagged \"new arrival\" but it was created 31 days ago (over 30).",
       "fix": "Remove the \"new arrival\" tag and move it into its regular category."
     },
-    "86342a1dd19ed21e": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+    "b6c08e47bf31e8f8": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "admin",
-      "category": "tags",
+      "category": "seo_meta",
       "sev": "MED",
-      "title": "Talica",
-      "label": "talica",
-      "url": "https://www.sahibas.com/products/talica",
-      "problem": "Still tagged \"new arrival\" but it was created 31 days ago (over 30).",
-      "fix": "Remove the \"new arrival\" tag and move it into its regular category."
+      "title": "Tafiza",
+      "label": "tafiza",
+      "url": "https://www.sahibas.com/products/tafiza",
+      "problem": "Meta title is 75 characters — the limit is 70: \"Tafiza – Embroidered 2Pc Winter Khaddar with Long Kaftan | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "f2c9909892689493": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Erilys Blue",
+      "label": "erilys-blue",
+      "url": "https://www.sahibas.com/products/erilys-blue",
+      "problem": "Meta title is 79 characters — the limit is 70: \"Erilys Blue – Embroidered 2Pc Summer Lawn Outfit with Plazzo | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "40485363802392f0": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Zakia Black",
+      "label": "zakia-black-1",
+      "url": "https://www.sahibas.com/products/zakia-black-1",
+      "problem": "Meta title is 75 characters — the limit is 70: \"Zakia Black – Embellished Long Corduroy Kaftan for Women | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "07a89024a27f4379": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Mars green",
+      "label": "mars-green",
+      "url": "https://www.sahibas.com/products/mars-green",
+      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
     "6478ee9fa6d48e76": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4671,7 +5679,7 @@
     },
     "ffe507920f2f58d2": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4683,7 +5691,7 @@
     },
     "1e7a05acc9d57385": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4695,7 +5703,7 @@
     },
     "56c353ccd4030461": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4705,9 +5713,45 @@
       "problem": "Variant \"XL\": compare-at price (22000) is more than 2.2x the selling price (5500) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
+    "c7267debc21cdfb0": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Denali Linen",
+      "label": "denali-linen",
+      "url": "https://www.sahibas.com/products/denali-linen",
+      "problem": "Meta title is 82 characters — the limit is 70: \"Denali Linen – Embroidered 2Pc Winter Linen Outfit with Flapper | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "34bbff1a2e70c406": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Cottage Linen",
+      "label": "cottage-linen",
+      "url": "https://www.sahibas.com/products/cottage-linen",
+      "problem": "Meta description is 161 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "0eca5fa21c5d601b": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Cew Khaddar",
+      "label": "cew-khaddar",
+      "url": "https://www.sahibas.com/products/cew-khaddar",
+      "problem": "Meta title is 72 characters — the limit is 70: \"Cew Khaddar– Patchwork 2Pc Winter Khaddar Long Kaftan | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "d46548aa659398cb": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4719,7 +5763,7 @@
     },
     "dab488929c856643": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4731,7 +5775,7 @@
     },
     "d9b8bb688819ee73": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4743,7 +5787,7 @@
     },
     "8c3626f6d1e72c4a": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4755,7 +5799,7 @@
     },
     "5ddff2dc90d96efa": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4767,7 +5811,7 @@
     },
     "a7004ee1517c41fc": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4779,7 +5823,7 @@
     },
     "9e542785b305cb4c": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4789,9 +5833,81 @@
       "problem": "Variant \"L\": compare-at price (27000) is more than 2.2x the selling price (6750) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
+    "679b6bae90084b7e": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "admin_price",
+      "sev": "MED",
+      "title": "Sybilla",
+      "label": "sybilla",
+      "url": "https://www.sahibas.com/products/sybilla",
+      "problem": "Currently selling at 3500, which is at or below the wholesale price of 3500. Fine for a short sale, a loss otherwise.",
+      "fix": "Check that this discount is intentional and time-limited."
+    },
+    "e5b6f547ec61b82f": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "admin_price",
+      "sev": "LOW",
+      "title": "Sybilla",
+      "label": "sybilla",
+      "url": "https://www.sahibas.com/products/sybilla",
+      "problem": "Variant \"S\": compare-at price (14000) is more than 2.2x the selling price (3500) — an implausible discount.",
+      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
+    },
+    "698b698cd1d47d9b": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "admin_price",
+      "sev": "LOW",
+      "title": "Sybilla",
+      "label": "sybilla",
+      "url": "https://www.sahibas.com/products/sybilla",
+      "problem": "Variant \"M\": compare-at price (14000) is more than 2.2x the selling price (3500) — an implausible discount.",
+      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
+    },
+    "378701a13e7867b1": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "admin_price",
+      "sev": "LOW",
+      "title": "Sybilla",
+      "label": "sybilla",
+      "url": "https://www.sahibas.com/products/sybilla",
+      "problem": "Variant \"L\": compare-at price (14000) is more than 2.2x the selling price (3500) — an implausible discount.",
+      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
+    },
+    "9bc0af6e28908e63": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "admin_price",
+      "sev": "LOW",
+      "title": "Sybilla",
+      "label": "sybilla",
+      "url": "https://www.sahibas.com/products/sybilla",
+      "problem": "Variant \"XL\": compare-at price (14000) is more than 2.2x the selling price (3500) — an implausible discount.",
+      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
+    },
+    "15626047259c2ed5": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "admin_price",
+      "sev": "MED",
+      "title": "Sybilla",
+      "label": "sybilla",
+      "url": "https://www.sahibas.com/products/sybilla",
+      "problem": "New arrival has a compare-at (sale) price set — new arrivals should show only the real price, not a crossed-out one.",
+      "fix": "Clear the compare-at price on every size so it isn't displayed on sale."
+    },
     "8687e994881b462d": {
       "firstSeen": "2026-11-09",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4801,9 +5917,93 @@
       "problem": "Only 4 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "f48f0c05ffb7bfa2": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Shahul Off-White",
+      "label": "shahul-off-white",
+      "url": "https://www.sahibas.com/products/shahul-off-white",
+      "problem": "Meta title is 73 characters — the limit is 70: \"Shahul Off-White - Embellished 1Pc Winter Linen Kaftan | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "a61b1fb584b85d2a": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "admin_price",
+      "sev": "MED",
+      "title": "Sybilla Yellow",
+      "label": "sybilla-yellow",
+      "url": "https://www.sahibas.com/products/sybilla-yellow",
+      "problem": "Currently selling at 3500, which is at or below the wholesale price of 3500. Fine for a short sale, a loss otherwise.",
+      "fix": "Check that this discount is intentional and time-limited."
+    },
+    "167cd4e60e934053": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "admin_price",
+      "sev": "LOW",
+      "title": "Sybilla Yellow",
+      "label": "sybilla-yellow",
+      "url": "https://www.sahibas.com/products/sybilla-yellow",
+      "problem": "Variant \"S\": compare-at price (14000) is more than 2.2x the selling price (3500) — an implausible discount.",
+      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
+    },
+    "193e12142d750f3e": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "admin_price",
+      "sev": "LOW",
+      "title": "Sybilla Yellow",
+      "label": "sybilla-yellow",
+      "url": "https://www.sahibas.com/products/sybilla-yellow",
+      "problem": "Variant \"M\": compare-at price (14000) is more than 2.2x the selling price (3500) — an implausible discount.",
+      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
+    },
+    "83da64a6e79d3663": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "admin_price",
+      "sev": "LOW",
+      "title": "Sybilla Yellow",
+      "label": "sybilla-yellow",
+      "url": "https://www.sahibas.com/products/sybilla-yellow",
+      "problem": "Variant \"L\": compare-at price (14000) is more than 2.2x the selling price (3500) — an implausible discount.",
+      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
+    },
+    "b64d4071b4ac7dec": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "admin_price",
+      "sev": "LOW",
+      "title": "Sybilla Yellow",
+      "label": "sybilla-yellow",
+      "url": "https://www.sahibas.com/products/sybilla-yellow",
+      "problem": "Variant \"XL\": compare-at price (14000) is more than 2.2x the selling price (3500) — an implausible discount.",
+      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
+    },
+    "90215067980de1e5": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Birsa",
+      "label": "birsa",
+      "url": "https://www.sahibas.com/products/birsa",
+      "problem": "Meta description is 167 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "60c1e0f1c8cbf327": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4815,7 +6015,7 @@
     },
     "52429fb35244c68c": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4825,9 +6025,21 @@
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "d974b4e07c1b88a6": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Maelys Red",
+      "label": "maelys-red",
+      "url": "https://www.sahibas.com/products/maelys-red",
+      "problem": "Meta title is 73 characters — the limit is 70: \"Maelys Red| Embroidered 2Pc Winter Dhanak Flapper Suit | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "bdbbceeaf8f7f887": {
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "metafields",
       "sev": "HIGH",
@@ -4837,9 +6049,21 @@
       "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
       "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
     },
+    "d2ebd36a6673871d": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Darcel",
+      "label": "darcel",
+      "url": "https://www.sahibas.com/products/darcel",
+      "problem": "Meta description is 169 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
+    },
     "8b9b0495ba0519b3": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4851,7 +6075,7 @@
     },
     "956901575fad2788": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "metafields",
       "sev": "HIGH",
@@ -4861,21 +6085,33 @@
       "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
       "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
     },
-    "15acfb52e9376420": {
-      "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-14",
+    "3847fa9b78e2c6ee": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Shazana Red",
+      "label": "shazana-red",
+      "url": "https://www.sahibas.com/products/shazana-red",
+      "problem": "Only 4 unit(s) left in total across all sizes.",
+      "fix": "Restock soon or plan to retire the article."
+    },
+    "ef5c93c8eb893bf8": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Mercina",
       "label": "mercina",
       "url": "https://www.sahibas.com/products/mercina",
-      "problem": "Only 3 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
+      "problem": "Status is DRAFT but 2 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
     "b10c06ebdeb958d4": {
       "firstSeen": "2026-11-12",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4885,21 +6121,45 @@
       "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "1aff3facb0440d90": {
-      "firstSeen": "2026-11-12",
-      "lastSeen": "2026-11-14",
+    "2e0bb75d95fe6e1d": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "admin",
-      "category": "status",
+      "category": "seo_meta",
       "sev": "MED",
       "title": "Greta",
       "label": "greta",
       "url": "https://www.sahibas.com/products/greta",
-      "problem": "Only 1 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
+      "problem": "Meta description is 180 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "5a17e9ac2748bdc4": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "status",
+      "sev": "HIGH",
+      "title": "Greta",
+      "label": "greta",
+      "url": "https://www.sahibas.com/products/greta",
+      "problem": "Live on the store but completely out of stock across every size.",
+      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
+    },
+    "ebd7dc86f7eacd2c": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Shahay",
+      "label": "shahay",
+      "url": "https://www.sahibas.com/products/shahay",
+      "problem": "Meta description is 175 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
     },
     "0ca5308623b6a2e6": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4911,7 +6171,7 @@
     },
     "e3284503f93f2ff8": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4923,7 +6183,7 @@
     },
     "6e8abbc6f7df2d8f": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4935,7 +6195,7 @@
     },
     "ca68d1bc26c80a51": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4947,7 +6207,7 @@
     },
     "853f5a649deb4355": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4959,7 +6219,7 @@
     },
     "e2e3ef99a75281e0": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4971,7 +6231,7 @@
     },
     "2692b2fd459f297b": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4983,7 +6243,7 @@
     },
     "8a0347945f2e7248": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4993,21 +6253,21 @@
       "problem": "Status is DRAFT but 16 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "3a3d193ba8d1888f": {
-      "firstSeen": "2026-11-12",
-      "lastSeen": "2026-11-14",
+    "04314147dcb64d91": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
-      "title": "Fariba Black",
-      "label": "fariba-black",
-      "url": "https://www.sahibas.com/products/fariba-black",
-      "problem": "Status is DRAFT but 20 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "title": "Sibah Black",
+      "label": "sibah-black",
+      "url": "https://www.sahibas.com/products/sibah-black",
+      "problem": "Only 2 unit(s) left in total across all sizes.",
+      "fix": "Restock soon or plan to retire the article."
     },
     "56acf5b8fdd8081a": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5017,100 +6277,160 @@
       "problem": "Only 4 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "33bde9b94b971ea6": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+    "210fc72521a31bd9": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "status",
+      "sev": "MED",
+      "title": "Fairuza Lailac",
+      "label": "fairuza-lailac",
+      "url": "https://www.sahibas.com/products/fairuza-lailac",
+      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+    },
+    "c59750f6aa50b76f": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Selvaraj",
+      "label": "selvaraj",
+      "url": "https://www.sahibas.com/products/selvaraj",
+      "problem": "Only 4 unit(s) left in total across all sizes.",
+      "fix": "Restock soon or plan to retire the article."
+    },
+    "c7aa49b65b6bed65": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Caryn",
+      "label": "caryn",
+      "url": "https://www.sahibas.com/products/caryn",
+      "problem": "Meta description is 174 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "e65997f237f9ca39": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Selvaraj Maroon",
+      "label": "selvaraj-maroon",
+      "url": "https://www.sahibas.com/products/selvaraj-maroon",
+      "problem": "Meta description is 183 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "a304015847321fa9": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
       "sev": "MED",
       "title": "Zaabya",
       "label": "zaabya",
       "url": "https://www.sahibas.com/products/zaabya",
-      "problem": "Status is DRAFT but 71 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Meta description is 176 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
     },
-    "a07e602866e6f147": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+    "ce0f10ac58fff3df": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "admin",
-      "category": "status",
+      "category": "seo_meta",
       "sev": "MED",
       "title": "Zaabya Black",
       "label": "zaabya-black",
       "url": "https://www.sahibas.com/products/zaabya-black",
-      "problem": "Status is DRAFT but 72 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Meta description is 182 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
     },
-    "dbdf76fc589025bc": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+    "10d50027dfb76812": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "admin",
-      "category": "status",
+      "category": "seo_meta",
       "sev": "MED",
       "title": "Bahaameen",
       "label": "bahaameen",
       "url": "https://www.sahibas.com/products/bahaameen",
-      "problem": "Status is DRAFT but 25 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Meta description is 200 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
     },
-    "7983ea70fde58e00": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+    "409f8117864bd3f5": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "admin",
-      "category": "status",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Azhyaan",
+      "label": "azhyaan",
+      "url": "https://www.sahibas.com/products/azhyaan",
+      "problem": "Meta description is 169 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "988b49fadd04d33a": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
+      "source": "admin",
+      "category": "seo_meta",
       "sev": "MED",
       "title": "Kirsty Black",
       "label": "kirsty-black",
       "url": "https://www.sahibas.com/products/kirsty-black",
-      "problem": "Status is DRAFT but 30 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Meta description is 208 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
     },
-    "912a91e65ccdc063": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+    "dd99be16351f56e5": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "admin",
-      "category": "status",
+      "category": "seo_meta",
       "sev": "MED",
       "title": "Tehani",
       "label": "tehani",
       "url": "https://www.sahibas.com/products/tehani",
-      "problem": "Status is DRAFT but 30 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Meta description is 202 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
     },
-    "5f7f0ee1ce58ae46": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+    "68f91f43745862cb": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "media",
       "sev": "LOW",
-      "title": "No image alt text (17 products)",
+      "title": "No image alt text (3 products)",
       "label": "No image alt text",
       "url": "https://www.sahibas.com/collections/all",
-      "problem": "17 live products have no alt text on any product image. Affected: Albella - Black, Gulejahan - Ivory, Zameera, Orwiya - Black, Lalezar, Anousha, Erilys Ivory, Najat, Elzaria, Bazm-e-Noor, Calista black, Calista Red, Delisha, Delisha Blue, Kehkashan Black, Aroos, Aroos Black.",
+      "problem": "3 live products have no alt text on any product image. Affected: Pareesa White, Lalezar, Calista Red.",
       "fix": "Bulk-edit alt text in Shopify admin — use the product name plus fabric and colour."
     },
-    "784f66e745307c1d": {
-      "firstSeen": "2026-11-12",
-      "lastSeen": "2026-11-14",
+    "ee6ea16a4497a1f5": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "metafields",
       "sev": "LOW",
-      "title": "No size chart (2 products)",
+      "title": "No size chart (1 products)",
       "label": "No size chart",
       "url": "https://www.sahibas.com/collections/all",
-      "problem": "2 live products have neither a size_chart nor a size_chart_table metafield. Affected: Milica, Evaa.",
+      "problem": "1 live products have neither a size_chart nor a size_chart_table metafield. Affected: Milica.",
       "fix": "Attach the standard size chart via bulk edit."
     },
-    "d50d704adb45d31f": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-14",
+    "3459c67866cfee84": {
+      "firstSeen": "2026-11-15",
+      "lastSeen": "2026-11-15",
       "source": "admin",
       "category": "tags",
       "sev": "LOW",
-      "title": "Missing \"All products\" tag (1 products)",
+      "title": "Missing \"All products\" tag (4 products)",
       "label": "Missing \"All products\" tag",
       "url": "https://www.sahibas.com/collections/all",
-      "problem": "1 live products are missing the \"All products\" tag and will not appear in the catch-all collection. Affected: Aroos.",
+      "problem": "4 live products are missing the \"All products\" tag and will not appear in the catch-all collection. Affected: Fariba Black, Zaabya Black, Bahaameen, Azhyaan.",
       "fix": "Bulk-add the \"All products\" tag."
     }
   }
