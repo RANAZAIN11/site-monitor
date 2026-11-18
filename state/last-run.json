@@ -1,69 +1,117 @@
 {
-  "generatedAt": "2026-11-17",
+  "generatedAt": "2026-11-18",
   "open": {
-    "d02877880be55d64": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+    "1710943bde3b8c49": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
+      "source": "catalogue",
+      "category": "duplicate",
+      "sev": "HIGH",
+      "title": "Valena",
+      "label": "valena-1",
+      "url": "https://sahibas.com/products/valena-1",
+      "problem": "Duplicate of \"/products/valena\" (Shopify auto-added \"-1\").",
+      "fix": "Confirm the duplicate in admin. Keep one, delete the other, and redirect /products/valena-1 to the correct one."
+    },
+    "a3c0d742c8fb5c1e": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "catalogue",
       "category": "stock",
       "sev": "HIGH",
-      "title": "Farghana Blue",
-      "label": "farghana-blue",
-      "url": "https://sahibas.com/products/farghana-blue",
+      "title": "Fariba Black",
+      "label": "fariba-black",
+      "url": "https://sahibas.com/products/fariba-black",
       "problem": "All variants are out of stock / unavailable for purchase.",
       "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
     },
-    "a3fa9a2696a18dc6": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+    "293efdf4ce773203": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "catalogue",
       "category": "stock",
       "sev": "HIGH",
-      "title": "Anousha",
-      "label": "anousha",
-      "url": "https://sahibas.com/products/anousha",
+      "title": "Belleza - Ivory",
+      "label": "belleza-ivory-1",
+      "url": "https://sahibas.com/products/belleza-ivory-1",
       "problem": "All variants are out of stock / unavailable for purchase.",
       "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
     },
-    "1a8a02e4e5a17288": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+    "e2301b229ed165be": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "catalogue",
       "category": "stock",
       "sev": "HIGH",
-      "title": "Ruhee Royal Blue",
-      "label": "ruhee-royal-blue",
-      "url": "https://sahibas.com/products/ruhee-royal-blue",
+      "title": "Mars blue",
+      "label": "mars-blue",
+      "url": "https://sahibas.com/products/mars-blue",
       "problem": "All variants are out of stock / unavailable for purchase.",
       "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
     },
-    "b0b929e18fccf8b1": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+    "d96e2a3aad3be7b6": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "catalogue",
       "category": "stock",
       "sev": "HIGH",
-      "title": "Zurna - Black",
-      "label": "zurna-black",
-      "url": "https://sahibas.com/products/zurna-black",
+      "title": "Siham Pista",
+      "label": "siham-pista",
+      "url": "https://sahibas.com/products/siham-pista",
       "problem": "All variants are out of stock / unavailable for purchase.",
       "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
     },
-    "24c401d488819c6d": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+    "8c79fa236d5214b8": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "catalogue",
       "category": "stock",
       "sev": "HIGH",
-      "title": "Aliza - White",
-      "label": "aliza-white",
-      "url": "https://sahibas.com/products/aliza-white",
+      "title": "Ruhee Black",
+      "label": "ruhee-black",
+      "url": "https://sahibas.com/products/ruhee-black",
+      "problem": "All variants are out of stock / unavailable for purchase.",
+      "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
+    },
+    "4fa53df9f6aec1cf": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
+      "source": "catalogue",
+      "category": "stock",
+      "sev": "HIGH",
+      "title": "Neelofshan",
+      "label": "neelofshan",
+      "url": "https://sahibas.com/products/neelofshan",
+      "problem": "All variants are out of stock / unavailable for purchase.",
+      "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
+    },
+    "8d09cf10983ce621": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
+      "source": "catalogue",
+      "category": "stock",
+      "sev": "HIGH",
+      "title": "Creme",
+      "label": "creme",
+      "url": "https://sahibas.com/products/creme",
+      "problem": "All variants are out of stock / unavailable for purchase.",
+      "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
+    },
+    "da3af1353bc1445a": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
+      "source": "catalogue",
+      "category": "stock",
+      "sev": "HIGH",
+      "title": "Ramsha White",
+      "label": "ramsha-white",
+      "url": "https://sahibas.com/products/ramsha-white",
       "problem": "All variants are out of stock / unavailable for purchase.",
       "fix": "Restock inventory in admin, or if it's discontinued, unpublish/archive the product instead of leaving a dead, unbuyable listing live."
     },
     "b279f5ed4274ff7f": {
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "seo",
       "category": "seo",
       "sev": "LOW",
@@ -75,7 +123,7 @@
     },
     "544787613e12dde2": {
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "seo",
       "category": "seo",
       "sev": "MED",
@@ -87,7 +135,7 @@
     },
     "ffd5963ceeb8f7a8": {
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "seo",
       "category": "seo",
       "sev": "LOW",
@@ -99,7 +147,7 @@
     },
     "9a5d8134c4851096": {
       "firstSeen": "2026-09-05",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "seo",
       "category": "seo",
       "sev": "LOW",
@@ -111,7 +159,7 @@
     },
     "49bd32cbf3e30c5c": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -123,7 +171,7 @@
     },
     "9e23a8daad8dcaaa": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -135,7 +183,7 @@
     },
     "eee6bd5abbe1d26f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -147,7 +195,7 @@
     },
     "379455a0db7b3c75": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -159,7 +207,7 @@
     },
     "f71364c6663e68ae": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -171,7 +219,7 @@
     },
     "120ff075c9da81a0": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -183,7 +231,7 @@
     },
     "99d1b16c54e509a1": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -195,7 +243,7 @@
     },
     "0f5c0831880e9444": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -207,7 +255,7 @@
     },
     "e026befa0bd3acf9": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -217,21 +265,9 @@
       "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "39d0a70d0752341c": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
-      "source": "admin",
-      "category": "status",
-      "sev": "HIGH",
-      "title": "Zurna - Black",
-      "label": "zurna-black",
-      "url": "https://www.sahibas.com/products/zurna-black",
-      "problem": "Live on the store but completely out of stock across every size.",
-      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
-    },
     "78ecb23a70e11c14": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -243,7 +279,7 @@
     },
     "644941a8e726fd47": {
       "firstSeen": "2026-11-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "media",
       "sev": "MED",
@@ -255,7 +291,7 @@
     },
     "78528bed1e21abbd": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -267,7 +303,7 @@
     },
     "b10d8aa9883f5798": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -279,7 +315,7 @@
     },
     "4ebfee931bb0347f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -291,7 +327,7 @@
     },
     "79b38d127e359c98": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -303,7 +339,7 @@
     },
     "9ced867f4390888b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -315,7 +351,7 @@
     },
     "042c5bf614fad99c": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -325,33 +361,9 @@
       "problem": "Meta title is 75 characters — the limit is 70: \"Dilruba - Off White – Embroidered 2Pc Summer Lawn Outfit | Sahibas by Mirza\".",
       "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
     },
-    "d378f6cbd5b3513c": {
-      "firstSeen": "2026-11-04",
-      "lastSeen": "2026-11-17",
-      "source": "admin",
-      "category": "media",
-      "sev": "MED",
-      "title": "Aliza - White",
-      "label": "aliza-white",
-      "url": "https://www.sahibas.com/products/aliza-white",
-      "problem": "Only 3 images. The catalogue layout needs a hero shot plus 3 detail crops (neckline, embroidery, back).",
-      "fix": "Add at least 1 more image(s)."
-    },
-    "bb11c16428d193a1": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
-      "source": "admin",
-      "category": "status",
-      "sev": "HIGH",
-      "title": "Aliza - White",
-      "label": "aliza-white",
-      "url": "https://www.sahibas.com/products/aliza-white",
-      "problem": "Live on the store but completely out of stock across every size.",
-      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
-    },
     "627b4fe88c334006": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -361,21 +373,21 @@
       "problem": "Meta title is 76 characters — the limit is 70: \"Nuhra – Embroidered 2Pc Winter Dhanak Outfit with Flapper | Sahibas by Mirza\".",
       "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
     },
-    "c6eec166c3a68b1c": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+    "fb5ecd19ea527b60": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
-      "sev": "MED",
+      "sev": "HIGH",
       "title": "Belleza - Ivory",
       "label": "belleza-ivory-1",
       "url": "https://www.sahibas.com/products/belleza-ivory-1",
-      "problem": "Only 2 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
+      "problem": "Live on the store but completely out of stock across every size.",
+      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
     },
     "51f1d6bc4d2c5c21": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -387,7 +399,7 @@
     },
     "0ff75e2d81bc04e4": {
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -399,7 +411,7 @@
     },
     "df4046ea7a6bb8b0": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -411,7 +423,7 @@
     },
     "0d4766c96d55fde6": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -423,7 +435,7 @@
     },
     "ae767c0c9f9f8b87": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -435,7 +447,7 @@
     },
     "42f6c6898ccce3e8": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -447,7 +459,7 @@
     },
     "29aa5232efb2fded": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -459,7 +471,7 @@
     },
     "b62707f6a5ad1ebd": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -471,7 +483,7 @@
     },
     "c11110bbcc3ad9b2": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -483,7 +495,7 @@
     },
     "a30000122c85bb9b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -495,7 +507,7 @@
     },
     "1ee2354f8423c33a": {
       "firstSeen": "2026-09-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -507,7 +519,7 @@
     },
     "1a7802148a0230d3": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -519,7 +531,7 @@
     },
     "13832a616126b496": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -531,7 +543,7 @@
     },
     "0f6aceff86dd7159": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -543,7 +555,7 @@
     },
     "697fefe3b55b882c": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -555,7 +567,7 @@
     },
     "7c70ec17cd41f80d": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -567,7 +579,7 @@
     },
     "ab7377016be1965c": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -579,7 +591,7 @@
     },
     "0490f931ea2664fd": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -591,7 +603,7 @@
     },
     "2988abcee1b6142a": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -603,7 +615,7 @@
     },
     "d78cdadc62debd16": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -615,7 +627,7 @@
     },
     "412c9f0a2a5f2321": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -627,7 +639,7 @@
     },
     "22e5f23471c1fd35": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -639,7 +651,7 @@
     },
     "8b1f86f4041f5f10": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -651,7 +663,7 @@
     },
     "685fc74cb03bef94": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -663,7 +675,7 @@
     },
     "bd9eb8c8ea58331e": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -675,7 +687,7 @@
     },
     "d7db34d1249e8cf8": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -687,7 +699,7 @@
     },
     "1480ce807af55daf": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -699,7 +711,7 @@
     },
     "131e1cc2b56aca91": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -711,7 +723,7 @@
     },
     "9b3c7c4dec56f0ba": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -723,7 +735,7 @@
     },
     "f969221e5fc06890": {
       "firstSeen": "2026-11-12",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -735,7 +747,7 @@
     },
     "0fca65c3c36f3951": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -747,7 +759,7 @@
     },
     "f14caf5fb5213a44": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -759,7 +771,7 @@
     },
     "2d2c3c2d283156ab": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -771,7 +783,7 @@
     },
     "a0b05748f8363e61": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -783,7 +795,7 @@
     },
     "bd0d9ca8ba42454f": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -795,7 +807,7 @@
     },
     "922f18fbf65c7e2a": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -807,7 +819,7 @@
     },
     "216af8f475770f2b": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -819,7 +831,7 @@
     },
     "8427fe45e1e3a6bf": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -831,7 +843,7 @@
     },
     "c60e3edc7362a70b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -843,7 +855,7 @@
     },
     "c20f0e6ac52211f5": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -855,7 +867,7 @@
     },
     "4bc72e33c857b810": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -867,7 +879,7 @@
     },
     "a2e90ba8ddbde13a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -879,7 +891,7 @@
     },
     "209384c598862e95": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -891,7 +903,7 @@
     },
     "254e2f55245105e8": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -901,45 +913,9 @@
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "23f0f963622c5857": {
-      "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Vanzila - Beige",
-      "label": "vanzila-beige",
-      "url": "https://www.sahibas.com/products/vanzila-beige",
-      "problem": "Variant \"S\": compare-at price (21000) is more than 2.2x the selling price (5250) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "254acbbe48f91f4a": {
-      "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Vanzila - Beige",
-      "label": "vanzila-beige",
-      "url": "https://www.sahibas.com/products/vanzila-beige",
-      "problem": "Variant \"M\": compare-at price (21000) is more than 2.2x the selling price (5250) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "ce2d506473c10e52": {
-      "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Vanzila - Beige",
-      "label": "vanzila-beige",
-      "url": "https://www.sahibas.com/products/vanzila-beige",
-      "problem": "Variant \"L\": compare-at price (21000) is more than 2.2x the selling price (5250) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
     "6056dff9f966838a": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -951,7 +927,7 @@
     },
     "349ce2a556ae21df": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -963,7 +939,7 @@
     },
     "49b9e4dfbd7de8e4": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -975,7 +951,7 @@
     },
     "7df09e6ad06993ba": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -987,7 +963,7 @@
     },
     "029ed0dfd6f1c369": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -999,7 +975,7 @@
     },
     "5a83fef6b37ac35c": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1011,7 +987,7 @@
     },
     "fee112920af9d85d": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1023,7 +999,7 @@
     },
     "204ad44552b54f64": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -1035,7 +1011,7 @@
     },
     "b5f82baced3173dc": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1047,7 +1023,7 @@
     },
     "5fe406fce7b52fc5": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1059,7 +1035,7 @@
     },
     "f02cca2b799ee61d": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1071,7 +1047,7 @@
     },
     "7ae602358bab039e": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1081,45 +1057,9 @@
       "problem": "Currently selling at 3500, which is at or below the wholesale price of 3700. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
-    "88c8bff88933fd76": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
-      "source": "admin",
-      "category": "tags",
-      "sev": "HIGH",
-      "title": "Nishat - Black",
-      "label": "nishat-black",
-      "url": "https://www.sahibas.com/products/nishat-black",
-      "problem": "Tagged \"2 Pc Winter\" but the Season metafield says \"Summer Wear\". Tag and metafield disagree.",
-      "fix": "Set custom.season to \"Winter Wear\", or fix the tag."
-    },
-    "e95fa9d7822e4eca": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
-      "source": "admin",
-      "category": "tags",
-      "sev": "MED",
-      "title": "Nishat - Black",
-      "label": "nishat-black",
-      "url": "https://www.sahibas.com/products/nishat-black",
-      "problem": "shirt fabric is \"Lawn\" (a summer fabric) but the product is tagged winter.",
-      "fix": "Either re-tag it as summer, or correct the fabric value."
-    },
-    "2367aa89308b485f": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
-      "source": "admin",
-      "category": "tags",
-      "sev": "MED",
-      "title": "Nishat - Black",
-      "label": "nishat-black",
-      "url": "https://www.sahibas.com/products/nishat-black",
-      "problem": "trouser fabric is \"Lawn\" (a summer fabric) but the product is tagged winter.",
-      "fix": "Either re-tag it as summer, or correct the fabric value."
-    },
     "9100e5aaeea6ce4c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1131,7 +1071,7 @@
     },
     "91cbde3f87ff7db5": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1143,7 +1083,7 @@
     },
     "de72da67be93bd72": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1155,7 +1095,7 @@
     },
     "77406e461951ad13": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1167,7 +1107,7 @@
     },
     "717830ee5f5bbf15": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1179,7 +1119,7 @@
     },
     "0fdda3b502eca2e5": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1191,19 +1131,19 @@
     },
     "4535bf0a2e9194a8": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Hadiqa",
       "label": "hadiqa",
       "url": "https://www.sahibas.com/products/hadiqa",
-      "problem": "Only 3 unit(s) left in total across all sizes.",
+      "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "0cf83676e87c4d44": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1215,7 +1155,7 @@
     },
     "73e6556b538bf4ef": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1227,7 +1167,7 @@
     },
     "92746dbdb3ecb21d": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1239,7 +1179,7 @@
     },
     "72af897c94757d0b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1251,7 +1191,7 @@
     },
     "c0511075de26e0ad": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1263,7 +1203,7 @@
     },
     "fb63266e362805e8": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1275,7 +1215,7 @@
     },
     "1c6e61ca9ed9f67c": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1287,7 +1227,7 @@
     },
     "67b0a83dc805e131": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1299,7 +1239,7 @@
     },
     "7802763dd509a821": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1311,7 +1251,7 @@
     },
     "58319cdc93e5c550": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1323,7 +1263,7 @@
     },
     "f7722ba782ce698f": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1335,7 +1275,7 @@
     },
     "584d850cd0c5b239": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1347,7 +1287,7 @@
     },
     "0ea826a470e2934a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1359,7 +1299,7 @@
     },
     "3c42b61f83786da0": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1371,7 +1311,7 @@
     },
     "e9df62ab6c4bcff8": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1383,7 +1323,7 @@
     },
     "3a87479ebb0b7291": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -1395,7 +1335,7 @@
     },
     "0bd6316e7d2ad975": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -1407,7 +1347,7 @@
     },
     "562fb0caf76a4b2f": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1419,7 +1359,7 @@
     },
     "beba94326d01507a": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1431,7 +1371,7 @@
     },
     "20d34a020c25f109": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1443,7 +1383,7 @@
     },
     "8076884cc863b599": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1455,7 +1395,7 @@
     },
     "ba99cf93afd2e066": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1467,7 +1407,7 @@
     },
     "b58d65de0b8b5bb2": {
       "firstSeen": "2026-11-12",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1479,7 +1419,7 @@
     },
     "494df1ac98ac0025": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1491,7 +1431,7 @@
     },
     "0d9b09dee0454850": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1503,7 +1443,7 @@
     },
     "df69f6e639ddd3a8": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1515,7 +1455,7 @@
     },
     "ea86f9f633c52e96": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1527,7 +1467,7 @@
     },
     "09e3654fc9a549f0": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1539,7 +1479,7 @@
     },
     "4088a130d856f83f": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1551,7 +1491,7 @@
     },
     "b58b220e6e3b928f": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1563,7 +1503,7 @@
     },
     "abf6cfa8c70ba57d": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -1575,7 +1515,7 @@
     },
     "e4e4bd46016f82d4": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1587,7 +1527,7 @@
     },
     "b1cbc2ecb7085bf8": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1599,7 +1539,7 @@
     },
     "b5db0ff7dbe87925": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1611,7 +1551,7 @@
     },
     "4eceff5a076bae0f": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1621,21 +1561,9 @@
       "problem": "Variant \"XL / Dhanak\": compare-at price (9999) is more than 2.2x the selling price (4250) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
-    "f856e22bf4f6aa73": {
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
-      "source": "admin",
-      "category": "status",
-      "sev": "MED",
-      "title": "Miray - Ivory",
-      "label": "miray-ivory",
-      "url": "https://www.sahibas.com/products/miray-ivory",
-      "problem": "Only 1 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
-    },
     "045dd57105de3668": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1647,7 +1575,7 @@
     },
     "b5f9dfdeeb69d3a2": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1659,7 +1587,7 @@
     },
     "c02b4eb608176743": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1671,7 +1599,7 @@
     },
     "414f00e3a67f4c85": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1683,7 +1611,7 @@
     },
     "bee5967a0f3036e0": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -1695,7 +1623,7 @@
     },
     "1938b95ea24a58f9": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1707,7 +1635,7 @@
     },
     "09e43243f99cb21c": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1719,7 +1647,7 @@
     },
     "416d10bc6a4201c7": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1731,7 +1659,7 @@
     },
     "8ebb7319691a300a": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1743,7 +1671,7 @@
     },
     "e17e62c4684e0a75": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1755,7 +1683,7 @@
     },
     "fb6cb829a18f2654": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -1765,9 +1693,21 @@
       "problem": "Meta title is 76 characters — the limit is 70: \"Ferdoos – Embroidered 2Pc Silk Outfit with Straight Shirt | Sahibas by Mirza\".",
       "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
     },
+    "0f246e2562c4a9fd": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Miray",
+      "label": "miray",
+      "url": "https://www.sahibas.com/products/miray",
+      "problem": "Status is DRAFT but 11 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+    },
     "c715a6876cb97d76": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1779,7 +1719,7 @@
     },
     "c7ef2ceb6cc4f237": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1791,7 +1731,7 @@
     },
     "3f573e3f5be29fd6": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -1803,7 +1743,7 @@
     },
     "3e79ade902b8adf5": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1815,7 +1755,7 @@
     },
     "74cec0793009fd7f": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -1827,7 +1767,7 @@
     },
     "457c980949c215ea": {
       "firstSeen": "2026-11-12",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1839,7 +1779,7 @@
     },
     "71b06d96c9b00838": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1851,7 +1791,7 @@
     },
     "7d98fd631a0ba2db": {
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1863,7 +1803,7 @@
     },
     "7e26a82ef3b7e84d": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1875,7 +1815,7 @@
     },
     "33734d98bb033c03": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1887,7 +1827,7 @@
     },
     "ac1c932963e13443": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1899,7 +1839,7 @@
     },
     "92b881a6ea37df6f": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -1911,7 +1851,7 @@
     },
     "7130e45e48c8b480": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -1923,7 +1863,7 @@
     },
     "34294ae7637bd634": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1935,7 +1875,7 @@
     },
     "b6939324bcb05129": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1947,7 +1887,7 @@
     },
     "222564b7ead36af3": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -1959,7 +1899,7 @@
     },
     "92947a505f30956d": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1971,7 +1911,7 @@
     },
     "6557e29e561ec1aa": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -1983,7 +1923,7 @@
     },
     "4bd1fc3474072723": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -1995,7 +1935,7 @@
     },
     "66deddb46f20a104": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2007,7 +1947,7 @@
     },
     "293d16907296e237": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2019,7 +1959,7 @@
     },
     "332b3eaccff61e83": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2031,7 +1971,7 @@
     },
     "3c6ef7904639bc33": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2043,7 +1983,7 @@
     },
     "40c2b0ff9bf11588": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2053,21 +1993,21 @@
       "problem": "Variant \"XL / Khaddar\": compare-at price (6000) is more than 2.2x the selling price (2500) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
-    "c81cfbe0725e5e42": {
-      "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-17",
+    "c88360e1cca20d7f": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
-      "sev": "MED",
+      "sev": "HIGH",
       "title": "Mars blue",
       "label": "mars-blue",
       "url": "https://www.sahibas.com/products/mars-blue",
-      "problem": "Only 2 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
+      "problem": "Live on the store but completely out of stock across every size.",
+      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
     },
     "780d90a3e19396ef": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -2079,7 +2019,7 @@
     },
     "47e46ae0e402161a": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2091,7 +2031,7 @@
     },
     "cf7afc4e7928c231": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2103,7 +2043,7 @@
     },
     "e2cac70621e09d74": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2115,7 +2055,7 @@
     },
     "016db47e44442696": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2127,7 +2067,7 @@
     },
     "a4493ef41b778275": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -2139,7 +2079,7 @@
     },
     "bb55e7a6bf2f923b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2151,7 +2091,7 @@
     },
     "67dd22769e0152c3": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2163,7 +2103,7 @@
     },
     "58e7bbd8631ca219": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2175,7 +2115,7 @@
     },
     "8c9e54682f07b094": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2187,7 +2127,7 @@
     },
     "d2f139058c6558b0": {
       "firstSeen": "2026-09-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2199,7 +2139,7 @@
     },
     "3f1372145e0dbb95": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2211,7 +2151,7 @@
     },
     "986e39eda24715f8": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -2223,7 +2163,7 @@
     },
     "4ae8c7edca3e7768": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2235,7 +2175,7 @@
     },
     "08d68a9a211321b1": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -2247,7 +2187,7 @@
     },
     "cbdb711a3ce2a48e": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2259,7 +2199,7 @@
     },
     "e5b77533256521a4": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2271,7 +2211,7 @@
     },
     "9c7ee894e19a7f39": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2283,7 +2223,7 @@
     },
     "baa0676052ba5e8d": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2295,7 +2235,7 @@
     },
     "4dfb145717100187": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2307,7 +2247,7 @@
     },
     "152a3cdec770800b": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2319,7 +2259,7 @@
     },
     "7f7379221c251ce3": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2331,7 +2271,7 @@
     },
     "8c03d2dd358fd4fe": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2343,7 +2283,7 @@
     },
     "398ff18c081ceabb": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2355,7 +2295,7 @@
     },
     "bb1ef6a20c9f0b57": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -2367,7 +2307,7 @@
     },
     "b53bfc9ce9899f07": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2379,19 +2319,19 @@
     },
     "07f56079def92d85": {
       "firstSeen": "2026-11-16",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Aria White",
       "label": "aria-white",
       "url": "https://www.sahibas.com/products/aria-white",
-      "problem": "Only 4 unit(s) left in total across all sizes.",
+      "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "79319282657489cc": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2403,7 +2343,7 @@
     },
     "5bcca11b1cf5182b": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2415,7 +2355,7 @@
     },
     "fc15a27b2f6a8195": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2427,7 +2367,7 @@
     },
     "a62d589623376f4b": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2439,7 +2379,7 @@
     },
     "5bd113b246996941": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2451,7 +2391,7 @@
     },
     "2b104b5ae2a8e789": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2463,7 +2403,7 @@
     },
     "db14b532382da11f": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -2475,7 +2415,7 @@
     },
     "b91a1e1b07a16fa2": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -2485,21 +2425,21 @@
       "problem": "Meta title is 71 characters — the limit is 70: \"Desire – Printed 2Pc Summer Lawn Outfit with Flapper | Sahibas by Mirza\".",
       "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
     },
-    "5ead2f4d57d908f2": {
-      "firstSeen": "2026-11-16",
-      "lastSeen": "2026-11-17",
+    "af9bb8c6ac69a6aa": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
-      "sev": "MED",
+      "sev": "HIGH",
       "title": "Ramsha White",
       "label": "ramsha-white",
       "url": "https://www.sahibas.com/products/ramsha-white",
-      "problem": "Only 1 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
+      "problem": "Live on the store but completely out of stock across every size.",
+      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
     },
     "a2bb8eebcadad21c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2511,7 +2451,7 @@
     },
     "ef08a3eaf4783de7": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2523,7 +2463,7 @@
     },
     "44745887344c58b7": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2535,7 +2475,7 @@
     },
     "c9f2a95de15c8c74": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -2547,7 +2487,7 @@
     },
     "7ba5c03fc0d4f92e": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2559,7 +2499,7 @@
     },
     "cc7ab9f85deaa18d": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2571,7 +2511,7 @@
     },
     "b2dff3a815fb0935": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2583,7 +2523,7 @@
     },
     "241b6271d6d12b59": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2595,7 +2535,7 @@
     },
     "a1812dc6ae8546be": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2607,7 +2547,7 @@
     },
     "4067b934d91d514e": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2619,7 +2559,7 @@
     },
     "d39b654e1f450c07": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2631,7 +2571,7 @@
     },
     "8f6c6a506ffd4b8d": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2643,7 +2583,7 @@
     },
     "33fbe66358773ac3": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2655,7 +2595,7 @@
     },
     "94ded91843001f99": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -2667,7 +2607,7 @@
     },
     "5dc97c3a2e0293af": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -2679,7 +2619,7 @@
     },
     "64ff5eaa193e64c6": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2691,7 +2631,7 @@
     },
     "daa35b49b4716713": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2703,7 +2643,7 @@
     },
     "dd7a5097eb2861a5": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -2715,7 +2655,7 @@
     },
     "ab4f6ddef3b5d830": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2727,7 +2667,7 @@
     },
     "a7ddf0fd6e5b347b": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -2739,7 +2679,7 @@
     },
     "cafca9163aadea85": {
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2751,7 +2691,7 @@
     },
     "9d1c7ed0e2204bbf": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2763,7 +2703,7 @@
     },
     "bb7ff6401887ef21": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -2775,7 +2715,7 @@
     },
     "2be590d016441737": {
       "firstSeen": "2026-09-14",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2787,7 +2727,7 @@
     },
     "fc6e3e1e32c63b18": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -2799,7 +2739,7 @@
     },
     "059d5eafcedf8a60": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2811,7 +2751,7 @@
     },
     "55af62bca34517fa": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2821,21 +2761,21 @@
       "problem": "Currently selling at 4500, which is at or below the wholesale price of 4550. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
-    "db57c972b6ec6fe2": {
-      "firstSeen": "2026-09-09",
-      "lastSeen": "2026-11-17",
+    "45625a13ae590c16": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
-      "sev": "MED",
+      "sev": "HIGH",
       "title": "Creme",
       "label": "creme",
       "url": "https://www.sahibas.com/products/creme",
-      "problem": "Only 1 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
+      "problem": "Live on the store but completely out of stock across every size.",
+      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
     },
     "a3a50419e525195d": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -2847,7 +2787,7 @@
     },
     "329a8bb19cea0886": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2859,7 +2799,7 @@
     },
     "cb25f0b5e5d00c71": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -2871,7 +2811,7 @@
     },
     "e0a7b6a45f9ba30b": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -2883,7 +2823,7 @@
     },
     "839c300a31b520bd": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -2895,7 +2835,7 @@
     },
     "27e4b60c2ef9e94c": {
       "firstSeen": "2026-11-10",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2907,7 +2847,7 @@
     },
     "bd97e579ebaf9464": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -2919,7 +2859,7 @@
     },
     "46f7fd7b71ecc0f8": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -2931,7 +2871,7 @@
     },
     "1e5addb1e9109987": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -2943,7 +2883,7 @@
     },
     "b811243f190f4254": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2955,7 +2895,7 @@
     },
     "0e4911735b5ba02f": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2967,7 +2907,7 @@
     },
     "92c9c49e0407c7c2": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -2979,7 +2919,7 @@
     },
     "67d068a580f2179d": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -2991,7 +2931,7 @@
     },
     "55b1804f3a0177fb": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -3003,7 +2943,7 @@
     },
     "f0bdcea2f4fd849f": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3015,7 +2955,7 @@
     },
     "e565fa578cc8e662": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3027,7 +2967,7 @@
     },
     "49698bfb4c66d365": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -3039,7 +2979,7 @@
     },
     "a6b88dcabf63fd3b": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -3051,7 +2991,7 @@
     },
     "77655a7905e2eb53": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -3063,7 +3003,7 @@
     },
     "e6a62f1545cd39be": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3075,7 +3015,7 @@
     },
     "65485a3abbb04f25": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3087,7 +3027,7 @@
     },
     "3228575ce7654daf": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3099,7 +3039,7 @@
     },
     "7e660c18f20ad042": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3111,7 +3051,7 @@
     },
     "c4dfc12769576bb2": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3123,7 +3063,7 @@
     },
     "885380a90ba8f773": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3135,7 +3075,7 @@
     },
     "45d432317cff8cf4": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3147,7 +3087,7 @@
     },
     "8ee34a6f61ebf2ca": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3159,7 +3099,7 @@
     },
     "e7aab39369b97d72": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3171,7 +3111,7 @@
     },
     "29c69acfc9b386bf": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -3183,7 +3123,7 @@
     },
     "c4b2b87188e7077d": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3195,7 +3135,7 @@
     },
     "2e4892b65d9835ce": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3207,7 +3147,7 @@
     },
     "ccc2b6df3e3ec156": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -3219,7 +3159,7 @@
     },
     "c9d2471d2d9d8e50": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3231,7 +3171,7 @@
     },
     "18c949f2b0350776": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -3243,7 +3183,7 @@
     },
     "e24345634eaaf139": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3255,7 +3195,7 @@
     },
     "db6c77ea3989a0e5": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3267,7 +3207,7 @@
     },
     "024ab92a29ff8996": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3279,7 +3219,7 @@
     },
     "2f39a5cfcef52182": {
       "firstSeen": "2026-09-23",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3291,79 +3231,79 @@
     },
     "56c1deb9b1ddef1e": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
       "title": "Orwiya - Black",
       "label": "orwiya-black",
       "url": "https://www.sahibas.com/products/orwiya-black",
-      "problem": "Variant \"S\": compare-at price (19000) is more than 2.2x the selling price (4750) — an implausible discount.",
+      "problem": "Variant \"S\": compare-at price (19000) is more than 2.2x the selling price (4999) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
     "990899a287b5f573": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
       "title": "Orwiya - Black",
       "label": "orwiya-black",
       "url": "https://www.sahibas.com/products/orwiya-black",
-      "problem": "Variant \"M\": compare-at price (19000) is more than 2.2x the selling price (4750) — an implausible discount.",
+      "problem": "Variant \"M\": compare-at price (19000) is more than 2.2x the selling price (4999) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
     "77f59832f8e0f019": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
       "title": "Orwiya - Black",
       "label": "orwiya-black",
       "url": "https://www.sahibas.com/products/orwiya-black",
-      "problem": "Variant \"L\": compare-at price (19000) is more than 2.2x the selling price (4750) — an implausible discount.",
+      "problem": "Variant \"L\": compare-at price (19000) is more than 2.2x the selling price (4999) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
     "0941e94f8f371ec9": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
       "title": "Orwiya - Maroon",
       "label": "orwiya-maroon",
       "url": "https://www.sahibas.com/products/orwiya-maroon",
-      "problem": "Variant \"S\": compare-at price (19000) is more than 2.2x the selling price (4750) — an implausible discount.",
+      "problem": "Variant \"S\": compare-at price (19000) is more than 2.2x the selling price (4999) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
     "c5e8b408651771a6": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
       "title": "Orwiya - Maroon",
       "label": "orwiya-maroon",
       "url": "https://www.sahibas.com/products/orwiya-maroon",
-      "problem": "Variant \"M\": compare-at price (19000) is more than 2.2x the selling price (4750) — an implausible discount.",
+      "problem": "Variant \"M\": compare-at price (19000) is more than 2.2x the selling price (4999) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
     "559910cb18be8df4": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
       "title": "Orwiya - Maroon",
       "label": "orwiya-maroon",
       "url": "https://www.sahibas.com/products/orwiya-maroon",
-      "problem": "Variant \"L\": compare-at price (19000) is more than 2.2x the selling price (4750) — an implausible discount.",
+      "problem": "Variant \"L\": compare-at price (19000) is more than 2.2x the selling price (4999) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
     "d5cb8dfeb9f12eca": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3375,7 +3315,7 @@
     },
     "7c6767c26056a95e": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3387,7 +3327,7 @@
     },
     "139ab39625b2057c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3399,7 +3339,7 @@
     },
     "6668b13e21563c17": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3411,7 +3351,7 @@
     },
     "ad6660e7c449f844": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3423,7 +3363,7 @@
     },
     "a97a578246a05a67": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3435,7 +3375,7 @@
     },
     "c61c3feeff354163": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3447,7 +3387,7 @@
     },
     "e4aceb03b4770cd5": {
       "firstSeen": "2026-11-16",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3459,7 +3399,7 @@
     },
     "d63096bd12c55948": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3471,7 +3411,7 @@
     },
     "1b51f3a172c1f90a": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3483,7 +3423,7 @@
     },
     "9e4f4f34b664dc95": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3495,7 +3435,7 @@
     },
     "159e52d340418f6e": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3507,7 +3447,7 @@
     },
     "9d190a471d4d2847": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3519,7 +3459,7 @@
     },
     "66423c87dded5b56": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3531,7 +3471,7 @@
     },
     "e6f44fa7662a0938": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3543,7 +3483,7 @@
     },
     "4df515480aab3380": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3555,7 +3495,7 @@
     },
     "a9a47a07cd7e9752": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3567,7 +3507,7 @@
     },
     "3717dfbe3acb59cb": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3579,7 +3519,7 @@
     },
     "66d36e12b3a6a724": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3591,7 +3531,7 @@
     },
     "f652a0fd977af8f2": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3603,7 +3543,7 @@
     },
     "0a76fc9d2ab11732": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3615,7 +3555,7 @@
     },
     "ac928591aa5ebd1f": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3627,7 +3567,7 @@
     },
     "9ae2f62172e8586c": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3639,7 +3579,7 @@
     },
     "65d28f2227cc7714": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3651,7 +3591,7 @@
     },
     "3870f4865782a028": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3663,7 +3603,7 @@
     },
     "fd882e980e1b24ed": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3675,7 +3615,7 @@
     },
     "6672ddca96b1ece9": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -3687,7 +3627,7 @@
     },
     "98813177eb2e343c": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3699,19 +3639,19 @@
     },
     "66f720695a7a4f57": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Clockleshell Blue",
       "label": "clockshell-blue",
       "url": "https://www.sahibas.com/products/clockshell-blue",
-      "problem": "Only 1 unit(s) left in total across all sizes.",
+      "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "d786ba3e97a04175": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3723,7 +3663,7 @@
     },
     "99be7ffff9016cff": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -3735,7 +3675,7 @@
     },
     "9aa0ed7398f90015": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3747,7 +3687,7 @@
     },
     "c2bf62abf2275165": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3759,7 +3699,7 @@
     },
     "a23cfc6dfb380038": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3771,7 +3711,7 @@
     },
     "868728835bb823ed": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3783,7 +3723,7 @@
     },
     "176ca2ceedad5dfb": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3795,7 +3735,7 @@
     },
     "523490c5b45070ff": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3807,7 +3747,7 @@
     },
     "0d0275742ea5def0": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -3819,7 +3759,7 @@
     },
     "2c1094c9b2807113": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -3831,7 +3771,7 @@
     },
     "262a919eef346c70": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3843,7 +3783,7 @@
     },
     "c403b9ed2b4a753a": {
       "firstSeen": "2026-09-23",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3855,7 +3795,7 @@
     },
     "9b76611295517999": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -3867,7 +3807,7 @@
     },
     "dbe55eb840c342d8": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -3879,7 +3819,7 @@
     },
     "708257938f50ba58": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -3891,7 +3831,7 @@
     },
     "9fc16ca6452b2ae0": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -3903,7 +3843,7 @@
     },
     "4c48c38c1df4f3fa": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3915,7 +3855,7 @@
     },
     "e530cf5abbe6e66b": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3927,7 +3867,7 @@
     },
     "4bfb0b7c56b46182": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3939,7 +3879,7 @@
     },
     "2444053181478472": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3951,7 +3891,7 @@
     },
     "644fd3aaaad48b6a": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3963,7 +3903,7 @@
     },
     "e80f1b35c61eafb2": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -3975,7 +3915,7 @@
     },
     "d7d034694a3f803b": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3987,7 +3927,7 @@
     },
     "dd0b9a76f0f63628": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -3999,7 +3939,7 @@
     },
     "ca4368f1c1608c9d": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4011,7 +3951,7 @@
     },
     "2cc7c994411832f2": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4023,7 +3963,7 @@
     },
     "2d71c04d7ccf5d8c": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4035,7 +3975,7 @@
     },
     "5fb1956955a8da9b": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4047,7 +3987,7 @@
     },
     "97dc9784f138e446": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4059,7 +3999,7 @@
     },
     "e099f45f990f9777": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4071,7 +4011,7 @@
     },
     "092fca85e52034b2": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4081,9 +4021,21 @@
       "problem": "Variant \"XL\": compare-at price (7500) is more than 2.2x the selling price (3250) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
+    "acf35d74170c621b": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Yazra Falsa",
+      "label": "yazra-falsa",
+      "url": "https://www.sahibas.com/products/yazra-falsa",
+      "problem": "Only 4 unit(s) left in total across all sizes.",
+      "fix": "Restock soon or plan to retire the article."
+    },
     "81b57a08eaf77075": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4095,7 +4047,7 @@
     },
     "d5e0a6d916c050d2": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4107,7 +4059,7 @@
     },
     "3de6b24fda6ead07": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4119,7 +4071,7 @@
     },
     "fbf67bfd37b0ba81": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4131,7 +4083,7 @@
     },
     "b0aee92dc88483ca": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4143,7 +4095,7 @@
     },
     "61e8ad089126e06b": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4155,7 +4107,7 @@
     },
     "c0abc8e48a31f465": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4167,7 +4119,7 @@
     },
     "2aa6af92c0bca866": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4179,7 +4131,7 @@
     },
     "1f70e86b1a5d459a": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4191,7 +4143,7 @@
     },
     "39aa92f306c45d56": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4203,7 +4155,7 @@
     },
     "e6b3d7d654b97cdb": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4215,7 +4167,7 @@
     },
     "d9ffa8c7d925d697": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4227,7 +4179,7 @@
     },
     "1de0517df9fe9ceb": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4239,7 +4191,7 @@
     },
     "e5eadd834cfd3aad": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4251,7 +4203,7 @@
     },
     "4fd2c6d3bfc0cd2f": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4263,7 +4215,7 @@
     },
     "852a2937bc0fe0bb": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4275,7 +4227,7 @@
     },
     "a6da6e3b0a53ff56": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4287,7 +4239,7 @@
     },
     "fa5b482b7d1f65e1": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4299,7 +4251,7 @@
     },
     "82fa4ba3fbc90433": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4311,7 +4263,7 @@
     },
     "84201acf6d799990": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4323,7 +4275,7 @@
     },
     "8d881de3741dfbcc": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4335,7 +4287,7 @@
     },
     "738cc769ad0880a0": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4347,7 +4299,7 @@
     },
     "9677dbeb9cfab2b2": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4357,9 +4309,21 @@
       "problem": "Meta title is 74 characters — the limit is 70: \"Gul-e-Aasman Black – Embroidered 2Pc Summer Lawn Outfit | Sahibas by Mirza\".",
       "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
     },
+    "3a7cacc9d68e5798": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Gul-e-Aasman Black",
+      "label": "gul-e-aasman-black",
+      "url": "https://www.sahibas.com/products/gul-e-aasman-black",
+      "problem": "Only 4 unit(s) left in total across all sizes.",
+      "fix": "Restock soon or plan to retire the article."
+    },
     "9ab700206f08a7be": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4369,21 +4333,21 @@
       "problem": "Meta title is 73 characters — the limit is 70: \"Neelofshan – Embroidered 1Pc Flared Pishwas All Season | Sahibas by Mirza\".",
       "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
     },
-    "24fa63c7565aa6da": {
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+    "4e8bb0585fee8b24": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
-      "sev": "MED",
+      "sev": "HIGH",
       "title": "Neelofshan",
       "label": "neelofshan",
       "url": "https://www.sahibas.com/products/neelofshan",
-      "problem": "Only 1 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
+      "problem": "Live on the store but completely out of stock across every size.",
+      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
     },
     "511b9784703595e4": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4395,7 +4359,7 @@
     },
     "5ff3105b011cd02e": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4407,7 +4371,7 @@
     },
     "5b10b8c18bb51f20": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4419,7 +4383,7 @@
     },
     "d9c77974283277fd": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4431,7 +4395,7 @@
     },
     "f148a25785dde1f8": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4443,7 +4407,7 @@
     },
     "37114970b0326c34": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4453,9 +4417,21 @@
       "problem": "Currently selling at 3999, which is at or below the wholesale price of 4200. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
+    "054a075231f054ae": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Espresso Black",
+      "label": "espresso-black",
+      "url": "https://www.sahibas.com/products/espresso-black",
+      "problem": "Only 4 unit(s) left in total across all sizes.",
+      "fix": "Restock soon or plan to retire the article."
+    },
     "221fe3c7f3fc2ef6": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4467,7 +4443,7 @@
     },
     "38f80e3a81798ebc": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4479,7 +4455,7 @@
     },
     "224f54b44a807f70": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4491,7 +4467,7 @@
     },
     "f56d177b82826c38": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4503,7 +4479,7 @@
     },
     "dd538a1e472df0c0": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4515,7 +4491,7 @@
     },
     "3a2e779c20b72e56": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4527,7 +4503,7 @@
     },
     "88a3ba9c7c59c56e": {
       "firstSeen": "2026-09-23",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4539,7 +4515,7 @@
     },
     "7be49fcbf6ca29c7": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4551,7 +4527,7 @@
     },
     "1f4a371f887da7fd": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4563,7 +4539,7 @@
     },
     "0da471d277cd447d": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4575,7 +4551,7 @@
     },
     "91bfacc8ff4f2f45": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4587,19 +4563,19 @@
     },
     "715c28b9f71a2da6": {
       "firstSeen": "2026-11-10",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Gardenia",
       "label": "gardenia",
       "url": "https://www.sahibas.com/products/gardenia",
-      "problem": "Only 3 unit(s) left in total across all sizes.",
+      "problem": "Only 4 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "1b0f9d00323ca2c1": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4611,7 +4587,7 @@
     },
     "ba70c39fb9b9680b": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4621,45 +4597,21 @@
       "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "c0ef242e837133cd": {
-      "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
-      "source": "admin",
-      "category": "status",
-      "sev": "MED",
-      "title": "Ruhee Black",
-      "label": "ruhee-black",
-      "url": "https://www.sahibas.com/products/ruhee-black",
-      "problem": "Only 1 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
-    },
-    "38550d577187ca55": {
-      "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
-      "source": "admin",
-      "category": "seo_meta",
-      "sev": "MED",
-      "title": "Ruhee Royal Blue",
-      "label": "ruhee-royal-blue",
-      "url": "https://www.sahibas.com/products/ruhee-royal-blue",
-      "problem": "Meta title is 74 characters — the limit is 70: \"Ruhee Royal Blue – Embroidered A-Line Pishwas for Women | Sahibas by Mirza\".",
-      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
-    },
-    "1a7e6622db092109": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+    "0a499adfdb1496f8": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "HIGH",
-      "title": "Ruhee Royal Blue",
-      "label": "ruhee-royal-blue",
-      "url": "https://www.sahibas.com/products/ruhee-royal-blue",
+      "title": "Ruhee Black",
+      "label": "ruhee-black",
+      "url": "https://www.sahibas.com/products/ruhee-black",
       "problem": "Live on the store but completely out of stock across every size.",
       "fix": "Restock it or set it to Draft so customers do not land on a dead page."
     },
     "f2cbf0264079b26c": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4671,7 +4623,7 @@
     },
     "dad324b407fc995f": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4683,7 +4635,7 @@
     },
     "3a63c0ade726f919": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4695,7 +4647,7 @@
     },
     "7b0bbddd4494e7af": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4707,7 +4659,7 @@
     },
     "a541777e7d13f29d": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4719,7 +4671,7 @@
     },
     "c3812aeb58333bbf": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4731,7 +4683,7 @@
     },
     "075f4be7012cb155": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4741,21 +4693,33 @@
       "problem": "Currently selling at 4400, which is at or below the wholesale price of 4400. Fine for a short sale, a loss otherwise.",
       "fix": "Check that this discount is intentional and time-limited."
     },
-    "7721296c0d7d3f7b": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+    "c08976e5273abd16": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
+      "source": "admin",
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Darakhshan",
+      "label": "darakhshan",
+      "url": "https://www.sahibas.com/products/darakhshan",
+      "problem": "Meta title is 73 characters — the limit is 70: \"Darakhshan – Embroidered Long Khaddar Kaftan for Women | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
+    },
+    "f630ab550e205f28": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Darakhshan",
       "label": "darakhshan",
       "url": "https://www.sahibas.com/products/darakhshan",
-      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Only 1 unit(s) left in total across all sizes.",
+      "fix": "Restock soon or plan to retire the article."
     },
     "bbefac7ece7b2a25": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4767,7 +4731,7 @@
     },
     "27252f664600f105": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4779,7 +4743,7 @@
     },
     "5bc17a816587f2bc": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4791,7 +4755,7 @@
     },
     "15d3580ff04bc371": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4803,7 +4767,7 @@
     },
     "7ffac29d9e637a7a": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4815,7 +4779,7 @@
     },
     "dc4ac68a4a200cbd": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4827,7 +4791,7 @@
     },
     "2965ddf9391bec9c": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4839,7 +4803,7 @@
     },
     "70ff41a708e20863": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4851,19 +4815,19 @@
     },
     "8a9d797d110d420a": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Barafgoon",
       "label": "barafgoon",
       "url": "https://www.sahibas.com/products/barafgoon",
-      "problem": "Only 4 unit(s) left in total across all sizes.",
+      "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "a6e114ac36a0c2df": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4875,7 +4839,7 @@
     },
     "142e57d79fc58145": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4887,7 +4851,7 @@
     },
     "e7df3c0cb81eb224": {
       "firstSeen": "2026-09-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -4899,7 +4863,7 @@
     },
     "d999ce08b6269c69": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4911,7 +4875,7 @@
     },
     "ccf64c0c5f74e188": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4923,7 +4887,7 @@
     },
     "b6bba13874f02f6b": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -4935,7 +4899,7 @@
     },
     "771c727c25b3217e": {
       "firstSeen": "2026-11-16",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -4945,33 +4909,33 @@
       "problem": "Only 4 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "a5b9e7414d063a17": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+    "77fcbd348fa40ed2": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "admin",
-      "category": "status",
-      "sev": "HIGH",
-      "title": "Anousha",
-      "label": "anousha",
-      "url": "https://www.sahibas.com/products/anousha",
-      "problem": "Live on the store but completely out of stock across every size.",
-      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
+      "category": "seo_meta",
+      "sev": "MED",
+      "title": "Anousha Blue",
+      "label": "anousha-blue",
+      "url": "https://www.sahibas.com/products/anousha-blue",
+      "problem": "Meta title is 75 characters — the limit is 70: \"Anousha Blue – Embroidered Long Khaddar Kaftan for Women | Sahibas by Mirza\".",
+      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
     },
     "1315600b68ce0b4a": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Marjan Lilac",
       "label": "marjan-lilac",
       "url": "https://www.sahibas.com/products/marjan-lilac",
-      "problem": "Only 2 unit(s) left in total across all sizes.",
+      "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "1acf980ceddbf3b6": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4983,7 +4947,7 @@
     },
     "df07a7c4cf69b842": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -4995,7 +4959,7 @@
     },
     "89d9d88d6e2fc523": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5007,7 +4971,7 @@
     },
     "498dcc8f98e8043e": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5019,7 +4983,7 @@
     },
     "fcee4cadd0426ce5": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5031,7 +4995,7 @@
     },
     "9cfc1a3fca36d9bf": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5043,7 +5007,7 @@
     },
     "66c582d535a26f4c": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5055,7 +5019,7 @@
     },
     "199d23603b212c32": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5067,7 +5031,7 @@
     },
     "b70b0caadce56f5f": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -5079,19 +5043,19 @@
     },
     "4e145e5ac7f7407c": {
       "firstSeen": "2026-11-09",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Erilys",
       "label": "erilys",
       "url": "https://www.sahibas.com/products/erilys",
-      "problem": "Only 2 unit(s) left in total across all sizes.",
+      "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "b0661c2c23c7ee62": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -5103,7 +5067,7 @@
     },
     "c249772ef2db9f59": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -5115,7 +5079,7 @@
     },
     "9d0d8157629c9a95": {
       "firstSeen": "2026-11-14",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5127,7 +5091,7 @@
     },
     "958f52bccdb4117d": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5139,7 +5103,7 @@
     },
     "e71230b064cd67bd": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5151,7 +5115,7 @@
     },
     "ac80c71c96b35734": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5163,7 +5127,7 @@
     },
     "f0fc8c55bc019067": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5175,7 +5139,7 @@
     },
     "5defd0897793cf99": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5187,7 +5151,7 @@
     },
     "b08c4c408a96fc48": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5199,7 +5163,7 @@
     },
     "695f5841cec772a9": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5211,7 +5175,7 @@
     },
     "bdf33b0c12e1082d": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5223,7 +5187,7 @@
     },
     "631b13f33676ec78": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5233,21 +5197,21 @@
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "16210aab8cf664fe": {
-      "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-17",
+    "cafbef92d4aef43d": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
-      "sev": "MED",
+      "sev": "HIGH",
       "title": "Siham Pista",
       "label": "siham-pista",
       "url": "https://www.sahibas.com/products/siham-pista",
-      "problem": "Only 1 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
+      "problem": "Live on the store but completely out of stock across every size.",
+      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
     },
     "1b6e5870bb28f054": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -5259,7 +5223,7 @@
     },
     "501f5543bb9e19bf": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5269,9 +5233,21 @@
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "07b09ae9f594f810": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Paizan",
+      "label": "paizan",
+      "url": "https://www.sahibas.com/products/paizan",
+      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+    },
     "d1ba26b3d1d8791b": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -5283,7 +5259,7 @@
     },
     "f01ba3e1f4a62de3": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -5295,7 +5271,7 @@
     },
     "fc7ad4d2fcb96668": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5307,7 +5283,7 @@
     },
     "9ef358631fa02b4d": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5319,7 +5295,7 @@
     },
     "377a8d5d54f4528f": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5331,7 +5307,7 @@
     },
     "eea0135eb464141a": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5343,7 +5319,7 @@
     },
     "25cbc159fd268900": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5355,19 +5331,19 @@
     },
     "9fc48755e744efc1": {
       "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Tasveeray",
       "label": "tasveeray",
       "url": "https://www.sahibas.com/products/tasveeray",
-      "problem": "Only 2 unit(s) left in total across all sizes.",
+      "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "b9f1ff7106c47c29": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5377,21 +5353,9 @@
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "f1a8213439f69d65": {
-      "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
-      "source": "admin",
-      "category": "status",
-      "sev": "MED",
-      "title": "Zanbuq",
-      "label": "zanbuq",
-      "url": "https://www.sahibas.com/products/zanbuq",
-      "problem": "Only 4 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
-    },
     "232a5aca66d7d078": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -5401,33 +5365,9 @@
       "problem": "Meta title is 72 characters — the limit is 70: \"Neelab – Lightweight Cotton Sharara 2Pc Summer Outfit | Sahibas by Mirza\".",
       "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
     },
-    "99c3dc9f23a9883c": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
-      "source": "admin",
-      "category": "seo_meta",
-      "sev": "MED",
-      "title": "Farghana Blue",
-      "label": "farghana-blue",
-      "url": "https://www.sahibas.com/products/farghana-blue",
-      "problem": "Meta title is 72 characters — the limit is 70: \"Farghana Blue – Embroidered 2Pc Winter Khaddar Outfit | Sahibas by Mirza\".",
-      "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
-    },
-    "ba4111ed21e9afda": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
-      "source": "admin",
-      "category": "status",
-      "sev": "HIGH",
-      "title": "Farghana Blue",
-      "label": "farghana-blue",
-      "url": "https://www.sahibas.com/products/farghana-blue",
-      "problem": "Live on the store but completely out of stock across every size.",
-      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
-    },
     "850241773f012b39": {
       "firstSeen": "2026-11-07",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5439,19 +5379,19 @@
     },
     "9dec9ba1828e9b08": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Lexina Yellow",
       "label": "lexina-yellow",
       "url": "https://www.sahibas.com/products/lexina-yellow",
-      "problem": "Only 2 unit(s) left in total across all sizes.",
+      "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "c1ebb9c0c841de79": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -5463,7 +5403,7 @@
     },
     "ac6490a6a80e8558": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5475,31 +5415,19 @@
     },
     "5d800fa61c609070": {
       "firstSeen": "2026-11-13",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Rebecca",
       "label": "rebecca",
       "url": "https://www.sahibas.com/products/rebecca",
-      "problem": "Only 2 unit(s) left in total across all sizes.",
-      "fix": "Restock soon or plan to retire the article."
-    },
-    "93e8e87685b9eed7": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
-      "source": "admin",
-      "category": "status",
-      "sev": "MED",
-      "title": "Sohniyaan",
-      "label": "sohniyaan",
-      "url": "https://www.sahibas.com/products/sohniyaan",
-      "problem": "Only 4 unit(s) left in total across all sizes.",
+      "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "33d3ed797f3ee8e8": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -5511,7 +5439,7 @@
     },
     "f19e56672ef9696c": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5523,7 +5451,7 @@
     },
     "205de8592e3f9ff4": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -5535,7 +5463,7 @@
     },
     "f486ab1499f53620": {
       "firstSeen": "2026-11-10",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5547,7 +5475,7 @@
     },
     "328e3ad17f6a8cb5": {
       "firstSeen": "2026-11-02",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5559,7 +5487,7 @@
     },
     "b6c08e47bf31e8f8": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -5569,9 +5497,21 @@
       "problem": "Meta title is 75 characters — the limit is 70: \"Tafiza – Embroidered 2Pc Winter Khaddar with Long Kaftan | Sahibas by Mirza\".",
       "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
     },
+    "6b55b47444bd9b02": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Snippy",
+      "label": "snippy",
+      "url": "https://www.sahibas.com/products/snippy",
+      "problem": "Only 4 unit(s) left in total across all sizes.",
+      "fix": "Restock soon or plan to retire the article."
+    },
     "f2c9909892689493": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -5581,21 +5521,21 @@
       "problem": "Meta title is 79 characters — the limit is 70: \"Erilys Blue – Embroidered 2Pc Summer Lawn Outfit with Plazzo | Sahibas by Mirza\".",
       "fix": "Shorten it to 70 characters or fewer in the product's \"Search engine listing\" section."
     },
-    "28cf4a00a2f4105e": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+    "c9d197721227930c": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "tags",
       "sev": "MED",
-      "title": "Ashmiza",
-      "label": "ashmiza",
-      "url": "https://www.sahibas.com/products/ashmiza",
+      "title": "Stardust",
+      "label": "stardust",
+      "url": "https://www.sahibas.com/products/stardust",
       "problem": "Still tagged \"new arrival\" but it was created 31 days ago (over 30).",
       "fix": "Remove the \"new arrival\" tag and move it into its regular category."
     },
     "40485363802392f0": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -5607,7 +5547,7 @@
     },
     "327ecfb30cd2121c": {
       "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -5619,7 +5559,7 @@
     },
     "651af814926c20db": {
       "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5631,7 +5571,7 @@
     },
     "6478ee9fa6d48e76": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5643,7 +5583,7 @@
     },
     "ffe507920f2f58d2": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5655,7 +5595,7 @@
     },
     "1e7a05acc9d57385": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5667,7 +5607,7 @@
     },
     "56c353ccd4030461": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5679,7 +5619,7 @@
     },
     "c7267debc21cdfb0": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -5691,7 +5631,7 @@
     },
     "34bbff1a2e70c406": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -5703,7 +5643,7 @@
     },
     "0eca5fa21c5d601b": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -5715,7 +5655,7 @@
     },
     "d46548aa659398cb": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5727,7 +5667,7 @@
     },
     "dab488929c856643": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5739,7 +5679,7 @@
     },
     "d9b8bb688819ee73": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5751,7 +5691,7 @@
     },
     "8c3626f6d1e72c4a": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5761,45 +5701,9 @@
       "problem": "Variant \"XL\": compare-at price (22000) is more than 2.2x the selling price (5500) — an implausible discount.",
       "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
     },
-    "5ddff2dc90d96efa": {
-      "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Vanzila Linen",
-      "label": "vanzila-linen",
-      "url": "https://www.sahibas.com/products/vanzila-linen",
-      "problem": "Variant \"S\": compare-at price (27000) is more than 2.2x the selling price (6750) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "a7004ee1517c41fc": {
-      "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Vanzila Linen",
-      "label": "vanzila-linen",
-      "url": "https://www.sahibas.com/products/vanzila-linen",
-      "problem": "Variant \"M\": compare-at price (27000) is more than 2.2x the selling price (6750) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
-    "9e542785b305cb4c": {
-      "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
-      "source": "admin",
-      "category": "admin_price",
-      "sev": "LOW",
-      "title": "Vanzila Linen",
-      "label": "vanzila-linen",
-      "url": "https://www.sahibas.com/products/vanzila-linen",
-      "problem": "Variant \"L\": compare-at price (27000) is more than 2.2x the selling price (6750) — an implausible discount.",
-      "fix": "Check the compare-at price; inflated discounts can trip ad-platform review."
-    },
     "679b6bae90084b7e": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -5811,7 +5715,7 @@
     },
     "e5b6f547ec61b82f": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5823,7 +5727,7 @@
     },
     "698b698cd1d47d9b": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5835,7 +5739,7 @@
     },
     "378701a13e7867b1": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5847,7 +5751,7 @@
     },
     "9bc0af6e28908e63": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5859,7 +5763,7 @@
     },
     "15626047259c2ed5": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -5871,7 +5775,7 @@
     },
     "8687e994881b462d": {
       "firstSeen": "2026-11-09",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5883,7 +5787,7 @@
     },
     "f48f0c05ffb7bfa2": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -5895,7 +5799,7 @@
     },
     "a61b1fb584b85d2a": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "MED",
@@ -5907,7 +5811,7 @@
     },
     "167cd4e60e934053": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5919,7 +5823,7 @@
     },
     "193e12142d750f3e": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5931,7 +5835,7 @@
     },
     "83da64a6e79d3663": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5943,7 +5847,7 @@
     },
     "b64d4071b4ac7dec": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "admin_price",
       "sev": "LOW",
@@ -5955,7 +5859,7 @@
     },
     "90215067980de1e5": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -5967,7 +5871,7 @@
     },
     "60c1e0f1c8cbf327": {
       "firstSeen": "2026-11-11",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -5977,9 +5881,21 @@
       "problem": "Only 1 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
+    "dfe3a08a99d8947b": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Elzaria",
+      "label": "elzaria",
+      "url": "https://www.sahibas.com/products/elzaria",
+      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
+      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+    },
     "d974b4e07c1b88a6": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -5991,7 +5907,7 @@
     },
     "bdbbceeaf8f7f887": {
       "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "metafields",
       "sev": "HIGH",
@@ -6003,7 +5919,7 @@
     },
     "d2ebd36a6673871d": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -6013,9 +5929,21 @@
       "problem": "Meta description is 169 characters — the limit is 160.",
       "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
     },
+    "351e63aba483dd17": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Darcel Black",
+      "label": "darcel-black",
+      "url": "https://www.sahibas.com/products/darcel-black",
+      "problem": "Only 3 unit(s) left in total across all sizes.",
+      "fix": "Restock soon or plan to retire the article."
+    },
     "8b9b0495ba0519b3": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -6027,7 +5955,7 @@
     },
     "956901575fad2788": {
       "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "metafields",
       "sev": "HIGH",
@@ -6039,7 +5967,7 @@
     },
     "3847fa9b78e2c6ee": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -6051,7 +5979,7 @@
     },
     "b10c06ebdeb958d4": {
       "firstSeen": "2026-11-12",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -6063,7 +5991,7 @@
     },
     "ebd7dc86f7eacd2c": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -6075,7 +6003,7 @@
     },
     "0ca5308623b6a2e6": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -6085,21 +6013,21 @@
       "problem": "Status is DRAFT but 16 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "e3284503f93f2ff8": {
-      "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+    "e60c0ecc741d8f65": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "admin",
-      "category": "status",
+      "category": "metafields",
       "sev": "MED",
       "title": "Zebaan-e-laal",
       "label": "zebaan-e-laal",
       "url": "https://www.sahibas.com/products/zebaan-e-laal",
-      "problem": "Status is DRAFT but 17 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Metafield \"Dupatta Fabric\" (custom.dupatta_fabric) is empty.",
+      "fix": "Fill in Dupatta Fabric on the product page."
     },
     "6e8abbc6f7df2d8f": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -6111,7 +6039,7 @@
     },
     "ca68d1bc26c80a51": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -6121,21 +6049,33 @@
       "problem": "Status is DRAFT but 8 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "853f5a649deb4355": {
-      "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+    "4b13c72f49dff7cb": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "admin",
-      "category": "status",
+      "category": "metafields",
+      "sev": "HIGH",
+      "title": "Sheermaal",
+      "label": "sheermaal",
+      "url": "https://www.sahibas.com/products/sheermaal",
+      "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
+      "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
+    },
+    "c6212ed04809c003": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
+      "source": "admin",
+      "category": "metafields",
       "sev": "MED",
       "title": "Sheermaal",
       "label": "sheermaal",
       "url": "https://www.sahibas.com/products/sheermaal",
-      "problem": "Status is DRAFT but 18 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Metafield \"Dupatta Fabric\" (custom.dupatta_fabric) is empty.",
+      "fix": "Fill in Dupatta Fabric on the product page."
     },
     "e2e3ef99a75281e0": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -6147,7 +6087,7 @@
     },
     "2692b2fd459f297b": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -6159,7 +6099,7 @@
     },
     "8a0347945f2e7248": {
       "firstSeen": "2026-11-08",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -6171,43 +6111,55 @@
     },
     "f6fd8d49d00a3e7d": {
       "firstSeen": "2026-11-16",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Sibah",
       "label": "sibah",
       "url": "https://www.sahibas.com/products/sibah",
-      "problem": "Only 4 unit(s) left in total across all sizes.",
+      "problem": "Only 2 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
-    "3a3d193ba8d1888f": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+    "d3dccd4b5ae67fe5": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
-      "sev": "MED",
+      "sev": "HIGH",
       "title": "Fariba Black",
       "label": "fariba-black",
       "url": "https://www.sahibas.com/products/fariba-black",
-      "problem": "Status is DRAFT but 1 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Live on the store but completely out of stock across every size.",
+      "fix": "Restock it or set it to Draft so customers do not land on a dead page."
+    },
+    "56acf5b8fdd8081a": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
+      "source": "admin",
+      "category": "status",
+      "sev": "MED",
+      "title": "Fariba",
+      "label": "fariba",
+      "url": "https://www.sahibas.com/products/fariba",
+      "problem": "Only 1 unit(s) left in total across all sizes.",
+      "fix": "Restock soon or plan to retire the article."
     },
     "c59750f6aa50b76f": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
       "title": "Selvaraj",
       "label": "selvaraj",
       "url": "https://www.sahibas.com/products/selvaraj",
-      "problem": "Only 4 unit(s) left in total across all sizes.",
+      "problem": "Only 3 unit(s) left in total across all sizes.",
       "fix": "Restock soon or plan to retire the article."
     },
     "c7aa49b65b6bed65": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -6219,7 +6171,7 @@
     },
     "e65997f237f9ca39": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -6229,21 +6181,9 @@
       "problem": "Meta description is 183 characters — the limit is 160.",
       "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
     },
-    "ea51230c8bbc905f": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
-      "source": "admin",
-      "category": "status",
-      "sev": "MED",
-      "title": "Evaa",
-      "label": "evaa",
-      "url": "https://www.sahibas.com/products/evaa",
-      "problem": "Status is DRAFT but 3 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
-    },
     "a304015847321fa9": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -6255,7 +6195,7 @@
     },
     "ce0f10ac58fff3df": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -6267,7 +6207,7 @@
     },
     "10d50027dfb76812": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -6279,7 +6219,7 @@
     },
     "409f8117864bd3f5": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -6291,7 +6231,7 @@
     },
     "988b49fadd04d33a": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -6303,7 +6243,7 @@
     },
     "dd99be16351f56e5": {
       "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -6313,21 +6253,21 @@
       "problem": "Meta description is 202 characters — the limit is 160.",
       "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
     },
-    "f7ebdc592cfc52a5": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+    "866486cf4bfb2914": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "admin",
-      "category": "status",
+      "category": "seo_meta",
       "sev": "MED",
       "title": "Aily",
       "label": "aily",
       "url": "https://www.sahibas.com/products/aily",
-      "problem": "Status is DRAFT but 30 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Meta description is 176 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
     },
     "dba5a150d3884569": {
       "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -6339,7 +6279,7 @@
     },
     "48c07a6f3d4260ea": {
       "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -6351,7 +6291,7 @@
     },
     "16e20837f22fe8d8": {
       "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -6363,7 +6303,7 @@
     },
     "3664b8f1a901248a": {
       "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -6375,7 +6315,7 @@
     },
     "f4d60de43c3fbd9a": {
       "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -6387,7 +6327,7 @@
     },
     "ef7602c3fb34c896": {
       "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "seo_meta",
       "sev": "MED",
@@ -6397,21 +6337,21 @@
       "problem": "Meta description is 168 characters — the limit is 160.",
       "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
     },
-    "b8c5a8a7f656a470": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+    "d96dbea9bce86991": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "admin",
-      "category": "status",
+      "category": "seo_meta",
       "sev": "MED",
       "title": "Kirmizi Black",
       "label": "kirmizi-black",
       "url": "https://www.sahibas.com/products/kirmizi-black",
-      "problem": "Status is DRAFT but 26 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Meta description is 168 characters — the limit is 160.",
+      "fix": "Trim it to 160 characters or fewer in the product's \"Search engine listing\" section."
     },
     "1320919323397cca": {
       "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "status",
       "sev": "MED",
@@ -6421,76 +6361,100 @@
       "problem": "Status is DRAFT but 15 unit(s) are in stock — the product is hidden from the store while holding inventory.",
       "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
     },
-    "2f51a5aefa4b1840": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+    "b6d44a3089706a4a": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "admin",
-      "category": "status",
-      "sev": "MED",
+      "category": "metafields",
+      "sev": "HIGH",
       "title": "Anisa",
       "label": "anisa",
       "url": "https://www.sahibas.com/products/anisa",
-      "problem": "Status is DRAFT but 18 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
+      "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
     },
-    "1e31b2b6ccbfc9cc": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+    "86b08c6f6ca446cd": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "admin",
-      "category": "status",
-      "sev": "MED",
+      "category": "metafields",
+      "sev": "HIGH",
       "title": "Marjorie",
       "label": "marjorie",
       "url": "https://www.sahibas.com/products/marjorie",
-      "problem": "Status is DRAFT but 18 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
+      "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
     },
-    "0518643fa2d07c02": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+    "62c226854e074fdb": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "admin",
-      "category": "status",
-      "sev": "MED",
+      "category": "metafields",
+      "sev": "HIGH",
       "title": "Marjorie Peach",
       "label": "marjorie-peach",
       "url": "https://www.sahibas.com/products/marjorie-peach",
-      "problem": "Status is DRAFT but 18 unit(s) are in stock — the product is hidden from the store while holding inventory.",
-      "fix": "Either set it Active to sell it, or move the stock if it is discontinued."
+      "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
+      "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
     },
-    "c9a59f14bc6363ee": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+    "d824729c1214fc8c": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
+      "source": "admin",
+      "category": "sku",
+      "sev": "HIGH",
+      "title": "Stella",
+      "label": "stella",
+      "url": "https://www.sahibas.com/products/stella",
+      "problem": "Variant \"XL\" has NO SKU.",
+      "fix": "Assign a SKU — stock and order reports cannot match this variant without one."
+    },
+    "10e8c14403a46e7f": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
+      "source": "admin",
+      "category": "metafields",
+      "sev": "HIGH",
+      "title": "Zarniyaa",
+      "label": "zarniyaa",
+      "url": "https://www.sahibas.com/products/zarniyaa",
+      "problem": "Metafield \"Wholesale Price\" (custom.wholesale_price) is empty.",
+      "fix": "Fill it in — the wholesale catalogue builder cannot price this product without it."
+    },
+    "96f6084b91f16a20": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "media",
       "sev": "LOW",
-      "title": "No image alt text (3 products)",
+      "title": "No image alt text (6 products)",
       "label": "No image alt text",
       "url": "https://www.sahibas.com/collections/all",
-      "problem": "3 live products have no alt text on any product image. Affected: Farghana Blue, Maheen, Parinoor Pink.",
+      "problem": "6 live products have no alt text on any product image. Affected: Basanti white, Anousha Blue, Valena, Zebaan-e-laal, Sheermaal, Marjorie Peach.",
       "fix": "Bulk-edit alt text in Shopify admin — use the product name plus fabric and colour."
     },
-    "ee6ea16a4497a1f5": {
-      "firstSeen": "2026-11-15",
-      "lastSeen": "2026-11-17",
+    "1799984bc128390a": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "metafields",
       "sev": "LOW",
-      "title": "No size chart (1 products)",
+      "title": "No size chart (4 products)",
       "label": "No size chart",
       "url": "https://www.sahibas.com/collections/all",
-      "problem": "1 live products have neither a size_chart nor a size_chart_table metafield. Affected: Milica.",
+      "problem": "4 live products have neither a size_chart nor a size_chart_table metafield. Affected: Milica, Zebaan-e-laal, Sheermaal, Kirmizi Black.",
       "fix": "Attach the standard size chart via bulk edit."
     },
-    "1d3579982ff6231e": {
-      "firstSeen": "2026-11-17",
-      "lastSeen": "2026-11-17",
+    "8b256b157cb44f7f": {
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-18",
       "source": "admin",
       "category": "tags",
       "sev": "LOW",
-      "title": "Missing \"All products\" tag (6 products)",
+      "title": "Missing \"All products\" tag (3 products)",
       "label": "Missing \"All products\" tag",
       "url": "https://www.sahibas.com/collections/all",
-      "problem": "6 live products are missing the \"All products\" tag and will not appear in the catch-all collection. Affected: Kaia Black, Verdure, Verdure Black, Verdure Pista, Verdure Zinc, Kaia.",
+      "problem": "3 live products are missing the \"All products\" tag and will not appear in the catch-all collection. Affected: Aily, Kirmizi Black, Stella.",
       "fix": "Bulk-add the \"All products\" tag."
     }
   }
