@@ -127,9 +127,25 @@ const AGGREGATE_SAMPLE = 20;
 // GraphQL plumbing
 // ---------------------------------------------------------------------------
 
+// The wholesale publication name to check against. Set WHOLESALE_PUBLICATION_NAME
+// in your environment (or the workflow) if the channel has a different name.
+// Products that are ACTIVE but not published to this channel will be flagged.
+const WHOLESALE_PUB_NAME = (
+  process.env.WHOLESALE_PUBLICATION_NAME || "sahibaswholesale.com"
+).toLowerCase();
+
+// Extract the numeric Shopify product ID from the GID (gid://shopify/Product/12345)
+// so we can build a direct admin link. Admin links never 404 regardless of status.
+function adminProductUrl(gid) {
+  const store = (process.env.SHOPIFY_STORE || "").replace(/\.myshopify\.com$/, "");
+  const id = String(gid || "").split("/").pop();
+  if (!store || !id) return null;
+  return `https://admin.shopify.com/store/${store}/products/${id}`;
+}
+
 const AUDIT_QUERY = `
 query AuditProducts($cursor: String) {
-  products(first: 10, after: $cursor) {
+  products(first: 10, after: $cursor, query: "status:active") {
     pageInfo { hasNextPage endCursor }
     nodes {
       id
@@ -145,6 +161,12 @@ query AuditProducts($cursor: String) {
       metafields(namespace: "custom", first: 25) { nodes { key value } }
       variants(first: 12) {
         nodes { id title sku price compareAtPrice inventoryQuantity }
+      }
+      resourcePublications(first: 10) {
+        nodes {
+          publication { name }
+          isPublished
+        }
       }
     }
   }
@@ -307,6 +329,13 @@ function productUrl(handle) {
   return `${PUBLIC_URL}/products/${handle}`;
 }
 
+// Use the Shopify Admin URL as the click-through link for issues, so the link
+// works regardless of whether the product is live on the storefront. Falls back
+// to the storefront URL if the GID/store isn't available.
+function issueUrl(gid, handle) {
+  return adminProductUrl(gid) || productUrl(handle);
+}
+
 // ---------------------------------------------------------------------------
 // The audit
 // ---------------------------------------------------------------------------
@@ -323,7 +352,7 @@ export async function auditAdmin() {
       sev,
       title: product.title || product.handle,
       label: product.handle,
-      url: productUrl(product.handle),
+      url: issueUrl(product.id, product.handle),
       problem,
       fix,
     });
@@ -607,7 +636,7 @@ export async function auditAdmin() {
       }
 
       if (!skuOwners.has(sku)) skuOwners.set(sku, []);
-      skuOwners.get(sku).push({ title: p.title, handle: p.handle, variant: v.title });
+      skuOwners.get(sku).push({ id: p.id, title: p.title, handle: p.handle, variant: v.title });
     }
 
     // ---------- New arrival hygiene (active + "new arrival" tagged) ----------
@@ -692,7 +721,37 @@ export async function auditAdmin() {
       if (metaDesc.length > 40) {
         const key = metaDesc.toLowerCase();
         if (!metaDescIndex.has(key)) metaDescIndex.set(key, []);
-        metaDescIndex.get(key).push({ title: p.title, handle: p.handle });
+        metaDescIndex.get(key).push({ id: p.id, title: p.title, handle: p.handle });
+      }
+    }
+
+    // ---------- 5c. WHOLESALE WEBSITE VISIBILITY ----------
+    // Check whether this active product is published to the wholesale channel.
+    // The resourcePublications field lists every channel this product is on.
+    // A product missing from the wholesale publication won't appear on that site.
+    if (p.status === "ACTIVE" && WHOLESALE_PUB_NAME) {
+      const pubs = p.resourcePublications?.nodes || [];
+      const wholesalePub = pubs.find(
+        (n) => n.publication?.name?.toLowerCase() === WHOLESALE_PUB_NAME
+      );
+      if (!wholesalePub) {
+        // Not listed at all in that channel — unpublished from it or never added.
+        push(
+          p,
+          "status",
+          "HIGH",
+          `Not published to the wholesale website ("${WHOLESALE_PUB_NAME}") — it will not appear there even though it is Active.`,
+          `In Shopify Admin, open this product → "Sales channels and apps" → enable "${WHOLESALE_PUB_NAME}".`
+        );
+      } else if (!wholesalePub.isPublished) {
+        // Listed but explicitly set to unavailable on that channel.
+        push(
+          p,
+          "status",
+          "HIGH",
+          `Exists on the wholesale website channel ("${WHOLESALE_PUB_NAME}") but is marked unavailable — it will not show there.`,
+          `In Shopify Admin, open this product → "Sales channels and apps" → set it to available on "${WHOLESALE_PUB_NAME}".`
+        );
       }
     }
 
@@ -794,7 +853,7 @@ export async function auditAdmin() {
         sev: "HIGH",
         title: `Duplicate SKU: ${sku}`,
         label: sku,
-        url: productUrl(first.handle),
+        url: issueUrl(first.id, first.handle),
         problem: `SKU "${sku}" is used by ${handles.length} different products: ${owners
           .map((o) => `${o.title} (${o.variant})`)
           .join(", ")}.`,
@@ -815,7 +874,7 @@ export async function auditAdmin() {
         sev: "MED",
         title: dupe.title,
         label: dupe.handle,
-        url: productUrl(dupe.handle),
+        url: issueUrl(dupe.id, dupe.handle),
         problem: `Meta description is identical to "${original.title}" (/products/${original.handle}) — duplicate meta descriptions hurt SEO ranking for both products.`,
         fix: `Write a unique meta description for "${dupe.title}" in the product's "Search engine listing" section.`,
       });
