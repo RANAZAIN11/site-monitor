@@ -71,9 +71,16 @@ export async function auditCatalogue(storeUrl) {
   const root = storeUrl.replace(/\/$/, "");
   const handleMap = new Map(); // handle -> title
   const descIndex = new Map(); // normalized description -> [{title, handle}]
+  const titleIndex = new Map(); // normalized title -> [{title, handle}]
 
   for (const p of products) {
     handleMap.set(p.handle, p.title);
+    // Build a title index for cross-product duplicate detection.
+    const normTitle = (p.title || "").trim().toLowerCase();
+    if (normTitle) {
+      if (!titleIndex.has(normTitle)) titleIndex.set(normTitle, []);
+      titleIndex.get(normTitle).push({ title: p.title, handle: p.handle });
+    }
   }
 
   const issues = []; // { sev, category, title, handle, url, problem, fix }
@@ -270,6 +277,26 @@ export async function auditCatalogue(storeUrl) {
           dupe.handle,
           `Description is identical/copy-pasted from "${original.title}" (/products/${original.handle}).`,
           `Write a unique description for "${dupe.title}" — duplicate content hurts SEO and looks lazy to buyers.`
+        );
+      }
+    }
+  }
+
+  // 9) duplicate product titles
+  for (const group of titleIndex.values()) {
+    if (group.length > 1) {
+      // Flag every product in the group except the one with the alphabetically
+      // first handle (treat that as the "original" so we pin to something stable).
+      const sorted = [...group].sort((a, b) => a.handle.localeCompare(b.handle));
+      const [original, ...dupes] = sorted;
+      for (const dupe of dupes) {
+        pushIssue(
+          "HIGH",
+          "duplicate",
+          dupe.title,
+          dupe.handle,
+          `Title "${dupe.title}" is identical to "${original.title}" (/products/${original.handle}) — two separate products with the same name.`,
+          `Rename or archive the duplicate. If this is the same product uploaded twice, delete one and redirect /products/${dupe.handle} to the original.`
         );
       }
     }

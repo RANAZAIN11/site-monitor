@@ -330,6 +330,7 @@ export async function auditAdmin() {
 
   // Cross-product indexes, filled on the first pass.
   const skuOwners = new Map();    // exact SKU -> [{title, handle}]
+  const metaDescIndex = new Map(); // normalized meta description -> [{title, handle}]
 
   // High-volume LOW findings get rolled up into one row each at the end.
   const bucket = { noAlt: [], noAllProducts: [], noCollectionTag: [], noSizeChart: [] };
@@ -520,12 +521,15 @@ export async function auditAdmin() {
         "Correct custom.wholesale_price."
       );
     } else if (wholesale !== null && minRetail !== null && wholesale >= minRetail) {
+      // Fires when a sale/discount has pushed the retail price down to or below wholesale.
+      // The list price (compare-at) is still above wholesale — so the wholesale price itself
+      // is correctly set — but the active sale price is a loss.
       push(
         p,
         "admin_price",
         "MED",
-        `Currently selling at ${minRetail}, which is at or below the wholesale price of ${wholesale}. Fine for a short sale, a loss otherwise.`,
-        "Check that this discount is intentional and time-limited."
+        `During this sale, the retail price (${minRetail}) is at or below the wholesale price (${wholesale}). This is a loss if the sale is not intentional.`,
+        "Confirm this sale/discount is deliberate and time-limited. If not, raise the sale price above the wholesale price or end the discount."
       );
     }
     if (wholesale !== null && wholesaleIntl !== null && wholesaleIntl < wholesale) {
@@ -684,6 +688,12 @@ export async function auditAdmin() {
           `Trim it to ${MAX_META_DESCRIPTION} characters or fewer in the product's "Search engine listing" section.`
         );
       }
+      // Index non-trivial meta descriptions for cross-product duplicate detection.
+      if (metaDesc.length > 40) {
+        const key = metaDesc.toLowerCase();
+        if (!metaDescIndex.has(key)) metaDescIndex.set(key, []);
+        metaDescIndex.get(key).push({ title: p.title, handle: p.handle });
+      }
     }
 
     // ---------- 6. STATUS & STOCK ----------
@@ -789,6 +799,25 @@ export async function auditAdmin() {
           .map((o) => `${o.title} (${o.variant})`)
           .join(", ")}.`,
         fix: "Make every SKU unique across the whole store — duplicates corrupt stock counts and sales reports.",
+      });
+    }
+  }
+
+  // ---------- Cross-product duplicate meta description checks ----------
+  for (const [, group] of metaDescIndex) {
+    if (group.length <= 1) continue;
+    // Treat the first alphabetically as the "original" for a stable reference.
+    const sorted = [...group].sort((a, b) => a.handle.localeCompare(b.handle));
+    const [original, ...dupes] = sorted;
+    for (const dupe of dupes) {
+      issues.push({
+        category: "seo_meta",
+        sev: "MED",
+        title: dupe.title,
+        label: dupe.handle,
+        url: productUrl(dupe.handle),
+        problem: `Meta description is identical to "${original.title}" (/products/${original.handle}) — duplicate meta descriptions hurt SEO ranking for both products.`,
+        fix: `Write a unique meta description for "${dupe.title}" in the product's "Search engine listing" section.`,
       });
     }
   }
