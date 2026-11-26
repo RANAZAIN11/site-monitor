@@ -26,6 +26,8 @@
 //   SHOPIFY_API_VERSION  = 2026-01   (default)
 //
 // Scopes required on the app: read_products, read_inventory, read_locations.
+// Optional scope: read_publications — enables the wholesale-channel visibility check.
+//   Without it, the audit skips that check instead of failing.
 // For the admin-only orders summary (src/ordersSummary.js) also add: read_orders.
 //   STORE_PUBLIC_URL     = https://www.sahibas.com  (for links in the report)
 //
@@ -162,6 +164,19 @@ query AuditProducts($cursor: String) {
       variants(first: 12) {
         nodes { id title sku price compareAtPrice inventoryQuantity }
       }
+    }
+  }
+}`;
+
+// Separate query for resourcePublications — requires the read_publications scope.
+// If the app does not have that scope, fetchPublications() returns an empty Map
+// and the wholesale-channel check is silently skipped rather than crashing the audit.
+const PUBLICATIONS_QUERY = `
+query ProductPublications($cursor: String) {
+  products(first: 10, after: $cursor, query: "status:active") {
+    pageInfo { hasNextPage endCursor }
+    nodes {
+      id
       resourcePublications(first: 10) {
         nodes {
           publication { name }
@@ -286,6 +301,37 @@ async function fetchAllProducts() {
   return all;
 }
 
+// Returns a Map<productGid, [{publication:{name}, isPublished}]>.
+// If the app lacks read_publications scope, logs a warning and returns an empty Map
+// so the rest of the audit continues normally.
+async function fetchPublications() {
+  const pubMap = new Map();
+  try {
+    let cursor = null;
+    let guard = 0;
+    do {
+      const data = await shopifyGraphql(PUBLICATIONS_QUERY, { cursor });
+      for (const node of data.products.nodes) {
+        pubMap.set(node.id, node.resourcePublications?.nodes || []);
+      }
+      cursor = data.products.pageInfo.hasNextPage ? data.products.pageInfo.endCursor : null;
+      if (cursor) await sleep(350);
+    } while (cursor && ++guard < 200);
+  } catch (err) {
+    // read_publications scope missing — skip the wholesale-channel check gracefully.
+    if (/read_publications/i.test(err.message) || /Access denied/i.test(err.message)) {
+      console.warn(
+        "[adminAudit] Wholesale-channel visibility check skipped: the Shopify app is missing " +
+          "the `read_publications` access scope. Add it in the Dev Dashboard to enable this check."
+      );
+    } else {
+      // Unexpected error — re-throw so it surfaces in the report.
+      throw err;
+    }
+  }
+  return pubMap;
+}
+
 // ---------------------------------------------------------------------------
 // Helpers
 // ---------------------------------------------------------------------------
@@ -343,7 +389,7 @@ function issueUrl(gid, handle) {
 export { getAccessToken };
 
 export async function auditAdmin() {
-  const products = await fetchAllProducts();
+  const [products, pubMap] = await Promise.all([fetchAllProducts(), fetchPublications()]);
   const issues = [];
 
   const push = (product, category, sev, problem, fix) =>
@@ -727,10 +773,10 @@ export async function auditAdmin() {
 
     // ---------- 5c. WHOLESALE WEBSITE VISIBILITY ----------
     // Check whether this active product is published to the wholesale channel.
-    // The resourcePublications field lists every channel this product is on.
-    // A product missing from the wholesale publication won't appear on that site.
-    if (p.status === "ACTIVE" && WHOLESALE_PUB_NAME) {
-      const pubs = p.resourcePublications?.nodes || [];
+    // pubMap is populated only when the app has read_publications scope; if it is
+    // empty the check is silently skipped (no false positives, no crash).
+    if (p.status === "ACTIVE" && WHOLESALE_PUB_NAME && pubMap.size > 0) {
+      const pubs = pubMap.get(p.id) || [];
       const wholesalePub = pubs.find(
         (n) => n.publication?.name?.toLowerCase() === WHOLESALE_PUB_NAME
       );
